@@ -1,13 +1,13 @@
 import axios from 'axios';
 
-const API_URL = 'http://localhost:3000';
+const API_URL = 'http://localhost:3000/api';
 
 export const register = async (username, password) => {
-    return axios.post(`${API_URL}/register`, { username, password });
+    return axios.post(`${API_URL}/auth/register`, { username, password });
 };
 
 export const login = async (username, password) => {
-    const response = await axios.post(`${API_URL}/login`, { username, password });
+    const response = await axios.post(`${API_URL}/auth/login`, { username, password });
     if (response.data.token) {
         localStorage.setItem('token', response.data.token);
     }
@@ -16,7 +16,7 @@ export const login = async (username, password) => {
 
 export const getProfile = async () => {
     const token = localStorage.getItem('token');
-    return axios.get(`${API_URL}/profile`, {
+    return axios.get(`${API_URL}/auth/profile`, {
         headers: { Authorization: token }
     });
 };
