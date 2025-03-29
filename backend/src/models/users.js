@@ -2,7 +2,7 @@ const db = require('../config/db');
 const bcrypt = require("bcryptjs");
 
 // Register new user
-exports.registerUser = async (username, password, callback) => {
+exports.addUser = async (username, password, callback) => {
     try {
         const hashedPassword = await bcrypt.hash(password, 10);
         db.query(

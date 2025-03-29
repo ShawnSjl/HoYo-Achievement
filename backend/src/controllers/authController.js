@@ -9,7 +9,7 @@ exports.register = (req, res) => {
 
     // TODO check if username already exist
 
-    User.registerUser(username, password, (err, newUser) => {
+    User.addUser(username, password, (err, newUser) => {
         if (err) return res.status(500).json({ error: "Register Error" });
         res.json({ message: "User registered successfully", user: newUser });
     });
