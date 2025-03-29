@@ -8,5 +8,6 @@ router.get("/all", achievementController.getDefaultAchievementZZZ);
 router.get("/user-all", authenticateToken, achievementController.getUserAchievementZZZ);
 router.get("/user-complete", authenticateToken, achievementController.getUserCompleteAchievementZZZ);
 router.get("/user-un-complete", authenticateToken, achievementController.getUserUnCompleteAchievementZZZ);
+router.put("/user-update", authenticateToken, achievementController.updateUserAchievementZZZ);
 
 module.exports = router;

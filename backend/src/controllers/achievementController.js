@@ -80,3 +80,27 @@ exports.getUserUnCompleteAchievementZZZ = (req, res) => {
 
     });
 };
+
+exports.updateUserAchievementZZZ = (req, res) => {
+    const username = req.user.username;
+    const achievement_id = req.body.achievement_id;
+    const complete = req.body.complete;
+
+    User.getUserByUsername(username, (err, user) => {
+        if (err) return res.status(500).send(err);
+
+        if (!user) {
+            return res.status(404).send({ error: 'User not found' });
+        }
+
+        const user_id = user.user_id;
+        ZZZ_Achievement.updateAchievementById(user_id, achievement_id, complete, (err, result) => {
+            if (err) return res.status(500).send(err);
+
+            if (!result) return res.status(404).send({ error: 'Achievement not found' });
+
+            return res.status(200).json( { username: username, achievement_id: achievement_id, complete: complete, result: result });
+        })
+
+    });
+}

@@ -82,3 +82,16 @@ exports.getAllUnCompleteAchievementsByUserId = (id, callback) => {
         callback(null, achievements);
     });
 };
+
+exports.updateAchievementById = (userId, achievementId, complete, callback) => {
+    db.query('INSERT INTO zzz_user_achievement (user_id, achievement_id, complete)\n' +
+        'VALUES (?, ?, ?)\n' +
+        '    AS new\n' +
+        'ON DUPLICATE KEY UPDATE\n' +
+        '                     user_id = new.user_id,\n' +
+        '                     achievement_id = new.achievement_id,\n' +
+        '                     complete = new.complete', [userId, achievementId, complete], (err, result) => {
+        if (err) return callback(err, null);
+        callback(null, result);
+    });
+};

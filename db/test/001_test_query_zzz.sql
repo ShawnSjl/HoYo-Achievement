@@ -46,3 +46,11 @@ FROM zzz_achievement za
                    ON za.achievement_id = zua.achievement_id
                        AND zua.user_id = ?
 ORDER BY za.achievement_id;
+
+INSERT INTO zzz_user_achievement (user_id, achievement_id, complete)
+VALUES (?, ?, ?)
+    AS new
+ON DUPLICATE KEY UPDATE
+                     user_id = new.user_id,
+                     achievement_id = new.achievement_id,
+                     complete = new.complete;
