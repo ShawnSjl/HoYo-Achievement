@@ -20,7 +20,6 @@ const fetchData = async () => {
       hidden: item.hidden,
       complete: item.complete,
     }));
-    console.log(achievements.value);
   } catch (e) {
     errorMessage.value = 'Load data failed';
   } finally {

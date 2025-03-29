@@ -18,8 +18,18 @@ const getAchievementImg = (level) => {
       return ZzzAchievementImg1
   }
 }
-
 const achievementImg = ref(getAchievementImg(props.achievement.reward_level))
+
+const completeButtonMsg = ref(props.achievement.complete === 1 ? "已完成" : "未完成")
+const isComplete = ref(props.achievement.complete === 1)
+
+const handleComplete = () => {
+  if (isComplete.value) {
+    alert('取消完成');
+  } else {
+    props.achievement.complete = 1;
+  }
+}
 </script>
 
 <template>
@@ -39,7 +49,11 @@ const achievementImg = ref(getAchievementImg(props.achievement.reward_level))
       </div>
     </div>
     <div class="zzz-table-col" style="flex: 5">{{ props.achievement.game_version }}</div>
-    <div class="zzz-table-col" style="flex: 4">{{ props.achievement.complete }}</div>
+    <div class="zzz-table-col" style="flex: 4">
+      <el-button round :plain="!isComplete" type="primary" @click="handleComplete">
+        {{ completeButtonMsg }}
+      </el-button>
+    </div>
   </div>
 </template>
 

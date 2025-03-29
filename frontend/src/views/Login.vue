@@ -1,48 +1,37 @@
-<script>
-import {login, register} from '@/api/user';
+<script setup>
+import { ref } from 'vue';
+import { useAuthStore } from '@/stores/auth';
 
-export default {
-  data () {
-    return {
-      username: '',
-      password: '',
-    };
-  },
-  methods: {
-    async handleLogin () {
-      try {
-        const response = await login({
-          username: this.username,
-          password: this.password,
-        });
+const authStore = useAuthStore();
+const username = ref('');
+const password = ref('');
 
-        if (response.token) {
-          localStorage.setItem('jwt_token', response.token);
-          this.$router.push('/');
-        }
-      } catch (error) {
-        console.log("Login failed:", error);
-        alert("Login failed, invalid username or password.");
-      }
-    },
-    async handleRegister () {
-      try {
-        const response = await register({
-          username: this.username,
-          password: this.password,
-        });
+const handleLogin = async () => {
+  try {
+    await authStore.loginUser({
+      username: username.value,
+      password: password.value,
+    })
+    console.log('Login successful');
+    router.push('/');
+  } catch (error) {
+    console.log(error);
+  }
+}
 
-        if (response.token) {
-          localStorage.setItem('jwt_token', response.token);
-          this.$router.push('/');
-        }
-      } catch (error) {
-        console.log("Register failed:", error);
-        alert("Register failed, please try another username.");
-      }
-    }
-  },
-};
+const handleRegister = async () => {
+  try {
+    await authStore.registerUser({
+      username: username.value,
+      password: password.value,
+    })
+    console.log('Register successful');
+    router.push('/');
+  } catch (error) {
+    console.log(error);
+  }
+}
+
 </script>
 
 <template>

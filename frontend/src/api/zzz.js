@@ -19,3 +19,7 @@ export const zzzGetUserCompleteTable = () => {
 export const zzzGetUserUnCompleteTable = () => {
     return api.get('/api/zzz/user-un-complete');
 }
+
+export const zzzUpdateAchievement = (updates) => {
+    return api.put("/api/zzz/user-update", updates);
+};
