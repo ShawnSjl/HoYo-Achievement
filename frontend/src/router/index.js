@@ -1,6 +1,6 @@
 import { createRouter, createWebHistory } from "vue-router";
 import Login from "@/views/Login.vue";
-import ZzzAchievement from "@/views/AchievementTab.vue";
+import ZzzAchievement from "@/views/ZzzAchievement/AchievementTable.vue";
 
 const routes = [
     { path: "/login", component: Login },
