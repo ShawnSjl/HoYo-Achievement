@@ -1,8 +1,8 @@
 <script setup>
 import { ref } from 'vue';
-import ZzzAchievementImg1 from '@/assets/zzz-achievement-level-1.png';
-import ZzzAchievementImg2 from '@/assets/zzz-achievement-level-2.png';
-import ZzzAchievementImg3 from '@/assets/zzz-achievement-level-3.png';
+import ZzzAchievementImg1 from '@/assets/image/zzz-achievement-level-1.png';
+import ZzzAchievementImg2 from '@/assets/image/zzz-achievement-level-2.png';
+import ZzzAchievementImg3 from '@/assets/image/zzz-achievement-level-3.png';
 
 const props = defineProps({
   achievement: Object,
