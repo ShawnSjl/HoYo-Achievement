@@ -1,4 +1,5 @@
 <script setup>
+import Avatar from "@/components/Avatar.vue";
 
 const props = defineProps({
   categories: Array[Option],
@@ -10,7 +11,7 @@ const category = defineModel();
 <template>
   <div class="zzz-top-bar">
     <div class="zzz-top-bar-left">
-      {{category}}
+      <avatar />
     </div>
     <div class="zzz-top-bar-right">
       <el-segmented v-model="category" :options="props.categories" size="large" block/>
@@ -22,16 +23,22 @@ const category = defineModel();
 .zzz-top-bar {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
 }
 
 .zzz-top-bar-left {
-  flex: 1;
+  display: flex;
+  flex-direction: row;
   align-content: flex-start;
+  align-items: center;
+  flex: 1;
 }
 
 .zzz-top-bar-right {
-  flex: 1;
+  align-content: center;
   font-weight: bold;
+  flex: 1;
 }
 
 .el-segmented {

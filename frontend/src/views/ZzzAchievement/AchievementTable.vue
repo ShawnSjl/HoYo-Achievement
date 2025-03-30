@@ -1,6 +1,7 @@
 <script setup>
-import {ref, onMounted, onBeforeUnmount, nextTick, watch} from "vue";
-import { useZzzAchievementStore } from "@/stores/zzzAchievements"
+import {ref, onMounted, onBeforeUnmount, nextTick, watch, computed} from "vue";
+import { useZzzAchievementStore } from "@/stores/zzzAchievementsStore"
+import { useAuthStore } from '@/stores/authStore';
 import { zzzGetClassId } from  "@/utils/zzzClassId"
 import ZzzTableRow from "@/views/ZzzAchievement/AchievementTableRow.vue"
 import ZzzTableTopMenu from "@/views/ZzzAchievement/AchievementTableTopMenuBar.vue"
@@ -8,8 +9,8 @@ import ZzzTableLeftMenu from "@/views/ZzzAchievement/AchievementTableLeftMenuBar
 
 // 使用Pinia作为本地缓存
 const achievementStore = useZzzAchievementStore()
+const authStore = useAuthStore();
 
-const achievements = ref([]);
 const loading = ref(true);
 const errorMessage = ref('');
 
@@ -36,11 +37,16 @@ const calculateTableHeight = () => {
   tableHeight.value = windowHeight - headerHeight - margin
 }
 
+const filteredAchievements = computed(() => {
+  return achievementStore.achievements.filter(achievement => achievement.class_id ===
+      zzzGetClassId(achievementClass.value))
+})
+
 const fetchData = async () => {
   try {
     loading.value = true;
-    const class_id = zzzGetClassId(achievementClass.value);
-    achievements.value = await achievementStore.getAchievementsByClassId(class_id);
+    authStore.loadUser();
+    await achievementStore.updateAchievements();
     errorMessage.value = '';
   } catch (e) {
     errorMessage.value = 'Load data failed';
@@ -54,6 +60,12 @@ onMounted(() => {
 });
 
 watch(achievementClass, async (newClass) => {
+  await fetchData();
+});
+
+const userName = computed(() => authStore.getUserName());
+watch(userName, async (newUserName) => {
+  console.log(newUserName);
   await fetchData();
 });
 
@@ -86,7 +98,7 @@ onBeforeUnmount(() => {
         <p v-if="loading">加载中...</p>
         <p v-else-if="errorMessage">{{ errorMessage }}</p>
         <div v-else >
-          <el-table :data="achievements" style="width: 100%" :show-header="false" :max-height="tableHeight">
+          <el-table :data="filteredAchievements" style="width: 100%" :show-header="false" :max-height="tableHeight">
             <el-table-column>
               <template #default="{ row }">
                 <zzz-table-row :achievement="row" />

@@ -1,6 +1,6 @@
 <script setup>
 import {computed, ref} from 'vue';
-import { useZzzAchievementStore } from "@/stores/zzzAchievements"
+import { useZzzAchievementStore } from "@/stores/zzzAchievementsStore"
 import ZzzAchievementImg1 from '@/assets/image/zzz-achievement-level-1.png';
 import ZzzAchievementImg2 from '@/assets/image/zzz-achievement-level-2.png';
 import ZzzAchievementImg3 from '@/assets/image/zzz-achievement-level-3.png';
@@ -31,14 +31,14 @@ const achievementImg = ref(getAchievementImg(props.achievement.reward_level))
 const achievementReward = ref(props.achievement.reward_level * 5);
 
 // 获取按钮状态
-const completeButtonMsg = computed(() => {return  props.achievement.complete === 1 ? "已完成" : "未完成"})
-const isComplete = computed(() => {return props.achievement.complete === 1});
+const completeButtonMsg = computed(() => {return  props.achievement.completed === 1 ? "已完成" : "未完成"})
+const isComplete = computed(() => {return props.achievement.completed === 1});
 
 const handleComplete = async () => {
   if (isComplete.value) {
     alert('取消完成');
   }
-  const newState = props.achievement.complete === 1 ? 0 : 1;
+  const newState = props.achievement.completed === 1 ? 0 : 1;
   await achievementStore.completeAchievement(props.achievement.achievement_id, newState);
 }
 </script>

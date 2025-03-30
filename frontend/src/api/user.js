@@ -13,7 +13,7 @@ export const register = (credentials) => {
 // User logout
 export const logout = () => {
     localStorage.removeItem("jwt_token");
-    window.location.href = "/login";
+    window.location.href = "/";
 }
 
 export const getUserProfile = (id) => {

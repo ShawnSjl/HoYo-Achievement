@@ -27,10 +27,10 @@ exports.login = (req, res) => {
        if (!isMatch) return res.status(401).json({ error: "Invalid User name or password" });
 
        const token = jwt.sign(
-           { userId: user.id, username: user.username },
+           { userId: user.user_id, username: user.username },
            process.env.JWT_SECRET,
            { expiresIn: process.env.JWT_EXPIRE_IN },
        );
-       res.json({ token: token });
+       res.json({ token: token, user: { id: user.user_id, username: user.username } });
     });
 };
