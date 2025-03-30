@@ -129,7 +129,7 @@ exports.updateUserAchievementZZZ = (req, res) => {
         }
 
         const user_id = user.user_id;
-        ZZZ_Achievement.updateAchievementById(user_id, achievement_id, complete, (err, result) => {
+        ZZZ_Achievement.updateById(user_id, achievement_id, complete, (err, result) => {
             if (err) return res.status(500).send(err);
 
             if (!result) return res.status(404).send({ error: 'Achievement not found' });

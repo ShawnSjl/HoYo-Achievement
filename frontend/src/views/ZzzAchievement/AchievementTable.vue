@@ -1,10 +1,13 @@
 <script setup>
 import {ref, onMounted, onBeforeUnmount, nextTick, watch} from "vue";
-import { zzzGetAllByClassId } from "@/api/zzz";
+import { useZzzAchievementStore } from "@/stores/zzzAchievements"
 import { zzzGetClassId } from  "@/utils/zzzClassId"
 import ZzzTableRow from "@/views/ZzzAchievement/AchievementTableRow.vue"
 import ZzzTableTopMenu from "@/views/ZzzAchievement/AchievementTableTopMenuBar.vue"
 import ZzzTableLeftMenu from "@/views/ZzzAchievement/AchievementTableLeftMenuBar.vue"
+
+// 使用Pinia作为本地缓存
+const achievementStore = useZzzAchievementStore()
 
 const achievements = ref([]);
 const loading = ref(true);
@@ -22,7 +25,6 @@ const explorationClasses = ['空洞探索指南', '零号密钥']
 
 // 设置表格高度
 const tableHeight = ref(500) // 初始值，防止第一次加载为 0
-
 const calculateTableHeight = () => {
   const windowHeight = window.innerHeight
 
@@ -37,17 +39,8 @@ const calculateTableHeight = () => {
 const fetchData = async () => {
   try {
     loading.value = true;
-    const cladd_id = zzzGetClassId(achievementClass.value);
-    const response = await zzzGetAllByClassId(cladd_id);
-    achievements.value = response.achievements.map(item => ({
-      achievement_id: item.achievement_id,
-      name: item.name,
-      description: item.description,
-      game_version: item.game_version,
-      reward_level: item.reward_level,
-      hidden: item.hidden,
-      complete: item.complete,
-    }));
+    const class_id = zzzGetClassId(achievementClass.value);
+    achievements.value = await achievementStore.getAchievementsByClassId(class_id);
     errorMessage.value = '';
   } catch (e) {
     errorMessage.value = 'Load data failed';
@@ -56,16 +49,18 @@ const fetchData = async () => {
   }
 };
 
-onMounted(fetchData);
+onMounted(() => {
+  fetchData();
+});
+
+watch(achievementClass, async (newClass) => {
+  await fetchData();
+});
 
 onMounted(async () => {
   await nextTick()
   calculateTableHeight()
   window.addEventListener('resize', calculateTableHeight)
-});
-
-watch(achievementClass, async (newClass) => {
-  await fetchData();
 });
 
 onBeforeUnmount(() => {

@@ -1,14 +1,20 @@
 <script setup>
-import { ref } from 'vue';
+import {computed, ref} from 'vue';
+import { useZzzAchievementStore } from "@/stores/zzzAchievements"
 import ZzzAchievementImg1 from '@/assets/image/zzz-achievement-level-1.png';
 import ZzzAchievementImg2 from '@/assets/image/zzz-achievement-level-2.png';
 import ZzzAchievementImg3 from '@/assets/image/zzz-achievement-level-3.png';
 import ZzzAchievementReward from '@/assets/image/zzz_achievement_reward.png'
 
+// 使用Pinia作为本地缓存
+const achievementStore = useZzzAchievementStore()
+
+// 传入参数
 const props = defineProps({
   achievement: Object,
 })
 
+// 获取成就图片
 const getAchievementImg = (level) => {
   switch (level) {
     case 3:
@@ -21,17 +27,19 @@ const getAchievementImg = (level) => {
 }
 const achievementImg = ref(getAchievementImg(props.achievement.reward_level))
 
+// 获取奖励数量
 const achievementReward = ref(props.achievement.reward_level * 5);
 
-const completeButtonMsg = ref(props.achievement.complete === 1 ? "已完成" : "未完成")
-const isComplete = ref(props.achievement.complete === 1)
+// 获取按钮状态
+const completeButtonMsg = computed(() => {return  props.achievement.complete === 1 ? "已完成" : "未完成"})
+const isComplete = computed(() => {return props.achievement.complete === 1});
 
-const handleComplete = () => {
+const handleComplete = async () => {
   if (isComplete.value) {
     alert('取消完成');
-  } else {
-    props.achievement.complete = 1;
   }
+  const newState = props.achievement.complete === 1 ? 0 : 1;
+  await achievementStore.completeAchievement(props.achievement.achievement_id, newState);
 }
 </script>
 
