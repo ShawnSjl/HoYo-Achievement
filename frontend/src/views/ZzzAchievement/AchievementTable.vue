@@ -1,6 +1,7 @@
 <script setup>
-import {ref, onMounted, onBeforeUnmount, nextTick} from "vue";
-import { zzzDefaultTable } from "@/api/zzz";
+import {ref, onMounted, onBeforeUnmount, nextTick, watch} from "vue";
+import { zzzGetAllByClassId } from "@/api/zzz";
+import { zzzGetClassId } from  "@/utils/zzzClassId"
 import ZzzTableRow from "@/views/ZzzAchievement/AchievementTableRow.vue"
 import ZzzTableTopMenu from "@/views/ZzzAchievement/AchievementTableTopMenuBar.vue"
 import ZzzTableLeftMenu from "@/views/ZzzAchievement/AchievementTableLeftMenuBar.vue"
@@ -36,7 +37,8 @@ const calculateTableHeight = () => {
 const fetchData = async () => {
   try {
     loading.value = true;
-    const response = await zzzDefaultTable();
+    const cladd_id = zzzGetClassId(achievementClass.value);
+    const response = await zzzGetAllByClassId(cladd_id);
     achievements.value = response.achievements.map(item => ({
       achievement_id: item.achievement_id,
       name: item.name,
@@ -46,6 +48,7 @@ const fetchData = async () => {
       hidden: item.hidden,
       complete: item.complete,
     }));
+    errorMessage.value = '';
   } catch (e) {
     errorMessage.value = 'Load data failed';
   } finally {
@@ -59,7 +62,11 @@ onMounted(async () => {
   await nextTick()
   calculateTableHeight()
   window.addEventListener('resize', calculateTableHeight)
-})
+});
+
+watch(achievementClass, async (newClass) => {
+  await fetchData();
+});
 
 onBeforeUnmount(() => {
   window.removeEventListener('resize', calculateTableHeight)

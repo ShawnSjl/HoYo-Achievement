@@ -1,7 +1,7 @@
 const db = require('../config/db');
 
-// Get all achievement of ZZZ
-exports.getAllAchievements = (callback) => {
+// Get all ZZZ achievement
+exports.getAll = (callback) => {
     db.query('SELECT\n' +
         '    za.achievement_id,\n' +
         '    za.class_id,\n' +
@@ -18,8 +18,27 @@ exports.getAllAchievements = (callback) => {
     });
 };
 
-// Get all achievement status of ZZZ by user id
-exports.getAllAchievementsByUserId = (id, callback) => {
+// Get all ZZZ achievement in class_id
+exports.getAllByClassId = (class_id, callback) => {
+    db.query('SELECT\n' +
+        '    za.achievement_id,\n' +
+        '    za.class_id,\n' +
+        '    za.name,\n' +
+        '    za.description,\n' +
+        '    za.reward_level,\n' +
+        '    za.hidden,\n' +
+        '    za.game_version,\n' +
+        '    0 AS complete\n' +
+        'FROM zzz_achievement za\n' +
+        'WHERE class_id = ?\n' +
+        'ORDER BY za.achievement_id', [class_id], (err, achievements) => {
+        if (err) return callback(err, null);
+        callback(null, achievements);
+    });
+};
+
+// Get all ZZZ achievement status by user id
+exports.getAllByUserId = (id, callback) => {
     db.query('SELECT\n' +
         '    za.achievement_id,\n' +
         '    za.class_id,\n' +
@@ -39,8 +58,30 @@ exports.getAllAchievementsByUserId = (id, callback) => {
     });
 };
 
-// Get all complete achievement of ZZZ by user id
-exports.getAllCompleteAchievementsByUserId = (id, callback) => {
+// Get all ZZZ achievement status by user id
+exports.getAllByUserAndClassId = (user_id, class_id, callback) => {
+    db.query('SELECT\n' +
+        '    za.achievement_id,\n' +
+        '    za.class_id,\n' +
+        '    za.name,\n' +
+        '    za.description,\n' +
+        '    za.reward_level,\n' +
+        '    za.hidden,\n' +
+        '    za.game_version,\n' +
+        '    COALESCE(zua.complete, 0) AS completed\n' +
+        'FROM zzz_achievement za\n' +
+        '         LEFT JOIN zzz_user_achievement zua\n' +
+        '                   ON za.achievement_id = zua.achievement_id\n' +
+        '                       AND zua.user_id = ?\n' +
+        'WHERE za.class_id = ?\n' +
+        'ORDER BY za.achievement_id', [user_id, class_id], (err, achievements) => {
+        if (err) return callback(err, null);
+        callback(null, achievements);
+    });
+};
+
+// Get all ZZZ complete achievement by user id
+exports.getAllCompleteByUserId = (id, callback) => {
     db.query('SELECT\n' +
         '    za.achievement_id,\n' +
         '    za.class_id,\n' +
@@ -61,8 +102,8 @@ exports.getAllCompleteAchievementsByUserId = (id, callback) => {
     });
 };
 
-// Get all uncompleted achievement of ZZZ by user id
-exports.getAllUnCompleteAchievementsByUserId = (id, callback) => {
+// Get all ZZZ uncompleted achievement by user id
+exports.getAllUnCompleteByUserId = (id, callback) => {
     db.query('SELECT\n' +
         '    za.achievement_id,\n' +
         '    za.class_id,\n' +
@@ -83,7 +124,8 @@ exports.getAllUnCompleteAchievementsByUserId = (id, callback) => {
     });
 };
 
-exports.updateAchievementById = (userId, achievementId, complete, callback) => {
+// Update ZZZ achievement by user id, achievement id, and complete status
+exports.updateById = (userId, achievementId, complete, callback) => {
     db.query('INSERT INTO zzz_user_achievement (user_id, achievement_id, complete)\n' +
         'VALUES (?, ?, ?)\n' +
         '    AS new\n' +

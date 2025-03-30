@@ -54,3 +54,15 @@ ON DUPLICATE KEY UPDATE
                      user_id = new.user_id,
                      achievement_id = new.achievement_id,
                      complete = new.complete;
+
+SELECT
+za.achievement_id,
+za.class_id,
+za.name,
+za.description,
+za.reward_level,
+za.hidden,
+za.game_version,
+0 AS complete
+FROM zzz_achievement za
+ORDER BY za.achievement_id;
