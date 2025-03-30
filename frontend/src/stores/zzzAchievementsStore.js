@@ -57,12 +57,12 @@ export const useZzzAchievementStore = defineStore(
 
             // 如果是本地用户，直接更新，否则更新后端数据库
             if (!user) {
-                target.completed = complete;
+                target.complete = complete;
             } else {
                 // 尝试更新，如果更新失败，重新获取所有数据
                 try {
                     const response = await zzzUpdateAchievement({ achievement_id: achievementId, complete: complete });
-                    target.completed = response.complete;
+                    target.complete = response.complete;
                 } catch (error) {
                     console.error('Fail to update achievements:', error);
                     await fetchAchievements();

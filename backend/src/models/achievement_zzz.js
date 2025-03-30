@@ -47,7 +47,7 @@ exports.getAllByUserId = (id, callback) => {
         '    za.reward_level,\n' +
         '    za.hidden,\n' +
         '    za.game_version,\n' +
-        '    COALESCE(zua.complete, 0) AS completed\n' +
+        '    COALESCE(zua.complete, 0) AS complete\n' +
         'FROM zzz_achievement za\n' +
         '         LEFT JOIN zzz_user_achievement zua\n' +
         '                   ON za.achievement_id = zua.achievement_id\n' +
@@ -68,7 +68,7 @@ exports.getAllByUserAndClassId = (user_id, class_id, callback) => {
         '    za.reward_level,\n' +
         '    za.hidden,\n' +
         '    za.game_version,\n' +
-        '    COALESCE(zua.complete, 0) AS completed\n' +
+        '    COALESCE(zua.complete, 0) AS complete\n' +
         'FROM zzz_achievement za\n' +
         '         LEFT JOIN zzz_user_achievement zua\n' +
         '                   ON za.achievement_id = zua.achievement_id\n' +
@@ -90,7 +90,7 @@ exports.getAllCompleteByUserId = (id, callback) => {
         '    za.reward_level,\n' +
         '    za.hidden,\n' +
         '    za.game_version,\n' +
-        '    COALESCE(zua.complete, 0) AS completed\n' +
+        '    COALESCE(zua.complete, 0) AS complete\n' +
         'FROM zzz_achievement za\n' +
         '         LEFT JOIN zzz_user_achievement zua\n' +
         '                   ON za.achievement_id = zua.achievement_id\n' +
@@ -112,7 +112,7 @@ exports.getAllUnCompleteByUserId = (id, callback) => {
         '    za.reward_level,\n' +
         '    za.hidden,\n' +
         '    za.game_version,\n' +
-        '    COALESCE(zua.complete, 0) AS completed\n' +
+        '    COALESCE(zua.complete, 0) AS complete\n' +
         'FROM zzz_achievement za\n' +
         '         LEFT JOIN zzz_user_achievement zua\n' +
         '                   ON za.achievement_id = zua.achievement_id\n' +

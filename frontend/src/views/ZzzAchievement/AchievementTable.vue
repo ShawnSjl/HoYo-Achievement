@@ -6,6 +6,7 @@ import { zzzGetClassId } from  "@/utils/zzzClassId"
 import ZzzTableRow from "@/views/ZzzAchievement/AchievementTableRow.vue"
 import ZzzTableTopMenu from "@/views/ZzzAchievement/AchievementTableTopMenuBar.vue"
 import ZzzTableLeftMenu from "@/views/ZzzAchievement/AchievementTableLeftMenuBar.vue"
+import ZzzStaticClass from "./AchievementStaticClass.vue"
 
 // 使用Pinia作为本地缓存
 const achievementStore = useZzzAchievementStore()
@@ -32,7 +33,7 @@ const calculateTableHeight = () => {
   const headerEl = document.querySelector('.el-header') // 获取头部高度
   const headerHeight = headerEl ? headerEl.offsetHeight : 0
 
-  const margin = 20 // 预留的 padding/margin（可调）
+  const margin = 119 // 预留的 padding/margin（可调）
 
   tableHeight.value = windowHeight - headerHeight - margin
 }
@@ -98,6 +99,7 @@ onBeforeUnmount(() => {
         <p v-if="loading">加载中...</p>
         <p v-else-if="errorMessage">{{ errorMessage }}</p>
         <div v-else >
+          <zzz-static-class :achievement-class="achievementClass" />
           <el-table :data="filteredAchievements" style="width: 100%" :show-header="false" :max-height="tableHeight">
             <el-table-column>
               <template #default="{ row }">

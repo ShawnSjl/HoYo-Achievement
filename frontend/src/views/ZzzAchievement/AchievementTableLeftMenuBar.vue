@@ -1,5 +1,6 @@
 <script setup>
 import { computed, watch } from "vue";
+import ZzzStaticTotal from "@/views/ZzzAchievement/AchievementStaticTotal.vue"
 
 const props = defineProps({
   category: String,
@@ -33,6 +34,7 @@ watch(classes, (newClasses) => {
 <template>
   <div class="zzz-left-bar">
     <el-segmented v-model="achievementClass" :options="classes" size="large" direction="vertical"/>
+    <zzz-static-total class="zzz-achievement-static-container" />
   </div>
 </template>
 
@@ -40,7 +42,14 @@ watch(classes, (newClasses) => {
 .zzz-left-bar {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
   font-weight: bold;
+}
+
+.zzz-achievement-static-container {
+  margin: 10px 10px 18px;
+  max-height: 250px;
 }
 
 .el-segmented {
