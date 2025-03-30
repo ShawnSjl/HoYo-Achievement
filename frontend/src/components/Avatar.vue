@@ -2,26 +2,43 @@
 import {computed, ref} from 'vue';
 import DefaultAvatar from '@/assets/avatar.png'
 import {useAuthStore} from "@/stores/authStore";
-import LoginDialog from '@/views/User/Login.vue'
+import ProfilePopover from '@/components/ProfilePopover.vue'
+import LoginDialog from "@/components/LoginDialog.vue";
+import RegisterDialog from "@/components/RegisterDialog.vue";
 
 const authStore = useAuthStore();
 
-const userName = computed(() => {return authStore.getUserName()})
+const loginDialogVisible = ref(false);
+const registerDialogVisible = ref(false);
 
-const dialogVisible = ref(false)
+const userName = computed(() => {return authStore.getUserName()})
 </script>
 
 <template>
-  <div class="avatar-container" @click="dialogVisible = true">
-    <el-avatar size="large" :src="DefaultAvatar" />
-    <div class="avatar-side">
-      <p class="avatar-username">{{userName}}</p>
-      <span class="avatar-note">点击登录</span>
-    </div>
-  </div>
+  <el-popover
+    placement="right"
+    width="300"
+    trigger="hover">
 
-  <login-dialog v-model="dialogVisible" @close="dialogVisible = false" />
+    <template #reference>
+      <div class="avatar-container">
+        <el-avatar size="large" :src="DefaultAvatar" />
+        <div class="avatar-side">
+          <p class="avatar-username">{{userName}}</p>
+        </div>
+      </div>
+    </template>
 
+    <template #default>
+      <profile-popover
+          v-model:loginDialogVisible=loginDialogVisible
+          v-model:registerDialogVisible=registerDialogVisible
+      />
+    </template>
+  </el-popover>
+
+  <login-dialog v-model="loginDialogVisible" @close="loginDialogVisible = false" />
+  <register-dialog v-model="registerDialogVisible" @close="registerDialogVisible = false" />
 </template>
 
 <style scoped>
@@ -31,7 +48,8 @@ const dialogVisible = ref(false)
   justify-content: center;
   align-content: center;
   background-color: rgba(172, 171, 171, 0.41);
-  border-radius: 26px;
+  border-radius: 28px;
+  border: 1px solid rgba(113, 107, 107, 0.41);
 }
 
 .avatar-side {
@@ -46,11 +64,6 @@ const dialogVisible = ref(false)
 .avatar-username {
   font-size: 16px;
   font-weight: bold;
-}
-
-.avatar-note {
-  font-size: 13px;
-  font-weight: initial;
 }
 
 ::v-deep(p) {

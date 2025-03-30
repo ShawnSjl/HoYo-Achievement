@@ -1,11 +1,10 @@
 <script setup>
-import { ref } from 'vue';
-import { useRouter } from 'vue-router';
+import {computed, ref} from 'vue';
 import { useAuthStore } from '@/stores/authStore';
+import { showWarn, showSuccess, showError} from "@/utils/notification";
 
 // 使用Pinia作为本地缓存
 const authStore = useAuthStore();
-const router = useRouter();
 
 const dialogVisible =defineModel();
 
@@ -14,35 +13,26 @@ const loginForm = ref({
   password: ''
 });
 
+const allFilled = computed( () => {
+  return loginForm.value.username !== '' && loginForm.value.password !== '';
+})
+
 const handleLogin = async () => {
   try {
     await authStore.loginUser({
       username: loginForm.value.username,
       password: loginForm.value.password,
     })
-    console.log('Login successful');
+    showSuccess('登录成功');
+    handleClose();
   } catch (error) {
-    console.log(error);
-  } finally {
-    dialogVisible.value = false; // 登录成功后关闭弹窗
-    await router.push('/');
-  }
-}
-
-const handleRegister = async () => {
-  try {
-    await authStore.registerUser({
-      username: username.value,
-      password: password.value,
-    })
-    console.log('Register successful');
-    router.push('/');
-  } catch (error) {
-    console.log(error);
+    showError('登录失败', error);
   }
 }
 
 const handleClose = () => {
+  loginForm.value.username = ''
+  loginForm.value.password = ''
   dialogVisible.value = false;
 }
 </script>
@@ -59,8 +49,8 @@ const handleClose = () => {
       <el-input v-model="loginForm.password" placeholder="密码" type="password" />
     </div>
     <template #footer>
-      <el-button @click="dialogVisible = false">取消</el-button>
-      <el-button type="primary" @click="handleLogin">登录</el-button>
+      <el-button @click="handleClose">取消</el-button>
+      <el-button type="primary" :disabled="!allFilled" @click="handleLogin">登录</el-button>
     </template>
   </el-dialog>
 </template>

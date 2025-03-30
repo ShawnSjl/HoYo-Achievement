@@ -37,7 +37,6 @@ api.interceptors.response.use(
             console.warn("Token 可能已过期，请重新登录");
             // 可以在这里触发退出登录逻辑，比如清除 token 并跳转到登录页
             localStorage.removeItem("jwt_token");
-            window.location.href = "/"; // 视情况而定
         }
 
         return Promise.reject(error);
