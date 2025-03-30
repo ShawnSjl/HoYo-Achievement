@@ -4,6 +4,7 @@ import router from './router';     // 导入 Vue Router
 import ElementPlus from 'element-plus';
 import 'element-plus/dist/index.css';
 import { createPinia } from 'pinia'; // 导入 Pinia 状态管理
+import './assets/style.css'
 
 // 创建 Vue 应用实例
 const app = createApp(App);

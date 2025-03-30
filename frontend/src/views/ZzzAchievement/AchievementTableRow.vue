@@ -36,11 +36,9 @@ const handleComplete = () => {
 </script>
 
 <template>
-  <div class="zzz-table-row">
-    <div class="zzz-table-col" style="flex: 2">
+  <div class="zzz-table-container">
+    <div class="zzz-table-left">
       <img :src="achievementImg" alt="achievement image" class="zzz-achievement-image" />
-    </div>
-    <div class="zzz-table-col" style="flex: 30">
       <div class="zzz-detail">
         <div class="zzz-name">
           {{ props.achievement.name }}
@@ -51,14 +49,13 @@ const handleComplete = () => {
         <div class="zzz-desc">{{ props.achievement.description }}</div>
       </div>
     </div>
-    <div class="zzz-table-col" style="flex: 4">{{ props.achievement.game_version }}</div>
-    <div class="zzz-table-col" style="flex: 6">
-      <el-badge :value="achievementReward" :offset="[-25, 50]">
+
+    <div class="zzz-table-right">
+      <div class="zzz-game-version" >{{ props.achievement.game_version }}</div>
+      <el-badge :value="achievementReward" :offset="[-45, 47]">
         <img :src="ZzzAchievementReward" alt="achievement reward" class="zzz-achievement-reward-image" />
       </el-badge>
-    </div>
-    <div class="zzz-table-col" style="flex: 4">
-      <el-button round :plain="!isComplete" type="primary" @click="handleComplete">
+      <el-button round :plain="!isComplete" type="primary" @click="handleComplete" class="zzz-complete-button">
         {{ completeButtonMsg }}
       </el-button>
     </div>
@@ -66,13 +63,28 @@ const handleComplete = () => {
 </template>
 
 <style scoped>
-.zzz-table-row {
+.zzz-table-container {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  align-content: center;
 }
 
-.zzz-table-col {
-  align-content: center;
+.zzz-table-left {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  flex: 1;
+}
+
+.zzz-table-right {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  flex: 1;
 }
 
 .zzz-achievement-image {
@@ -86,11 +98,12 @@ const handleComplete = () => {
 
 .zzz-achievement-reward-image {
   width: 70px;
-  height: 50px;
+  height: 46px;
   border-radius: 25px; /* 核心代码：让图片变圆 */
   object-fit: contain;   /* 保证图片不变形、居中裁剪 */
   border: 2px solid #686161; /* 可选的边框 */
   background-color: #000000;
+  margin-right: 20px;
 }
 
 .zzz-detail {
@@ -108,9 +121,20 @@ const handleComplete = () => {
   color: #2e2d2d;
 }
 
+.zzz-game-version {
+  font-weight: normal;
+  font-size: 17px;
+  margin-right: 25px;
+}
+
 .zzz-desc {
   flex: 1;
   text-align: left;
+  word-break: break-word;
+}
+
+.zzz-complete-button {
+  margin-right: 10px;
 }
 
 .badge {
@@ -130,7 +154,7 @@ const handleComplete = () => {
   border: #000000;
   border-radius: 5px;
   background-color: rgba(0, 0, 0, 0);
-  font-size: 15px;
+  font-size: 16px;
   text-shadow:
       -2px -2px 2px black,
       2px -2px 2px black,
