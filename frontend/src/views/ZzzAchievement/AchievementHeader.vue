@@ -1,5 +1,6 @@
 <script setup>
 import Avatar from "@/components/Avatar.vue";
+import ZzzAchievementSetting from "@/views/ZzzAchievement/AchievementSetting.vue"
 
 const props = defineProps({
   categories: Array[Option],
@@ -12,6 +13,9 @@ const category = defineModel();
   <div class="zzz-top-bar">
     <div class="zzz-top-bar-left">
       <avatar />
+      <div class="zzz-top-bar-left-right">
+        <zzz-achievement-setting />
+      </div>
     </div>
     <div class="zzz-top-bar-right">
       <el-segmented v-model="category" :options="props.categories" size="large" block/>
@@ -25,14 +29,20 @@ const category = defineModel();
   flex-direction: row;
   justify-content: space-between;
   align-content: center;
+  width: 100%;
 }
 
 .zzz-top-bar-left {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
   align-content: flex-start;
   align-items: center;
   flex: 1;
+}
+
+.zzz-top-bar-left-right {
+  margin-right: 20px;
 }
 
 .zzz-top-bar-right {

@@ -1,0 +1,82 @@
+<script setup>
+import {computed, ref} from 'vue';
+import { useZzzAchievementStore } from "@/stores/zzzAchievementsStore";
+import { Check, Close } from '@element-plus/icons-vue'
+import {ElMessageBox} from "element-plus";
+import {showError, showSuccess} from "@/utils/notification";
+
+// 使用Pinia作为本地缓存
+const achievementStore = useZzzAchievementStore();
+
+const dialogVisible = ref(false);
+
+const handleClick = () => {
+  dialogVisible.value = true;
+}
+
+const handleClose = () => {
+  dialogVisible.value = false;
+}
+
+const openWarn = () => {
+  ElMessageBox.confirm(
+      '强制更新会清理本地缓存数据，确认是否继续？',
+      '警告',
+      {
+        confirmButtonText: '确认',
+        cancelButtonText: '取消',
+        type: 'warning'
+      }
+  )
+      .then(() => {
+        achievementStore.fetchAchievements()
+        showSuccess('强制更新成功')
+      })
+      .catch(() => {
+        showError('强制更新失败')
+      })
+}
+</script>
+
+<template>
+  <el-button
+      color="#ffd100"
+      round
+      type="primary"
+      @click="handleClick">
+    选项
+  </el-button>
+
+  <el-dialog
+      v-model="dialogVisible"
+      title="选项"
+      width="40%"
+      :before-close="handleClose"
+  >
+    <div>
+      <p>未完成的成就优先:</p>
+      <el-switch
+          v-model="achievementStore.isCompleteFirst"
+          size="large"
+          inline-prompt
+          :active-icon="Check"
+          :inactive-icon="Close"
+      />
+    </div>
+    <div>
+      <p>特殊文本性别:</p>
+      <el-radio-group v-model="achievementStore.isMale">
+        <el-radio :value="true" size="large">男</el-radio>
+        <el-radio :value="false" size="large">女</el-radio>
+      </el-radio-group>
+    </div>
+    <div>
+      <p>强制更新数据:</p>
+      <el-button round plain type="danger" @click="openWarn">更新</el-button>
+    </div>
+  </el-dialog>
+</template>
+
+<style scoped>
+
+</style>

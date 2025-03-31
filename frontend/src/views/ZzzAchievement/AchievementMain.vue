@@ -4,8 +4,8 @@ import { useZzzAchievementStore } from "@/stores/zzzAchievementsStore"
 import { useAuthStore } from '@/stores/authStore';
 import { zzzGetClassId } from  "@/utils/zzzClassId"
 import ZzzTableRow from "@/views/ZzzAchievement/AchievementTableRow.vue"
-import ZzzTableTopMenu from "@/views/ZzzAchievement/AchievementTableTopMenuBar.vue"
-import ZzzTableLeftMenu from "@/views/ZzzAchievement/AchievementTableLeftMenuBar.vue"
+import ZzzTableTopMenu from "@/views/ZzzAchievement/AchievementHeader.vue"
+import ZzzTableLeftMenu from "@/views/ZzzAchievement/AchievementAside.vue"
 import ZzzStaticClass from "./AchievementStaticClass.vue"
 
 // 使用Pinia作为本地缓存
@@ -41,7 +41,22 @@ const calculateTableHeight = () => {
 const filteredAchievements = computed(() => {
   return achievementStore.achievements.filter(achievement => achievement.class_id ===
       zzzGetClassId(achievementClass.value))
-})
+});
+
+const sortedAchievements = computed(() => {
+  if (achievementStore.isCompleteFirst) {
+    return [...filteredAchievements.value].sort((a, b) => {
+      // 1️⃣ 优先按 complete 状态：complete === 1 的放后面
+      if (a.complete === 1 && b.complete !== 1) return 1;
+      if (a.complete !== 1 && b.complete === 1) return -1;
+
+      // 2️⃣ 如果 complete 相同，按 id 升序排序
+      return a.id - b.id;
+    });
+  } else {
+    return filteredAchievements.value;
+  }
+});
 
 const fetchData = async () => {
   try {
@@ -100,7 +115,7 @@ onBeforeUnmount(() => {
         <p v-else-if="errorMessage">{{ errorMessage }}</p>
         <div v-else >
           <zzz-static-class :achievement-class="achievementClass" />
-          <el-table :data="filteredAchievements" style="width: 100%" :show-header="false" :max-height="tableHeight">
+          <el-table :data="sortedAchievements" style="width: 100%" :show-header="false" :max-height="tableHeight">
             <el-table-column>
               <template #default="{ row }">
                 <zzz-table-row :achievement="row" />

@@ -61,7 +61,7 @@ const getCompleteLevel3Number = computed(() => {
   <el-card shadow="hover">
     <div class="zzz-container-achievement-static-class">
       <div slot="header" class="clearfix">
-        <b>{{props.achievementClass}}</b> 完成度统计:
+        <b style="font-size: 20px">{{props.achievementClass}}</b> 完成度:
         <br/>
         <b style="font-size: 20px">{{completePercentage}}%</b>
       </div>

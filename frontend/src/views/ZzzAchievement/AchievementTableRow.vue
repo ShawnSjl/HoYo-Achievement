@@ -35,12 +35,20 @@ const completeButtonMsg = computed(() => {return  props.achievement.complete ===
 const isComplete = computed(() => {return props.achievement.complete === 1});
 
 const handleComplete = async () => {
-  if (isComplete.value) {
-    alert('取消完成');
-  }
   const newState = props.achievement.complete === 1 ? 0 : 1;
   await achievementStore.completeAchievement(props.achievement.achievement_id, newState);
 }
+
+// 处理特殊文本
+const maleTextPattern = /\{M#([^\}]+)\}/
+const femaleTextPattern = /\{F#([^\}]+)\}/
+const getAchievementName = computed(() => {
+  if (maleTextPattern.test(props.achievement.name) || femaleTextPattern.test(props.achievement.name)) {
+    return props.achievement.name.match(achievementStore.isMale ? maleTextPattern : femaleTextPattern)[1]
+  } else {
+    return props.achievement.name
+  }
+})
 </script>
 
 <template>
@@ -49,7 +57,7 @@ const handleComplete = async () => {
       <img :src="achievementImg" alt="achievement image" class="zzz-achievement-image" />
       <div class="zzz-detail">
         <div class="zzz-name">
-          {{ props.achievement.name }}
+          {{ getAchievementName }}
           <span v-if="props.achievement.hidden === 1" class="badge">
             隐藏
           </span>
@@ -110,7 +118,7 @@ const handleComplete = async () => {
   border-radius: 25px; /* 核心代码：让图片变圆 */
   object-fit: contain;   /* 保证图片不变形、居中裁剪 */
   border: 2px solid #686161; /* 可选的边框 */
-  background-color: #000000;
+  background-color: rgba(0, 0, 0, 0.78);
   margin-right: 20px;
 }
 

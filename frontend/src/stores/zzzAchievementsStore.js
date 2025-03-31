@@ -8,6 +8,8 @@ export const useZzzAchievementStore = defineStore(
         const achievements = ref([]);
         const length = ref(0);
         const currentUser = ref(null);
+        const isMale = ref(true);
+        const isCompleteFirst = ref(false);
 
         // Get achievements for current user
         async function fetchAchievements() {
@@ -70,7 +72,7 @@ export const useZzzAchievementStore = defineStore(
             }
         }
 
-        return { achievements, length, currentUser, fetchAchievements, updateAchievements, completeAchievement };
+        return { achievements, length, currentUser, isMale, isCompleteFirst, fetchAchievements, updateAchievements, completeAchievement };
     },
     {
         persist: true,

@@ -1,5 +1,5 @@
 import { createRouter, createWebHistory } from "vue-router";
-import ZzzAchievement from "@/views/ZzzAchievement/AchievementTable.vue";
+import ZzzAchievement from "@/views/ZzzAchievement/AchievementMain.vue";
 
 const routes = [
     { path: "/", component: ZzzAchievement },
