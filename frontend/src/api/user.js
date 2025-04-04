@@ -15,7 +15,3 @@ export const logout = () => {
     localStorage.removeItem("jwt_token");
     window.location.href = "/";
 }
-
-export const getUserProfile = (id) => {
-    return api.get('/api/user/profile');
-}

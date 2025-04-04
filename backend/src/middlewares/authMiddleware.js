@@ -20,3 +20,11 @@ exports.authenticateToken = (req, res, next) => {
         next();
     });
 };
+
+// 中间件：权限检查（管理员）
+exports.requireAdmin = (req, res, next) => {
+    if (req.user == null || req.user.role !== 'admin') {
+        return res.status(403).json({ error: 'Need admin privilege.' });
+    }
+    next();
+};

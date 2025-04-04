@@ -1,6 +1,22 @@
 const db = require('../config/db');
 const bcrypt = require("bcryptjs");
 
+// Get user by username
+exports.getUserByUsername = (username, callback) => {
+    db.query("SELECT user_id, username, password, role FROM users WHERE username = ?", [username], (err, results) => {
+        if (err) return callback(err, null);
+        callback(null, results[0]);
+    });
+};
+
+// Get all users
+exports.getAllUsers= (callback) => {
+    db.query('SELECT user_id, username, role, created_at FROM users', (err, results) => {
+        if (err) return callback(err, null);
+        callback(null, results);
+    });
+};
+
 // Register new user
 exports.addUser = async (username, password, callback) => {
     try {
@@ -18,27 +34,10 @@ exports.addUser = async (username, password, callback) => {
     }
 };
 
-// Get all users
-exports.getAllUsers= (callback) => {
-    db.query('SELECT * FROM users', (err, results) => {
+// Delete user by given id
+exports.deleteUserById = (id, callback) => {
+    db.query('DELETE FROM users WHERE user_id = ? AND role = "user"', [id], (err, results) => {
         if (err) return callback(err, null);
         callback(null, results);
     });
-};
-
-// Get user by user id
-exports.getUserById = (id, callback) => {
-    db.query("SELECT * FROM users WHERE user_id = ?", [id], (err, results) => {
-        if (err) return callback(err, null);
-        callback(null, results[0]);
-    });
-};
-
-// Get user by username
-exports.getUserByUsername = (username, callback) => {
-    db.query("SELECT * FROM users WHERE username = ?", [username], (err, results) => {
-        if (err) return callback(err, null);
-        callback(null, results[0]);
-    });
-};
-
+}
