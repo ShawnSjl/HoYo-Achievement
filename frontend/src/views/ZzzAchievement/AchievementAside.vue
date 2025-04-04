@@ -35,7 +35,7 @@ watch(classes, (newClasses) => {
 
 .zzz-container-statistic-total {
   margin: 10px 10px 18px;
-  max-height: 300px;
+  max-height: 360px;
 }
 
 .el-segmented {

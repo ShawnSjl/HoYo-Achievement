@@ -9,28 +9,34 @@ import ZzzAchievementImg3 from '@/assets/image/zzz-achievement-level-3.png';
 // 使用Pinia作为本地缓存
 const achievementStore = useZzzAchievementStore()
 
+const getTotalNumber = computed(() => {
+  return achievementStore.achievements.length;
+})
+const getTotalCompleteNumber = computed(() => {
+  return achievementStore.achievements.filter(achievement => achievement.complete === 1).length;
+})
+
 const getLevel1Number = computed(() => {
   return achievementStore.achievements.filter(achievement => achievement.reward_level === 1).length;
 })
-
 const getCompleteLevel1Number = computed(() => {
   return achievementStore.achievements.filter(achievement => achievement.reward_level === 1 &&
       achievement.complete === 1
   ).length;
 })
+
 const getLevel2Number = computed(() => {
   return achievementStore.achievements.filter(achievement => achievement.reward_level === 2).length;
 })
-
 const getCompleteLevel2Number = computed(() => {
   return achievementStore.achievements.filter(achievement => achievement.reward_level === 2 &&
       achievement.complete === 1
   ).length;
 })
+
 const getLevel3Number = computed(() => {
   return achievementStore.achievements.filter(achievement => achievement.reward_level === 3).length;
 })
-
 const getCompleteLevel3Number = computed(() => {
   return achievementStore.achievements.filter(achievement => achievement.reward_level === 3 &&
       achievement.complete === 1
@@ -46,6 +52,10 @@ const getCompleteLevel3Number = computed(() => {
         成就完成度统计 游戏版本: {{ zzzVersion }}
       </div>
     </template>
+    <div class="zzz-statistic-total">
+      <div style="align-self: center; margin-left: 11px">总计：</div>
+      <p> {{getTotalCompleteNumber}} / {{getTotalNumber}}</p>
+    </div>
     <div class="zzz-statistic-total">
       <img :src="ZzzAchievementImg1" alt="achievement image" class="zzz-achievement-image" />
       <p> {{getCompleteLevel1Number}} / {{getLevel1Number}}</p>
