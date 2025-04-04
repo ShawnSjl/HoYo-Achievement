@@ -16,6 +16,14 @@ export const showWarn = (title, msg = '') => {
     })
 }
 
+export const showInfo = (title, msg = '') => {
+    ElNotification({
+        title: title,
+        message: msg,
+        type: 'info',
+    })
+}
+
 export const showSuccess = (title, msg = '') => {
     ElNotification({
         title: title,

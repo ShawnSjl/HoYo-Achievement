@@ -4,7 +4,6 @@ import Zzz from '@/assets/image/zzz.png'
 import {useAuthStore} from "@/stores/authStore";
 import ProfilePopover from '@/components/ProfilePopover.vue'
 import LoginDialog from "@/components/LoginDialog.vue";
-import RegisterDialog from "@/components/RegisterDialog.vue";
 
 const authStore = useAuthStore();
 
@@ -38,7 +37,6 @@ const userName = computed(() => {return authStore.getUserName()})
   </el-popover>
 
   <login-dialog v-model="loginDialogVisible" @close="loginDialogVisible = false" />
-  <register-dialog v-model="registerDialogVisible" @close="registerDialogVisible = false" />
 </template>
 
 <style scoped>

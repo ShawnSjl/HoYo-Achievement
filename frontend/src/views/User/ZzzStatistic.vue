@@ -1,5 +1,6 @@
 <script setup>
 import { computed } from 'vue';
+import router from "@/router";
 import { useZzzAchievementStore } from "@/stores/zzzAchievementsStore";
 import { zzzVersion } from "@/utils/config";
 import ZzzAchievementImg1 from '@/assets/image/zzz-achievement-level-1.png';
@@ -43,35 +44,50 @@ const getCompleteLevel3Number = computed(() => {
   ).length;
 })
 
+const handleClick = () => {
+  router.push({ path: '/zzz' });
+}
 </script>
 
 <template>
-  <el-card shadow="never">
-    <template #header>
-      <div slot="header">
-        成就完成度统计 游戏版本: {{ zzzVersion }}
+  <div class="card-bg">
+    <el-card shadow="never" @click="handleClick">
+      <template #header>
+        <div slot="header">
+          绝区零成就完成度统计 游戏版本: {{ zzzVersion }}
+        </div>
+      </template>
+
+      <div class="zzz-statistic-total">
+        <div style="align-self: center; margin-left: 11px">总计：</div>
+        <p> {{getTotalCompleteNumber}} / {{getTotalNumber}}</p>
       </div>
-    </template>
-    <div class="zzz-statistic-total">
-      <div style="align-self: center; margin-left: 11px">总计：</div>
-      <p> {{getTotalCompleteNumber}} / {{getTotalNumber}}</p>
-    </div>
-    <div class="zzz-statistic-total">
-      <img :src="ZzzAchievementImg1" alt="achievement image" class="zzz-achievement-image" />
-      <p> {{getCompleteLevel1Number}} / {{getLevel1Number}}</p>
-    </div>
-    <div class="zzz-statistic-total">
-      <img :src="ZzzAchievementImg2" alt="achievement image" class="zzz-achievement-image" />
-      <p> {{getCompleteLevel2Number}} / {{getLevel2Number}}</p>
-    </div>
-    <div class="zzz-statistic-total">
-      <img :src="ZzzAchievementImg3" alt="achievement image" class="zzz-achievement-image" />
-      <p> {{getCompleteLevel3Number}} / {{getLevel3Number}}</p>
-    </div>
-  </el-card>
+      <div class="zzz-statistic-total">
+        <img :src="ZzzAchievementImg1" alt="achievement image" class="zzz-achievement-image" />
+        <p> {{getCompleteLevel1Number}} / {{getLevel1Number}}</p>
+      </div>
+      <div class="zzz-statistic-total">
+        <img :src="ZzzAchievementImg2" alt="achievement image" class="zzz-achievement-image" />
+        <p> {{getCompleteLevel2Number}} / {{getLevel2Number}}</p>
+      </div>
+      <div class="zzz-statistic-total">
+        <img :src="ZzzAchievementImg3" alt="achievement image" class="zzz-achievement-image" />
+        <p> {{getCompleteLevel3Number}} / {{getLevel3Number}}</p>
+      </div>
+    </el-card>
+  </div>
 </template>
 
 <style scoped>
+.card-bg {
+  background-image: url("@/assets/image/zzz-pc-page-bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  border-radius: 16px;
+  overflow: hidden;
+}
+
 .zzz-statistic-total {
   display: flex;
   flex-direction: row;
@@ -84,14 +100,15 @@ const getCompleteLevel3Number = computed(() => {
   height: 53px;
   border-radius: 50%; /* 核心代码：让图片变圆 */
   object-fit: cover;   /* 保证图片不变形、居中裁剪 */
-  border: 3px solid #686161; /* 可选的边框 */
+  border: 3px solid #615b5b; /* 可选的边框 */
   background-color: #000000;
 }
 
 .el-card {
-  --el-card-bg-color: #161817;
-  --el-card-border-color: #232524;
-  color: #cacaca;
+  --el-card-bg-color: rgba(22, 24, 23, 0);
+  --el-card-border-color: rgb(35, 37, 36);
+  --el-card-border-width: 2px;
+  color: #f6f6f6;
 }
 
 :deep(.el-card__body) {
