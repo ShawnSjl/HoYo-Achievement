@@ -18,14 +18,14 @@ watch(classes, (newClasses) => {
 </script>
 
 <template>
-  <div class="zzz-left-bar">
+  <div class="zzz-aside">
     <el-segmented v-model="achievementClass" :options="classes" size="large" direction="vertical"/>
-    <zzz-statistic-total class="zzz-achievement-static-container" />
+    <zzz-statistic-total class="zzz-container-statistic-total" />
   </div>
 </template>
 
 <style scoped>
-.zzz-left-bar {
+.zzz-aside {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -33,7 +33,7 @@ watch(classes, (newClasses) => {
   font-weight: bold;
 }
 
-.zzz-achievement-static-container {
+.zzz-container-statistic-total {
   margin: 10px 10px 18px;
   max-height: 300px;
 }

@@ -59,21 +59,21 @@ const getCompleteLevel3Number = computed(() => {
 
 <template>
   <el-card shadow="never">
-    <div class="zzz-container-achievement-static-class">
+    <div class="zzz-statistic-card-class">
       <div slot="header" style="min-width: 180px">
         <b style="font-size: 20px">{{props.achievementClass}}</b> 完成度:
         <br/>
         <b style="font-size: 20px">{{completePercentage}}%</b>
       </div>
-      <div class="zzz-achievement-static-class">
+      <div class="zzz-statistic-class">
         <img :src="ZzzAchievementImg1" alt="achievement image" class="zzz-achievement-image" />
         <p> {{getCompleteLevel1Number}} / {{getLevel1Number}}</p>
       </div>
-      <div class="zzz-achievement-static-class">
+      <div class="zzz-statistic-class">
         <img :src="ZzzAchievementImg2" alt="achievement image" class="zzz-achievement-image" />
         <p> {{getCompleteLevel2Number}} / {{getLevel2Number}}</p>
       </div>
-      <div class="zzz-achievement-static-class">
+      <div class="zzz-statistic-class">
         <img :src="ZzzAchievementImg3" alt="achievement image" class="zzz-achievement-image" />
         <p> {{getCompleteLevel3Number}} / {{getLevel3Number}}</p>
       </div>
@@ -82,13 +82,13 @@ const getCompleteLevel3Number = computed(() => {
 </template>
 
 <style scoped>
-.zzz-container-achievement-static-class {
+.zzz-statistic-card-class {
   display: flex;
   flex-direction: row;
   align-content: space-between;
 }
 
-.zzz-achievement-static-class {
+.zzz-statistic-class {
   display: flex;
   flex-direction: row;
   align-content: space-between;

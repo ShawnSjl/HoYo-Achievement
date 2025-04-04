@@ -42,19 +42,19 @@ const getCompleteLevel3Number = computed(() => {
 <template>
   <el-card shadow="never">
     <template #header>
-      <div slot="header" class="clearfix">
+      <div slot="header">
         成就完成度统计 游戏版本: {{ zzzVersion }}
       </div>
     </template>
-    <div class="zzz-achievement-static">
+    <div class="zzz-statistic-total">
       <img :src="ZzzAchievementImg1" alt="achievement image" class="zzz-achievement-image" />
       <p> {{getCompleteLevel1Number}} / {{getLevel1Number}}</p>
     </div>
-    <div class="zzz-achievement-static">
+    <div class="zzz-statistic-total">
       <img :src="ZzzAchievementImg2" alt="achievement image" class="zzz-achievement-image" />
       <p> {{getCompleteLevel2Number}} / {{getLevel2Number}}</p>
     </div>
-    <div class="zzz-achievement-static">
+    <div class="zzz-statistic-total">
       <img :src="ZzzAchievementImg3" alt="achievement image" class="zzz-achievement-image" />
       <p> {{getCompleteLevel3Number}} / {{getLevel3Number}}</p>
     </div>
@@ -62,7 +62,7 @@ const getCompleteLevel3Number = computed(() => {
 </template>
 
 <style scoped>
-.zzz-achievement-static {
+.zzz-statistic-total {
   display: flex;
   flex-direction: row;
   align-content: space-between;

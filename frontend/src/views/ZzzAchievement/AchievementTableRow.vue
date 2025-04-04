@@ -52,13 +52,13 @@ const getAchievementName = computed(() => {
 </script>
 
 <template>
-  <div class="zzz-table-container">
-    <div class="zzz-table-left">
+  <div class="zzz-table-row">
+    <div class="zzz-table-row-left">
       <img :src="achievementImg" alt="achievement image" class="zzz-achievement-image" />
       <div class="zzz-detail">
         <div class="zzz-name">
           {{ getAchievementName }}
-          <span v-if="props.achievement.hidden === 1" class="badge">
+          <span v-if="props.achievement.hidden === 1" class="zzz-hidden-badge">
             隐藏
           </span>
         </div>
@@ -66,7 +66,7 @@ const getAchievementName = computed(() => {
       </div>
     </div>
 
-    <div class="zzz-table-right">
+    <div class="zzz-table-row-right">
       <div class="zzz-game-version" >{{ props.achievement.game_version }}</div>
       <el-badge :value="achievementReward" :offset="[-45, 47]">
         <img :src="ZzzAchievementReward" alt="achievement reward" class="zzz-achievement-reward-image" />
@@ -79,7 +79,7 @@ const getAchievementName = computed(() => {
 </template>
 
 <style scoped>
-.zzz-table-container {
+.zzz-table-row {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -87,7 +87,7 @@ const getAchievementName = computed(() => {
   align-content: center;
 }
 
-.zzz-table-left {
+.zzz-table-row-left {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
@@ -95,7 +95,7 @@ const getAchievementName = computed(() => {
   flex: 1;
 }
 
-.zzz-table-right {
+.zzz-table-row-right {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
@@ -155,7 +155,7 @@ const getAchievementName = computed(() => {
   margin-right: 10px;
 }
 
-.badge {
+.zzz-hidden-badge {
   background-color: #f11a1a;
   color: #fff;
   font-size: 12px;
@@ -179,5 +179,4 @@ const getAchievementName = computed(() => {
       -2px 2px 2px black,
       2px 2px 2px black;
 }
-
 </style>

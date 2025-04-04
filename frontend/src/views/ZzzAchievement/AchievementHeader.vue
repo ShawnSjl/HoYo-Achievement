@@ -7,21 +7,21 @@ const category = defineModel();
 </script>
 
 <template>
-  <div class="zzz-top-bar">
-    <div class="zzz-top-bar-left">
+  <div class="zzz-header">
+    <div class="zzz-header-left">
       <avatar />
-      <div class="zzz-top-bar-left-right">
+      <div class="zzz-header-left-right">
         <zzz-setting />
       </div>
     </div>
-    <div class="zzz-top-bar-right">
+    <div class="zzz-header-right">
       <el-segmented v-model="category" :options="categories" size="large" block/>
     </div>
   </div>
 </template>
 
 <style scoped>
-.zzz-top-bar {
+.zzz-header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -29,7 +29,7 @@ const category = defineModel();
   width: 100%;
 }
 
-.zzz-top-bar-left {
+.zzz-header-left {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -38,11 +38,11 @@ const category = defineModel();
   flex: 1;
 }
 
-.zzz-top-bar-left-right {
+.zzz-header-left-right {
   margin-right: 20px;
 }
 
-.zzz-top-bar-right {
+.zzz-header-right {
   align-content: center;
   font-weight: bold;
   flex: 1;
