@@ -112,7 +112,8 @@ const handleClick = () => {
 }
 
 :deep(.el-card__body) {
-  padding: 15px !important;
+  padding-top: 15px !important;
+  padding-bottom: 15px !important;
 }
 
 p {

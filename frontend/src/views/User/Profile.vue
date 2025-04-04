@@ -37,10 +37,10 @@ const userName = computed(() => {return authStore.getUserName()})
 
       <div class="profile-statistic">
         <el-row :gutter="20">
-          <el-col :span="16">
+          <el-col :span="14">
             <zzz-achievement-statistic class="profile-statistic-card" />
           </el-col>
-          <el-col :span="8">
+          <el-col :span="10">
             <sr-achievement-statistic class="profile-statistic-card" />
           </el-col>
         </el-row>
