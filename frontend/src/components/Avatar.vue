@@ -47,7 +47,7 @@ const userName = computed(() => {return authStore.getUserName()})
   flex-direction: row;
   justify-content: center;
   align-content: center;
-  background-color: rgba(172, 171, 171, 0.41);
+  background-color: rgba(158, 157, 157, 0.36);
   border-radius: 28px;
   border: 1px solid rgba(113, 107, 107, 0.41);
 }
@@ -64,6 +64,7 @@ const userName = computed(() => {return authStore.getUserName()})
 .avatar-username {
   font-size: 16px;
   font-weight: bold;
+  color: #ededed;
 }
 
 ::v-deep(p) {

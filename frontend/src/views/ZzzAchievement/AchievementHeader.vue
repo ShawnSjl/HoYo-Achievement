@@ -55,5 +55,10 @@ const category = defineModel();
   --el-segmented-item-selected-color: var(--el-text-color-primary);
   --el-segmented-item-selected-bg-color: #ffd100;
   --el-border-radius-base: 16px;
+  --el-segmented-color: #cacaca;
+  --el-segmented-bg-color: #161817;
+  --el-segmented-item-hover-bg-color: rgb(58, 58, 58);
+  --el-segmented-item-hover-color: #fbfbfb;
+  --el-segmented-item-active-bg-color: #3f4242;
 }
 </style>

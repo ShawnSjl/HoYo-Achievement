@@ -42,7 +42,6 @@ const openWarn = () => {
   <el-button
       color="#ffd100"
       round
-      type="primary"
       @click="handleClick">
     选项
   </el-button>
@@ -50,7 +49,7 @@ const openWarn = () => {
   <el-dialog
       v-model="dialogVisible"
       title="选项"
-      width="40%"
+      width="500px"
       :before-close="handleClose"
   >
     <div>
@@ -72,11 +71,33 @@ const openWarn = () => {
     </div>
     <div>
       <p>强制更新数据:</p>
-      <el-button round plain type="danger" @click="openWarn">更新</el-button>
+      <el-button round dark color="red" @click="openWarn">更新</el-button>
     </div>
   </el-dialog>
 </template>
 
 <style scoped>
+.el-button {
+  --el-button-outline-color: #fbfbfb;
+}
 
+.el-switch {
+  --el-switch-off-color: #636363;
+}
+</style>
+
+<style>
+.el-dialog {
+  --el-dialog-bg-color: #232524 !important;
+  --background-color: #232524 !important;
+}
+
+.el-dialog__title {
+  color: #d5d5d5 !important;
+  font-weight: bold;
+}
+
+.el-dialog__body {
+  color: #cacaca !important;
+}
 </style>

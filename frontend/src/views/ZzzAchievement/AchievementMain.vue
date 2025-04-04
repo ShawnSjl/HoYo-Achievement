@@ -6,7 +6,7 @@ import { zzzGetClassId } from  "@/utils/zzzClassId"
 import ZzzTableRow from "@/views/ZzzAchievement/AchievementTableRow.vue"
 import ZzzTableTopMenu from "@/views/ZzzAchievement/AchievementHeader.vue"
 import ZzzTableLeftMenu from "@/views/ZzzAchievement/AchievementAside.vue"
-import ZzzStaticClass from "./AchievementStaticClass.vue"
+import ZzzStaticClass from "@/views/ZzzAchievement/AchievementStaticClass.vue"
 
 // 使用Pinia作为本地缓存
 const achievementStore = useZzzAchievementStore()
@@ -33,7 +33,7 @@ const calculateTableHeight = () => {
   const headerEl = document.querySelector('.el-header') // 获取头部高度
   const headerHeight = headerEl ? headerEl.offsetHeight : 0
 
-  const margin = 119 // 预留的 padding/margin（可调）
+  const margin = 142 // 预留的 padding/margin（可调）
 
   tableHeight.value = windowHeight - headerHeight - margin
 }
@@ -97,48 +97,85 @@ onBeforeUnmount(() => {
 </script>
 
 <template>
-  <el-container class="zzz-container" style="height: 100vh">
-    <el-header class="zzz-container-header">
-      <zzz-table-top-menu v-model="category" :categories=categories />
-    </el-header>
+  <div class="zzz-bg-page">
+    <div class="zzz-content">
+      <el-container class="zzz-container" style="height: 100vh">
+        <el-header class="zzz-container-header">
+          <zzz-table-top-menu v-model="category" :categories=categories />
+        </el-header>
 
-    <el-container>
-      <el-aside class="zzz-container-aside">
-        <zzz-table-left-menu v-model="achievementClass"
-                             :category="category"
-                             :life-classes="lifeClasses"
-                             :tacticsClasses="tacticsClasses"
-                             :exploration-classes="explorationClasses" />
-      </el-aside>
-      <el-main class="zzz-container-main">
-        <p v-if="loading">加载中...</p>
-        <p v-else-if="errorMessage">{{ errorMessage }}</p>
-        <div v-else >
-          <zzz-static-class :achievement-class="achievementClass" />
-          <el-table :data="sortedAchievements" style="width: 100%" :show-header="false" :max-height="tableHeight">
-            <el-table-column>
-              <template #default="{ row }">
-                <zzz-table-row :achievement="row" />
-              </template>
-            </el-table-column>
-          </el-table>
-        </div>
-      </el-main>
-    </el-container>
-  </el-container>
+        <el-container>
+          <el-aside class="zzz-container-aside">
+            <zzz-table-left-menu v-model="achievementClass"
+                                 :category="category"
+                                 :life-classes="lifeClasses"
+                                 :tacticsClasses="tacticsClasses"
+                                 :exploration-classes="explorationClasses" />
+          </el-aside>
+          <el-main class="zzz-container-main">
+            <p v-if="loading">加载中...</p>
+            <p v-else-if="errorMessage">{{ errorMessage }}</p>
+            <div v-else >
+              <zzz-static-class :achievement-class="achievementClass" style="margin-bottom: 10px" />
+              <el-table :data="sortedAchievements" style="width: 100%" :show-header="false" :max-height="tableHeight">
+                <el-table-column>
+                  <template #default="{ row }">
+                    <zzz-table-row :achievement="row" />
+                  </template>
+                </el-table-column>
+              </el-table>
+            </div>
+          </el-main>
+        </el-container>
+      </el-container>
+    </div>
+  </div>
 </template>
 
 <style scoped>
+.zzz-bg-page {
+  width: 100%;
+  height: 100vh;
+  background-image: url("@/assets/image/zzz-pc-page-bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+.zzz-content {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 20px;
+  border-radius: 8px;
+}
+
 .zzz-container-header {
   margin-top: 8px;
 }
 
 .zzz-container-aside {
   margin-left: 8px;
+  margin-top: 12px;
 }
 
 .zzz-container-main {
   height: 100%;
   padding: 5px;
+  margin-left: 5px;
+  margin-bottom: 10px;
+}
+
+.el-table {
+  --el-table-border-color: #232524;
+  --el-table-border: 2px solid;
+  --el-table-row-hover-bg-color: rgb(58, 58, 58);
+  --el-table-bg-color: #232524;
+  --el-table-tr-bg-color: #232524;
+  --el-table-expanded-cell-bg-color: #232524;
+}
+
+::v-deep(.el-table tr) {
+  background-color: #161817 !important;
 }
 </style>

@@ -58,9 +58,9 @@ const getCompleteLevel3Number = computed(() => {
 </script>
 
 <template>
-  <el-card shadow="hover">
+  <el-card shadow="never">
     <div class="zzz-container-achievement-static-class">
-      <div slot="header" class="clearfix">
+      <div slot="header" style="min-width: 180px">
         <b style="font-size: 20px">{{props.achievementClass}}</b> 完成度:
         <br/>
         <b style="font-size: 20px">{{completePercentage}}%</b>
@@ -93,6 +93,7 @@ const getCompleteLevel3Number = computed(() => {
   flex-direction: row;
   align-content: space-between;
   margin-left: 20px;
+  min-width: 140px;
 }
 
 .zzz-achievement-image {
@@ -104,7 +105,13 @@ const getCompleteLevel3Number = computed(() => {
   background-color: #000000;
 }
 
+.el-card {
+  --el-card-bg-color: #161817;
+  --el-card-border-color: #232524;
+  color: #cacaca;
+}
+
 p {
-  margin-left: 5px;
+  margin-left: 10px;
 }
 </style>

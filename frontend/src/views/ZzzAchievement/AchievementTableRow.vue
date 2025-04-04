@@ -4,7 +4,7 @@ import { useZzzAchievementStore } from "@/stores/zzzAchievementsStore"
 import ZzzAchievementImg1 from '@/assets/image/zzz-achievement-level-1.png';
 import ZzzAchievementImg2 from '@/assets/image/zzz-achievement-level-2.png';
 import ZzzAchievementImg3 from '@/assets/image/zzz-achievement-level-3.png';
-import ZzzAchievementReward from '@/assets/image/zzz_achievement_reward.png'
+import ZzzAchievementReward from '@/assets/image/zzz-achievement-reward.png'
 
 // 使用Pinia作为本地缓存
 const achievementStore = useZzzAchievementStore()
@@ -71,7 +71,7 @@ const getAchievementName = computed(() => {
       <el-badge :value="achievementReward" :offset="[-45, 47]">
         <img :src="ZzzAchievementReward" alt="achievement reward" class="zzz-achievement-reward-image" />
       </el-badge>
-      <el-button round :plain="!isComplete" type="primary" @click="handleComplete" class="zzz-complete-button">
+      <el-button round :plain="!isComplete" color="#ffd100" dark @click="handleComplete" class="zzz-complete-button">
         {{ completeButtonMsg }}
       </el-button>
     </div>
@@ -134,19 +134,21 @@ const getAchievementName = computed(() => {
   flex: 1;
   font-weight: bold;
   font-size: 17px;
-  color: #2e2d2d;
+  color: #cccccc;
 }
 
 .zzz-game-version {
   font-weight: normal;
   font-size: 17px;
   margin-right: 25px;
+  color: #acacac;
 }
 
 .zzz-desc {
   flex: 1;
   text-align: left;
   word-break: break-word;
+  color: #acacac;
 }
 
 .zzz-complete-button {
