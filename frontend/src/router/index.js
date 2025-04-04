@@ -3,6 +3,7 @@ import ZzzAchievement from "@/views/ZzzAchievement/AchievementMain.vue";
 
 const routes = [
     { path: "/", component: ZzzAchievement },
+    { path: "/zzz", component: ZzzAchievement },
 ];
 
 const router = createRouter({

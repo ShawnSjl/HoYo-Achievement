@@ -1,6 +1,6 @@
 <script setup>
 import {ref, computed} from "vue";
-import DefaultAvatar from '@/assets/avatar.png'
+import DefaultAvatar from '@/assets/image/zzz.png'
 import {useAuthStore} from "@/stores/authStore";
 
 const authStore = useAuthStore();

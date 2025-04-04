@@ -1,6 +1,7 @@
 <script setup>
 import { categories } from "@/utils/zzzAchievementClass";
 import Avatar from "@/components/Avatar.vue";
+import GameSwitch from "@/components/GameSwitch.vue";
 import ZzzSetting from "@/views/ZzzAchievement/AchievementSetting.vue";
 
 const category = defineModel();
@@ -9,7 +10,10 @@ const category = defineModel();
 <template>
   <div class="zzz-header">
     <div class="zzz-header-left">
-      <avatar />
+      <div class="zzz-header-left-left">
+        <avatar />
+        <game-switch style="margin-left: 30px" />
+      </div>
       <div class="zzz-header-left-right">
         <zzz-setting />
       </div>
@@ -36,6 +40,12 @@ const category = defineModel();
   align-content: flex-start;
   align-items: center;
   flex: 1;
+}
+
+.zzz-header-left-left {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 .zzz-header-left-right {

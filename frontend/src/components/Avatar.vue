@@ -1,6 +1,6 @@
 <script setup>
 import {computed, ref} from 'vue';
-import DefaultAvatar from '@/assets/avatar.png'
+import Zzz from '@/assets/image/zzz.png'
 import {useAuthStore} from "@/stores/authStore";
 import ProfilePopover from '@/components/ProfilePopover.vue'
 import LoginDialog from "@/components/LoginDialog.vue";
@@ -18,11 +18,11 @@ const userName = computed(() => {return authStore.getUserName()})
   <el-popover
     placement="right"
     width="300"
-    trigger="hover">
+    trigger="click">
 
     <template #reference>
       <div class="avatar-container">
-        <el-avatar size="large" :src="DefaultAvatar" />
+        <el-avatar size="large" :src="Zzz" />
         <div class="avatar-side">
           <p class="avatar-username">{{userName}}</p>
         </div>
