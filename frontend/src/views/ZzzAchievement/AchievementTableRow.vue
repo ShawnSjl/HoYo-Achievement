@@ -1,10 +1,10 @@
 <script setup>
 import {computed, ref} from 'vue';
-import { useZzzAchievementStore } from "@/stores/zzzAchievementsStore"
+import { useZzzAchievementStore } from "@/stores/zzzAchievementsStore";
 import ZzzAchievementImg1 from '@/assets/image/zzz-achievement-level-1.png';
 import ZzzAchievementImg2 from '@/assets/image/zzz-achievement-level-2.png';
 import ZzzAchievementImg3 from '@/assets/image/zzz-achievement-level-3.png';
-import ZzzAchievementReward from '@/assets/image/zzz-achievement-reward.png'
+import ZzzAchievementReward from '@/assets/image/zzz-achievement-reward.png';
 
 // 使用Pinia作为本地缓存
 const achievementStore = useZzzAchievementStore()

@@ -1,7 +1,7 @@
 <script setup>
 import {computed, ref} from 'vue';
 import { useZzzAchievementStore } from "@/stores/zzzAchievementsStore";
-import { Check, Close } from '@element-plus/icons-vue'
+import { Check, Close } from '@element-plus/icons-vue';
 import {ElMessageBox} from "element-plus";
 import {showError, showSuccess} from "@/utils/notification";
 

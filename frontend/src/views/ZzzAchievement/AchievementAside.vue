@@ -1,29 +1,15 @@
 <script setup>
 import { computed, watch } from "vue";
-import ZzzStaticTotal from "@/views/ZzzAchievement/AchievementStaticTotal.vue"
+import { zzzGetClassByCategory } from "@/utils/zzzAchievementClass";
+import ZzzStatisticTotal from "@/views/ZzzAchievement/AchievementStatisticTotal.vue";
 
 const props = defineProps({
   category: String,
-  lifeClasses: Array[Option],
-  tacticsClasses: Array[Option],
-  explorationClasses: Array[Option],
 })
 const achievementClass = defineModel()
 
 // get class list by given category
-const getClasses = (category) => {
-  switch (category) {
-    case '生活':
-      return props.lifeClasses;
-    case '战术':
-      return props.tacticsClasses;
-    case '探索':
-      return props.explorationClasses;
-    default:
-      return props.lifeClasses;
-  }
-}
-const classes = computed(() => getClasses(props.category));
+const classes = computed(() => zzzGetClassByCategory(props.category));
 
 // update achievement class when category changed
 watch(classes, (newClasses) => {
@@ -34,7 +20,7 @@ watch(classes, (newClasses) => {
 <template>
   <div class="zzz-left-bar">
     <el-segmented v-model="achievementClass" :options="classes" size="large" direction="vertical"/>
-    <zzz-static-total class="zzz-achievement-static-container" />
+    <zzz-statistic-total class="zzz-achievement-static-container" />
   </div>
 </template>
 

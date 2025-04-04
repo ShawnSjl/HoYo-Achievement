@@ -1,7 +1,7 @@
 <script setup>
-import {computed, ref} from 'vue';
-import { useZzzAchievementStore } from "@/stores/zzzAchievementsStore"
-import { zzzGetClassId } from  "@/utils/zzzClassId"
+import { computed } from 'vue';
+import { useZzzAchievementStore } from "@/stores/zzzAchievementsStore";
+import { zzzGetClassIdByName } from "@/utils/zzzAchievementClass";
 import ZzzAchievementImg1 from '@/assets/image/zzz-achievement-level-1.png';
 import ZzzAchievementImg2 from '@/assets/image/zzz-achievement-level-2.png';
 import ZzzAchievementImg3 from '@/assets/image/zzz-achievement-level-3.png';
@@ -15,8 +15,8 @@ const props = defineProps({
 
 const completePercentage = computed(() => {
   const numberTotal = achievementStore.achievements.filter(achievement => achievement.class_id ===
-      zzzGetClassId(props.achievementClass)).length
-  const numberComplete = achievementStore.achievements.filter(achievement => achievement.class_id === zzzGetClassId(props.achievementClass)
+      zzzGetClassIdByName(props.achievementClass)).length
+  const numberComplete = achievementStore.achievements.filter(achievement => achievement.class_id === zzzGetClassIdByName(props.achievementClass)
       && achievement.complete === 1).length;
 
   return Math.floor((numberComplete / numberTotal) * 1000) / 10;
@@ -24,35 +24,35 @@ const completePercentage = computed(() => {
 
 const getLevel1Number = computed(() => {
   return achievementStore.achievements.filter(achievement => achievement.reward_level === 1
-      && achievement.class_id === zzzGetClassId(props.achievementClass)).length;
+      && achievement.class_id === zzzGetClassIdByName(props.achievementClass)).length;
 })
 
 const getCompleteLevel1Number = computed(() => {
   return achievementStore.achievements.filter(achievement => achievement.reward_level === 1
       && achievement.complete === 1
-      && achievement.class_id === zzzGetClassId(props.achievementClass)
+      && achievement.class_id === zzzGetClassIdByName(props.achievementClass)
   ).length;
 })
 const getLevel2Number = computed(() => {
   return achievementStore.achievements.filter(achievement => achievement.reward_level === 2
-      && achievement.class_id === zzzGetClassId(props.achievementClass)).length;
+      && achievement.class_id === zzzGetClassIdByName(props.achievementClass)).length;
 })
 
 const getCompleteLevel2Number = computed(() => {
   return achievementStore.achievements.filter(achievement => achievement.reward_level === 2
       && achievement.complete === 1
-      && achievement.class_id === zzzGetClassId(props.achievementClass)
+      && achievement.class_id === zzzGetClassIdByName(props.achievementClass)
   ).length;
 })
 const getLevel3Number = computed(() => {
   return achievementStore.achievements.filter(achievement => achievement.reward_level === 3
-      && achievement.class_id === zzzGetClassId(props.achievementClass)).length;
+      && achievement.class_id === zzzGetClassIdByName(props.achievementClass)).length;
 })
 
 const getCompleteLevel3Number = computed(() => {
   return achievementStore.achievements.filter(achievement => achievement.reward_level === 3
       && achievement.complete === 1
-      && achievement.class_id === zzzGetClassId(props.achievementClass)
+      && achievement.class_id === zzzGetClassIdByName(props.achievementClass)
   ).length;
 })
 </script>

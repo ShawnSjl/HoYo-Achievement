@@ -1,12 +1,9 @@
 <script setup>
+import { categories } from "@/utils/zzzAchievementClass";
 import Avatar from "@/components/Avatar.vue";
-import ZzzAchievementSetting from "@/views/ZzzAchievement/AchievementSetting.vue"
+import ZzzSetting from "@/views/ZzzAchievement/AchievementSetting.vue";
 
-const props = defineProps({
-  categories: Array[Option],
-})
 const category = defineModel();
-
 </script>
 
 <template>
@@ -14,11 +11,11 @@ const category = defineModel();
     <div class="zzz-top-bar-left">
       <avatar />
       <div class="zzz-top-bar-left-right">
-        <zzz-achievement-setting />
+        <zzz-setting />
       </div>
     </div>
     <div class="zzz-top-bar-right">
-      <el-segmented v-model="category" :options="props.categories" size="large" block/>
+      <el-segmented v-model="category" :options="categories" size="large" block/>
     </div>
   </div>
 </template>

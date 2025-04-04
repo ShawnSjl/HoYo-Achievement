@@ -1,11 +1,11 @@
 <script setup>
 import {ref, onMounted, onBeforeUnmount, nextTick, watch, computed} from "vue";
-import { useZzzAchievementStore } from "@/stores/zzzAchievementsStore"
+import { useZzzAchievementStore } from "@/stores/zzzAchievementsStore";
 import { useAuthStore } from '@/stores/authStore';
-import { zzzGetClassId } from  "@/utils/zzzClassId"
-import ZzzTable from "@/views/ZzzAchievement/AchievementTable.vue"
-import ZzzTableTopMenu from "@/views/ZzzAchievement/AchievementHeader.vue"
-import ZzzTableLeftMenu from "@/views/ZzzAchievement/AchievementAside.vue"
+import { categories, lifeClasses, zzzGetClassIdByName } from "@/utils/zzzAchievementClass";
+import ZzzTable from "@/views/ZzzAchievement/AchievementTable.vue";
+import ZzzHeader from "@/views/ZzzAchievement/AchievementHeader.vue";
+import ZzzAside from "@/views/ZzzAchievement/AchievementAside.vue";
 
 // 使用Pinia作为本地缓存
 const achievementStore = useZzzAchievementStore()
@@ -15,14 +15,9 @@ const loading = ref(true);
 const errorMessage = ref('');
 
 // 选择大类别
-const category = ref('生活');
-const categories = ['生活', '战术', '探索'];
-
+const category = ref(categories[0]);
 // 选择小类别
-const achievementClass = ref('丽都之旅');
-const lifeClasses = ['丽都之旅', '绳匠业务', '代理人信赖', '法厄同纪事', '代理人秘闻', '独家视界', '际会之时', '绳网热议']
-const tacticsClasses = ['迷失之地', '枯萎之都', '作战技巧', '敌对目标', '战斗成就']
-const explorationClasses = ['空洞探索指南', '零号密钥']
+const achievementClass = ref(lifeClasses[0]);
 
 // 设置表格高度
 const tableHeight = ref(500) // 初始值，防止第一次加载为 0
@@ -37,11 +32,13 @@ const calculateTableHeight = () => {
   tableHeight.value = windowHeight - headerHeight - margin
 }
 
+// 根据类别筛选成就
 const filteredAchievements = computed(() => {
   return achievementStore.achievements.filter(achievement => achievement.class_id ===
-      zzzGetClassId(achievementClass.value))
+      zzzGetClassIdByName(achievementClass.value))
 });
 
+// 根据条件排序
 const sortedAchievements = computed(() => {
   if (achievementStore.isCompleteFirst) {
     return [...filteredAchievements.value].sort((a, b) => {
@@ -100,16 +97,13 @@ onBeforeUnmount(() => {
     <div class="zzz-content">
       <el-container class="zzz-container" style="height: 100vh">
         <el-header class="zzz-container-header">
-          <zzz-table-top-menu v-model="category" :categories=categories />
+          <zzz-header v-model="category" />
         </el-header>
 
         <el-container>
           <el-aside class="zzz-container-aside">
-            <zzz-table-left-menu v-model="achievementClass"
-                                 :category="category"
-                                 :life-classes="lifeClasses"
-                                 :tacticsClasses="tacticsClasses"
-                                 :exploration-classes="explorationClasses" />
+            <zzz-aside v-model="achievementClass"
+                                 :category="category" />
           </el-aside>
           <el-main class="zzz-container-main">
             <p v-if="loading">加载中...</p>
