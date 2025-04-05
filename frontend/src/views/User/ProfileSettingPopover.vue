@@ -1,5 +1,7 @@
 <script setup>
 import {ref, computed} from "vue";
+import PasswordChangeDialog from "@/views/User/ChangePasswordButton.vue";
+import DeleteAccountButton from "@/views/User/DeleteAccountButton.vue";
 
 const isAdmin = computed(() => {
   const role = JSON.parse(localStorage.getItem("user")).role
@@ -9,12 +11,8 @@ const isAdmin = computed(() => {
 
 <template>
   <div class="profile-popover">
-    <el-button round plain type="primary" class="profile-popover-button">
-      修改密码
-    </el-button>
-    <el-button round plain type="danger" class="profile-popover-button">
-      注销账号
-    </el-button>
+    <password-change-dialog/>
+    <delete-account-button/>
   </div>
   <div v-if="isAdmin" class="profile-popover">
     <el-button round plain type="danger" class="profile-popover-button">

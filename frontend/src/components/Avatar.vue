@@ -21,7 +21,7 @@ const handleClick = () => {
 <template>
   <el-popover
     placement="bottom"
-    width="300"
+    width="200"
     trigger="hover">
 
     <template #reference>

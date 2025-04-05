@@ -2,7 +2,7 @@
 import { categories } from "@/utils/zzzAchievementClass";
 import Avatar from "@/components/Avatar.vue";
 import GameSwitch from "@/components/GameSwitch.vue";
-import ZzzSettingDialog from "@/views/ZzzAchievement/ZzzSettingDialog.vue";
+import ZzzSettingButton from "@/views/ZzzAchievement/ZzzSettingButton.vue";
 
 const category = defineModel();
 </script>
@@ -15,7 +15,7 @@ const category = defineModel();
         <game-switch style="margin-left: 30px" />
       </div>
       <div class="zzz-header-left-end">
-        <zzz-setting-dialog />
+        <zzz-setting-button />
       </div>
     </div>
     <div class="zzz-header-right">
