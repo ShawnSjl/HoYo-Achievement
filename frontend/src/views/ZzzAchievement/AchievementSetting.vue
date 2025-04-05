@@ -46,34 +46,36 @@ const openWarn = () => {
     选项
   </el-button>
 
-  <el-dialog
-      v-model="dialogVisible"
-      title="选项"
-      width="500px"
-      :before-close="handleClose"
-  >
-    <div>
-      <p>未完成的成就优先:</p>
-      <el-switch
-          v-model="achievementStore.isCompleteFirst"
-          size="large"
-          inline-prompt
-          :active-icon="Check"
-          :inactive-icon="Close"
-      />
-    </div>
-    <div>
-      <p>特殊文本性别:</p>
-      <el-radio-group v-model="achievementStore.isMale">
-        <el-radio :value="true" size="large">男</el-radio>
-        <el-radio :value="false" size="large">女</el-radio>
-      </el-radio-group>
-    </div>
-    <div>
-      <p>强制更新数据:</p>
-      <el-button round dark color="red" @click="openWarn">更新</el-button>
-    </div>
-  </el-dialog>
+  <div class="zzz-setting-dialog">
+    <el-dialog
+        v-model="dialogVisible"
+        title="选项"
+        width="500px"
+        :before-close="handleClose"
+    >
+      <div>
+        <p>未完成的成就优先:</p>
+        <el-switch
+            v-model="achievementStore.isCompleteFirst"
+            size="large"
+            inline-prompt
+            :active-icon="Check"
+            :inactive-icon="Close"
+        />
+      </div>
+      <div>
+        <p>特殊文本性别:</p>
+        <el-radio-group v-model="achievementStore.isMale">
+          <el-radio :value="true" size="large">男</el-radio>
+          <el-radio :value="false" size="large">女</el-radio>
+        </el-radio-group>
+      </div>
+      <div>
+        <p>强制更新数据:</p>
+        <el-button round dark color="red" @click="openWarn">更新</el-button>
+      </div>
+    </el-dialog>
+  </div>
 </template>
 
 <style scoped>
@@ -84,20 +86,18 @@ const openWarn = () => {
 .el-switch {
   --el-switch-off-color: #636363;
 }
-</style>
 
-<style>
-.el-dialog {
+.zzz-setting-dialog :deep(.el-dialog) {
   --el-dialog-bg-color: #232524 !important;
   --background-color: #232524 !important;
 }
 
-.el-dialog__title {
+.zzz-setting-dialog :deep(.el-dialog__title) {
   color: #d5d5d5 !important;
   font-weight: bold;
 }
 
-.el-dialog__body {
+.zzz-setting-dialog :deep(.el-dialog__body) {
   color: #cacaca !important;
 }
 </style>
