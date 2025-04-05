@@ -4,8 +4,8 @@ import DefaultAvatar from '@/assets/image/zzz.png'
 import {useAuthStore} from "@/stores/authStore";
 import {useZzzAchievementStore} from "@/stores/zzzAchievementsStore";
 import {showError, showInfo} from "@/utils/notification";
-import ZzzAchievementStatistic from "@/views/User/ZzzStatistic.vue"
-import SrAchievementStatistic from "@/views/User/SrStatistic.vue"
+import ZzzStatisticCard from "@/views/User/ZzzStatisticCard.vue"
+import SrStatisticCard from "@/views/User/SrStatisticCard.vue"
 import AnnouncementCard from "@/views/User/AnnouncementCard.vue";
 import EmptyCard from "@/views/User/EmptyCard.vue";
 import ProfileSettingPopover from "@/views/User/ProfileSettingPopover.vue";
@@ -94,10 +94,10 @@ const handleRegister = () => {
       <div class="profile-statistic">
         <el-row :gutter="20">
           <el-col :span="14">
-            <zzz-achievement-statistic class="profile-card" />
+            <zzz-statistic-card class="profile-card" />
           </el-col>
           <el-col :span="10">
-            <sr-achievement-statistic class="profile-card" />
+            <sr-statistic-card class="profile-card" />
           </el-col>
         </el-row>
         <el-row style="margin-top: 20px" :gutter="20">
