@@ -1,6 +1,6 @@
 <script setup>
-import ZzzStatisticClass from "@/views/ZzzAchievement/AchievementStatisticClass.vue";
-import ZzzTableRow from "@/views/ZzzAchievement/AchievementTableRow.vue";
+import ZzzStatisticClassCard from "@/views/ZzzAchievement/ZzzStatisticClassCard.vue";
+import ZzzTableRow from "@/views/ZzzAchievement/ZzzTableRow.vue";
 
 defineProps({
   achievementClass: String,
@@ -10,7 +10,7 @@ defineProps({
 </script>
 
 <template>
-  <zzz-statistic-class :achievement-class="achievementClass" style="margin-bottom: 10px" />
+  <zzz-statistic-class-card :achievement-class="achievementClass" style="margin-bottom: 10px" />
   <el-table :data="sortedAchievements" style="width: 100%" :show-header="false" :max-height="tableHeight">
     <el-table-column>
       <template #default="{ row }">

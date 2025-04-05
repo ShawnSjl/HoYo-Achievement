@@ -3,9 +3,9 @@ import {ref, onMounted, onBeforeUnmount, nextTick, watch, computed} from "vue";
 import { useZzzAchievementStore } from "@/stores/zzzAchievementsStore";
 import { useAuthStore } from '@/stores/authStore';
 import { categories, lifeClasses, zzzGetClassIdByName } from "@/utils/zzzAchievementClass";
-import ZzzTable from "@/views/ZzzAchievement/AchievementTable.vue";
-import ZzzHeader from "@/views/ZzzAchievement/AchievementHeader.vue";
-import ZzzAside from "@/views/ZzzAchievement/AchievementAside.vue";
+import ZzzTable from "@/views/ZzzAchievement/ZzzTable.vue";
+import ZzzHeader from "@/views/ZzzAchievement/ZzzHeader.vue";
+import ZzzAside from "@/views/ZzzAchievement/ZzzAside.vue";
 
 // 使用Pinia作为本地缓存
 const achievementStore = useZzzAchievementStore()

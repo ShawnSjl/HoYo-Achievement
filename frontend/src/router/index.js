@@ -1,10 +1,10 @@
 import { createRouter, createWebHistory } from "vue-router";
-import ZzzAchievement from "@/views/ZzzAchievement/AchievementMain.vue";
+import ZzzView from "@/views/ZzzAchievement/ZzzView.vue";
 import UserProfile from "@/views/User/Profile.vue"
 
 const routes = [
-    { path: "/", component: ZzzAchievement },
-    { path: "/zzz", component: ZzzAchievement },
+    { path: "/", component: ZzzView },
+    { path: "/zzz", component: ZzzView },
     { path: "/space", component: UserProfile },
 ];
 

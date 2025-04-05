@@ -1,7 +1,7 @@
 <script setup>
 import { computed, watch } from "vue";
 import { zzzGetClassByCategory } from "@/utils/zzzAchievementClass";
-import ZzzStatisticTotal from "@/views/ZzzAchievement/AchievementStatisticTotal.vue";
+import ZzzStatisticTotalCard from "@/views/ZzzAchievement/ZzzStatisticTotalCard.vue";
 
 const props = defineProps({
   category: String,
@@ -20,7 +20,7 @@ watch(classes, (newClasses) => {
 <template>
   <div class="zzz-aside">
     <el-segmented v-model="achievementClass" :options="classes" size="large" direction="vertical"/>
-    <zzz-statistic-total class="zzz-container-statistic-total" />
+    <zzz-statistic-total-card class="zzz-container-statistic-total" />
   </div>
 </template>
 
