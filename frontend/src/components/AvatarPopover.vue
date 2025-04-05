@@ -15,23 +15,23 @@ const handleRegister = () => {
 </script>
 
 <template>
-  <div v-if="!isLoggedIn" class="profile-popover">
-    <el-button round plain type="primary" @click="loginDialogVisible = true" class="profile-popover-button">
+  <div v-if="!isLoggedIn" class="avatar-popover">
+    <el-button round plain type="primary" @click="loginDialogVisible = true" class="avatar-popover-button">
       登录
     </el-button>
-    <el-button round plain type="primary" @click="handleRegister" class="profile-popover-button">
+    <el-button round plain type="primary" @click="handleRegister" class="avatar-popover-button">
       注册
     </el-button>
   </div>
-  <div v-else class="profile-popover">
-    <el-button round plain type="danger" @click="authStore.logoutUser()" class="profile-popover-button">
+  <div v-else class="avatar-popover">
+    <el-button round plain type="danger" @click="authStore.logoutUser()" class="avatar-popover-button">
       退出登录
     </el-button>
   </div>
 </template>
 
 <style scoped>
-.profile-popover {
+.avatar-popover {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -39,7 +39,7 @@ const handleRegister = () => {
   align-content: center;
 }
 
-.profile-popover-button {
+.avatar-popover-button {
   flex: 1;
   max-width: 100px;
   margin-top: 10px;

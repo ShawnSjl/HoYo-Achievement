@@ -8,6 +8,7 @@ import ZzzAchievementStatistic from "@/views/User/ZzzStatistic.vue"
 import SrAchievementStatistic from "@/views/User/SrStatistic.vue"
 import AnnouncementCard from "@/views/User/AnnouncementCard.vue";
 import EmptyCard from "@/views/User/EmptyCard.vue";
+import ProfileSettingPopover from "@/views/User/ProfileSettingPopover.vue";
 import LoginDialog from "@/components/LoginDialog.vue";
 
 // 使用Pinia作为本地缓存
@@ -57,9 +58,22 @@ const handleRegister = () => {
 
         <div class="profile-header-end">
           <div v-if="isLoggedIn">
-            <el-button round plain type="primary" class="profile-button">
-              设置
-            </el-button>
+            <el-popover
+              placement="bottom"
+              width="200"
+              trigger="click">
+
+              <template #reference>
+                <el-button round plain type="primary" class="profile-button">
+                  设置
+                </el-button>
+              </template>
+
+              <template #default>
+                <profile-setting-popover />
+              </template>
+            </el-popover>
+
             <el-button round plain type="danger" class="profile-button" @click="authStore.logoutUser()">
               退出登录
             </el-button>

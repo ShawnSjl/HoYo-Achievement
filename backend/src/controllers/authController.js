@@ -18,7 +18,7 @@ exports.login = (req, res) => {
             process.env.JWT_SECRET,
             { expiresIn: process.env.JWT_EXPIRE_IN },
         );
-        res.json({ token: token, user: { id: user.user_id, username: user.username } });
+        res.json({ token: token, user: { id: user.user_id, username: user.username, role: user.role } });
     });
 };
 

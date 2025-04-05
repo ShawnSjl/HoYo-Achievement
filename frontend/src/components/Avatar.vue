@@ -3,7 +3,7 @@ import {computed, ref} from 'vue';
 import router from "@/router";
 import Zzz from '@/assets/image/zzz.png'
 import {useAuthStore} from "@/stores/authStore";
-import ProfilePopover from '@/components/ProfilePopover.vue'
+import AvatarPopover from '@/components/AvatarPopover.vue'
 import LoginDialog from "@/components/LoginDialog.vue";
 
 const authStore = useAuthStore();
@@ -34,7 +34,7 @@ const handleClick = () => {
     </template>
 
     <template #default>
-      <profile-popover
+      <avatar-popover
           v-model:loginDialogVisible=loginDialogVisible
       />
     </template>
