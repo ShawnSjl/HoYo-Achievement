@@ -4,12 +4,8 @@ import router from "@/router";
 import Zzz from '@/assets/image/zzz.png'
 import {useAuthStore} from "@/stores/authStore";
 import AvatarPopover from '@/components/AvatarPopover.vue'
-import LoginDialog from "@/components/LoginDialog.vue";
 
 const authStore = useAuthStore();
-
-const loginDialogVisible = ref(false);
-const registerDialogVisible = ref(false);
 
 const userName = computed(() => {return authStore.getUserName()})
 
@@ -34,13 +30,9 @@ const handleClick = () => {
     </template>
 
     <template #default>
-      <avatar-popover
-          v-model:loginDialogVisible=loginDialogVisible
-      />
+      <avatar-popover />
     </template>
   </el-popover>
-
-  <login-dialog v-model="loginDialogVisible" @close="loginDialogVisible = false" />
 </template>
 
 <style scoped>

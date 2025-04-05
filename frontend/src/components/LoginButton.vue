@@ -6,7 +6,7 @@ import { showWarn, showSuccess, showError} from "@/utils/notification";
 // 使用Pinia作为本地缓存
 const authStore = useAuthStore();
 
-const dialogVisible =defineModel();
+const loginDialogVisible = ref(false);
 
 const loginForm = ref({
   username: '',
@@ -33,14 +33,18 @@ const handleLogin = async () => {
 const handleClose = () => {
   loginForm.value.username = ''
   loginForm.value.password = ''
-  dialogVisible.value = false;
+  loginDialogVisible.value = false;
 }
 </script>
 
 <template>
+  <el-button round plain type="primary" @click="loginDialogVisible = true">
+    登录
+  </el-button>
+
   <div class="login-dialog">
     <el-dialog
-        v-model="dialogVisible"
+        v-model="loginDialogVisible"
         title="登录"
         :before-close="handleClose"
         class="login-dialog"
@@ -63,7 +67,7 @@ const handleClose = () => {
 
       <template #footer>
         <el-button @click="handleClose">取消</el-button>
-        <el-button type="primary" :disabled="!allFilled" @click="handleLogin">登录</el-button>
+        <el-button type="primary" :disabled="!allFilled" @click="handleLogin" style="margin-left: 10px">登录</el-button>
       </template>
     </el-dialog>
   </div>

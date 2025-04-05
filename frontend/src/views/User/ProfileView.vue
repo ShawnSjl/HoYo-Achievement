@@ -8,8 +8,10 @@ import ZzzStatisticCard from "@/views/User/ZzzStatisticCard.vue"
 import SrStatisticCard from "@/views/User/SrStatisticCard.vue"
 import AnnouncementCard from "@/views/User/AnnouncementCard.vue";
 import EmptyCard from "@/views/User/EmptyCard.vue";
-import ProfileSettingPopover from "@/views/User/ProfileSettingPopover.vue";
-import LoginDialog from "@/components/LoginDialog.vue";
+import ProfileSettingButton from "@/views/User/ProfileSettingButton.vue";
+import LoginButton from "@/components/LoginButton.vue";
+import LogoutButton from "@/components/LogoutButton.vue";
+import RegisterButton from "@/components/RegisterButton.vue";
 
 // 使用Pinia作为本地缓存
 const authStore = useAuthStore();
@@ -57,34 +59,13 @@ const handleRegister = () => {
         </div>
 
         <div class="profile-header-end">
-          <div v-if="isLoggedIn">
-            <el-popover
-              placement="bottom"
-              width="200"
-              trigger="click">
-
-              <template #reference>
-                <el-button round plain type="primary" class="profile-button">
-                  设置
-                </el-button>
-              </template>
-
-              <template #default>
-                <profile-setting-popover />
-              </template>
-            </el-popover>
-
-            <el-button round plain type="danger" class="profile-button" @click="authStore.logoutUser()">
-              退出登录
-            </el-button>
+          <div v-if="isLoggedIn" class="profile-header-end">
+            <logout-button style="margin-left: 20px" />
+            <profile-setting-button />
           </div>
-          <div v-else>
-            <el-button round plain type="primary" class="profile-button" @click="loginDialogVisible = true">
-              登录
-            </el-button>
-            <el-button round plain type="primary" class="profile-button" @click="handleRegister">
-              注册
-            </el-button>
+          <div v-else class="profile-header-end">
+            <register-button style="margin-left: 20px" />
+            <login-button/>
           </div>
         </div>
       </div>
@@ -111,8 +92,6 @@ const handleRegister = () => {
       </div>
     </div>
   </div>
-
-  <login-dialog v-model="loginDialogVisible" @close="loginDialogVisible = false" />
 </template>
 
 <style scoped>
@@ -154,10 +133,6 @@ html, body {
   display: flex;
   flex-direction: row-reverse;
   align-items: center;
-}
-
-.profile-button {
-  margin-left: 20px;
 }
 
 .profile-info {
