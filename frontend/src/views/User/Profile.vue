@@ -1,14 +1,44 @@
 <script setup>
-import {ref, computed} from "vue";
+import {ref, computed, onMounted, watch} from "vue";
 import DefaultAvatar from '@/assets/image/zzz.png'
 import {useAuthStore} from "@/stores/authStore";
 import ZzzAchievementStatistic from "@/views/User/ZzzStatistic.vue"
 import SrAchievementStatistic from "@/views/User/SrStatistic.vue"
+import {useZzzAchievementStore} from "@/stores/zzzAchievementsStore";
+import {showError, showInfo} from "@/utils/notification";
+import LoginDialog from "@/components/LoginDialog.vue";
 
+// 使用Pinia作为本地缓存
 const authStore = useAuthStore();
+const zzzAchievementStore = useZzzAchievementStore()
 
+const loginDialogVisible = ref(false);
+
+const isLoggedIn = computed(() => {return authStore.isAuthenticated()})
+
+// 同步数据
+const fetchData = async () => {
+  try {
+    authStore.loadUser();
+    await zzzAchievementStore.updateAchievements();
+  } catch (e) {
+    showError('Load data failed');
+  }
+};
+onMounted(() => {
+  fetchData();
+});
+
+// 获取用户名，并处理用户登录登出
 const userName = computed(() => {return authStore.getUserName()})
+watch(userName, async (newUserName) => {
+  console.log(newUserName);
+  await fetchData();
+});
 
+const handleRegister = () => {
+  showInfo('游客注册功能已关闭', '请联系网站管理员添加用户')
+}
 </script>
 
 <template>
@@ -24,12 +54,22 @@ const userName = computed(() => {return authStore.getUserName()})
         </div>
 
         <div class="profile-header-end">
-          <el-button round plain type="danger" class="profile-button">
-            退出登录
-          </el-button>
-          <el-button round plain type="primary" class="profile-button">
-            设置
-          </el-button>
+          <div v-if="isLoggedIn">
+            <el-button round plain type="primary" class="profile-button">
+              设置
+            </el-button>
+            <el-button round plain type="danger" class="profile-button" @click="authStore.logoutUser()">
+              退出登录
+            </el-button>
+          </div>
+          <div v-else>
+            <el-button round plain type="primary" class="profile-button" @click="loginDialogVisible = true">
+              登录
+            </el-button>
+            <el-button round plain type="primary" class="profile-button" @click="handleRegister">
+              注册
+            </el-button>
+          </div>
         </div>
       </div>
 
@@ -52,6 +92,8 @@ const userName = computed(() => {return authStore.getUserName()})
       </div>
     </div>
   </div>
+
+  <login-dialog v-model="loginDialogVisible" @close="loginDialogVisible = false" />
 </template>
 
 <style scoped>

@@ -1,5 +1,6 @@
 <script setup>
 import {computed, ref} from 'vue';
+import router from "@/router";
 import Zzz from '@/assets/image/zzz.png'
 import {useAuthStore} from "@/stores/authStore";
 import ProfilePopover from '@/components/ProfilePopover.vue'
@@ -11,16 +12,20 @@ const loginDialogVisible = ref(false);
 const registerDialogVisible = ref(false);
 
 const userName = computed(() => {return authStore.getUserName()})
+
+const handleClick = () => {
+  router.push({ path: '/space' });
+}
 </script>
 
 <template>
   <el-popover
-    placement="right"
+    placement="bottom"
     width="300"
-    trigger="click">
+    trigger="hover">
 
     <template #reference>
-      <div class="avatar-container">
+      <div class="avatar-container"  @click="handleClick">
         <el-avatar size="large" :src="Zzz" />
         <div class="avatar-side">
           <p class="avatar-username">{{userName}}</p>
@@ -31,7 +36,6 @@ const userName = computed(() => {return authStore.getUserName()})
     <template #default>
       <profile-popover
           v-model:loginDialogVisible=loginDialogVisible
-          v-model:registerDialogVisible=registerDialogVisible
       />
     </template>
   </el-popover>
