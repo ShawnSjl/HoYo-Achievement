@@ -7,6 +7,7 @@ const router = express.Router();
 router.post("/login", authController.login);
 router.post("/register", authenticateToken, requireAdmin, authController.register);
 router.get("/get-all", authenticateToken, requireAdmin, authController.getAllUsers);
+router.put("/change-password", authenticateToken, authController.changePassword);
 router.delete("/delete", authenticateToken, requireAdmin, authController.deleteUser);
 
 module.exports = router;
