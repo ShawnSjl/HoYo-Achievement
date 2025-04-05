@@ -2,10 +2,12 @@
 import {ref, computed, onMounted, watch} from "vue";
 import DefaultAvatar from '@/assets/image/zzz.png'
 import {useAuthStore} from "@/stores/authStore";
-import ZzzAchievementStatistic from "@/views/User/ZzzStatistic.vue"
-import SrAchievementStatistic from "@/views/User/SrStatistic.vue"
 import {useZzzAchievementStore} from "@/stores/zzzAchievementsStore";
 import {showError, showInfo} from "@/utils/notification";
+import ZzzAchievementStatistic from "@/views/User/ZzzStatistic.vue"
+import SrAchievementStatistic from "@/views/User/SrStatistic.vue"
+import AnnouncementCard from "@/views/User/AnnouncementCard.vue";
+import EmptyCard from "@/views/User/EmptyCard.vue";
 import LoginDialog from "@/components/LoginDialog.vue";
 
 // 使用Pinia作为本地缓存
@@ -78,15 +80,18 @@ const handleRegister = () => {
       <div class="profile-statistic">
         <el-row :gutter="20">
           <el-col :span="14">
-            <zzz-achievement-statistic class="profile-statistic-card" />
+            <zzz-achievement-statistic class="profile-card" />
           </el-col>
           <el-col :span="10">
-            <sr-achievement-statistic class="profile-statistic-card" />
+            <sr-achievement-statistic class="profile-card" />
           </el-col>
         </el-row>
-        <el-row>
-          <el-col :span="24">
-            <el-empty :image-size="200" description="敬请期待"/>
+        <el-row style="margin-top: 20px" :gutter="20">
+          <el-col :span="10">
+            <announcement-card class="profile-card"/>
+          </el-col>
+          <el-col :span="14">
+            <empty-card class="profile-card" />
           </el-col>
         </el-row>
       </div>
@@ -151,7 +156,7 @@ html, body {
   justify-self: center;
 }
 
-.profile-statistic-card {
+.profile-card {
   max-height: 360px;
 }
 </style>
