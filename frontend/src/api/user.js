@@ -14,6 +14,10 @@ export const getAllUsers = () => {
     return api.get("/api/auth/get-all");
 }
 
+export const changePassword = (credentials) => {
+    return api.put("/api/auth/change-password", credentials);
+}
+
 export const deleteUser = (id) => {
     return api.delete("/api/auth/delete?id=${id}");
 }
