@@ -1,5 +1,10 @@
 <script setup>
 import { ref } from 'vue'
+import { useAuthStore } from '@/stores/authStore';
+import {showError} from "@/utils/notification";
+
+// 使用Pinia作为本地缓存
+const authStore = useAuthStore();
 
 const outerVisible = ref(false)
 const innerVisible = ref(false)
@@ -7,6 +12,15 @@ const innerVisible = ref(false)
 const handleClose = () => {
   innerVisible.value = false
   outerVisible.value = false
+}
+
+const handleDelete = async() => {
+  try {
+    handleClose()
+    await authStore.deleteUser()
+  } catch (error) {
+    showError('账户删除失败', error)
+  }
 }
 </script>
 
@@ -29,7 +43,7 @@ const handleClose = () => {
       <template #footer>
         <div class="dialog-footer">
           <el-button @click="handleClose">取消</el-button>
-          <el-button type="danger">
+          <el-button type="danger" @click="handleDelete">
             再次确认
           </el-button>
         </div>

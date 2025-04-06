@@ -8,6 +8,6 @@ router.post("/login", authController.login);
 router.post("/register", authenticateToken, requireAdmin, authController.register);
 router.get("/get-all", authenticateToken, requireAdmin, authController.getAllUsers);
 router.put("/change-password", authenticateToken, authController.changePassword);
-router.delete("/delete", authenticateToken, requireAdmin, authController.deleteUser);
+router.delete("/delete", authenticateToken, authController.deleteUser);
 
 module.exports = router;

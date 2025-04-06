@@ -96,6 +96,9 @@ exports.deleteUser = async (req, res) => {
             return res.status(401).json({ error: 'Invalid User ID' });
         }
 
+        const token_id = req.user.userId;
+        if (token_id !== user_id) return res.status(401).json({ error: "Invalid User ID" });
+
         await deleteUserById(user_id);
         res.status(200).json({message: "User deleted successfully"});
     } catch (err) {

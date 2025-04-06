@@ -18,8 +18,10 @@ export const changePassword = (credentials) => {
     return api.put("/api/auth/change-password", credentials);
 }
 
-export const deleteUser = (id) => {
-    return api.delete("/api/auth/delete?id=${id}");
+export const deleteUserById = (id) => {
+    return api.delete("/api/auth/delete", {
+        params: { id }
+    });
 }
 
 // User logout

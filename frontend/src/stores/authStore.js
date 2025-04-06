@@ -1,6 +1,6 @@
 import { defineStore } from "pinia";
 import { ref } from 'vue';
-import {login, register } from "@/api/user";
+import {deleteUserById, login, register} from "@/api/user";
 import { isTokenExpired } from "@/utils/jwt";
 
 export const useAuthStore = defineStore(
@@ -41,6 +41,17 @@ export const useAuthStore = defineStore(
             }
         }
 
+        async function deleteUser() {
+            try {
+                const current_id = JSON.parse(localStorage.getItem('user')).id
+                await deleteUserById(current_id);
+                logoutUser()
+            } catch (error) {
+                console.error('Delete error:', error);
+                throw error;
+            }
+        }
+
         function logoutUser() {
             token.value = null;
             user.value = null;
@@ -65,7 +76,7 @@ export const useAuthStore = defineStore(
                 logoutUser();
             }
         }
-        return { token, user, loginUser, registerUser, logoutUser, getUserName, isAuthenticated, loadUser };
+        return { token, user, loginUser, registerUser, deleteUser, logoutUser, getUserName, isAuthenticated, loadUser };
 
     },
     {
