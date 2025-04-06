@@ -1,5 +1,5 @@
 <script setup>
-import {computed, ref} from 'vue';
+import {computed, reactive, ref} from 'vue';
 import { useAuthStore } from '@/stores/authStore';
 import { showWarn, showSuccess, showError} from "@/utils/notification";
 
@@ -8,32 +8,47 @@ const authStore = useAuthStore();
 
 const loginDialogVisible = ref(false);
 
-const loginForm = ref({
+const formRef = ref(null);
+
+const loginForm = reactive({
   username: '',
   password: ''
 });
 
-const allFilled = computed( () => {
-  return loginForm.value.username !== '' && loginForm.value.password !== '';
-})
-
-const handleLogin = async () => {
-  try {
-    await authStore.loginUser({
-      username: loginForm.value.username,
-      password: loginForm.value.password,
-    })
-    showSuccess('登录成功');
-    handleClose();
-  } catch (error) {
-    showError('登录失败', error);
-  }
+// 表单规则
+const rules = {
+  username: [
+    { required: true, message: '请输入用户名', trigger: ['blur', 'change'] },
+  ],
+  password: [
+    { required: true, message: '请输入密码', trigger: ['blur', 'change'] },
+  ],
 }
 
 const handleClose = () => {
-  loginForm.value.username = ''
-  loginForm.value.password = ''
+  formRef.value.resetFields()
   loginDialogVisible.value = false;
+}
+
+const submitForm = () => {
+  formRef.value.validate((valid) => {
+    if (valid) {
+      handleLogin()
+    } else {
+      showError('请填写账号密码')
+    }
+  })
+}
+const handleLogin = async () => {
+  try {
+    await authStore.loginUser({
+      username: loginForm.username,
+      password: loginForm.password,
+    })
+    showSuccess('登录成功');
+  } catch (error) {
+    showError('登录失败', error);
+  }
 }
 </script>
 
@@ -51,9 +66,9 @@ const handleClose = () => {
     >
       <div>
         <el-form
-          ref="loginFormRef"
+          ref="formRef"
           :model="loginForm"
-          status-icon
+          :rules="rules"
           label-width="auto"
         >
           <el-form-item label="用户名" prop="username">
@@ -67,7 +82,7 @@ const handleClose = () => {
 
       <template #footer>
         <el-button @click="handleClose">取消</el-button>
-        <el-button type="primary" :disabled="!allFilled" @click="handleLogin" style="margin-left: 10px">登录</el-button>
+        <el-button type="primary" @click="submitForm" style="margin-left: 10px">登录</el-button>
       </template>
     </el-dialog>
   </div>
