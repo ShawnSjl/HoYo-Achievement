@@ -23,9 +23,3 @@ export const deleteUserById = (id) => {
         params: { id }
     });
 }
-
-// User logout
-export const logout = () => {
-    localStorage.removeItem("jwt_token");
-    window.location.href = "/";
-}

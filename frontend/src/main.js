@@ -12,6 +12,14 @@ const app = createApp(App);
 const pinia = createPinia();
 pinia.use(piniaPluginPersistedstate);
 
+router.beforeEach((to, from, next) => {
+    const defaultTitle = '米哈游成就'
+    document.title = to.meta.title
+        ? to.meta.title
+        : defaultTitle
+    next()
+})
+
 // 使用 Vue Router 和 Pinia
 app.use(router);
 app.use(ElementPlus);
