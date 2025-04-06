@@ -3,8 +3,7 @@
   "version": "0.0.1",
   "main": "main.js",
   "scripts": {
-    "frontend": "npm run",
-    "dev": "vite",
+    "dev": "vite --mode dev",
     "build": "vite build",
     "preview": "vite preview"
   },

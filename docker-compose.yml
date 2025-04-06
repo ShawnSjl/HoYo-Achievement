@@ -20,7 +20,7 @@ services:
     container_name: ${PROJECT_NAME}_backend
     restart: always
     ports:
-      - "${BACKEND_PORT}:3000"
+      - "${VITE_BACKEND_PORT}:3000"
     env_file:
       - .env
     depends_on:
