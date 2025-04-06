@@ -2,6 +2,7 @@
 import {ref, computed} from "vue";
 import PasswordChangeButton from "@/views/User/ChangePasswordButton.vue";
 import DeleteAccountButton from "@/views/User/DeleteAccountButton.vue";
+import ManageUserButton from "@/views/User/ManageUserButton.vue";
 
 const isAdmin = computed(() => {
   const role = JSON.parse(localStorage.getItem("user")).role
@@ -24,12 +25,12 @@ const isAdmin = computed(() => {
     <template #default>
       <div class="profile-popover">
         <password-change-button/>
-        <delete-account-button/>
       </div>
       <div v-if="isAdmin" class="profile-popover">
-        <el-button round plain type="danger" class="profile-popover-button">
-          管理用户列表
-        </el-button>
+        <manage-user-button/>
+      </div>
+      <div v-else class="profile-popover">
+        <delete-account-button/>
       </div>
     </template>
   </el-popover>
@@ -42,12 +43,6 @@ const isAdmin = computed(() => {
   justify-content: space-around;
   align-items: center;
   align-content: center;
-}
-
-.profile-popover-button {
-  flex: 1;
-  max-width: 100px;
-  margin-top: 10px;
 }
 
 ::v-deep(.el-button+.el-button) {

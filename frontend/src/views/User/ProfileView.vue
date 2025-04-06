@@ -4,20 +4,15 @@ import DefaultAvatar from '@/assets/image/zzz.png'
 import {useAuthStore} from "@/stores/authStore";
 import {useZzzAchievementStore} from "@/stores/zzzAchievementsStore";
 import {showError, showInfo} from "@/utils/notification";
-import ZzzStatisticCard from "@/views/User/ZzzStatisticCard.vue"
-import SrStatisticCard from "@/views/User/SrStatisticCard.vue"
-import AnnouncementCard from "@/views/User/AnnouncementCard.vue";
-import EmptyCard from "@/views/User/EmptyCard.vue";
 import ProfileSettingButton from "@/views/User/ProfileSettingButton.vue";
 import LoginButton from "@/components/LoginButton.vue";
 import LogoutButton from "@/components/LogoutButton.vue";
 import RegisterButton from "@/components/RegisterButton.vue";
+import ProfileCardsLayout from "@/views/User/ProfileCardsLayout.vue";
 
 // 使用Pinia作为本地缓存
 const authStore = useAuthStore();
 const zzzAchievementStore = useZzzAchievementStore()
-
-const loginDialogVisible = ref(false);
 
 const isLoggedIn = computed(() => {return authStore.isAuthenticated()})
 
@@ -40,10 +35,6 @@ watch(userName, async (newUserName) => {
   console.log(newUserName);
   await fetchData();
 });
-
-const handleRegister = () => {
-  showInfo('游客注册功能已关闭', '请联系网站管理员添加用户')
-}
 </script>
 
 <template>
@@ -73,22 +64,7 @@ const handleRegister = () => {
       <el-divider></el-divider>
 
       <div class="profile-statistic">
-        <el-row :gutter="20">
-          <el-col :span="14">
-            <zzz-statistic-card class="profile-card" />
-          </el-col>
-          <el-col :span="10">
-            <sr-statistic-card class="profile-card" />
-          </el-col>
-        </el-row>
-        <el-row style="margin-top: 20px" :gutter="20">
-          <el-col :span="10">
-            <announcement-card class="profile-card"/>
-          </el-col>
-          <el-col :span="14">
-            <empty-card class="profile-card" />
-          </el-col>
-        </el-row>
+        <profile-cards-layout style="margin-left: 15px" />
       </div>
     </div>
   </div>
@@ -105,6 +81,9 @@ html, body {
   background-color: #f6f6f6;
   height: 100%;
   width: 100%;
+  z-index: -1;
+  inset: 0;
+  position: fixed;
 }
 
 .profile-content {
@@ -141,11 +120,7 @@ html, body {
 }
 
 .profile-statistic {
-  width: 80%;
+  width: 85%;
   justify-self: center;
-}
-
-.profile-card {
-  max-height: 360px;
 }
 </style>

@@ -128,6 +128,9 @@ onBeforeUnmount(() => {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
+  z-index: -1;
+  inset: 0;
+  position: fixed;
 }
 
 .zzz-content {
