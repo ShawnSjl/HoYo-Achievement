@@ -1,8 +1,8 @@
-const db = require('../config/db');
+const { getDB } = require('../config/db');
 
 // Get all ZZZ achievement
 async function getAll () {
-    const [rows] = await db.query('SELECT\n' +
+    const [rows] = await getDB().query('SELECT\n' +
         '    za.achievement_id,\n' +
         '    za.class_id,\n' +
         '    za.name,\n' +
@@ -18,7 +18,7 @@ async function getAll () {
 
 // Get all ZZZ achievement status by user id
 async function getAllByUserId (user_id) {
-    const [rows] = await db.query('SELECT\n' +
+    const [rows] = await getDB().query('SELECT\n' +
         '    za.achievement_id,\n' +
         '    za.class_id,\n' +
         '    za.name,\n' +
@@ -37,7 +37,7 @@ async function getAllByUserId (user_id) {
 
 // Update ZZZ achievement by user id, achievement id, and complete status
 async function updateById (user_id, achievement_id, complete) {
-    await db.query('INSERT INTO zzz_user_achievement (user_id, achievement_id, complete)\n' +
+    await getDB().query('INSERT INTO zzz_user_achievement (user_id, achievement_id, complete)\n' +
         'VALUES (?, ?, ?)\n' +
         '    AS new\n' +
         'ON DUPLICATE KEY UPDATE\n' +

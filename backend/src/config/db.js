@@ -1,14 +1,22 @@
-require('dotenv').config();
-require('dotenv').config({ path: '.env.local', override: true });
-
 const mysql = require('mysql2/promise');
 
-// 配置 MySQL 连接
-const db = mysql.createPool({
-    host: process.env.DB_HOST,
-    user: process.env.DB_USER,
-    password: process.env.DB_PASSWORD,
-    database: process.env.DB_NAME
-});
+let pool;
 
-module.exports = db;
+function initDB() {
+    pool = mysql.createPool({
+        host: process.env.MYSQL_HOST,
+        user: process.env.MYSQL_USER,
+        password: process.env.MYSQL_PASSWORD,
+        database: process.env.MYSQL_DATABASE,
+    });
+    return pool;
+}
+
+function getDB() {
+    if (!pool) {
+        return initDB();
+    }
+    return pool;
+}
+
+module.exports = { initDB, getDB };
