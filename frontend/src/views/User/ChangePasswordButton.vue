@@ -23,7 +23,7 @@ const pwdValidator = (rule, value, callback) => {
     callback()
   }
 }
-const comfirmValidator = (rule, value, callback) => {
+const confirmValidator = (rule, value, callback) => {
   const regex = /^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,24}$/
   if (!regex.test(value)) {
     callback(new Error('密码需包含大小写字母以及数字'))
@@ -46,7 +46,7 @@ const rules = {
   confirmPassword: [
     { required: true, message: '请确认新密码', trigger: ['blur', 'change'] },
     { min: 8, max: 24, message: '长度在8到24个字符', trigger: ['blur', 'change'] },
-    { validator: comfirmValidator, trigger: ['blur', 'change'] },
+    { validator: confirmValidator, trigger: ['blur', 'change'] },
   ],
 }
 

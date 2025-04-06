@@ -33,7 +33,7 @@ exports.login = async (req, res) => {
 exports.getAllUsers = async (req, res) => {
     try {
         const users = await getAllUsers();
-        if (!users) return res.status(401).json({ error: "No users found" });
+        if (!users) return res.status(500).json({ error: "No users found" });
 
         res.json({ users: users });
     } catch (err) {
@@ -50,7 +50,7 @@ exports.register = async (req, res) => {
 
         // Check if username already exist
         const user = await getUserByName(username);
-        if (user) return res.status(401).json({ error: "Invalid User name or password" });
+        if (user) return res.status(403).json({ error: "Invalid User name or password" });
 
         await createUser(username, password);
         res.json({message: "User registered successfully", username: username});
@@ -93,7 +93,7 @@ exports.deleteUser = async (req, res) => {
         // Get user id
         const user_id = Number(idStr);
         if (!Number.isInteger(user_id) || user_id <= 0) {
-            return res.status(401).json({ error: 'Invalid User ID' });
+            return res.status(400).json({ error: 'Invalid User ID' });
         }
 
         const token_id = req.user.userId;

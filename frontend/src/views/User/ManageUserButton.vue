@@ -1,10 +1,16 @@
 <script setup>
-import {computed, ref} from "vue";
+import {computed, ref, watch} from "vue";
 import {showError} from "@/utils/notification";
 import {getAllUsers} from "@/api/user";
+import AddUserButton from "@/views/User/AddUserButton.vue";
+import {useAuthStore} from "@/stores/authStore";
+
+// 使用Pinia作为本地缓存
+const authStore = useAuthStore();
 
 const manageDialogVisible = ref(false);
 const allUsers = ref([]);
+const needToUpdate = ref(false);
 
 const formatTime = (time) => {
   return new Date(time).toLocaleString('zh-CN', {
@@ -19,8 +25,17 @@ const fetchAllUsers = async () => {
     allUsers.value = response.users;
   } catch (e) {
     showError('获取用户列表失败', e);
+    authStore.loadUser()
+  } finally {
+    needToUpdate.value = false;
   }
 }
+
+watch(needToUpdate, () => {
+  if (needToUpdate.value) {
+    fetchAllUsers();
+  }
+})
 </script>
 
 <template>
@@ -35,7 +50,7 @@ const fetchAllUsers = async () => {
       @close="manageDialogVisible = false"
       class="manage-dialog">
       <div>
-        <el-table :data="allUsers" max-height="700">
+        <el-table :data="allUsers" max-height="400" style="margin-bottom: 10px">
           <el-table-column label="ID" prop="user_id" width="50" />
           <el-table-column label="用户名" prop="username" width="300" />
           <el-table-column label="权限" prop="role" width="150" />
@@ -45,6 +60,7 @@ const fetchAllUsers = async () => {
             </template>
           </el-table-column>
         </el-table>
+        <add-user-button v-model="needToUpdate"/>
       </div>
     </el-dialog>
 

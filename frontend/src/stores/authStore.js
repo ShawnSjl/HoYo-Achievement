@@ -27,20 +27,6 @@ export const useAuthStore = defineStore(
             }
         }
 
-        async function registerUser(credentials) {
-            try {
-                const response = await register(credentials);
-                if (response.user) {
-                    await loginUser(credentials);
-                } else {
-                    throw new Error('Register failed.');
-                }
-            } catch (error) {
-                console.error('Register error:', error);
-                throw error;
-            }
-        }
-
         async function deleteUser() {
             try {
                 const current_id = JSON.parse(localStorage.getItem('user')).id
@@ -76,7 +62,7 @@ export const useAuthStore = defineStore(
                 logoutUser();
             }
         }
-        return { token, user, loginUser, registerUser, deleteUser, logoutUser, getUserName, isAuthenticated, loadUser };
+        return { token, user, loginUser, deleteUser, logoutUser, getUserName, isAuthenticated, loadUser };
 
     },
     {
