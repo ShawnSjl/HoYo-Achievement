@@ -4,11 +4,11 @@ import os
 # 配置数据库连接（可从环境变量读取）
 DB_HOST = os.getenv("MYSQL_HOST", "localhost")
 DB_PORT = int(os.getenv("MYSQL_PORT", 3306))
-DB_USER = os.getenv("MYSQL_USER", "root")
-DB_PASSWORD = os.getenv("MYSQL_PASSWORD", "123456")
+DB_USER = os.getenv("MYSQL_ROOT", "root")
+DB_PASSWORD = os.getenv("MYSQL_ROOT_PASSWORD", "123456")
 DB_NAME = os.getenv("MYSQL_DATABASE", "HoYo_Achievement")
 
-SQL_DIR = "../db/data"
+SQL_DIR = "/app/data"
 
 # 连接数据库
 conn = mysql.connector.connect(
@@ -47,7 +47,14 @@ for filename in sorted(os.listdir(SQL_DIR)):
     with open(file_path, "r", encoding="utf-8") as f:
         sql = f.read()
         try:
-            cursor.execute(sql, multi=True)
+            statements = [stmt.strip() for stmt in sql.split(';') if stmt.strip()]
+            for stmt in statements:
+                try:
+                    cursor.execute(stmt)
+                except mysql.connector.Error as err:
+                    print(f"⚠️ 执行失败的语句: {stmt}\n错误: {err}")
+                    conn.rollback()
+                    raise
             conn.commit()
             cursor.execute("INSERT INTO migration_log (filename) VALUES (%s)", (filename,))
             conn.commit()

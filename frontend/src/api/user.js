@@ -2,24 +2,24 @@ import api from "@/utils/request";
 
 // User login
 export const login = (credentials) => {
-    return api.post("/api/auth/login", credentials);
+    return api.post("/auth/login", credentials);
 };
 
 // User register
 export const register = (credentials) => {
-    return api.post("/api/auth/register", credentials);
+    return api.post("/auth/register", credentials);
 };
 
 export const getAllUsers = () => {
-    return api.get("/api/auth/get-all");
+    return api.get("/auth/get-all");
 }
 
 export const changePassword = (credentials) => {
-    return api.put("/api/auth/change-password", credentials);
+    return api.put("/auth/change-password", credentials);
 }
 
 export const deleteUserById = (id) => {
-    return api.delete("/api/auth/delete", {
+    return api.delete("/auth/delete", {
         params: { id }
     });
 }

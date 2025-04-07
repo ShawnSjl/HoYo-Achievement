@@ -1,13 +1,8 @@
 import axios from "axios";
 
-const API_PROTOCOL = import.meta.env.VITE_BACKEND_PROTOCOL;
-const API_HOST = import.meta.env.VITE_BACKEND_HOST;
-const API_PORT = import.meta.env.VITE_BACKEND_PORT;
-const BASE_URL = `${API_PROTOCOL}://${API_HOST}:${API_PORT}`;
-
 // 创建 Axios 实例
 const api = axios.create({
-    baseURL: BASE_URL, // 你的后端 API 地址
+    baseURL: import.meta.env.VITE_BACKEND_HOST, // 后端 API 地址
     timeout: 10000, // 超时时间
     headers: {
         "Content-Type": "application/json",
