@@ -14,21 +14,12 @@ const passwordChangeForm = reactive({
   confirmPassword: '',
 });
 
+// 正则表达式：禁止输入包含特殊字符
+const passwordCharPattern = /^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d!@#$%^&*()_+\-=\[\]{}]{8,50}$/;
+
 // 表单规则
-const pwdValidator = (rule, value, callback) => {
-  const regex = /^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,24}$/
-  if (!regex.test(value)) {
-    callback(new Error('密码需包含大小写字母以及数字'))
-  } else {
-    callback()
-  }
-}
 const confirmValidator = (rule, value, callback) => {
-  const regex = /^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,24}$/
-  if (!regex.test(value)) {
-    callback(new Error('密码需包含大小写字母以及数字'))
-  }
-  else if (value !== passwordChangeForm.newPassword) {
+  if (value !== passwordChangeForm.newPassword) {
     callback(new Error('两次密码不一致'))
   } else {
     callback()
@@ -37,15 +28,29 @@ const confirmValidator = (rule, value, callback) => {
 const rules = {
   oldPassword: [
     { required: true, message: '请输入旧密码', trigger: ['blur', 'change'] },
+    {
+      pattern: passwordCharPattern,
+      message: '密码格式错误，需包含字母和数字，可包含部分特殊字符',
+      trigger: ['blur', 'change']
+    }
   ],
   newPassword: [
     { required: true, message: '请输入新密码', trigger: ['blur', 'change'] },
-    { min: 8, max: 24, message: '长度在8到24个字符', trigger: ['blur', 'change'] },
-    { validator: pwdValidator, trigger: ['blur', 'change'] },
+    { min: 8, max: 50, message: '长度在8到50个字符', trigger: ['blur', 'change'] },
+    {
+      pattern: passwordCharPattern,
+      message: '密码格式错误，需包含字母和数字，可包含部分特殊字符',
+      trigger: ['blur', 'change']
+    }
   ],
   confirmPassword: [
     { required: true, message: '请确认新密码', trigger: ['blur', 'change'] },
-    { min: 8, max: 24, message: '长度在8到24个字符', trigger: ['blur', 'change'] },
+    { min: 8, max: 50, message: '长度在8到50个字符', trigger: ['blur', 'change'] },
+    {
+      pattern: passwordCharPattern,
+      message: '密码格式错误，需包含字母和数字，可包含部分特殊字符',
+      trigger: ['blur', 'change']
+    },
     { validator: confirmValidator, trigger: ['blur', 'change'] },
   ],
 }

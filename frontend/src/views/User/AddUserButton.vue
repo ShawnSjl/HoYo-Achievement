@@ -14,21 +14,13 @@ const userForm = reactive({
   confirmPassword: '',
 });
 
+// 正则表达式：禁止输入包含特殊字符
+const usernameCharPattern = /^[\u4e00-\u9fa5_a-zA-Z0-9]{3,20}$/;
+const passwordCharPattern = /^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d!@#$%^&*()_+\-=\[\]{}]{8,50}$/;
+
 // 表单规则
-const pwdValidator = (rule, value, callback) => {
-  const regex = /^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,24}$/
-  if (!regex.test(value)) {
-    callback(new Error('密码需包含大小写字母以及数字'))
-  } else {
-    callback()
-  }
-}
 const confirmValidator = (rule, value, callback) => {
-  const regex = /^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,24}$/
-  if (!regex.test(value)) {
-    callback(new Error('密码需包含大小写字母以及数字'))
-  }
-  else if (value !== userForm.password) {
+  if (value !== userForm.password) {
     callback(new Error('两次密码不一致'))
   } else {
     callback()
@@ -37,17 +29,31 @@ const confirmValidator = (rule, value, callback) => {
 const rules = {
   username: [
     { required: true, message: '请输入用户名', trigger: ['blur', 'change'] },
-    { min: 3, max: 24, message: '长度在3到24个字符', trigger: ['blur', 'change'] },
+    { min: 3, max: 20, message: '长度在3到20个字符', trigger: ['blur', 'change'] },
+    {
+      pattern: usernameCharPattern,
+      message: '用户名格式不正确,只能包含中文、字母、数字、下划线',
+      trigger: ['blur', 'change']
+    }
   ],
   password: [
     { required: true, message: '请输入密码', trigger: ['blur', 'change'] },
-    { min: 8, max: 24, message: '长度在8到24个字符', trigger: ['blur', 'change'] },
-    { validator: pwdValidator, trigger: ['blur', 'change'] },
+    { min: 8, max: 50, message: '长度在8到50个字符', trigger: ['blur', 'change'] },
+    {
+      pattern: passwordCharPattern,
+      message: '密码格式错误，需包含字母和数字，可包含部分特殊字符',
+      trigger: ['blur', 'change']
+    }
   ],
   confirmPassword: [
     { required: true, message: '请确认新密码', trigger: ['blur', 'change'] },
-    { min: 8, max: 24, message: '长度在8到24个字符', trigger: ['blur', 'change'] },
-    { validator: confirmValidator, trigger: ['blur', 'change'] },
+    { min: 8, max: 50, message: '长度在8到50个字符', trigger: ['blur', 'change'] },
+    {
+      pattern: passwordCharPattern,
+      message: '密码格式错误，需包含字母和数字，可包含部分特殊字符',
+      trigger: ['blur', 'change']
+    },
+    { validator: confirmValidator, trigger: ['blur', 'change'] }
   ],
 }
 

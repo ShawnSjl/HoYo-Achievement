@@ -1,6 +1,7 @@
 const jwt = require('jsonwebtoken');
 const bcrypt = require('bcryptjs');
 const { getUserById, getUserByName, getAllUsers, createUser, updateUserPasswordById, deleteUserById } = require('../models/users');
+const { isValidUserId, isValidUsername, isValidPassword } = require('../config/validator')
 
 // POST user login
 exports.login = async (req, res) => {
@@ -9,10 +10,12 @@ exports.login = async (req, res) => {
         if (!username || !password) return res.status(400).json({ error: "Username and Password is required" });
 
         // Check if user exit
+        if (!isValidUsername(username)) return res.status(401).json({ error: "Invalid User name or password" });
         const user = await getUserByName(username);
         if (!user) return res.status(401).json({ error: "Invalid User name or password" });
 
         // Check if password correct
+        if (!isValidPassword(password)) return res.status(401).json({ error: "Invalid User name or password" });
         const isMatch = await bcrypt.compare(password, user.password);
         if (!isMatch) return res.status(401).json({ error: "Invalid User name or password" });
 
@@ -49,9 +52,11 @@ exports.register = async (req, res) => {
         if (!username || !password) return res.status(400).json({ error: "Username and Password is required" });
 
         // Check if username already exist
+        if (!isValidUsername(username)) return res.status(401).json({ error: "Invalid User name or password" });
         const user = await getUserByName(username);
         if (user) return res.status(403).json({ error: "Invalid User name or password" });
 
+        if (!isValidPassword(password)) return res.status(401).json({ error: "Invalid User name or password" });
         await createUser(username, password);
         res.json({message: "User registered successfully", username: username});
     } catch (err) {
@@ -68,14 +73,17 @@ exports.changePassword = async (req, res) => {
 
         // Check if user id is valid
         const user_id = req.user.userId;
+        if (!isValidUserId(user_id)) return res.status(401).json({ error: "Invalid User ID" });
         const user = await getUserById(user_id);
         if (!user) return res.status(401).json({error: "User does not exist"});
 
         // Check if original password is valid
+        if (!isValidPassword(password)) return res.status(401).json({ error: "Invalid original password" });
         const isMatch = await bcrypt.compare(password, user.password);
         if (!isMatch) return res.status(401).json({error: "Invalid original password"});
 
         // Update password
+        if (!isValidPassword(newPassword)) return res.status(401).json({ error: "Invalid password" });
         await updateUserPasswordById(user_id, newPassword);
         res.json({ message: "Password changed successfully", username: user.username });
     } catch (err) {
@@ -92,11 +100,13 @@ exports.deleteUser = async (req, res) => {
 
         // Get user id
         const user_id = Number(idStr);
+        if (!isValidUserId(user_id)) return res.status(401).json({ error: "Invalid User ID" });
         if (!Number.isInteger(user_id) || user_id <= 0) {
             return res.status(400).json({ error: 'Invalid User ID' });
         }
 
         const token_id = req.user.userId;
+        if (!isValidUserId(token_id)) return res.status(401).json({ error: "Invalid User ID" });
         if (token_id !== user_id) return res.status(401).json({ error: "Invalid User ID" });
 
         const role = req.user.role;
