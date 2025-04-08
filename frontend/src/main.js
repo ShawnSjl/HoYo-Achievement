@@ -13,7 +13,7 @@ const pinia = createPinia();
 pinia.use(piniaPluginPersistedstate);
 
 router.beforeEach((to, from, next) => {
-    const defaultTitle = '米哈游成就'
+    const defaultTitle = '游戏成就'
     document.title = to.meta.title
         ? to.meta.title
         : defaultTitle

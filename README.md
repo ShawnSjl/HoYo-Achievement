@@ -8,4 +8,4 @@ Default admin username:
 `admin`
 
 Default admin password:
-`Admin@HoYoAchieve`
+`Admin001@HoYoAchieve`

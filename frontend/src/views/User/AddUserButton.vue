@@ -105,6 +105,7 @@ const handleAddUser = async () => {
             :model="userForm"
             :rules="rules"
             label-width="auto"
+            @keyup.enter.native="submitForm"
         >
           <el-form-item label="用户名" prop="username">
             <el-input v-model="userForm.username" />

@@ -100,6 +100,7 @@ const handleSubmit = async () => {
             :model="passwordChangeForm"
             :rules="rules"
             label-width="auto"
+            @keyup.enter.native="submitForm"
         >
           <el-form-item label="旧密码" prop="oldPassword">
             <el-input v-model="passwordChangeForm.oldPassword" type="password" />

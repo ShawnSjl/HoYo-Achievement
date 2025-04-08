@@ -70,6 +70,7 @@ const handleLogin = async () => {
           :model="loginForm"
           :rules="rules"
           label-width="auto"
+          @keyup.enter.native="submitForm"
         >
           <el-form-item label="用户名" prop="username">
             <el-input v-model="loginForm.username" />
