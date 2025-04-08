@@ -124,7 +124,7 @@ onBeforeUnmount(() => {
 .zzz-bg-page {
   width: 100%;
   height: 100vh;
-  background-image: url("@/assets/image/zzz-pc-page-bg.png");
+  background-image: url("@/assets/image/zzz-bg-1.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;

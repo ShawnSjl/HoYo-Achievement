@@ -1,12 +1,14 @@
 import { createRouter, createWebHistory } from "vue-router";
+import HomeView from "@/views/Home/HomeView.vue";
 import ZzzView from "@/views/ZzzAchievement/ZzzView.vue";
 import ProfileView from "@/views/User/ProfileView.vue"
 
 const routes = [
     {
         path: "/",
-        component: ZzzView,
+        component: HomeView,
         meta: {
+            title: "首页",
         },
     },
     {

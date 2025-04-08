@@ -80,7 +80,7 @@ const handleClick = () => {
 
 <style scoped>
 .card-bg {
-  background-image: url("@/assets/image/zzz-pc-page-bg.png");
+  background-image: url("@/assets/image/zzz-bg-1.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
