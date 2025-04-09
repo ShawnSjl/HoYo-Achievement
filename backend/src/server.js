@@ -29,7 +29,7 @@ server.listen(PORT, '0.0.0.0', () => {
     console.log('Connecting to DB with:');
     console.log({
         host: process.env.MYSQL_HOST,
-        user: process.env.MYSQL_ROOT,
+        user: "root",
         database: process.env.MYSQL_DATABASE,
     });
 });

@@ -5,10 +5,10 @@ let pool;
 function initDB() {
     pool = mysql.createPool({
         host: process.env.MYSQL_HOST,
-        user: process.env.MYSQL_ROOT,
+        user: "root",
         password: process.env.MYSQL_ROOT_PASSWORD,
         database: process.env.MYSQL_DATABASE,
-        port: process.env.MYSQL_PORT,
+        port: 3306,
     });
     return pool;
 }
