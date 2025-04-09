@@ -1,6 +1,6 @@
 function isValidUserId(id) {
     const regex = /^\d+$/;
-    return id.test(regex);
+    return regex.test(id);
 }
 
 function isValidUsername(username) {
