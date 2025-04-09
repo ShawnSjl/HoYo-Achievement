@@ -155,12 +155,12 @@ html, body {
 .profile-statistic {
   width: 85%;
   justify-self: center;
+  margin: 0 auto;
+  padding: 0 5px;
 }
 
 @media (max-width: 830px) {
   .profile-statistic {
-    margin: 0 auto;
-    padding: 0 5px;
     width: 95%;
   }
 }
