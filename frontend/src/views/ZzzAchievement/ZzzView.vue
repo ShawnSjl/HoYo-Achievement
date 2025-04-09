@@ -2,6 +2,7 @@
 import {ref, onMounted, onBeforeUnmount, nextTick, watch, computed} from "vue";
 import { useZzzAchievementStore } from "@/stores/zzzAchievementsStore";
 import { useAuthStore } from '@/stores/authStore';
+import { useIsMobileStore } from '@/stores/isMobileStore';
 import { categories, lifeClasses, zzzGetClassIdByName } from "@/utils/zzzAchievementClass";
 import ZzzTable from "@/views/ZzzAchievement/ZzzTable.vue";
 import ZzzHeader from "@/views/ZzzAchievement/ZzzHeader.vue";
@@ -10,6 +11,7 @@ import ZzzAside from "@/views/ZzzAchievement/ZzzAside.vue";
 // 使用Pinia作为本地缓存
 const achievementStore = useZzzAchievementStore()
 const authStore = useAuthStore();
+const isMobileStore = useIsMobileStore();
 
 const loading = ref(true);
 const errorMessage = ref('');
@@ -27,7 +29,7 @@ const calculateTableHeight = () => {
   const headerEl = document.querySelector('.el-header') // 获取头部高度
   const headerHeight = headerEl ? headerEl.offsetHeight : 0
 
-  const margin = 142 // 预留的 padding/margin（可调）
+  const margin = isMobileStore.isMobile ? 90 : 142 // 预留的 padding/margin（可调）
 
   tableHeight.value = windowHeight - headerHeight - margin
 }
@@ -101,7 +103,7 @@ onBeforeUnmount(() => {
         </el-header>
 
         <el-container>
-          <el-aside class="zzz-container-aside">
+          <el-aside v-if="!isMobileStore.isMobile" class="zzz-container-aside">
             <zzz-aside v-model="achievementClass"
                                  :category="category" />
           </el-aside>
@@ -109,7 +111,7 @@ onBeforeUnmount(() => {
             <p v-if="loading">加载中...</p>
             <p v-else-if="errorMessage">{{ errorMessage }}</p>
             <div v-else >
-              <zzz-table :achievement-class="achievementClass"
+              <zzz-table v-model="achievementClass"
                          :sorted-achievements="sortedAchievements"
                          :table-height="tableHeight" />
             </div>
@@ -137,12 +139,18 @@ onBeforeUnmount(() => {
   width: 100%;
   max-width: 1280px;
   margin: 0 auto;
-  padding: 0 20px;
   border-radius: 8px;
 }
 
 .zzz-container-header {
   margin-top: 8px;
+}
+
+@media (max-width: 830px) {
+  .el-header {
+    --el-header-height: 40px;
+    --el-header-padding: 0 10px;
+  }
 }
 
 .zzz-container-aside {
@@ -155,5 +163,14 @@ onBeforeUnmount(() => {
   padding: 5px;
   margin-left: 5px;
   margin-bottom: 10px;
+}
+
+@media (max-width: 830px) {
+  .zzz-container-main {
+    padding: 8px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+  }
 }
 </style>

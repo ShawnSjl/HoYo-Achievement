@@ -59,25 +59,27 @@ const getCompleteLevel3Number = computed(() => {
 
 <template>
   <el-card shadow="never">
-    <div class="zzz-statistic-card-class">
-      <div slot="header" style="min-width: 180px">
-        <b style="font-size: 20px">{{props.achievementClass}}</b> 完成度:
-        <br/>
-        <b style="font-size: 20px">{{completePercentage}}%</b>
+    <el-scrollbar>
+      <div class="zzz-statistic-card-class">
+        <div slot="header" class="card-title">
+          <b class="card-text">{{props.achievementClass}}</b> 完成度:
+          <br/>
+          <b class="card-text">{{completePercentage}}%</b>
+        </div>
+        <div class="zzz-statistic-class">
+          <img :src="ZzzAchievementImg1" alt="achievement image" class="zzz-achievement-image" />
+          <p> {{getCompleteLevel1Number}} / {{getLevel1Number}}</p>
+        </div>
+        <div class="zzz-statistic-class">
+          <img :src="ZzzAchievementImg2" alt="achievement image" class="zzz-achievement-image" />
+          <p> {{getCompleteLevel2Number}} / {{getLevel2Number}}</p>
+        </div>
+        <div class="zzz-statistic-class">
+          <img :src="ZzzAchievementImg3" alt="achievement image" class="zzz-achievement-image" />
+          <p> {{getCompleteLevel3Number}} / {{getLevel3Number}}</p>
+        </div>
       </div>
-      <div class="zzz-statistic-class">
-        <img :src="ZzzAchievementImg1" alt="achievement image" class="zzz-achievement-image" />
-        <p> {{getCompleteLevel1Number}} / {{getLevel1Number}}</p>
-      </div>
-      <div class="zzz-statistic-class">
-        <img :src="ZzzAchievementImg2" alt="achievement image" class="zzz-achievement-image" />
-        <p> {{getCompleteLevel2Number}} / {{getLevel2Number}}</p>
-      </div>
-      <div class="zzz-statistic-class">
-        <img :src="ZzzAchievementImg3" alt="achievement image" class="zzz-achievement-image" />
-        <p> {{getCompleteLevel3Number}} / {{getLevel3Number}}</p>
-      </div>
-    </div>
+    </el-scrollbar>
   </el-card>
 </template>
 
@@ -96,6 +98,13 @@ const getCompleteLevel3Number = computed(() => {
   min-width: 140px;
 }
 
+@media (max-width: 830px) {
+  .zzz-statistic-class {
+    margin-left: 10px;
+    min-width: 100px;
+  }
+}
+
 .zzz-achievement-image {
   width: 53px;
   height: 53px;
@@ -105,13 +114,54 @@ const getCompleteLevel3Number = computed(() => {
   background-color: #000000;
 }
 
+@media (max-width: 830px) {
+  .zzz-achievement-image {
+    width: 36px;
+    height: 36px;
+    border: 2px solid #686161; /* 可选的边框 */
+  }
+}
+
+.card-title {
+  min-width: 180px;
+}
+
+@media (max-width: 830px) {
+  .card-title {
+    min-width: 137px;
+    font-size: 13px;
+  }
+}
+
+.card-text {
+  font-size: 20px;
+}
+
+@media (max-width: 830px) {
+  .card-text {
+    font-size: 15px;
+  }
+}
+
 .el-card {
   --el-card-bg-color: #161817;
   --el-card-border-color: #232524;
   color: #cacaca;
 }
 
+@media (max-width: 830px) {
+  :deep(.el-card__body) {
+    padding: 5px 10px;
+  }
+}
+
 p {
   margin-left: 10px;
+}
+
+@media (max-width: 830px) {
+  p {
+    font-size: 13px;
+  }
 }
 </style>

@@ -5,14 +5,19 @@ import ZzzAchievementImg1 from '@/assets/image/zzz-achievement-level-1.png';
 import ZzzAchievementImg2 from '@/assets/image/zzz-achievement-level-2.png';
 import ZzzAchievementImg3 from '@/assets/image/zzz-achievement-level-3.png';
 import ZzzAchievementReward from '@/assets/image/zzz-achievement-reward.png';
+import {useIsMobileStore} from "@/stores/isMobileStore";
 
 // 使用Pinia作为本地缓存
 const achievementStore = useZzzAchievementStore()
+const isMobileStore = useIsMobileStore();
 
 // 传入参数
 const props = defineProps({
   achievement: Object,
 })
+
+// 移动端适配
+const rewardNumberPosition = computed(() => { return isMobileStore.isMobile? [-23, 27] : [-45, 47] });
 
 // 获取成就图片
 const getAchievementImg = (level) => {
@@ -68,7 +73,7 @@ const getAchievementName = computed(() => {
 
     <div class="zzz-table-row-right">
       <div class="zzz-game-version" >{{ props.achievement.game_version }}</div>
-      <el-badge :value="achievementReward" :offset="[-45, 47]">
+      <el-badge v-if="!isMobileStore.isMobile" :value="achievementReward" :offset="rewardNumberPosition">
         <img :src="ZzzAchievementReward" alt="achievement reward" class="zzz-achievement-reward-image" />
       </el-badge>
       <el-button round :plain="!isComplete" color="#ffd100" dark @click="handleComplete" class="zzz-complete-button">
@@ -92,7 +97,13 @@ const getAchievementName = computed(() => {
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
-  flex: 1;
+  flex: 2;
+}
+
+@media (max-width: 830px) {
+  .zzz-table-row-left {
+    flex: 3;
+  }
 }
 
 .zzz-table-row-right {
@@ -112,6 +123,14 @@ const getAchievementName = computed(() => {
   background-color: #000000;
 }
 
+@media (max-width: 830px) {
+  .zzz-achievement-image {
+    width: 36px;
+    height: 36px;
+    border: 2px solid #686161; /* 可选的边框 */
+  }
+}
+
 .zzz-achievement-reward-image {
   width: 70px;
   height: 46px;
@@ -122,12 +141,28 @@ const getAchievementName = computed(() => {
   margin-right: 20px;
 }
 
+@media (max-width: 830px) {
+  .zzz-achievement-reward-image {
+    width: 55px;
+    height: 30px;
+    margin-right: 5px;
+  }
+}
+
 .zzz-detail {
   display: flex;
   flex-direction: column;
   align-content: flex-start;
   gap: 10px;
   padding: 15px;
+}
+
+@media (max-width: 830px) {
+  .zzz-detail {
+    font-size: 12px;
+    gap: 6px;
+    padding: 7px;
+  }
 }
 
 .zzz-name {
@@ -137,11 +172,25 @@ const getAchievementName = computed(() => {
   color: #cccccc;
 }
 
+@media (max-width: 830px) {
+  .zzz-name {
+    font-size: 15px;
+  }
+}
+
 .zzz-game-version {
   font-weight: normal;
   font-size: 17px;
   margin-right: 25px;
   color: #acacac;
+}
+
+@media (max-width: 830px) {
+  .zzz-game-version {
+    font-weight: normal;
+    font-size: 14px;
+    margin-right: 5px;
+  }
 }
 
 .zzz-desc {
@@ -155,6 +204,12 @@ const getAchievementName = computed(() => {
   margin-right: 10px;
 }
 
+@media (max-width: 830px) {
+  .zzz-complete-button {
+    margin-right: 0;
+  }
+}
+
 .zzz-hidden-badge {
   background-color: #f11a1a;
   color: #fff;
@@ -165,6 +220,12 @@ const getAchievementName = computed(() => {
   position: relative;
   top: -10px;
   left: -10px;
+}
+
+@media (max-width: 830px) {
+  .zzz-hidden-badge {
+    font-size: 10px;
+  }
 }
 
 ::v-deep(.el-badge__content) {

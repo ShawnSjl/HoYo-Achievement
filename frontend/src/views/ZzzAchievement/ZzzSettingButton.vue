@@ -4,11 +4,16 @@ import { useZzzAchievementStore } from "@/stores/zzzAchievementsStore";
 import { Check, Close } from '@element-plus/icons-vue';
 import {ElMessageBox} from "element-plus";
 import {showError, showSuccess} from "@/utils/notification";
+import {useIsMobileStore} from "@/stores/isMobileStore";
 
 // 使用Pinia作为本地缓存
 const achievementStore = useZzzAchievementStore();
+const isMobileStore = useIsMobileStore();
 
 const dialogVisible = ref(false);
+
+// 移动端适配
+const dialogWidth = computed(() => { return isMobileStore.isMobile? '100%' : '500px' });
 
 const handleClick = () => {
   dialogVisible.value = true;
@@ -50,7 +55,7 @@ const openWarn = () => {
     <el-dialog
         v-model="dialogVisible"
         title="选项"
-        width="500px"
+        :width="dialogWidth"
         :before-close="handleClose"
     >
       <div>
