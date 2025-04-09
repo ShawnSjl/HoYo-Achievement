@@ -1,2 +1,2 @@
 USE HoYo_Achievement;
-INSERT INTO users (username, password, role) VALUES ('admin', '$2b$10$1ro.pKfCHgOgmWUCJPii7OYnJA.Y0MXeKF8AvvNnhFrA/3VphQBuy', 'admin');
+INSERT INTO users (username, password, role) VALUES ('admin', '$2b$10$AVw/7CbXJNJOUCPSXaYZ4.NhDz3suuNqX1JKcHBvQkeiQ2QIXXAMy', 'admin');
