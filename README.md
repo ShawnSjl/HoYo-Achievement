@@ -76,11 +76,16 @@ MYSQL_PORT=3306
 本项目默认使用**Docker Compose**快速搭建。
 
 ## 运行
+1. 构建并启动项目
+    ```shell
+    cd path/to/project
+    docker compose up --build
+    ```
 
-```shell
-cd path/to/project
-docker compose up --build
-```
+2. 长期后台运行
+    ```shell
+    docker compose up -d
+    ```
 
 ## 停止运行
 
@@ -91,13 +96,13 @@ docker compose stop
 
 ## 删除/清理项目
 
-删除：
+删除容器：
 ```shell
 cd path/to/project
 docker compose down
 ```
 
-清理：
+删除容器并清理镜像和数据卷：
 ```shell
 cd path/to/project
 docker compose down --volumes --rmi all
