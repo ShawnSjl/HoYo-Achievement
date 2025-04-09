@@ -9,12 +9,17 @@ import LoginButton from "@/components/LoginButton.vue";
 import LogoutButton from "@/components/LogoutButton.vue";
 import RegisterButton from "@/components/RegisterButton.vue";
 import ProfileCardsLayout from "@/views/User/ProfileCardsLayout.vue";
+import {useIsMobileStore} from "@/stores/isMobileStore";
 
 // 使用Pinia作为本地缓存
 const authStore = useAuthStore();
 const zzzAchievementStore = useZzzAchievementStore()
+const isMobileStore = useIsMobileStore();
 
 const isLoggedIn = computed(() => {return authStore.isAuthenticated()})
+
+// 移动端适配
+const avatarSize = computed(() => { return isMobileStore.isMobile? 'default' : 'large'})
 
 // 同步数据
 const fetchData = async () => {
@@ -43,9 +48,9 @@ watch(userName, async (newUserName) => {
 
       <div class="profile-header">
         <div class="profile-header-start">
-          <el-avatar size="large" :src="DefaultAvatar" />
+          <el-avatar :size="avatarSize" :src="DefaultAvatar" />
           <div class="profile-info">
-            <h2>{{ userName }}</h2>
+            <p>{{ userName }}</p>
           </div>
         </div>
 
@@ -64,7 +69,7 @@ watch(userName, async (newUserName) => {
       <el-divider></el-divider>
 
       <div class="profile-statistic">
-        <profile-cards-layout style="margin-left: 15px" />
+        <profile-cards-layout />
       </div>
     </div>
   </div>
@@ -92,14 +97,30 @@ html, body {
   padding: 0 20px;
 }
 
+@media (max-width: 830px) {
+  .profile-content {
+    max-width: 830px;
+    margin: 0 auto;
+    padding: 0 5px;
+  }
+}
+
 .profile-header {
   padding-top: 20px;
+  margin: 0 auto;
   width: 70%;
   justify-self: center;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+}
+
+@media (max-width: 830px) {
+  .profile-header {
+    padding-top: 10px;
+    width: 80%;
+  }
 }
 
 .profile-header-start {
@@ -117,10 +138,30 @@ html, body {
 .profile-info {
   margin-left: 30px;
   justify-self: center;
+  font-weight: bold;
+  font-size: 32px;
+}
+
+
+@media (max-width: 830px) {
+  .profile-info {
+    margin-left: 10px;
+    justify-self: center;
+    font-weight: bold;
+    font-size: 14px;
+  }
 }
 
 .profile-statistic {
   width: 85%;
   justify-self: center;
+}
+
+@media (max-width: 830px) {
+  .profile-statistic {
+    margin: 0 auto;
+    padding: 0 5px;
+    width: 95%;
+  }
 }
 </style>
