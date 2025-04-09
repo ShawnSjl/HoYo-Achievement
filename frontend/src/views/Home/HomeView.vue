@@ -61,4 +61,16 @@ const handleSR = () => {
   transform: scale(1.02);
   z-index: 2;
 }
+
+@media (orientation: portrait) {
+  .left {
+    clip-path: polygon(0 0, 100% 0, 100% 45%, 0 55%);
+    background-position: right -400px top -100px;
+  }
+
+  .right {
+    clip-path: polygon(0 55%, 100% 45%, 100% 100%, 0 100%);
+    background-position: right -200px top 150px ;
+  }
+}
 </style>

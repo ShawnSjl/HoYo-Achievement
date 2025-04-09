@@ -3,6 +3,9 @@ import { categories } from "@/utils/zzzAchievementClass";
 import Avatar from "@/components/Avatar.vue";
 import GameSwitch from "@/components/GameSwitch.vue";
 import ZzzSettingButton from "@/views/ZzzAchievement/ZzzSettingButton.vue";
+import {useIsMobileStore} from "@/stores/isMobileStore";
+
+const isMobileStore = useIsMobileStore();
 
 const category = defineModel();
 </script>
@@ -18,7 +21,7 @@ const category = defineModel();
         <zzz-setting-button />
       </div>
     </div>
-    <div class="zzz-header-right">
+    <div v-if="!isMobileStore.isMobile" class="zzz-header-right">
       <el-segmented v-model="category" :options="categories" size="large" block/>
     </div>
   </div>
@@ -50,6 +53,12 @@ const category = defineModel();
 
 .zzz-header-left-end {
   margin-right: 20px;
+}
+
+@media (max-width: 830px) {
+  .zzz-header-left-end {
+    margin-right: 0;
+  }
 }
 
 .zzz-header-right {

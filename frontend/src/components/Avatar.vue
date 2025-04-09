@@ -4,10 +4,16 @@ import router from "@/router";
 import Zzz from '@/assets/image/zzz.png'
 import {useAuthStore} from "@/stores/authStore";
 import AvatarPopover from '@/components/AvatarPopover.vue'
+import {useIsMobileStore} from "@/stores/isMobileStore";
 
 const authStore = useAuthStore();
+const isMobileStore = useIsMobileStore();
 
 const userName = computed(() => {return authStore.getUserName()})
+
+// 移动端适配
+const avatarSize = computed(() => { return isMobileStore.isMobile? 'default' : 'large'})
+const avatarTrigger = computed(() => { return isMobileStore.isMobile? 'click' : 'hover'})
 
 const handleClick = () => {
   router.push({ path: '/space' });
@@ -18,11 +24,11 @@ const handleClick = () => {
   <el-popover
     placement="bottom"
     width="200"
-    trigger="hover">
+    :trigger="avatarTrigger">
 
     <template #reference>
-      <div class="avatar-container"  @click="handleClick">
-        <el-avatar size="large" :src="Zzz" />
+      <div class="avatar-container">
+        <el-avatar :size="avatarSize" :src="Zzz" />
         <div class="avatar-side">
           <p class="avatar-username">{{userName}}</p>
         </div>
@@ -59,6 +65,14 @@ const handleClick = () => {
   font-size: 16px;
   font-weight: bold;
   color: #ededed;
+}
+
+@media (max-width: 830px) {
+  .avatar-username {
+    font-size: 14px;
+    font-weight: bold;
+    color: #ededed;
+  }
 }
 
 ::v-deep(p) {
