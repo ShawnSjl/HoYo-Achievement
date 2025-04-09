@@ -6,7 +6,7 @@ DB_HOST = os.getenv("MYSQL_HOST", "localhost")
 DB_PORT = 3306
 DB_USER = os.getenv("MYSQL_ROOT", "root")
 DB_PASSWORD = os.getenv("MYSQL_ROOT_PASSWORD", "123456")
-DB_NAME = HoYo_Achievement
+DB_NAME = "HoYo_Achievement"
 
 SQL_DIR = "/app/data"
 
