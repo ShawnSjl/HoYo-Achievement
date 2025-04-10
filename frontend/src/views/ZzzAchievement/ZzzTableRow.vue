@@ -30,10 +30,10 @@ const getAchievementImg = (level) => {
       return ZzzAchievementImg1
   }
 }
-const achievementImg = ref(getAchievementImg(props.achievement.reward_level))
+const achievementImg = computed(() => {return getAchievementImg(props.achievement.reward_level)})
 
 // 获取奖励数量
-const achievementReward = ref(props.achievement.reward_level * 5);
+const achievementReward = computed(() => {return props.achievement.reward_level * 5});
 
 // 获取按钮状态
 const completeButtonMsg = computed(() => {return  props.achievement.complete === 1 ? "已完成" : "未完成"})
