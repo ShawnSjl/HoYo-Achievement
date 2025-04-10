@@ -28,7 +28,7 @@ exports.updateUserAchievement = async (req, res) => {
 
         const achievement_id = req.body.achievement_id;
         const complete = req.body.complete;
-        if (!achievement_id || !complete) return res.status(400).json({ error: "Fields missing" });
+        if (achievement_id == null || complete == null) return res.status(400).json({ error: "Fields missing" });
 
         await updateById(user_id, achievement_id, complete);
         res.status(200).json( { username: req.user.username, achievement_id: achievement_id, complete: complete });

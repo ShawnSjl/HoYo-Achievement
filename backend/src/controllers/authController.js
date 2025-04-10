@@ -7,7 +7,7 @@ const { isValidUserId, isValidUsername, isValidPassword } = require('../config/v
 exports.login = async (req, res) => {
     try {
         const { username, password } = req.body;
-        if (!username || !password) return res.status(400).json({ error: "Username and Password is required" });
+        if (username == null || password == null) return res.status(400).json({ error: "Username and Password is required" });
 
         // Check if user exit
         if (!isValidUsername(username)) return res.status(401).json({ error: "Invalid User name or password" });
@@ -49,7 +49,7 @@ exports.getAllUsers = async (req, res) => {
 exports.register = async (req, res) => {
     try {
         const { username, password } = req.body;
-        if (!username || !password) return res.status(400).json({ error: "Username and Password is required" });
+        if (username == null || password == null) return res.status(400).json({ error: "Username and Password is required" });
 
         // Check if username already exist
         if (!isValidUsername(username)) return res.status(401).json({ error: "Invalid User name or password" });
@@ -69,7 +69,7 @@ exports.register = async (req, res) => {
 exports.changePassword = async (req, res) => {
     try {
         const {password, newPassword} = req.body;
-        if (!password || !newPassword) return res.status(400).json({error: "Password and new password is required"});
+        if (password == null || newPassword == null) return res.status(400).json({error: "Password and new password is required"});
 
         // Check if user id is valid
         const user_id = req.user.userId;
@@ -96,7 +96,7 @@ exports.changePassword = async (req, res) => {
 exports.deleteUser = async (req, res) => {
     try {
         const idStr = req.query.id;
-        if (!idStr) return res.status(400).json({ error: "User ID is required" });
+        if (idStr == null) return res.status(400).json({ error: "User ID is required" });
 
         // Get user id
         const user_id = Number(idStr);
