@@ -1,7 +1,30 @@
 <script setup>
-import {categories, zzzGetClassByCategory} from "@/utils/zzzAchievementClass"
+import { useZzzAchievementStore } from "@/stores/zzzAchievementsStore";
+import {categories, zzzGetClassByCategory, zzzGetClassIdByName} from "@/utils/zzzAchievementClass"
+import {computed} from "vue";
+
+// 使用Pinia作为本地缓存
+const achievementStore = useZzzAchievementStore()
 
 const achievementClass = defineModel()
+
+const completePercentage = computed(() => {
+  return (className) => {
+    const classId = zzzGetClassIdByName(className);
+
+    const numberTotal = achievementStore.achievements.filter(
+        achievement => achievement.class_id === classId
+    ).length;
+
+    const numberComplete = achievementStore.achievements.filter(
+        achievement => achievement.class_id === classId && achievement.complete === 1
+    ).length;
+
+    if (numberTotal === 0) return 0; // 避免除以 0
+
+    return Math.floor((numberComplete / numberTotal) * 1000) / 10;
+  };
+});
 </script>
 
 <template>
@@ -18,7 +41,14 @@ const achievementClass = defineModel()
           :key="achieveClass"
           :label="achieveClass"
           :value="achieveClass"
-      />
+      >
+        <template #default>
+          <div style="display: flex; justify-content: space-between; width: 100%;">
+            <p>{{ achieveClass }}</p>
+            <p style="margin-left: 10px">{{ completePercentage(achieveClass) }}%</p>
+          </div>
+        </template>
+      </el-option>
     </el-option-group>
   </el-select>
 </template>
@@ -70,6 +100,11 @@ const achievementClass = defineModel()
 /* 菜单中被选中的选项背景 */
 :deep(.el-select-dropdown__item.is-hovering) {
   background-color: #ffd100;
+}
+
+p {
+  margin-block-start: 0;
+  margin-block-end: 0;
 }
 </style>
 

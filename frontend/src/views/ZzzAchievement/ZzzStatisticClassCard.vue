@@ -1,7 +1,7 @@
 <script setup>
-import { computed } from 'vue';
-import { useZzzAchievementStore } from "@/stores/zzzAchievementsStore";
-import { zzzGetClassIdByName } from "@/utils/zzzAchievementClass";
+import {computed} from 'vue';
+import {useZzzAchievementStore} from "@/stores/zzzAchievementsStore";
+import {zzzGetClassIdByName} from "@/utils/zzzAchievementClass";
 import ZzzAchievementImg1 from '@/assets/image/zzz-achievement-level-1.png';
 import ZzzAchievementImg2 from '@/assets/image/zzz-achievement-level-2.png';
 import ZzzAchievementImg3 from '@/assets/image/zzz-achievement-level-3.png';
@@ -13,13 +13,14 @@ const props = defineProps({
   achievementClass: String,
 })
 
-const completePercentage = computed(() => {
-  const numberTotal = achievementStore.achievements.filter(achievement => achievement.class_id ===
-      zzzGetClassIdByName(props.achievementClass)).length
-  const numberComplete = achievementStore.achievements.filter(achievement => achievement.class_id === zzzGetClassIdByName(props.achievementClass)
-      && achievement.complete === 1).length;
+const totalNumber = computed(() => {
+  return achievementStore.achievements.filter(achievement => achievement.class_id ===
+      zzzGetClassIdByName(props.achievementClass)).length;
+})
 
-  return Math.floor((numberComplete / numberTotal) * 1000) / 10;
+const completeNumber = computed(() => {
+  return achievementStore.achievements.filter(achievement => achievement.class_id === zzzGetClassIdByName(props.achievementClass)
+      && achievement.complete === 1).length;
 })
 
 const getLevel1Number = computed(() => {
@@ -64,7 +65,7 @@ const getCompleteLevel3Number = computed(() => {
         <div slot="header" class="card-title">
           <b class="card-text">{{props.achievementClass}}</b> 完成度:
           <br/>
-          <b class="card-text">{{completePercentage}}%</b>
+          <b class="card-text">{{completeNumber}} / {{totalNumber}}</b>
         </div>
         <div class="zzz-statistic-class">
           <img :src="ZzzAchievementImg1" alt="achievement image" class="zzz-achievement-image" />
