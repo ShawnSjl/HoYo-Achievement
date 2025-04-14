@@ -17,19 +17,25 @@ if (fs.existsSync(envPath)) {
 const http = require('http');
 const app = require('./app');
 const PORT = process.env.PORT || 3000;
+const knex = require('./db')
 const initDatabase = require('./config/initDB.js')
+const createDefaultAdmin = require('./config/createAdmin')
 
 initDatabase()
-.then(() => {
-    const server = http.createServer(app);
+    .then(() => knex.migrate.latest())
+    .then(async () => {
+        await createDefaultAdmin()
+    })
+    .then(() => {
+        const server = http.createServer(app);
 
-    server.listen(PORT, '0.0.0.0', () => {
-        console.log(`Server listening on ${PORT}`);
-        console.log('Connecting to DB with:');
-        console.log({
-            host: process.env.DB_HOST,
-            user: process.env.DB_USER,
-            database: process.env.DB_DATABASE,
+        server.listen(PORT, '0.0.0.0', () => {
+            console.log(`Server listening on ${PORT}`);
+            console.log('Connecting to DB with:');
+            console.log({
+                host: process.env.DB_HOST,
+                user: process.env.DB_USER,
+                database: process.env.DB_DATABASE,
+            });
         });
-    });
-})
+    })

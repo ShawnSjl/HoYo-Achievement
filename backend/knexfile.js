@@ -38,6 +38,9 @@ module.exports = {
         client: DB_TYPE,
         connection: CONNECTIONS[DB_TYPE],
         useNullAsDefault: DB_TYPE === 'sqlite3',  // SQLite 需要
-        pool: { min: 1, max: 5 }
+        pool: { min: 1, max: 5 },
+        migrations: {
+            directory: './migrations',
+        }
     }
 };
