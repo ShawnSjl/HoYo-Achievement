@@ -4,8 +4,13 @@ const path = require('path');
 const knex = require('../src/db');
 
 async function importAchievements() {
+    console.log('✅ Running seed file:', __filename);
+
     const dataDir = path.resolve(__dirname, '../data');
     const files = fs.readdirSync(dataDir).filter(f => f.startsWith('zzz_achievement_') && f.endsWith('.json'));
+
+    console.log('✅ Looking for JSON files in:', dataDir);
+    console.log('✅ Found files:', files);
 
     for (const file of files) {
         const fullPath = path.join(dataDir, file);

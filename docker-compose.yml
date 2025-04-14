@@ -1,12 +1,14 @@
 services:
   backend:
     build: ./backend
-    container_name: ${PROJECT_NAME}_backend
+    container_name: hoyo_achievement_backend
     restart: always
     expose:
       - "3000"
-    env_file:
-      - .env
+    environment:
+      - SQLITE_PATH=/app/db/sqlite.db
+    volumes:
+      - ./data:/app/db
     networks:
       - app_net
 
@@ -14,20 +16,15 @@ services:
     build:
       context: ./frontend
       args:
-        VITE_BACKEND_HOST: ${VITE_BACKEND_HOST}
-    container_name: ${PROJECT_NAME}_frontend
+        VITE_BACKEND_HOST: /api
+    container_name: hoyo_achievement_frontend
     restart: always
     ports:
-      - "${FRONTEND_PORT}:80"
-    env_file:
-      - .env
+      - "6868:80"
     depends_on:
       - backend
     networks:
       - app_net
-
-volumes:
-  db_data:
 
 networks:
   app_net:

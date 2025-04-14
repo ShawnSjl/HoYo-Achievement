@@ -21,7 +21,7 @@ switch (process.env.DB_TYPE) {
 
 const CONNECTIONS = {
     sqlite3: {
-        filename: path.resolve(__dirname, './sqlite.db'),
+        filename: process.env.SQLITE_PATH || path.resolve(__dirname, './sqlite.db'),
     },
     mysql2: {
         host: process.env.DB_HOST || 'localhost',

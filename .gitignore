@@ -3,6 +3,7 @@
 node_modules/
 
 # local sqlite db
+data/sqlite.db
 backend/sqlite.db
 
 # .end.dev
