@@ -1,32 +1,4 @@
 services:
-  db:
-    image: mysql:8.0
-    container_name: ${PROJECT_NAME}_mysql
-    restart: always
-    environment:
-      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
-      MYSQL_DATABASE: ${MYSQL_DATABASE}
-    ports:
-      - "${MYSQL_PORT}:3306"
-    volumes:
-      - ./db/init:/docker-entrypoint-initdb.d
-      - db_data:/var/lib/mysql
-    networks:
-      - app_net
-
-  data-loader:
-    build: ./data_loader
-    restart: on-failure
-    depends_on:
-      - db
-    volumes:
-      - ./db/data:/app/data
-    working_dir: /app
-    env_file:
-      - .env
-    networks:
-      - app_net
-
   backend:
     build: ./backend
     container_name: ${PROJECT_NAME}_backend
@@ -35,8 +7,6 @@ services:
       - "3000"
     env_file:
       - .env
-    depends_on:
-      - db
     networks:
       - app_net
 

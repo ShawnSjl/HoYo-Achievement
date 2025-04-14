@@ -1,0 +1,2198 @@
+[
+  {
+    "achievement_id": 1001001,
+    "class_id": 1001,
+    "name": "谐振和弦",
+    "description": "解锁六分街的「吟游唱针」。",
+    "reward_level": 1,
+    "hidden": 1,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 1001002,
+    "class_id": 1001,
+    "name": "谐振共鸣",
+    "description": "累计在「吟游唱针」调律10次。",
+    "reward_level": 1,
+    "hidden": 1,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 1001003,
+    "class_id": 1001,
+    "name": "嗯呢？！嗯嗯呢！",
+    "description": "解锁六分街的「涡轮」改装店。",
+    "reward_level": 1,
+    "hidden": 1,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 1001007,
+    "class_id": 1001,
+    "name": "前方…是深渊啊！",
+    "description": "解锁六分街的玩具店「盒」。",
+    "reward_level": 1,
+    "hidden": 1,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 1001008,
+    "class_id": 1001,
+    "name": "差一点就端盒了！",
+    "description": "累计在玩具店「盒」购买5个音擎。",
+    "reward_level": 1,
+    "hidden": 2,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 1001009,
+    "class_id": 1001,
+    "name": "资深影迷",
+    "description": "收集15盘录像带。",
+    "reward_level": 1,
+    "hidden": 0,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 1001010,
+    "class_id": 1001,
+    "name": "大影评家",
+    "description": "收集30盘录像带。",
+    "reward_level": 1,
+    "hidden": 0,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 1001011,
+    "class_id": 1001,
+    "name": "合格的店长",
+    "description": "在录像店帮助3位客人。",
+    "reward_level": 1,
+    "hidden": 0,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 1001012,
+    "class_id": 1001,
+    "name": "回头客很重要",
+    "description": "在录像店帮助6位客人。",
+    "reward_level": 1,
+    "hidden": 0,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 1001013,
+    "class_id": 1001,
+    "name": "六分街五星店铺",
+    "description": "在录像店帮助10位客人。",
+    "reward_level": 1,
+    "hidden": 0,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 1001014,
+    "class_id": 1001,
+    "name": "请遵守劳动法！",
+    "description": "在录像店内，让同一名宣传员连续上班7天。",
+    "reward_level": 1,
+    "hidden": 1,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 1001015,
+    "class_id": 1001,
+    "name": "来一场刺激的对决",
+    "description": "解锁六分街的「金手指」电玩店。",
+    "reward_level": 1,
+    "hidden": 1,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 1001016,
+    "class_id": 1001,
+    "name": "自费鞭策自己",
+    "description": "解锁六分街的「COFF CAFE」。",
+    "reward_level": 1,
+    "hidden": 1,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 1001017,
+    "class_id": 1001,
+    "name": "今宵无人入眠",
+    "description": "在晚上或者凌晨，到「COFF CAFE」喝咖啡。",
+    "reward_level": 1,
+    "hidden": 1,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 1001018,
+    "class_id": 1001,
+    "name": "每日打卡的开始",
+    "description": "解锁六分街的「嗷呜」报刊亭。",
+    "reward_level": 1,
+    "hidden": 1,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 1001019,
+    "class_id": 1001,
+    "name": "绝非偶然",
+    "description": "从「嗷呜」报刊亭的刮刮卡中获得一次最大的幸运奖励。",
+    "reward_level": 1,
+    "hidden": 1,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 1001020,
+    "class_id": 1001,
+    "name": "就是这里薯片半价？",
+    "description": "解锁六分街的「141」杂货店。",
+    "reward_level": 1,
+    "hidden": 1,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 1001023,
+    "class_id": 1001,
+    "name": "再来一碗！",
+    "description": "解锁六分街的「瀑汤谷-锦鲤」拉面店。",
+    "reward_level": 1,
+    "hidden": 1,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 1001025,
+    "class_id": 1001,
+    "name": "拉面品鉴师",
+    "description": "在新艾利都的「瀑汤谷-锦鲤」拉面店尝遍所有口味的拉面。",
+    "reward_level": 1,
+    "hidden": 1,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 1001026,
+    "class_id": 3002,
+    "name": "末日时不要抢银行",
+    "description": "完成枯萎之都的隐藏委托「空洞银行」。",
+    "reward_level": 1,
+    "hidden": 1,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 1001027,
+    "class_id": 3002,
+    "name": "庇护所",
+    "description": "完成枯萎之都的隐藏委托「庇护所」。",
+    "reward_level": 1,
+    "hidden": 1,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 1001028,
+    "class_id": 3002,
+    "name": "嘘！别和以骸对话",
+    "description": "完成枯萎之都的隐藏委托「盛开于废墟之上」。",
+    "reward_level": 1,
+    "hidden": 1,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 1001029,
+    "class_id": 3002,
+    "name": "初见共生以骸",
+    "description": "完成枯萎之都的隐藏委托「共生关系」。",
+    "reward_level": 1,
+    "hidden": 1,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 1001030,
+    "class_id": 1001,
+    "name": "别挡住我的阳光",
+    "description": "发现「桶之贤者」的秘密。",
+    "reward_level": 1,
+    "hidden": 1,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 1001031,
+    "class_id": 1001,
+    "name": "午夜悄悄话",
+    "description": "在深夜时段，拨通六分街的公共电话。",
+    "reward_level": 1,
+    "hidden": 1,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 1001032,
+    "class_id": 1001,
+    "name": "人形猫薄荷",
+    "description": "得到六分街上小猫们的「认可」。",
+    "reward_level": 1,
+    "hidden": 1,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 1001033,
+    "class_id": 1001,
+    "name": "六分街的影子领主",
+    "description": "在六分街上见证小猫「曲奇」的不同姿态。",
+    "reward_level": 1,
+    "hidden": 1,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 1001034,
+    "class_id": 1001,
+    "name": "来都来了",
+    "description": "在黑雁工地借用工地的卫生间。",
+    "reward_level": 1,
+    "hidden": 1,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 1001036,
+    "class_id": 1001,
+    "name": "出门还要看运势吗？",
+    "description": "在对代理人发出邀约后失约。",
+    "reward_level": 1,
+    "hidden": 1,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 1001037,
+    "class_id": 1001,
+    "name": "读读空气吧",
+    "description": "在与代理人的对话中触发一次「信赖下降」。",
+    "reward_level": 1,
+    "hidden": 1,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 1001038,
+    "class_id": 1001,
+    "name": "小街生活",
+    "description": "在六分街找到喵吉长官，并集齐第1页的全部奖章。",
+    "reward_level": 1,
+    "hidden": 2,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 1001039,
+    "class_id": 1001,
+    "name": "最熟悉的地方",
+    "description": "在六分街找到喵吉长官，并集齐第2页的全部奖章。",
+    "reward_level": 1,
+    "hidden": 2,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 1001040,
+    "class_id": 1001,
+    "name": "编外工程师",
+    "description": "在黑雁工地找到喵吉长官，并集齐第1页的全部奖章。",
+    "reward_level": 1,
+    "hidden": 2,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 1001041,
+    "class_id": 1001,
+    "name": "就是爱逛",
+    "description": "在光映广场找到喵吉长官，并集齐第1页的全部奖章。",
+    "reward_level": 1,
+    "hidden": 2,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 1001042,
+    "class_id": 1001,
+    "name": "购物狂",
+    "description": "在光映广场找到喵吉长官，并集齐第2页的全部奖章。",
+    "reward_level": 1,
+    "hidden": 2,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 1001043,
+    "class_id": 1001,
+    "name": "灵异爱好者",
+    "description": "在芭莱大厦前找到喵吉长官，并集齐第1页的全部奖章。",
+    "reward_level": 1,
+    "hidden": 2,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 1003001,
+    "class_id": 1003,
+    "name": "新城观览",
+    "description": "累计登录7天。",
+    "reward_level": 1,
+    "hidden": 0,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 1003002,
+    "class_id": 1003,
+    "name": "「丽都见」",
+    "description": "累计登录30天。",
+    "reward_level": 2,
+    "hidden": 0,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 1003003,
+    "class_id": 1003,
+    "name": "城市的年轮",
+    "description": "累计登录365天。",
+    "reward_level": 3,
+    "hidden": 1,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 1003004,
+    "class_id": 1003,
+    "name": "升级没有捷径",
+    "description": "绳网等级达到20级。",
+    "reward_level": 1,
+    "hidden": 0,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 1003005,
+    "class_id": 1003,
+    "name": "我，独自升级！",
+    "description": "绳网等级达到40级。",
+    "reward_level": 2,
+    "hidden": 0,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 1003006,
+    "class_id": 1003,
+    "name": "LV60，恭迎王的回归",
+    "description": "绳网等级达到60级。",
+    "reward_level": 3,
+    "hidden": 0,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 1003007,
+    "class_id": 1003,
+    "name": "来了？朋友！",
+    "description": "任意代理人等级达到20级。",
+    "reward_level": 1,
+    "hidden": 0,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 1003008,
+    "class_id": 1003,
+    "name": "摸清门路了，朋友！",
+    "description": "任意代理人等级达到30级。",
+    "reward_level": 1,
+    "hidden": 0,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 1003009,
+    "class_id": 1003,
+    "name": "对劲了，朋友！",
+    "description": "任意代理人等级达到40级。",
+    "reward_level": 1,
+    "hidden": 0,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 1003010,
+    "class_id": 1003,
+    "name": "找到感觉了，朋友！",
+    "description": "任意代理人等级达到50级。",
+    "reward_level": 1,
+    "hidden": 0,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 1003011,
+    "class_id": 1003,
+    "name": "武装到牙齿，朋友！",
+    "description": "任意代理人等级达到60级。",
+    "reward_level": 2,
+    "hidden": 0,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 1003012,
+    "class_id": 1003,
+    "name": "放心交给我，朋友！",
+    "description": "3位代理人等级达到60级。",
+    "reward_level": 3,
+    "hidden": 0,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 1003013,
+    "class_id": 1003,
+    "name": "我将偷偷变强",
+    "description": "代理人技能强化5次。",
+    "reward_level": 1,
+    "hidden": 0,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 1003014,
+    "class_id": 1003,
+    "name": "更大，更多，更强！",
+    "description": "代理人技能强化20次。",
+    "reward_level": 2,
+    "hidden": 0,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 1003015,
+    "class_id": 1003,
+    "name": "强中强！",
+    "description": "代理人技能强化100次。",
+    "reward_level": 3,
+    "hidden": 0,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 1003016,
+    "class_id": 1003,
+    "name": "拼装达人",
+    "description": "将任意音擎的等级提升至20级。",
+    "reward_level": 1,
+    "hidden": 0,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 1003017,
+    "class_id": 1003,
+    "name": "发烧友",
+    "description": "将任意音擎的等级提升至40级。",
+    "reward_level": 1,
+    "hidden": 0,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 1003018,
+    "class_id": 1003,
+    "name": "只是沉迷拼装玩具",
+    "description": "将任意音擎的等级提升至60级。",
+    "reward_level": 2,
+    "hidden": 0,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 1003019,
+    "class_id": 1003,
+    "name": "价值连城的展示柜",
+    "description": "将任意3个音擎的等级提升至60级。",
+    "reward_level": 3,
+    "hidden": 0,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 1003020,
+    "class_id": 1003,
+    "name": "听到旋律了吗？",
+    "description": "将任意驱动盘的等级提升至9级。",
+    "reward_level": 1,
+    "hidden": 0,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 1003021,
+    "class_id": 1003,
+    "name": "音乐即是斗志",
+    "description": "将任意驱动盘的等级提升至12级。",
+    "reward_level": 1,
+    "hidden": 0,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 1003022,
+    "class_id": 1003,
+    "name": "有品位的歌单",
+    "description": "将任意驱动盘的等级提升至15级。",
+    "reward_level": 2,
+    "hidden": 0,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 1003023,
+    "class_id": 1003,
+    "name": "大合奏",
+    "description": "将6个任意驱动盘的等级提升至15级。",
+    "reward_level": 3,
+    "hidden": 0,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 1003025,
+    "class_id": 1003,
+    "name": "小钱而已，不值一提",
+    "description": "累计获得100万丁尼。",
+    "reward_level": 1,
+    "hidden": 0,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 1003026,
+    "class_id": 1003,
+    "name": "我在新艾利都发大财",
+    "description": "累计获得1000万丁尼。",
+    "reward_level": 2,
+    "hidden": 0,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 1003027,
+    "class_id": 1003,
+    "name": "这么有钱真是抱歉啦",
+    "description": "累计获得1亿丁尼。",
+    "reward_level": 3,
+    "hidden": 1,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 1003028,
+    "class_id": 1003,
+    "name": "非典型外向绳匠",
+    "description": "获得5位代理人。",
+    "reward_level": 1,
+    "hidden": 0,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 1003029,
+    "class_id": 1003,
+    "name": "开派对指日可待",
+    "description": "获得15位代理人。",
+    "reward_level": 1,
+    "hidden": 0,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 1003030,
+    "class_id": 1003,
+    "name": "隐藏款指日可待",
+    "description": "累计获得50个音擎。",
+    "reward_level": 1,
+    "hidden": 0,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 1003031,
+    "class_id": 1003,
+    "name": "嘘！别问价格",
+    "description": "累计获得100个音擎。",
+    "reward_level": 1,
+    "hidden": 0,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 1003032,
+    "class_id": 1003,
+    "name": "迈入！邦布时代",
+    "description": "获得1只邦布。",
+    "reward_level": 1,
+    "hidden": 0,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 1003033,
+    "class_id": 1003,
+    "name": "一只一只又一只",
+    "description": "累计获得5只邦布。",
+    "reward_level": 1,
+    "hidden": 0,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 1003034,
+    "class_id": 1003,
+    "name": "邦布大统领！",
+    "description": "累计获得10只邦布。",
+    "reward_level": 1,
+    "hidden": 0,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 1003037,
+    "class_id": 1003,
+    "name": "用光的艺术",
+    "description": "累计拍摄3张照片。",
+    "reward_level": 1,
+    "hidden": 1,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 1004001,
+    "class_id": 1004,
+    "name": "喜欢电影的不是坏人",
+    "description": "安比对绳匠的信赖达到4阶。",
+    "reward_level": 1,
+    "hidden": 2,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 1004002,
+    "class_id": 1004,
+    "name": "对你，仅次于丁尼",
+    "description": "妮可对绳匠的信赖达到4阶。",
+    "reward_level": 1,
+    "hidden": 2,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 1004003,
+    "class_id": 1004,
+    "name": "星徽骑士·幕后篇",
+    "description": "比利对绳匠的信赖达到4阶。",
+    "reward_level": 1,
+    "hidden": 2,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 1004004,
+    "class_id": 1004,
+    "name": "猫好人也好",
+    "description": "猫又对绳匠的信赖达到4阶。",
+    "reward_level": 1,
+    "hidden": 2,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 1004006,
+    "class_id": 1004,
+    "name": "机械之心",
+    "description": "格莉丝对绳匠的信赖达到4阶。",
+    "reward_level": 1,
+    "hidden": 2,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 1004007,
+    "class_id": 1004,
+    "name": "我的兄弟有点狠",
+    "description": "安东对绳匠的信赖达到4阶。",
+    "reward_level": 1,
+    "hidden": 2,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 1004008,
+    "class_id": 1004,
+    "name": "大个子的小算盘",
+    "description": "本对绳匠的信赖达到4阶。",
+    "reward_level": 1,
+    "hidden": 2,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 1004009,
+    "class_id": 1004,
+    "name": "甜系少女成长挚友",
+    "description": "珂蕾妲对绳匠的信赖达到4阶。",
+    "reward_level": 1,
+    "hidden": 2,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 1004010,
+    "class_id": 1004,
+    "name": "喜锯故事",
+    "description": "可琳对绳匠的信赖达到4阶。",
+    "reward_level": 1,
+    "hidden": 2,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 1004011,
+    "class_id": 1004,
+    "name": "非雇佣关系",
+    "description": "莱卡恩对绳匠的信赖达到4阶。",
+    "reward_level": 1,
+    "hidden": 2,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 1004012,
+    "class_id": 1004,
+    "name": "下课后的艾莲同学",
+    "description": "艾莲对绳匠的信赖达到4阶。",
+    "reward_level": 1,
+    "hidden": 2,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 1004013,
+    "class_id": 1004,
+    "name": "比杜苏拉还亲",
+    "description": "丽娜对绳匠的信赖达到4阶。",
+    "reward_level": 1,
+    "hidden": 2,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 1004014,
+    "class_id": 1004,
+    "name": "我治安局有人",
+    "description": "朱鸢对绳匠的信赖达到4阶。",
+    "reward_level": 1,
+    "hidden": 2,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 1004018,
+    "class_id": 1004,
+    "name": "喜报，有猫了！",
+    "description": "成功领养小黑。",
+    "reward_level": 1,
+    "hidden": 1,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 1004019,
+    "class_id": 1004,
+    "name": "小心别薅秃了",
+    "description": "在录像店内，累计抚摸小黑3次。",
+    "reward_level": 1,
+    "hidden": 1,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 1004020,
+    "class_id": 1004,
+    "name": "小猪咪喂养守则",
+    "description": "在录像店内，累计对小黑喂食3次。",
+    "reward_level": 1,
+    "hidden": 1,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 1004021,
+    "class_id": 1004,
+    "name": "愿得三人心",
+    "description": "累计3位代理人对绳匠的信赖达到4阶。",
+    "reward_level": 1,
+    "hidden": 0,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 1004022,
+    "class_id": 1004,
+    "name": "我的朋友很多",
+    "description": "累计10位代理人对绳匠的信赖达到4阶。",
+    "reward_level": 2,
+    "hidden": 0,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 1004023,
+    "class_id": 1004,
+    "name": "我，打团架的王",
+    "description": "累计20位代理人对绳匠的信赖达到4阶。",
+    "reward_level": 3,
+    "hidden": 0,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 1005001,
+    "class_id": 1005,
+    "name": "从零开始的绳匠生活",
+    "description": "完成法厄同纪事「生意×诡异×道义」。",
+    "reward_level": 3,
+    "hidden": 1,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 1005002,
+    "class_id": 1005,
+    "name": "欢迎新员工！",
+    "description": "完成法厄同纪事「猫的失物」。",
+    "reward_level": 3,
+    "hidden": 1,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 1005003,
+    "class_id": 1005,
+    "name": "家人",
+    "description": "完成「只是录像店平凡的一天」。",
+    "reward_level": 2,
+    "hidden": 1,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 1005004,
+    "class_id": 1005,
+    "name": "「英雄」的名字",
+    "description": "完成法厄同纪事「在空洞的中心呼唤…？」。",
+    "reward_level": 3,
+    "hidden": 1,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 1005005,
+    "class_id": 1005,
+    "name": "治安官的答案",
+    "description": "完成法厄同纪事「『非常任务』」。",
+    "reward_level": 2,
+    "hidden": 1,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 1005006,
+    "class_id": 1005,
+    "name": "叩响命运之门",
+    "description": "完成法厄同纪事「危楼夜寻踪」。",
+    "reward_level": 3,
+    "hidden": 1,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 1006001,
+    "class_id": 1006,
+    "name": "我是谁？",
+    "description": "完成「11号」的代理人秘闻「洞中谍」。",
+    "reward_level": 2,
+    "hidden": 1,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 1006002,
+    "class_id": 1006,
+    "name": "小猫没有坏心思",
+    "description": "完成猫又的代理人秘闻「贼猫御鼠」。",
+    "reward_level": 2,
+    "hidden": 1,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 1006003,
+    "class_id": 1006,
+    "name": "了不起的格莉丝",
+    "description": "完成格莉丝的代理人秘闻「钢铁的女巫」。",
+    "reward_level": 2,
+    "hidden": 1,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 1006004,
+    "class_id": 1006,
+    "name": "上学威龙…本人！",
+    "description": "完成珂蕾妲的代理人秘闻「满级小学生」。",
+    "reward_level": 2,
+    "hidden": 1,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 1006005,
+    "class_id": 1006,
+    "name": "而你，是正义的伙伴！",
+    "description": "完成莱卡恩的代理人秘闻「而英雄总是归于幕后」。",
+    "reward_level": 2,
+    "hidden": 1,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 1006006,
+    "class_id": 1006,
+    "name": "团子的保质期是永远",
+    "description": "完成丽娜的代理人秘闻「直到您彻底遗忘」。",
+    "reward_level": 2,
+    "hidden": 1,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 2001001,
+    "class_id": 2001,
+    "name": "医生，我还有救吗？",
+    "description": "通关枯萎之都时，携带5层侵蚀症状。",
+    "reward_level": 1,
+    "hidden": 2,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 2001002,
+    "class_id": 2001,
+    "name": "轰鸣伟力",
+    "description": "通关枯萎之都时，拥有的鸣徽不少于30枚。",
+    "reward_level": 1,
+    "hidden": 2,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 2001003,
+    "class_id": 2001,
+    "name": "喧腾的奇迹",
+    "description": "通关枯萎之都时，拥有的鸣徽不少于40枚。",
+    "reward_level": 2,
+    "hidden": 2,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 2001005,
+    "class_id": 2001,
+    "name": "自成一派",
+    "description": "枯萎之都单次探索中，集齐任意类型的全部鸣徽。",
+    "reward_level": 1,
+    "hidden": 2,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 2001006,
+    "class_id": 2001,
+    "name": "集合啦！嗯呢朋友！",
+    "description": "枯萎之都单次探索中，招募2只助战邦布。",
+    "reward_level": 1,
+    "hidden": 2,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 2001007,
+    "class_id": 2001,
+    "name": "独角武戏",
+    "description": "通关枯萎之都时，队伍中仅有1名代理人。",
+    "reward_level": 1,
+    "hidden": 2,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 2001008,
+    "class_id": 2001,
+    "name": "团伙作案",
+    "description": "通关枯萎之都时，队伍中有3名相同阵营代理人。",
+    "reward_level": 1,
+    "hidden": 2,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 2001009,
+    "class_id": 2001,
+    "name": "元素原教旨",
+    "description": "通关枯萎之都时，队伍中有3名相同属性代理人。",
+    "reward_level": 1,
+    "hidden": 2,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 2001012,
+    "class_id": 2001,
+    "name": "蒸汽经济学",
+    "description": "在枯萎之都中，累计获得10000枚齿轮硬币。",
+    "reward_level": 1,
+    "hidden": 2,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 2001013,
+    "class_id": 2001,
+    "name": "空洞大富翁",
+    "description": "在枯萎之都中，累计获得50000枚齿轮硬币。",
+    "reward_level": 2,
+    "hidden": 2,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 2001014,
+    "class_id": 2001,
+    "name": "青铜与齿轮之主",
+    "description": "在枯萎之都中，累计获得200000枚齿轮硬币。",
+    "reward_level": 3,
+    "hidden": 2,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 2001015,
+    "class_id": 2001,
+    "name": "心理疏导热线",
+    "description": "在枯萎之都中，累计降低300点压力值。",
+    "reward_level": 1,
+    "hidden": 2,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 2001016,
+    "class_id": 2001,
+    "name": "医生，我还有救！",
+    "description": "在枯萎之都中，小队生命值累计回复300%。",
+    "reward_level": 1,
+    "hidden": 1,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 2001017,
+    "class_id": 2001,
+    "name": "他的战斗力还在上升！",
+    "description": "在枯萎之都中，累计催化鸣徽5次。",
+    "reward_level": 1,
+    "hidden": 2,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 2001018,
+    "class_id": 2001,
+    "name": "挑剔买家",
+    "description": "在枯萎之都中，累计刷新鸣徽5次。",
+    "reward_level": 1,
+    "hidden": 2,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 2001019,
+    "class_id": 2001,
+    "name": "我要这个，还有那个",
+    "description": "在枯萎之都中，累计从邦布商人处购买5枚鸣徽。",
+    "reward_level": 1,
+    "hidden": 2,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 2001020,
+    "class_id": 2001,
+    "name": "空洞漫游指南",
+    "description": "在枯萎之都中，累计触发10个「事件」。",
+    "reward_level": 1,
+    "hidden": 2,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 2001021,
+    "class_id": 2001,
+    "name": "梦游仙境",
+    "description": "在枯萎之都中，累计进入3个「特殊区域」。",
+    "reward_level": 1,
+    "hidden": 2,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 2001022,
+    "class_id": 2001,
+    "name": "破「门」而入Ⅰ",
+    "description": "在枯萎之都中，战胜「守门人」并获得S级战斗评价。",
+    "reward_level": 1,
+    "hidden": 2,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 2001023,
+    "class_id": 2001,
+    "name": "破「门」而入Ⅱ",
+    "description": "在枯萎之都中，累计5次战胜「守门人」并获得S级战斗评价。",
+    "reward_level": 2,
+    "hidden": 2,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 2001024,
+    "class_id": 2001,
+    "name": "破「门」而入Ⅲ",
+    "description": "在枯萎之都中，累计20次战胜「守门人」并获得S级战斗评价。",
+    "reward_level": 3,
+    "hidden": 2,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 2001027,
+    "class_id": 2001,
+    "name": "超大内存条",
+    "description": "在枯萎之都中，累计使用20次邦布插件。",
+    "reward_level": 1,
+    "hidden": 2,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 2001028,
+    "class_id": 2001,
+    "name": "引火自救",
+    "description": "在枯萎之都中，获得「引燃」类型的进阶鸣徽II。",
+    "reward_level": 1,
+    "hidden": 2,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 2001029,
+    "class_id": 2001,
+    "name": "蓄电池满载",
+    "description": "在枯萎之都中，获得「能量」类型的进阶鸣徽II。",
+    "reward_level": 1,
+    "hidden": 2,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 2001030,
+    "class_id": 2001,
+    "name": "会心一击",
+    "description": "在枯萎之都中，获得「暴击」类型的进阶鸣徽II。",
+    "reward_level": 1,
+    "hidden": 2,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 2001031,
+    "class_id": 2001,
+    "name": "立体式防御",
+    "description": "在枯萎之都中，获得「护盾」类型的进阶鸣徽II。",
+    "reward_level": 1,
+    "hidden": 2,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 2001032,
+    "class_id": 2001,
+    "name": "风筝实验",
+    "description": "在枯萎之都中，获得「感电」类型的进阶鸣徽II。",
+    "reward_level": 1,
+    "hidden": 2,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 2001033,
+    "class_id": 2001,
+    "name": "白刃战",
+    "description": "在枯萎之都中，获得「决斗」类型的进阶鸣徽II。",
+    "reward_level": 1,
+    "hidden": 2,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 2001034,
+    "class_id": 2001,
+    "name": "他强任他强",
+    "description": "在枯萎之都中，获得「闪避」类型的进阶鸣徽II。",
+    "reward_level": 1,
+    "hidden": 2,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 2001035,
+    "class_id": 2001,
+    "name": "极速制冻",
+    "description": "在枯萎之都中，获得「冻结」类型的进阶鸣徽II。",
+    "reward_level": 1,
+    "hidden": 2,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 2001036,
+    "class_id": 2001,
+    "name": "一力降十会",
+    "description": "在枯萎之都中，获得「强袭」类型的进阶鸣徽II。",
+    "reward_level": 1,
+    "hidden": 2,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 2001037,
+    "class_id": 2001,
+    "name": "空洞急救热线",
+    "description": "在枯萎之都中，获得「支援」类型的进阶鸣徽II。",
+    "reward_level": 1,
+    "hidden": 2,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 2001038,
+    "class_id": 2001,
+    "name": "以彼之道",
+    "description": "在枯萎之都中，获得「以太」类型的进阶鸣徽II。",
+    "reward_level": 1,
+    "hidden": 2,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 2001039,
+    "class_id": 2001,
+    "name": "「救命！」",
+    "description": "在枯萎之都中，获得「协助」类型的进阶鸣徽II。",
+    "reward_level": 1,
+    "hidden": 2,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 2001040,
+    "class_id": 2001,
+    "name": "纵火须克制",
+    "description": "在枯萎之都中，获得过所有「引燃」类型的鸣徽。",
+    "reward_level": 1,
+    "hidden": 2,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 2001041,
+    "class_id": 2001,
+    "name": "及时补充电解质",
+    "description": "在枯萎之都中，获得过所有「能量」类型的鸣徽。",
+    "reward_level": 1,
+    "hidden": 2,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 2001042,
+    "class_id": 2001,
+    "name": "弹药艺术",
+    "description": "在枯萎之都中，获得过所有「暴击」类型的鸣徽。",
+    "reward_level": 1,
+    "hidden": 2,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 2001043,
+    "class_id": 2001,
+    "name": "装甲大师",
+    "description": "在枯萎之都中，获得过所有「护盾」类型的鸣徽。",
+    "reward_level": 1,
+    "hidden": 2,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 2001044,
+    "class_id": 2001,
+    "name": "保持电量",
+    "description": "在枯萎之都中，获得过所有「感电」类型的鸣徽。",
+    "reward_level": 1,
+    "hidden": 2,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 2001045,
+    "class_id": 2001,
+    "name": "第七种武器",
+    "description": "在枯萎之都中，获得过所有「决斗」类型的鸣徽。",
+    "reward_level": 1,
+    "hidden": 2,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 2001046,
+    "class_id": 2001,
+    "name": "唯快不破",
+    "description": "在枯萎之都中，获得过所有「闪避」类型的鸣徽。",
+    "reward_level": 1,
+    "hidden": 2,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 2001047,
+    "class_id": 2001,
+    "name": "非一日之寒",
+    "description": "在枯萎之都中，获得过所有「冻结」类型的鸣徽。",
+    "reward_level": 1,
+    "hidden": 2,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 2001048,
+    "class_id": 2001,
+    "name": "刀锯无眼",
+    "description": "在枯萎之都中，获得过所有「强袭」类型的鸣徽。",
+    "reward_level": 1,
+    "hidden": 2,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 2001049,
+    "class_id": 2001,
+    "name": "「掩护我！」",
+    "description": "在枯萎之都中，获得过所有「支援」类型的鸣徽。",
+    "reward_level": 1,
+    "hidden": 2,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 2001050,
+    "class_id": 2001,
+    "name": "「新能源，新时代！」",
+    "description": "在枯萎之都中，获得过所有「以太」类型的鸣徽。",
+    "reward_level": 1,
+    "hidden": 2,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 2001051,
+    "class_id": 2001,
+    "name": "「最好的朋友」",
+    "description": "在枯萎之都中，获得过所有「协助」类型的鸣徽。",
+    "reward_level": 1,
+    "hidden": 2,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 2001053,
+    "class_id": 2001,
+    "name": "脱敏疗法",
+    "description": "在枯萎之都中，累计获得5个侵蚀症状。",
+    "reward_level": 1,
+    "hidden": 2,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 2001054,
+    "class_id": 2001,
+    "name": "从良盗洞客",
+    "description": "首次在「外围」难度下，完成对枯萎之都的探索。",
+    "reward_level": 1,
+    "hidden": 2,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 2001055,
+    "class_id": 2001,
+    "name": "协会先锋",
+    "description": "首次在「前线」难度下，完成对枯萎之都的探索。",
+    "reward_level": 1,
+    "hidden": 2,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 2001056,
+    "class_id": 2001,
+    "name": "怀斯塔之友",
+    "description": "首次在「内部」难度下，完成对枯萎之都的探索。",
+    "reward_level": 1,
+    "hidden": 2,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 2001057,
+    "class_id": 2001,
+    "name": "六课认证",
+    "description": "首次在「腹地」难度下，完成对枯萎之都的探索。",
+    "reward_level": 1,
+    "hidden": 2,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 2001058,
+    "class_id": 2001,
+    "name": "斯科特的王牌",
+    "description": "首次在「核心」难度下，完成对枯萎之都的探索。",
+    "reward_level": 1,
+    "hidden": 2,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 2002001,
+    "class_id": 2002,
+    "name": "一招了之Ⅰ",
+    "description": "单次对敌伤害超过100000点。",
+    "reward_level": 1,
+    "hidden": 0,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 2002002,
+    "class_id": 2002,
+    "name": "一招了之Ⅱ",
+    "description": "单次对敌伤害超过500000点。",
+    "reward_level": 2,
+    "hidden": 0,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 2002009,
+    "class_id": 2002,
+    "name": "毕生一击Ⅰ",
+    "description": "代理人累计释放10次「终结技」。",
+    "reward_level": 1,
+    "hidden": 0,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 2002010,
+    "class_id": 2002,
+    "name": "毕生一击Ⅱ",
+    "description": "代理人累计释放50次「终结技」。",
+    "reward_level": 2,
+    "hidden": 0,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 2002011,
+    "class_id": 2002,
+    "name": "毕生一击Ⅲ",
+    "description": "代理人累计释放200次「终结技」。",
+    "reward_level": 3,
+    "hidden": 0,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 2002012,
+    "class_id": 2002,
+    "name": "雪中送火Ⅰ",
+    "description": "在战斗中，累计触发10次「极限支援」。",
+    "reward_level": 1,
+    "hidden": 0,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 2002013,
+    "class_id": 2002,
+    "name": "雪中送火Ⅱ",
+    "description": "在战斗中，累计触发50次「极限支援」。",
+    "reward_level": 2,
+    "hidden": 0,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 2002014,
+    "class_id": 2002,
+    "name": "雪中送火Ⅲ",
+    "description": "在战斗中，累计触发200次「极限支援」。",
+    "reward_level": 3,
+    "hidden": 0,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 2002015,
+    "class_id": 2002,
+    "name": "刀背藏身Ⅰ",
+    "description": "在战斗中，累计触发10次「极限闪避」。",
+    "reward_level": 1,
+    "hidden": 0,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 2002016,
+    "class_id": 2002,
+    "name": "刀背藏身Ⅱ",
+    "description": "在战斗中，累计触发50次「极限闪避」。",
+    "reward_level": 2,
+    "hidden": 0,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 2002017,
+    "class_id": 2002,
+    "name": "刀背藏身Ⅲ",
+    "description": "在战斗中，累计触发200次「极限闪避」。",
+    "reward_level": 3,
+    "hidden": 0,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 2002019,
+    "class_id": 2002,
+    "name": "三下五除二",
+    "description": "连续击晕3名不同的敌人，使小队内3名代理人轮流上场支援。",
+    "reward_level": 1,
+    "hidden": 0,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 2002020,
+    "class_id": 2002,
+    "name": "特写当然要帅气",
+    "description": "在战斗中，使用「终结技」击败最后的敌人。",
+    "reward_level": 1,
+    "hidden": 0,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 2002023,
+    "class_id": 2002,
+    "name": "咻咻咻！",
+    "description": "在10秒内，触发3次「极限支援」。",
+    "reward_level": 1,
+    "hidden": 0,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 2002024,
+    "class_id": 2002,
+    "name": "存着存着就忘了",
+    "description": "在喧响值充满的状态下，完成战斗。",
+    "reward_level": 1,
+    "hidden": 0,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 2002026,
+    "class_id": 2002,
+    "name": "燃燃燃起来了！",
+    "description": "携带3位「火」属性代理人，完成30场战斗。",
+    "reward_level": 1,
+    "hidden": 1,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 2002027,
+    "class_id": 2002,
+    "name": "如在冰箱内",
+    "description": "携带3位「冰」属性代理人，完成30场战斗。",
+    "reward_level": 1,
+    "hidden": 1,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 2002028,
+    "class_id": 2002,
+    "name": "酥酥麻麻的呢",
+    "description": "携带3位「电」属性代理人，完成30场战斗。",
+    "reward_level": 1,
+    "hidden": 1,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 2002029,
+    "class_id": 2002,
+    "name": "遇事不决以太学",
+    "description": "携带3位「以太」属性代理人，完成30场战斗。",
+    "reward_level": 1,
+    "hidden": 1,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 2002030,
+    "class_id": 2002,
+    "name": "你相信力量吗？",
+    "description": "携带3位「物理」属性代理人，完成30场战斗。",
+    "reward_level": 1,
+    "hidden": 1,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 2002034,
+    "class_id": 2002,
+    "name": "激情燃烧Ⅰ",
+    "description": "累计10次，使用「火」属性代理人使敌人陷入属性异常。",
+    "reward_level": 1,
+    "hidden": 0,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 2002035,
+    "class_id": 2002,
+    "name": "激情燃烧Ⅱ",
+    "description": "累计50次，使用「火」属性代理人使敌人陷入属性异常。",
+    "reward_level": 2,
+    "hidden": 0,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 2002036,
+    "class_id": 2002,
+    "name": "激情燃烧Ⅲ",
+    "description": "累计200次，使用「火」属性代理人使敌人陷入属性异常。",
+    "reward_level": 3,
+    "hidden": 1,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 2002037,
+    "class_id": 2002,
+    "name": "请冷静Ⅰ",
+    "description": "累计10次，使用「冰」属性代理人使敌人陷入属性异常。",
+    "reward_level": 1,
+    "hidden": 0,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 2002038,
+    "class_id": 2002,
+    "name": "请冷静Ⅱ",
+    "description": "累计50次，使用「冰」属性代理人使敌人陷入属性异常。",
+    "reward_level": 2,
+    "hidden": 0,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 2002039,
+    "class_id": 2002,
+    "name": "请冷静Ⅲ",
+    "description": "累计200次，使用「冰」属性代理人使敌人陷入属性异常。",
+    "reward_level": 3,
+    "hidden": 1,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 2002040,
+    "class_id": 2002,
+    "name": "触电的感觉Ⅰ",
+    "description": "累计10次，使用「电」属性代理人使敌人陷入属性异常。",
+    "reward_level": 1,
+    "hidden": 0,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 2002041,
+    "class_id": 2002,
+    "name": "触电的感觉Ⅱ",
+    "description": "累计50次，使用「电」属性代理人使敌人陷入属性异常。",
+    "reward_level": 2,
+    "hidden": 0,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 2002042,
+    "class_id": 2002,
+    "name": "触电的感觉Ⅲ",
+    "description": "累计200次，使用「电」属性代理人使敌人陷入属性异常。",
+    "reward_level": 3,
+    "hidden": 1,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 2002043,
+    "class_id": 2002,
+    "name": "以为太难Ⅰ",
+    "description": "累计10次，使用「以太」属性代理人使敌人陷入属性异常。",
+    "reward_level": 1,
+    "hidden": 0,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 2002044,
+    "class_id": 2002,
+    "name": "以为太难Ⅱ",
+    "description": "累计50次，使用「以太」属性代理人使敌人陷入属性异常。",
+    "reward_level": 2,
+    "hidden": 0,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 2002045,
+    "class_id": 2002,
+    "name": "以为太难Ⅲ",
+    "description": "累计200次，使用「以太」属性代理人使敌人陷入属性异常。",
+    "reward_level": 3,
+    "hidden": 1,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 2002046,
+    "class_id": 2002,
+    "name": "据理服人Ⅰ",
+    "description": "累计10次，使用「物理」属性代理人使敌人陷入属性异常。",
+    "reward_level": 1,
+    "hidden": 0,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 2002047,
+    "class_id": 2002,
+    "name": "据理服人Ⅱ",
+    "description": "累计50次，使用「物理」属性代理人使敌人陷入属性异常。",
+    "reward_level": 2,
+    "hidden": 0,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 2002048,
+    "class_id": 2002,
+    "name": "据理服人Ⅲ",
+    "description": "累计200次，使用「物理」属性代理人使敌人陷入属性异常。",
+    "reward_level": 3,
+    "hidden": 1,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 2002049,
+    "class_id": 2002,
+    "name": "露电幻梦Ⅰ",
+    "description": "在战斗中，累计触发10次「紊乱」效果。",
+    "reward_level": 1,
+    "hidden": 0,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 2002050,
+    "class_id": 2002,
+    "name": "露电幻梦Ⅱ",
+    "description": "在战斗中，累计触发50次「紊乱」效果。",
+    "reward_level": 2,
+    "hidden": 0,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 2002051,
+    "class_id": 2002,
+    "name": "露电幻梦Ⅲ",
+    "description": "在战斗中，累计触发200次「紊乱」效果。",
+    "reward_level": 3,
+    "hidden": 0,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 2003001,
+    "class_id": 2003,
+    "name": "末路屠夫",
+    "description": "通过造成「失衡」以外的方式，让「死路屠夫」进入跪地状态。",
+    "reward_level": 1,
+    "hidden": 2,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 2003002,
+    "class_id": 2003,
+    "name": "粉碎性骨折",
+    "description": "在对战「复合侵蚀体」时，单阶段内对腿部触发3次「部位破坏」。",
+    "reward_level": 1,
+    "hidden": 2,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 2003003,
+    "class_id": 2003,
+    "name": "舞剧谢幕",
+    "description": "在对战「冥宁芙·双子」时，敌人全程未能成功复活。",
+    "reward_level": 1,
+    "hidden": 2,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 2003004,
+    "class_id": 2002,
+    "name": "最后的英雄",
+    "description": "在仅剩一名代理人在场的情况下，取得战斗胜利。",
+    "reward_level": 1,
+    "hidden": 1,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 2003005,
+    "class_id": 2002,
+    "name": "拆卸专家",
+    "description": "在战斗中，累计触发10次「部位破坏」。",
+    "reward_level": 1,
+    "hidden": 1,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 2004002,
+    "class_id": 2004,
+    "name": "虚拟世界欢迎您",
+    "description": "在「实战模拟室」完成1次训练。",
+    "reward_level": 1,
+    "hidden": 2,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 2004003,
+    "class_id": 2004,
+    "name": "热身运动",
+    "description": "累计在「实战模拟室」完成20次训练。",
+    "reward_level": 1,
+    "hidden": 2,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 2004004,
+    "class_id": 2004,
+    "name": "一个能打的都没有",
+    "description": "累计在「实战模拟室」完成100次训练。",
+    "reward_level": 2,
+    "hidden": 2,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 2004005,
+    "class_id": 2004,
+    "name": "设备调试",
+    "description": "完成1次「定期清剿」。",
+    "reward_level": 1,
+    "hidden": 2,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 2004006,
+    "class_id": 2004,
+    "name": "简简单单！",
+    "description": "累计完成20次「定期清剿」。",
+    "reward_level": 1,
+    "hidden": 2,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 2004007,
+    "class_id": 2004,
+    "name": "完美配合",
+    "description": "累计完成100次「定期清剿」。",
+    "reward_level": 2,
+    "hidden": 2,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 2004008,
+    "class_id": 2004,
+    "name": "这才叫专业！",
+    "description": "在「专业挑战室」完成1次训练。",
+    "reward_level": 1,
+    "hidden": 2,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 2004009,
+    "class_id": 2004,
+    "name": "已经…习惯了",
+    "description": "累计在「专业挑战室」完成20次训练。",
+    "reward_level": 1,
+    "hidden": 2,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 2004010,
+    "class_id": 2004,
+    "name": "职业玩家",
+    "description": "累计在「专业挑战室」完成100次训练。",
+    "reward_level": 2,
+    "hidden": 2,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 2004011,
+    "class_id": 2004,
+    "name": "就这？",
+    "description": "完成1次「恶名狩猎」。",
+    "reward_level": 1,
+    "hidden": 2,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 2004012,
+    "class_id": 2004,
+    "name": "抗压大师",
+    "description": "累计完成20次「恶名狩猎」。",
+    "reward_level": 1,
+    "hidden": 2,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 2004013,
+    "class_id": 2004,
+    "name": "刀尖舞者",
+    "description": "累计完成100次「恶名狩猎」。",
+    "reward_level": 2,
+    "hidden": 2,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 2004014,
+    "class_id": 2004,
+    "name": "全线巡礼",
+    "description": "完成「列车枢纽」区域内拉力委托，并全部获得S级评价。",
+    "reward_level": 2,
+    "hidden": 2,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 2004015,
+    "class_id": 2004,
+    "name": "捉迷藏·旧地铁",
+    "description": "在「列车枢纽」区域，找到所有隐藏的小卡格车。",
+    "reward_level": 1,
+    "hidden": 2,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 2004016,
+    "class_id": 2004,
+    "name": "你们已经被我包围了！",
+    "description": "在「列车枢纽」区域，找到并击败所有埋伏的敌人。",
+    "reward_level": 1,
+    "hidden": 2,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 2004017,
+    "class_id": 2004,
+    "name": "全域安泰",
+    "description": "完成「旧城建区」区域内拉力委托，并全部获得S级评价。",
+    "reward_level": 2,
+    "hidden": 2,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 2004018,
+    "class_id": 2004,
+    "name": "捉迷藏·工地",
+    "description": "在「旧城建区」区域，找到所有隐藏的小卡格车。",
+    "reward_level": 1,
+    "hidden": 2,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 2004019,
+    "class_id": 2004,
+    "name": "迅捷正义",
+    "description": "在「旧城建区·南段」的第一个区域就击败「提丰· 挑战者型 」。",
+    "reward_level": 1,
+    "hidden": 2,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 2004020,
+    "class_id": 2004,
+    "name": "全勤绩优",
+    "description": "完成「清道夫行动」拉力委托，并全部获得S级评价。",
+    "reward_level": 2,
+    "hidden": 2,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 2004021,
+    "class_id": 2004,
+    "name": "捉迷藏·芭莱大厦",
+    "description": "在「清道夫行动」中，找到所有隐藏的小卡格车。",
+    "reward_level": 1,
+    "hidden": 2,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 2004022,
+    "class_id": 2004,
+    "name": "NEDF！OPEN UP！",
+    "description": "在「清道夫行动」中，救出所有的防卫军人员。",
+    "reward_level": 1,
+    "hidden": 2,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 2004023,
+    "class_id": 2004,
+    "name": "踏入混乱之地",
+    "description": "在式舆防卫战中，通关稳定节点的第六防线。",
+    "reward_level": 1,
+    "hidden": 2,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 2004024,
+    "class_id": 2004,
+    "name": "深入幽邃之处",
+    "description": "在式舆防卫战中，通关稳定节点的第十防线。",
+    "reward_level": 1,
+    "hidden": 2,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 2004025,
+    "class_id": 2004,
+    "name": "危机前线",
+    "description": "在式舆防卫战中，通关剧变节点的第三防线。",
+    "reward_level": 1,
+    "hidden": 2,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 2004026,
+    "class_id": 2004,
+    "name": "阵线前锋",
+    "description": "在式舆防卫战中，通关剧变节点的第五防线。",
+    "reward_level": 1,
+    "hidden": 2,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 2004027,
+    "class_id": 2004,
+    "name": "突入禁区",
+    "description": "在式舆防卫战中，通关剧变节点的第七防线。",
+    "reward_level": 1,
+    "hidden": 2,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 2004028,
+    "class_id": 2004,
+    "name": "精英调查员",
+    "description": "在式舆防卫战中通关稳定节点，且在每层获得A级评价。",
+    "reward_level": 2,
+    "hidden": 2,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 2004030,
+    "class_id": 2004,
+    "name": "式舆守卫者",
+    "description": "在式舆防卫战中通关剧变节点，且在每层获得A级评价。",
+    "reward_level": 2,
+    "hidden": 2,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 3001000,
+    "class_id": 3001,
+    "name": "合理利用",
+    "description": "在「终极无敌隐藏款」中，成功找到音擎。",
+    "reward_level": 1,
+    "hidden": 0,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 3001001,
+    "class_id": 3001,
+    "name": "公平竞争制度",
+    "description": "在「实习生事故实录」中，救出所有走失的邦布商人。",
+    "reward_level": 1,
+    "hidden": 2,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 3001002,
+    "class_id": 3001,
+    "name": "安全距离",
+    "description": "在「深度『叛变』」中，不被任何巡逻的敌人接近。",
+    "reward_level": 1,
+    "hidden": 2,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 3001003,
+    "class_id": 3001,
+    "name": "天马速运，没我不行",
+    "description": "在「幸存者救援」中，规划的线路没有路过负面事件。",
+    "reward_level": 1,
+    "hidden": 2,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 3001004,
+    "class_id": 3001,
+    "name": "杯水不洒",
+    "description": "在「最后一单」中，规划的线路没有路过负面事件。",
+    "reward_level": 1,
+    "hidden": 2,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 3001005,
+    "class_id": 3001,
+    "name": "英雄之旅",
+    "description": "在「预言之下」中，赢得一场史诗般的单挑。",
+    "reward_level": 1,
+    "hidden": 2,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 3001006,
+    "class_id": 3001,
+    "name": "打工是不可能的",
+    "description": "在「邦布黄金城」中，在空洞第二层不打工并顺利通过。",
+    "reward_level": 1,
+    "hidden": 2,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 3001007,
+    "class_id": 3001,
+    "name": "小小邦布手拉手",
+    "description": "在「邦布之狱」中成功救下小甜菜头。",
+    "reward_level": 1,
+    "hidden": 2,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 3001008,
+    "class_id": 3001,
+    "name": "醒醒，起床上班了！",
+    "description": "在「邦布之狱」中成功唤醒调查员杰夫。",
+    "reward_level": 1,
+    "hidden": 2,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 3001009,
+    "class_id": 3001,
+    "name": "科技致富",
+    "description": "在「以骸引路人」中，收集9999枚齿轮硬币。",
+    "reward_level": 1,
+    "hidden": 2,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 3001010,
+    "class_id": 3001,
+    "name": "爆炸是门艺术",
+    "description": "在「科学地爆炸」中，获得转化效果为「圆形扩散」的结晶。",
+    "reward_level": 1,
+    "hidden": 2,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 3001011,
+    "class_id": 3001,
+    "name": "焰火表演",
+    "description": "在「上班补锅回忆录」中，解锁全部发射按钮。",
+    "reward_level": 1,
+    "hidden": 2,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 3001012,
+    "class_id": 3001,
+    "name": "火力覆盖",
+    "description": "在「职场补锅罗曼史」中，强化所有炮台。",
+    "reward_level": 1,
+    "hidden": 2,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 3001013,
+    "class_id": 3001,
+    "name": "庞然大布",
+    "description": "在「目标是成为邦布大师！」中，有一个邦布的生命值不低于20。",
+    "reward_level": 1,
+    "hidden": 2,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 3001014,
+    "class_id": 3001,
+    "name": "孤胆英雄",
+    "description": "在「目标是成为邦布大师！」中，触发一次「孤蛋头巾」的效果。",
+    "reward_level": 1,
+    "hidden": 2,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 3001015,
+    "class_id": 3001,
+    "name": "完美闪避",
+    "description": "在「危机丛生之地」中，不触发任何陷阱并完成委托。",
+    "reward_level": 1,
+    "hidden": 2,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 3001016,
+    "class_id": 3001,
+    "name": "业余黑客",
+    "description": "在「秘密大扫除」中，成功破解密码。",
+    "reward_level": 1,
+    "hidden": 2,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 3001017,
+    "class_id": 3001,
+    "name": "周到服务",
+    "description": "在「赌上性命的恋爱仪式」中，不借助委托人的帮助完成委托。",
+    "reward_level": 1,
+    "hidden": 2,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 3001019,
+    "class_id": 3001,
+    "name": "寂静画廊",
+    "description": "在「消失的油画」中，找到所有油画《抱邦布的男人》。",
+    "reward_level": 1,
+    "hidden": 2,
+    "game_version": "1.0"
+  },
+  {
+    "achievement_id": 3001020,
+    "class_id": 3001,
+    "name": "真相常与孤独结伴而行",
+    "description": "在「倒带侦探」中，见证「卡米诺斯」的诞生。",
+    "reward_level": 1,
+    "hidden": 1,
+    "game_version": "1.0"
+  }
+]

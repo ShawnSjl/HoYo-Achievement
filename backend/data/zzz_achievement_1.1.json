@@ -1,0 +1,317 @@
+[
+  {
+    "achievement_id": 1001035,
+    "class_id": 1001,
+    "name": "谁是可疑人员",
+    "description": "在深夜时段进入治安局办事处。",
+    "reward_level": 1,
+    "hidden": 1,
+    "game_version": "1.1"
+  },
+  {
+    "achievement_id": 1001044,
+    "class_id": 3002,
+    "name": "韦德小队见证者",
+    "description": "完成枯萎之都的隐藏委托「测量器」。",
+    "reward_level": 1,
+    "hidden": 1,
+    "game_version": "1.1"
+  },
+  {
+    "achievement_id": 1001045,
+    "class_id": 3002,
+    "name": "是幸运，还是不幸？",
+    "description": "完成枯萎之都的隐藏委托「幸运门票」。",
+    "reward_level": 1,
+    "hidden": 1,
+    "game_version": "1.1"
+  },
+  {
+    "achievement_id": 1001046,
+    "class_id": 3002,
+    "name": "用手铐求婚",
+    "description": "完成枯萎之都的隐藏委托「空洞里的求婚」。",
+    "reward_level": 1,
+    "hidden": 1,
+    "game_version": "1.1"
+  },
+  {
+    "achievement_id": 1001047,
+    "class_id": 3002,
+    "name": "少女穿越空洞吧！",
+    "description": "完成枯萎之都的隐藏委托「穿越空洞的夜晚」。",
+    "reward_level": 1,
+    "hidden": 1,
+    "game_version": "1.1"
+  },
+  {
+    "achievement_id": 1001048,
+    "class_id": 1001,
+    "name": "丽都里的守望者",
+    "description": "在光映广场找到喵吉长官，并集齐「再建丽都！」的全部奖章",
+    "reward_level": 1,
+    "hidden": 2,
+    "game_version": "1.1"
+  },
+  {
+    "achievement_id": 1001049,
+    "class_id": 1001,
+    "name": "该洗脸了",
+    "description": "在报刊亭刮刮卡连续2天刮出「3根骨头」图案。",
+    "reward_level": 1,
+    "hidden": 1,
+    "game_version": "1.1"
+  },
+  {
+    "achievement_id": 1001050,
+    "class_id": 1001,
+    "name": "小狗只会原谅",
+    "description": "深夜到访「嗷呜」报刊亭，打扰嗷呜的休息。",
+    "reward_level": 1,
+    "hidden": 1,
+    "game_version": "1.1"
+  },
+  {
+    "achievement_id": 1001051,
+    "class_id": 1001,
+    "name": "可乐罐拥堵事件",
+    "description": "查看六分街上的自动售货机，并不礼貌地踢它一脚。",
+    "reward_level": 1,
+    "hidden": 1,
+    "game_version": "1.1"
+  },
+  {
+    "achievement_id": 1001052,
+    "class_id": 1001,
+    "name": "实在优雅",
+    "description": "查看六分街上「姿态优雅」的邦布塑像。",
+    "reward_level": 1,
+    "hidden": 1,
+    "game_version": "1.1"
+  },
+  {
+    "achievement_id": 1001053,
+    "class_id": 1001,
+    "name": "愿大家都有一丁尼",
+    "description": "在录像店门口找到前来兑现承诺的一丁尼布。",
+    "reward_level": 1,
+    "hidden": 1,
+    "game_version": "1.1"
+  },
+  {
+    "achievement_id": 1001054,
+    "class_id": 1001,
+    "name": "家庭省电新思路",
+    "description": "拍摄光映广场停车场内邦布充电桩的「顾客」。",
+    "reward_level": 1,
+    "hidden": 1,
+    "game_version": "1.1"
+  },
+  {
+    "achievement_id": 1001055,
+    "class_id": 1001,
+    "name": "三思而后思",
+    "description": "凑近观察芭莱大厦前广场上的「再好好想想」雕像，并给它拍照。",
+    "reward_level": 1,
+    "hidden": 1,
+    "game_version": "1.1"
+  },
+  {
+    "achievement_id": 1001056,
+    "class_id": 1001,
+    "name": "下次一定",
+    "description": "阅读光映广场治安局办事处正门的「远离空洞」宣传海报。",
+    "reward_level": 1,
+    "hidden": 1,
+    "game_version": "1.1"
+  },
+  {
+    "achievement_id": 1003038,
+    "class_id": 1003,
+    "name": "个人形象管理",
+    "description": "更换绳网头像。",
+    "reward_level": 1,
+    "hidden": 0,
+    "game_version": "1.1"
+  },
+  {
+    "achievement_id": 1003039,
+    "class_id": 1003,
+    "name": "「您好，我是…」",
+    "description": "更换绳网名片。",
+    "reward_level": 1,
+    "hidden": 0,
+    "game_version": "1.1"
+  },
+  {
+    "achievement_id": 1003040,
+    "class_id": 1003,
+    "name": "由你陪伴我",
+    "description": "更换快捷菜单界面的动态壁纸。",
+    "reward_level": 1,
+    "hidden": 0,
+    "game_version": "1.1"
+  },
+  {
+    "achievement_id": 1003041,
+    "class_id": 1003,
+    "name": "核心力量训练Ⅰ",
+    "description": "代理人核心技强化5次。",
+    "reward_level": 1,
+    "hidden": 0,
+    "game_version": "1.1"
+  },
+  {
+    "achievement_id": 1003042,
+    "class_id": 1003,
+    "name": "核心力量训练Ⅱ",
+    "description": "代理人核心技强化20次。",
+    "reward_level": 2,
+    "hidden": 0,
+    "game_version": "1.1"
+  },
+  {
+    "achievement_id": 1003043,
+    "class_id": 1003,
+    "name": "核心力量训练Ⅲ",
+    "description": "代理人核心技强化50次。",
+    "reward_level": 3,
+    "hidden": 0,
+    "game_version": "1.1"
+  },
+  {
+    "achievement_id": 1004015,
+    "class_id": 1004,
+    "name": "晚安好梦与早上好",
+    "description": "简对绳匠的信赖达到4阶。",
+    "reward_level": 1,
+    "hidden": 2,
+    "game_version": "1.1"
+  },
+  {
+    "achievement_id": 1004016,
+    "class_id": 1004,
+    "name": "「朋友不曾孤单过」",
+    "description": "赛斯对绳匠的信赖达到4阶。",
+    "reward_level": 1,
+    "hidden": 2,
+    "game_version": "1.1"
+  },
+  {
+    "achievement_id": 1004017,
+    "class_id": 1004,
+    "name": "青青子衿",
+    "description": "青衣对绳匠的信赖达到4阶。",
+    "reward_level": 1,
+    "hidden": 2,
+    "game_version": "1.1"
+  },
+  {
+    "achievement_id": 1006007,
+    "class_id": 1006,
+    "name": "帮邦邦邦…",
+    "description": "完成青衣的代理人秘闻「失踪邦口」。",
+    "reward_level": 2,
+    "hidden": 1,
+    "game_version": "1.1"
+  },
+  {
+    "achievement_id": 1007001,
+    "class_id": 3001,
+    "name": "来场猫鼠游戏？",
+    "description": "在「升阶之路」中，与锦毛鼠对舞并反客为主。",
+    "reward_level": 2,
+    "hidden": 1,
+    "game_version": "1.1"
+  },
+  {
+    "achievement_id": 1007002,
+    "class_id": 1007,
+    "name": "主演遁入夜幕",
+    "description": "完成简·杜的独家视界「卧底蓝调」。",
+    "reward_level": 3,
+    "hidden": 1,
+    "game_version": "1.1"
+  },
+  {
+    "achievement_id": 2001004,
+    "class_id": 2001,
+    "name": "叱咤以太之王",
+    "description": "通关枯萎之都时，拥有的鸣徽不少于50枚。",
+    "reward_level": 3,
+    "hidden": 2,
+    "game_version": "1.1"
+  },
+  {
+    "achievement_id": 2001059,
+    "class_id": 2001,
+    "name": "初级「园艺」师",
+    "description": "「刀耕火焚」行动中，单局内对「尼尼微」伤害超过2000万点。",
+    "reward_level": 1,
+    "hidden": 2,
+    "game_version": "1.1"
+  },
+  {
+    "achievement_id": 2001060,
+    "class_id": 2001,
+    "name": "高级「园艺」师",
+    "description": "「刀耕火焚」行动中，单局内对「尼尼微」伤害超过3000万点。",
+    "reward_level": 2,
+    "hidden": 2,
+    "game_version": "1.1"
+  },
+  {
+    "achievement_id": 2001061,
+    "class_id": 2001,
+    "name": "斩「草」除根",
+    "description": "「刀耕火焚」行动中，累计击败尼尼微5次。",
+    "reward_level": 3,
+    "hidden": 2,
+    "game_version": "1.1"
+  },
+  {
+    "achievement_id": 2001062,
+    "class_id": 2001,
+    "name": "向天再借60秒",
+    "description": "「刀耕火焚」行动中，单局获得额外延长时间超过60秒。",
+    "reward_level": 1,
+    "hidden": 2,
+    "game_version": "1.1"
+  },
+  {
+    "achievement_id": 2002003,
+    "class_id": 2002,
+    "name": "一招了之Ⅲ",
+    "description": "单次对敌伤害超过1000000点。",
+    "reward_level": 3,
+    "hidden": 0,
+    "game_version": "1.1"
+  },
+  {
+    "achievement_id": 2004031,
+    "class_id": 2004,
+    "name": "纷争终结者",
+    "description": "在式舆防卫战中，通关纷争节点的第八防线。",
+    "reward_level": 2,
+    "hidden": 2,
+    "game_version": "1.1"
+  },
+  {
+    "achievement_id": 3001021,
+    "class_id": 3001,
+    "name": "双生幽伶",
+    "description": "在「昨日舞台」中，在双子剧院内欣赏幽灵的舞蹈。",
+    "reward_level": 1,
+    "hidden": 2,
+    "game_version": "1.1"
+  },
+  {
+    "achievement_id": 3001022,
+    "class_id": 3001,
+    "name": "可靠的朋友",
+    "description": "在「『货』从口出」中，和送货员在送货途中达成紧密合作。",
+    "reward_level": 1,
+    "hidden": 2,
+    "game_version": "1.1"
+  }
+]

@@ -15,12 +15,18 @@ async function initDatabase() {
 
             await connection.query(`CREATE DATABASE IF NOT EXISTS \`${dbName}\` CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci`);
             console.log(`✅ MySQL database '${dbName}' is ready`);
+            console.log({
+                host: process.env.DB_HOST,
+                user: process.env.DB_USER,
+                database: process.env.DB_DATABASE,
+            });
             await connection.end();
             break;
 
         case 'sqlite':
         case 'sqlite3':
         case '':
+            console.log(`✅ Using SQLite Database`);
             break;
 
         default:
