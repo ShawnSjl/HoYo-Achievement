@@ -1,5 +1,10 @@
 .idea/
 .DS_Store
 node_modules/
+
+# local sqlite db
+backend/sqlite.db
+
+# .end.dev
 .env.dev
 frontend/.env.dev
