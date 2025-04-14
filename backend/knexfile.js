@@ -38,7 +38,17 @@ module.exports = {
         client: DB_TYPE,
         connection: CONNECTIONS[DB_TYPE],
         useNullAsDefault: DB_TYPE === 'sqlite3',  // SQLite 需要
-        pool: { min: 1, max: 5 },
+        pool: {
+            min: 1,
+            max: 5,
+            afterCreate: (conn, done) => {
+                if (DB_TYPE === 'sqlite3') {
+                    conn.run('PRAGMA foreign_keys = ON', done);
+                } else {
+                    done(null, conn);
+                }
+            }
+        },
         migrations: {
             directory: './migrations',
         }
