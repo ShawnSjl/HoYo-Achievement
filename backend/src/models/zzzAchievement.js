@@ -13,6 +13,9 @@ async function getAll () {
             'za.game_version',
             db.raw('0 as complete')  // 固定值字段
         )
+        .whereNotIn('za.achievement_id', function () {
+            this.select('achievement_id').from('zzz_unachievable');
+        })
         .orderBy('za.achievement_id');
 }
 
@@ -33,6 +36,9 @@ async function getAllByUserId (user_id) {
             'za.game_version',
             db.raw('COALESCE(zur.complete, 0) as complete')
         )
+        .whereNotIn('za.achievement_id', function () {
+            this.select('achievement_id').from('zzz_unachievable');
+        })
         .orderBy('za.achievement_id');
 }
 
