@@ -14,7 +14,7 @@ switch (process.env.DB_TYPE) {
         break;
 
     default:
-        console.warn(`[WARN] Unsupported DB_TYPE "${rawEnvType}", falling back to sqlite3.`);
+        console.warn(`[WARN] Unsupported DB_TYPE "${process.env.DB_TYPE}", falling back to sqlite3.`);
         DB_TYPE = 'sqlite3';
         break;
 }

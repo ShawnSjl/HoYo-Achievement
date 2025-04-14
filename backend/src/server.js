@@ -15,17 +15,21 @@ if (fs.existsSync(envPath)) {
 
 // 创建应用
 const http = require('http');
-const PORT = 3000;
 const app = require('./app');
+const PORT = process.env.PORT || 3000;
+const initDatabase = require('./config/initDB.js')
 
-const server = http.createServer(app);
+initDatabase()
+.then(() => {
+    const server = http.createServer(app);
 
-server.listen(PORT, '0.0.0.0', () => {
-    console.log(`Server listening on ${PORT}`);
-    console.log('Connecting to DB with:');
-    console.log({
-        host: process.env.DB_HOST,
-        user: process.env.DB_USER,
-        database: process.env.DB_DATABASE,
+    server.listen(PORT, '0.0.0.0', () => {
+        console.log(`Server listening on ${PORT}`);
+        console.log('Connecting to DB with:');
+        console.log({
+            host: process.env.DB_HOST,
+            user: process.env.DB_USER,
+            database: process.env.DB_DATABASE,
+        });
     });
-});
+})
