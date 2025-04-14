@@ -9,10 +9,10 @@ HoYo-Achievement 米哈游游戏成就
 
 # 目录
 - [项目设置](#项目设置)
-  - [JWT密钥](#更改jwt密钥)
-  - [数据库密码](#更改数据库密码)
-  - [可更改配置](#更改其它配置可选)
-  - [管理员账户](#默认管理员账户)
+  - [数据库](#数据库设置)
+  - [JWT](#JWT设置)
+  - [默认管理员账户](#默认管理员账户)
+  - [后端host（编译运行限定）](#指定后端host编译运行限定)
 - [使用指南](#使用指南)
   - [运行](#运行)
   - [停止运行](#停止运行)
@@ -20,10 +20,40 @@ HoYo-Achievement 米哈游游戏成就
   - [更新](#更新项目)
 
 # 项目设置
-## 更改JWT密钥
+
+## 数据库
+本项目默认使用的是SQLite数据库，同时支持更改为MySQL。
+目前不支持数据库数据迁移，请在部署前决定好使用的数据库。
+
+### 更改数据库类型
+在`./backend/.env`中，可以找到`DB_TYPE`这个配置项。
+默认值为`sqlite`。
+如果要使用MySQL数据库，请将其更改为`mysql`。
+
+### 更改SQLite位置
+如果以编译运行的方式运行时，SQLite数据库默认位置为`./backend`文件夹。
+
+如果以Docker Compose的方式运行时，SQLite数据库默认位置为`./data`文件夹。
+如果要更改位置，打开`docker-compose.yml`，
+在`backend:volumes`中将`./data`更改为新的文件夹。
+
+### 更改MySQL设置
+MySQL的设置在`./backend/.env`中。
+如需要请更改以下配置：
+```
+DB_HOST=localhost
+DB_PORT=3306
+DB_USER=root
+DB_USER_PASSWORD=123456
+DB_DATABASE=HoYo_Achievement
+```
+程序会自动在目标数据库中生成名为`DB_DATABASE`的数据库。
+
+## JWT
 本项目的用户系统使用JWT令牌认证，
 请在运行前生成JWT密钥，并添加到配置文件中。
 
+### 设置JWT密钥
 1. 生成密钥
     ```shell
     openssl rand -base64 64
@@ -31,7 +61,7 @@ HoYo-Achievement 米哈游游戏成就
 
 2. 添加到配置文件
 
-    打开项目根目录的`.env`配置文件，可以找到：
+    打开`./backend/.env`配置文件，可以找到：
 
     ```YAML
     JWT_SECRET=YOUR_JWT_SECRET
@@ -43,24 +73,10 @@ HoYo-Achievement 米哈游游戏成就
     JWT_SECRET="snfGHWFmbxtPI4pnRoSPHUmNnj8XV5eOc3OLRsP+VYk="
     ```
 
-## 更改数据库密码
-本项目使用MySQL数据库。但项目搭建时，会使用MySQL官方的Docker镜像。
-因此用户需要提供/修改配置文件`.env`中的root用户密码。
-
-## 更改其它配置（可选）
-本项目的配置储存在`.env`文件中，
-其中部分变量可以自定义。
-
-可更改的部分如下：
-```YAML
-FRONTEND_PORT=6868
-
-JWT_SECRET=YOUR_JWT_SECRET
-JWT_EXPIRE_IN="1h"
-
-MYSQL_ROOT_PASSWORD=123456
-MYSQL_PORT=3306
-```
+### 设置JWT有效时间
+默认JWT有效时间为1小时。
+可在`./backend/.env`进行更改，
+配置名称为`JWT_EXPIRE_IN`。
 
 ## 默认管理员账户
 默认管理员用户名:
@@ -69,11 +85,17 @@ MYSQL_PORT=3306
 默认管理员密码:
 `Admin001@HoYoAchieve`
 
-**请在运行后手动更改管理员密码！**
+**因为密码表单有设置规则，请在运行后手动更改管理员密码！**
+
+## 指定后端host（编译运行限定）
+如果选择编译运行，则需要在`./frontend/.env`中指定后端的host，
+使用户浏览器能够访问后端。
+
+Docker Compose运行不需要指定。
 
 # 使用指南
 
-本项目默认使用**Docker Compose**快速搭建。
+本项目默认及推荐使用**Docker Compose**快速搭建。
 
 ## 运行
 1. 构建并启动项目
