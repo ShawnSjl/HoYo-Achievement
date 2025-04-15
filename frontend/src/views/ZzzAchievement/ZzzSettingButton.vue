@@ -1,10 +1,12 @@
 <script setup>
 import {computed, ref} from 'vue';
 import { useZzzAchievementStore } from "@/stores/zzzAchievementsStore";
-import { Check, Close } from '@element-plus/icons-vue';
+import {Check, Close, Warning} from '@element-plus/icons-vue';
 import {ElMessageBox} from "element-plus";
 import {showError, showSuccess} from "@/utils/notification";
 import {useIsMobileStore} from "@/stores/isMobileStore";
+import {zzzExport} from "@/utils/zzzExport";
+import ZzzImportButton from "@/views/ZzzAchievement/ZzzImportButton.vue";
 
 // 使用Pinia作为本地缓存
 const achievementStore = useZzzAchievementStore();
@@ -74,6 +76,24 @@ const openWarn = () => {
           <el-radio :value="true" size="large">男</el-radio>
           <el-radio :value="false" size="large">女</el-radio>
         </el-radio-group>
+      </div>
+      <div>
+        <p>导入:</p>
+        <div style="display: flex">
+          <zzz-import-button />
+          <el-tooltip placement="top">
+            <el-button :icon="Warning" circle text style="margin-left: 5px" />
+            <template #content>
+              <p>表格头匹配格式：</p>
+              <p>成就ID：'ID', '成就ID', '编号'</p>
+              <p>完成状态：'完成', '完成状态', '是否完成', '状态' </p>
+            </template>
+          </el-tooltip>
+        </div>
+      </div>
+      <div>
+        <p>导出:</p>
+        <el-button type="primary" round dark @click="zzzExport()">导出成就表格</el-button>
       </div>
       <div>
         <p>强制更新数据:</p>
