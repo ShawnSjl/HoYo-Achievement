@@ -1,6 +1,6 @@
 <script setup>
 import ExcelJS from 'exceljs';
-import {showError} from "@/utils/notification";
+import {showError, showSuccess} from "@/utils/notification";
 import {useZzzAchievementStore} from "@/stores/zzzAchievementsStore";
 
 // 获取数据
@@ -71,6 +71,8 @@ async function handleFile(file) {
       const complete = Number(item.complete) === 1 || item.complete === '已完成' ? 1 : 0;
       await achievementStore.completeAchievement(item.achievement_id, complete);
     }
+
+    showSuccess('成就表格导入成功')
   } catch (err) {
     showError('成就表格导入失败', err)
   }

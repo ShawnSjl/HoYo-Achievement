@@ -57,6 +57,11 @@ export const useZzzAchievementStore = defineStore(
             const target = achievements.value.find(item => item.achievement_id === achievementId);
             if (!target) { console.error('Fail to get achievements:', achievementId); }
 
+            // 忽略未更改数据
+            if (target.complete === complete) {
+                return;
+            }
+
             // 如果是本地用户，直接更新，否则更新后端数据库
             if (!user) {
                 target.complete = complete;
