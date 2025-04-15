@@ -55,7 +55,7 @@ export const useZzzAchievementStore = defineStore(
 
             // 获取本地的成就数据
             const target = achievements.value.find(item => item.achievement_id === achievementId);
-            if (!target) { console.error('Fail to get achievements:', achievementId); }
+            if (!target) { console.error('Fail to get achievements:', achievementId); return; }
 
             // 忽略未更改数据
             if (target.complete === complete) {
