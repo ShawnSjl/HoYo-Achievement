@@ -8,17 +8,18 @@ RUN npm install
 
 COPY . .
 
-# 把 build args 传给 Vite
+# 构建参数和环境变量
 ARG VITE_BACKEND_HOST
-
-# 再设置为 ENV（Vite 能读 .env 或 process.env）
 ENV VITE_BACKEND_HOST=$VITE_BACKEND_HOST
 
+# 构建 Vite 项目
 RUN npm run build
 
 # 使用 nginx 托管打包后的文件
 FROM nginx:alpine
 
+# 只复制构建产物
 COPY --from=build /app/dist /usr/share/nginx/html
 
+# 自定义 nginx 配置
 COPY ./nginx.conf /etc/nginx/conf.d/default.conf
