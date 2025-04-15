@@ -8,7 +8,7 @@ app.use(express.json());
 app.use(cors());
 
 app.use(cors({
-    origin: `http://localhost:${process.env.FRONTEND_PORT}`,
+    origin: `*`,
     methods: 'GET,POST,PUT,DELETE,OPTIONS',
     allowedHeaders: 'Content-Type,Authorization'
 }));

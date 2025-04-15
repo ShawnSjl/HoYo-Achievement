@@ -1,0 +1,479 @@
+[
+  {
+    "achievement_id": 1001066,
+    "class_id": 1001,
+    "name": "社会性死亡体验",
+    "description": "在「芝托邦」餐厅，让墙角的土拨鼠发出大叫。",
+    "reward_level": 1,
+    "hidden": 1,
+    "game_version": "1.4"
+  },
+  {
+    "achievement_id": 1001067,
+    "class_id": 1001,
+    "name": "非常关心",
+    "description": "在对空六课的办公室，翻阅所有放在办公桌上的东西。",
+    "reward_level": 1,
+    "hidden": 1,
+    "game_version": "1.4"
+  },
+  {
+    "achievement_id": 1001068,
+    "class_id": 1001,
+    "name": "「严禁拍摄」",
+    "description": "在HAND大楼外的围墙边，拍摄「严禁拍摄」标志。",
+    "reward_level": 1,
+    "hidden": 1,
+    "game_version": "1.4"
+  },
+  {
+    "achievement_id": 1001069,
+    "class_id": 1001,
+    "name": "「禁止垂钓」",
+    "description": "在厄匹斯港「禁止垂钓」的警示牌边上尝试垂钓。",
+    "reward_level": 1,
+    "hidden": 1,
+    "game_version": "1.4"
+  },
+  {
+    "achievement_id": 1001070,
+    "class_id": 1001,
+    "name": "「DO NOT ENTER」",
+    "description": "在热望角尝试进入挂有「DO NOT ENTER」的入口。",
+    "reward_level": 1,
+    "hidden": 1,
+    "game_version": "1.4"
+  },
+  {
+    "achievement_id": 1001071,
+    "class_id": 1001,
+    "name": "没有什么能够阻挡",
+    "description": "「勇敢」违规，与港口、热望角、HAND大楼前的3块标牌反向互动。",
+    "reward_level": 1,
+    "hidden": 1,
+    "game_version": "1.4"
+  },
+  {
+    "achievement_id": 1001072,
+    "class_id": 1001,
+    "name": "特别的音乐",
+    "description": "在热望角的水吧听到录音。",
+    "reward_level": 1,
+    "hidden": 1,
+    "game_version": "1.4"
+  },
+  {
+    "achievement_id": 1001073,
+    "class_id": 1001,
+    "name": "今晚月…哦是阴天",
+    "description": "在凌晨拍摄热望角上方的排气扇。",
+    "reward_level": 1,
+    "hidden": 1,
+    "game_version": "1.4"
+  },
+  {
+    "achievement_id": 1001074,
+    "class_id": 1001,
+    "name": "何日归港",
+    "description": "在厄匹斯港找到储物柜的取件码，并尝试取件。",
+    "reward_level": 1,
+    "hidden": 1,
+    "game_version": "1.4"
+  },
+  {
+    "achievement_id": 1001075,
+    "class_id": 1001,
+    "name": "整点薯条！",
+    "description": "在厄匹斯港找到叛逆的海鸥，尝试给它喂食薯条。",
+    "reward_level": 1,
+    "hidden": 1,
+    "game_version": "1.4"
+  },
+  {
+    "achievement_id": 1001076,
+    "class_id": 1001,
+    "name": "当你凝视空屋的时候",
+    "description": "在厄匹斯港爬上灯塔边的楼房，尝试打开顶楼的窗。",
+    "reward_level": 1,
+    "hidden": 1,
+    "game_version": "1.4"
+  },
+  {
+    "achievement_id": 1001077,
+    "class_id": 1001,
+    "name": "不爱海鱼爱奖章",
+    "description": "在厄匹斯港找到喵吉长官，并集齐全部奖章。",
+    "reward_level": 1,
+    "hidden": 2,
+    "game_version": "1.4"
+  },
+  {
+    "achievement_id": 1001078,
+    "class_id": 1001,
+    "name": "太好了噗噗！",
+    "description": "成为喵吉长官信任的好市民。",
+    "reward_level": 2,
+    "hidden": 1,
+    "game_version": "1.4"
+  },
+  {
+    "achievement_id": 1001079,
+    "class_id": 1001,
+    "name": "执行官挚友",
+    "description": "在「丽都周纪」中，帮泰西和琪琪解决烦心事。",
+    "reward_level": 1,
+    "hidden": 1,
+    "game_version": "1.4"
+  },
+  {
+    "achievement_id": 1004030,
+    "class_id": 1004,
+    "name": "星之见",
+    "description": "星见雅对绳匠的信赖达到4阶。",
+    "reward_level": 1,
+    "hidden": 2,
+    "game_version": "1.4"
+  },
+  {
+    "achievement_id": 1004031,
+    "class_id": 1004,
+    "name": "向死而生",
+    "description": "浅羽悠真对绳匠的信赖达到4阶。",
+    "reward_level": 1,
+    "hidden": 2,
+    "game_version": "1.4"
+  },
+  {
+    "achievement_id": 1004032,
+    "class_id": 1004,
+    "name": "依赖心",
+    "description": "苍角对绳匠的信赖达到4阶。",
+    "reward_level": 1,
+    "hidden": 2,
+    "game_version": "1.4"
+  },
+  {
+    "achievement_id": 1004033,
+    "class_id": 1004,
+    "name": "有人脉的店长",
+    "description": "在「密友同行」中，完成20次心愿事件。",
+    "reward_level": 1,
+    "hidden": 2,
+    "game_version": "1.4"
+  },
+  {
+    "achievement_id": 1004034,
+    "class_id": 1004,
+    "name": "超有人脉的绳匠",
+    "description": "在「密友同行」中，完成60次心愿事件。",
+    "reward_level": 2,
+    "hidden": 2,
+    "game_version": "1.4"
+  },
+  {
+    "achievement_id": 1004035,
+    "class_id": 1004,
+    "name": "为了每一份心意",
+    "description": "在「密友同行」中，完成30位代理人的所有心愿事件。",
+    "reward_level": 3,
+    "hidden": 2,
+    "game_version": "1.4"
+  },
+  {
+    "achievement_id": 1004036,
+    "class_id": 1004,
+    "name": "「下一把！」",
+    "description": "在「密友同行」中，和艾莲一起在电玩店玩游戏，并一起落败1次。",
+    "reward_level": 1,
+    "hidden": 1,
+    "game_version": "1.4"
+  },
+  {
+    "achievement_id": 1004037,
+    "class_id": 1004,
+    "name": "「It''s show time！」",
+    "description": "在「密友同行」中，和比利一起在电玩店玩游戏，并一起获胜4次。",
+    "reward_level": 1,
+    "hidden": 1,
+    "game_version": "1.4"
+  },
+  {
+    "achievement_id": 1004038,
+    "class_id": 1004,
+    "name": "耍蛇大师，四位！",
+    "description": "在「密友同行」中，和猫又、可琳、妮可一起到电玩店玩「蛇对蛇」，并赢下一局。",
+    "reward_level": 1,
+    "hidden": 1,
+    "game_version": "1.4"
+  },
+  {
+    "achievement_id": 1004039,
+    "class_id": 1004,
+    "name": "训犬高手，四位！",
+    "description": "在「密友同行」中，和丽娜、赛斯、露西一起到电玩店玩「噬魂犬」。",
+    "reward_level": 1,
+    "hidden": 1,
+    "game_version": "1.4"
+  },
+  {
+    "achievement_id": 1005008,
+    "class_id": 1005,
+    "name": "斩灭绝望",
+    "description": "完成法厄同纪事「星流霆击」。",
+    "reward_level": 3,
+    "hidden": 1,
+    "game_version": "1.4"
+  },
+  {
+    "achievement_id": 1006010,
+    "class_id": 1006,
+    "name": "循此苦旅，以抵群星",
+    "description": "完成悠真的代理人秘闻「此地长眠者」。",
+    "reward_level": 2,
+    "hidden": 1,
+    "game_version": "1.4"
+  },
+  {
+    "achievement_id": 1008005,
+    "class_id": 1008,
+    "name": "渡过哀恸之川",
+    "description": "在「直到苍白荒秽之地」中，完成「墨利诺厄」内的全部关键剧情。",
+    "reward_level": 1,
+    "hidden": 2,
+    "game_version": "1.4"
+  },
+  {
+    "achievement_id": 1008006,
+    "class_id": 1008,
+    "name": "支流的摆渡客",
+    "description": "在「直到苍白荒秽之地」中，完成「墨利诺厄」内的全部支线剧情。",
+    "reward_level": 1,
+    "hidden": 2,
+    "game_version": "1.4"
+  },
+  {
+    "achievement_id": 1008007,
+    "class_id": 1008,
+    "name": "断灭荒芜之刃",
+    "description": "在「直到苍白荒秽之地」中，提升[武备解放]的等级至30级。",
+    "reward_level": 1,
+    "hidden": 2,
+    "game_version": "1.4"
+  },
+  {
+    "achievement_id": 1008008,
+    "class_id": 1008,
+    "name": "一份普通的任务记录",
+    "description": "在「直到苍白荒秽之地」中，解锁全部[副课长手记]。",
+    "reward_level": 1,
+    "hidden": 2,
+    "game_version": "1.4"
+  },
+  {
+    "achievement_id": 2002052,
+    "class_id": 2002,
+    "name": "小邦布大能量",
+    "description": "作战中，出战邦布的单次伤害达到10000。",
+    "reward_level": 1,
+    "hidden": 0,
+    "game_version": "1.4"
+  },
+  {
+    "achievement_id": 2002053,
+    "class_id": 2002,
+    "name": "家有格斗高手",
+    "description": "作战中，出战邦布的单次伤害达到50000。",
+    "reward_level": 2,
+    "hidden": 0,
+    "game_version": "1.4"
+  },
+  {
+    "achievement_id": 2002054,
+    "class_id": 2002,
+    "name": "迷你型战争机器",
+    "description": "作战中，出战邦布的单次伤害达到100000。",
+    "reward_level": 3,
+    "hidden": 0,
+    "game_version": "1.4"
+  },
+  {
+    "achievement_id": 2003007,
+    "class_id": 2003,
+    "name": "谁为「牲祭」？",
+    "description": "对战「牲鬼·布林格」时，在其使用「牲祭之刃」攻击的过程中闪避所有招式。",
+    "reward_level": 1,
+    "hidden": 2,
+    "game_version": "1.4"
+  },
+  {
+    "achievement_id": 2004034,
+    "class_id": 2004,
+    "name": "「我即式舆」",
+    "description": "在式舆防卫战中通关剧变节点，且在每层获得S级评价。",
+    "reward_level": 3,
+    "hidden": 2,
+    "game_version": "1.4"
+  },
+  {
+    "achievement_id": 2004041,
+    "class_id": 2004,
+    "name": "突袭行动",
+    "description": "在「危局强袭战」中，获取3颗星。",
+    "reward_level": 1,
+    "hidden": 2,
+    "game_version": "1.4"
+  },
+  {
+    "achievement_id": 2004043,
+    "class_id": 2004,
+    "name": "闪击破阵",
+    "description": "在「危局强袭战」中，获取7颗星。",
+    "reward_level": 3,
+    "hidden": 2,
+    "game_version": "1.4"
+  },
+  {
+    "achievement_id": 2004044,
+    "class_id": 2004,
+    "name": "横扫千军",
+    "description": "在「危局强袭战」中，获取9颗星。",
+    "reward_level": 3,
+    "hidden": 2,
+    "game_version": "1.4"
+  },
+  {
+    "achievement_id": 2005001,
+    "class_id": 2005,
+    "name": "踏破「迷失」",
+    "description": "在「迷失之地」中，完成委托「战线肃清·难度五」。",
+    "reward_level": 1,
+    "hidden": 2,
+    "game_version": "1.4"
+  },
+  {
+    "achievement_id": 2005002,
+    "class_id": 2005,
+    "name": "挣断异影之丝",
+    "description": "在［以太活性 9］的难度下，通关「战线肃清·难度五」。",
+    "reward_level": 3,
+    "hidden": 2,
+    "game_version": "1.4"
+  },
+  {
+    "achievement_id": 2005003,
+    "class_id": 2005,
+    "name": "迷踪的调查团",
+    "description": "在「战线肃清」中，[探究勋证]总等级达到72级。",
+    "reward_level": 3,
+    "hidden": 2,
+    "game_version": "1.4"
+  },
+  {
+    "achievement_id": 2005004,
+    "class_id": 2005,
+    "name": "非常规淘金热",
+    "description": "通关「战线肃清·难度五」时，所获齿轮硬币达到6000枚。",
+    "reward_level": 1,
+    "hidden": 2,
+    "game_version": "1.4"
+  },
+  {
+    "achievement_id": 2005005,
+    "class_id": 2005,
+    "name": "最速行进路线",
+    "description": "通关「战线肃清·难度五」时，作战区域少于7个。",
+    "reward_level": 1,
+    "hidden": 2,
+    "game_version": "1.4"
+  },
+  {
+    "achievement_id": 2005006,
+    "class_id": 2005,
+    "name": "锻冶高手",
+    "description": "通关「战线肃清·难度五」时，任意[通用武备]达到4级。",
+    "reward_level": 1,
+    "hidden": 2,
+    "game_version": "1.4"
+  },
+  {
+    "achievement_id": 2005007,
+    "class_id": 2005,
+    "name": "寂静的旅途",
+    "description": "通关「战线肃清·难度五」时，携带的鸣徽少于8个。",
+    "reward_level": 1,
+    "hidden": 2,
+    "game_version": "1.4"
+  },
+  {
+    "achievement_id": 2005008,
+    "class_id": 2005,
+    "name": "以太的协奏",
+    "description": "通关「战线肃清·难度五」时，携带的鸣徽多于20个。",
+    "reward_level": 1,
+    "hidden": 2,
+    "game_version": "1.4"
+  },
+  {
+    "achievement_id": 3001028,
+    "class_id": 3001,
+    "name": "纵是微光也能启明",
+    "description": "在「与星星的连线」中，彻底解决黑锚帮的事件后，再次在厄匹斯港与「启明星」相遇。",
+    "reward_level": 1,
+    "hidden": 1,
+    "game_version": "1.4"
+  },
+  {
+    "achievement_id": 3001029,
+    "class_id": 3001,
+    "name": "跨海之茧",
+    "description": "在「与星星的连线」中，听到「启明星」与另一位绳匠的谈话。",
+    "reward_level": 1,
+    "hidden": 1,
+    "game_version": "1.4"
+  },
+  {
+    "achievement_id": 3001030,
+    "class_id": 3001,
+    "name": "思念拨开海雾",
+    "description": "在「如约溺于海港」中，帮助委托人搜集完所有证据后，再次到厄匹斯港与他相遇。",
+    "reward_level": 1,
+    "hidden": 1,
+    "game_version": "1.4"
+  },
+  {
+    "achievement_id": 3002006,
+    "class_id": 3002,
+    "name": "废墟的尽头",
+    "description": "在「断层之谜」的困难模式中，完成对研究所旧址的建筑废墟的探索。",
+    "reward_level": 3,
+    "hidden": 2,
+    "game_version": "1.4"
+  },
+  {
+    "achievement_id": 3002007,
+    "class_id": 3002,
+    "name": "持久战的预备",
+    "description": "在「断层之谜」的困难模式中，队长生命值达到300。",
+    "reward_level": 1,
+    "hidden": 2,
+    "game_version": "1.4"
+  },
+  {
+    "achievement_id": 3002008,
+    "class_id": 3002,
+    "name": "攻坚战的预备",
+    "description": "在「断层之谜」的困难模式中，队长攻击力达到70。",
+    "reward_level": 1,
+    "hidden": 2,
+    "game_version": "1.4"
+  },
+  {
+    "achievement_id": 3002009,
+    "class_id": 3002,
+    "name": "断层清道夫",
+    "description": "在「断层之谜」的困难模式中，探索全程消灭250个敌人。",
+    "reward_level": 1,
+    "hidden": 2,
+    "game_version": "1.4"
+  }
+]

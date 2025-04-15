@@ -1,42 +1,14 @@
 services:
-  db:
-    image: mysql:8.0
-    container_name: ${PROJECT_NAME}_mysql
-    restart: always
-    environment:
-      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
-      MYSQL_DATABASE: ${MYSQL_DATABASE}
-    ports:
-      - "${MYSQL_PORT}:3306"
-    volumes:
-      - ./db/init:/docker-entrypoint-initdb.d
-      - db_data:/var/lib/mysql
-    networks:
-      - app_net
-
-  data-loader:
-    build: ./data_loader
-    restart: on-failure
-    depends_on:
-      - db
-    volumes:
-      - ./db/data:/app/data
-    working_dir: /app
-    env_file:
-      - .env
-    networks:
-      - app_net
-
   backend:
     build: ./backend
-    container_name: ${PROJECT_NAME}_backend
+    container_name: hoyo_achievement_backend
     restart: always
     expose:
       - "3000"
-    env_file:
-      - .env
-    depends_on:
-      - db
+    environment:
+      - SQLITE_PATH=/app/db/sqlite.db
+    volumes:
+      - ./data:/app/db
     networks:
       - app_net
 
@@ -44,20 +16,15 @@ services:
     build:
       context: ./frontend
       args:
-        VITE_BACKEND_HOST: ${VITE_BACKEND_HOST}
-    container_name: ${PROJECT_NAME}_frontend
+        VITE_BACKEND_HOST: /api
+    container_name: hoyo_achievement_frontend
     restart: always
     ports:
-      - "${FRONTEND_PORT}:80"
-    env_file:
-      - .env
+      - "6868:80"
     depends_on:
       - backend
     networks:
       - app_net
-
-volumes:
-  db_data:
 
 networks:
   app_net:

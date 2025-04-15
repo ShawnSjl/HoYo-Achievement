@@ -1,49 +1,54 @@
-const { getDB } = require('../config/db');
+const db = require("../db")
 
 // Get all ZZZ achievement
 async function getAll () {
-    const [rows] = await getDB().query('SELECT\n' +
-        '    za.achievement_id,\n' +
-        '    za.class_id,\n' +
-        '    za.name,\n' +
-        '    za.description,\n' +
-        '    za.reward_level,\n' +
-        '    za.hidden,\n' +
-        '    za.game_version,\n' +
-        '    0 AS complete\n' +
-        'FROM zzz_achievement za\n' +
-        'ORDER BY za.achievement_id');
-    return rows;
+    return db('zzz_achievement as za')
+        .select(
+            'za.achievement_id',
+            'za.class_id',
+            'za.name',
+            'za.description',
+            'za.reward_level',
+            'za.hidden',
+            'za.game_version',
+            db.raw('0 as complete')  // 固定值字段
+        )
+        .whereNotIn('za.achievement_id', function () {
+            this.select('achievement_id').from('zzz_unachievable');
+        })
+        .orderBy('za.achievement_id');
 }
 
 // Get all ZZZ achievement status by user id
 async function getAllByUserId (user_id) {
-    const [rows] = await getDB().query('SELECT\n' +
-        '    za.achievement_id,\n' +
-        '    za.class_id,\n' +
-        '    za.name,\n' +
-        '    za.description,\n' +
-        '    za.reward_level,\n' +
-        '    za.hidden,\n' +
-        '    za.game_version,\n' +
-        '    COALESCE(zua.complete, 0) AS complete\n' +
-        'FROM zzz_achievement za\n' +
-        '         LEFT JOIN zzz_user_achievement zua\n' +
-        '                   ON za.achievement_id = zua.achievement_id\n' +
-        '                       AND zua.user_id = ?\n' +
-        'ORDER BY za.achievement_id', [user_id])
-    return rows;
+    return db('zzz_achievement as za')
+        .leftJoin('zzz_user_record as zur', function () {
+            this.on('za.achievement_id', '=', 'zur.achievement_id')
+                .andOn('zur.user_id', '=', db.raw('?', [user_id]));
+        })
+        .select(
+            'za.achievement_id',
+            'za.class_id',
+            'za.name',
+            'za.description',
+            'za.reward_level',
+            'za.hidden',
+            'za.game_version',
+            db.raw('COALESCE(zur.complete, 0) as complete')
+        )
+        .whereNotIn('za.achievement_id', function () {
+            this.select('achievement_id').from('zzz_unachievable');
+        })
+        .orderBy('za.achievement_id');
 }
 
 // Update ZZZ achievement by user id, achievement id, and complete status
 async function updateById (user_id, achievement_id, complete) {
-    await getDB().query('INSERT INTO zzz_user_achievement (user_id, achievement_id, complete)\n' +
-        'VALUES (?, ?, ?)\n' +
-        '    AS new\n' +
-        'ON DUPLICATE KEY UPDATE\n' +
-        '                     user_id = new.user_id,\n' +
-        '                     achievement_id = new.achievement_id,\n' +
-        '                     complete = new.complete', [user_id, achievement_id, complete]);
+    await db('zzz_user_record')
+        .insert({ user_id, achievement_id, complete })
+        .onConflict(['user_id', 'achievement_id'])
+        .merge();
+
 }
 
 module.exports = {getAll, getAllByUserId, updateById}
