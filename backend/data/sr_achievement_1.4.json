@@ -1,0 +1,398 @@
+[
+  {
+    "achievement_id": 2005001,
+    "class": "通往群星的轨道",
+    "name": "晴天收伞，雨天借伞",
+    "description": "（再次）帮助雅利洛-Ⅵ和贝洛伯格解决巨大的危机 ※完成开拓续闻「未来市场」",
+    "reward_level": 2,
+    "game_version": "1.4",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 3005001,
+    "class": "战意奔涌",
+    "name": "演武仪典：长枪试",
+    "description": "使用我方角色丹恒对战彦卿时完成制胜一击",
+    "reward_level": 1,
+    "game_version": "1.4",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 3005002,
+    "class": "战意奔涌",
+    "name": "演武仪典…？",
+    "description": "使用我方角色彦卿对战彦卿时完成制胜一击",
+    "reward_level": 1,
+    "game_version": "1.4",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 3005003,
+    "class": "战意奔涌",
+    "name": "演武仪典：心剑试",
+    "description": "使用我方角色镜流对战彦卿时完成制胜一击",
+    "reward_level": 1,
+    "game_version": "1.4",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 3005004,
+    "class": "战意奔涌",
+    "name": "人有四名，代价…",
+    "description": "在单场战斗中使用我方角色镜流把任意队友生命值消耗至1",
+    "reward_level": 1,
+    "game_version": "1.4",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 7005001,
+    "class": "瞬息欢愉",
+    "name": "好…好方",
+    "description": "大量投喂扑满 ※使用「次元扑满」聊天对话框，发送大量文本内容",
+    "reward_level": 1,
+    "game_version": "1.4",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 7005002,
+    "class": "瞬息欢愉",
+    "name": "卧室里的战争",
+    "description": "使用我方账账击败一只扑满",
+    "reward_level": 1,
+    "game_version": "1.4",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 7005003,
+    "class": "瞬息欢愉",
+    "name": "绝对零度",
+    "description": "使用镜流与定分枪互动",
+    "reward_level": 1,
+    "game_version": "1.4",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 7005004,
+    "class": "瞬息欢愉",
+    "name": "过程大于结果",
+    "description": "从流云渡的茂贞手中购买1个逾期未取的贵重邮包",
+    "reward_level": 1,
+    "game_version": "1.4",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 7005005,
+    "class": "瞬息欢愉",
+    "name": "大安事事昌",
+    "description": "在占卜店首次抽到吉签",
+    "reward_level": 1,
+    "game_version": "1.4",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 7005006,
+    "class": "瞬息欢愉",
+    "name": "空亡事不长",
+    "description": "在占卜店首次抽到凶签",
+    "reward_level": 1,
+    "game_version": "1.4",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 7005007,
+    "class": "瞬息欢愉",
+    "name": "速喜朱雀吉行方",
+    "description": "在占卜店首次抽到摸鱼签",
+    "reward_level": 1,
+    "game_version": "1.4",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 7005008,
+    "class": "瞬息欢愉",
+    "name": "贵人路上好商量",
+    "description": "在占卜店首次抽到闭目签",
+    "reward_level": 1,
+    "game_version": "1.4",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 7005009,
+    "class": "瞬息欢愉",
+    "name": "木人：星穹铁道",
+    "description": "使用「自动木人桩」代为完成3场战斗",
+    "reward_level": 1,
+    "game_version": "1.4",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8005001,
+    "class": "与你同行的回忆",
+    "name": "剑折铸复良",
+    "description": "完成同行任务「云无留迹」",
+    "reward_level": 1,
+    "game_version": "1.4",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8005002,
+    "class": "与你同行的回忆",
+    "name": "腿只是装饰而已",
+    "description": "为造物引擎制定一份离谱的策划案",
+    "reward_level": 1,
+    "game_version": "1.4",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8005003,
+    "class": "与你同行的回忆",
+    "name": "动起来啊…造物引擎！",
+    "description": "为造物引擎制定一份靠谱的策划案",
+    "reward_level": 1,
+    "game_version": "1.4",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8005004,
+    "class": "与你同行的回忆",
+    "name": "未来的第一步",
+    "description": "关心贝洛伯格的发展动态 ※购买《矿工每周报第226期》",
+    "reward_level": 1,
+    "game_version": "1.4",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8005005,
+    "class": "与你同行的回忆",
+    "name": "无机的智慧果",
+    "description": "获得阅读物《螺丝咕姆的留言》",
+    "reward_level": 1,
+    "game_version": "1.4",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8005006,
+    "class": "与你同行的回忆",
+    "name": "冰原熊之旅",
+    "description": "与冰原熊幼崽亲切互动",
+    "reward_level": 1,
+    "game_version": "1.4",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8005007,
+    "class": "与你同行的回忆",
+    "name": "谢谢你，佩拉",
+    "description": "帮助凡迪雅小姐完成赌注",
+    "reward_level": 1,
+    "game_version": "1.4",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8005008,
+    "class": "与你同行的回忆",
+    "name": "钢铁与玩具",
+    "description": "把造物工程的废料交给本杰明",
+    "reward_level": 1,
+    "game_version": "1.4",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8005009,
+    "class": "与你同行的回忆",
+    "name": "钢铁与路灯",
+    "description": "把造物工程的废料交给佩拉",
+    "reward_level": 1,
+    "game_version": "1.4",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8005010,
+    "class": "与你同行的回忆",
+    "name": "在巨像的见证下",
+    "description": "从冻结的栏杆上保住舌头",
+    "reward_level": 1,
+    "game_version": "1.4",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8005011,
+    "class": "与你同行的回忆",
+    "name": "危险动作，请勿模仿",
+    "description": "再次因打破容器受到教训",
+    "reward_level": 1,
+    "game_version": "1.4",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8005012,
+    "class": "与你同行的回忆",
+    "name": "首先，第一个",
+    "description": "拥有一个狂热粉丝",
+    "reward_level": 1,
+    "game_version": "1.4",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8005013,
+    "class": "与你同行的回忆",
+    "name": "假面的告白",
+    "description": "查看来历不明的忆泡",
+    "reward_level": 1,
+    "game_version": "1.4",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8005014,
+    "class": "与你同行的回忆",
+    "name": "冰圾淋",
+    "description": "从冰封垃圾桶中获得垃圾",
+    "reward_level": 1,
+    "game_version": "1.4",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8005015,
+    "class": "与你同行的回忆",
+    "name": "登入名人堂",
+    "description": "在「以太战线•星际决胜庆典」中获得「冠军首席」称号",
+    "reward_level": 2,
+    "game_version": "1.4",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8005016,
+    "class": "与你同行的回忆",
+    "name": "雪山之巅的王者",
+    "description": "在「以太战线」中，于永冬岭结束宿命的对决",
+    "reward_level": 1,
+    "game_version": "1.4",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8005017,
+    "class": "与你同行的回忆",
+    "name": "收服以太灵了！",
+    "description": "在「以太战线」中，获得所有以太灵",
+    "reward_level": 1,
+    "game_version": "1.4",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8005018,
+    "class": "与你同行的回忆",
+    "name": "以太战线大师",
+    "description": "在「以太战线」中，「决胜者评级」达到最高级",
+    "reward_level": 1,
+    "game_version": "1.4",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8005019,
+    "class": "与你同行的回忆",
+    "name": "超链接路人王",
+    "description": "在「以太战线•超链接对决」中击败所有对手",
+    "reward_level": 1,
+    "game_version": "1.4",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8005020,
+    "class": "与你同行的回忆",
+    "name": "凛风徽章",
+    "description": "在「以太战线」中，完成残响回廊的决胜乐园的所有考验",
+    "reward_level": 1,
+    "game_version": "1.4",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8005021,
+    "class": "与你同行的回忆",
+    "name": "镕金徽章",
+    "description": "在「以太战线」中，完成流云渡的决胜乐园的所有考验",
+    "reward_level": 1,
+    "game_version": "1.4",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8005022,
+    "class": "与你同行的回忆",
+    "name": "智才徽章",
+    "description": "在「以太战线」中，完成空间站「黑塔」的决胜乐园的所有考验",
+    "reward_level": 1,
+    "game_version": "1.4",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8005023,
+    "class": "与你同行的回忆",
+    "name": "假面徽章",
+    "description": "在「以太战线」中，完成大矿区的决胜乐园的所有考验",
+    "reward_level": 1,
+    "game_version": "1.4",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8005024,
+    "class": "与你同行的回忆",
+    "name": "我们是冠军？",
+    "description": "在「以太战线」中，获得一场「表演赛」的胜利",
+    "reward_level": 1,
+    "game_version": "1.4",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8005025,
+    "class": "与你同行的回忆",
+    "name": "胜利，然后是再见",
+    "description": "在尘埃落定后归还次元扑满",
+    "reward_level": 1,
+    "game_version": "1.4",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8005026,
+    "class": "与你同行的回忆",
+    "name": "结束，然后是开始",
+    "description": "在尘埃落定后留下次元扑满",
+    "reward_level": 1,
+    "game_version": "1.4",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8005027,
+    "class": "与你同行的回忆",
+    "name": "这游戏没有版本更新吗？",
+    "description": "获得所有「以太拓展芯片」",
+    "reward_level": 1,
+    "game_version": "1.4",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8005028,
+    "class": "与你同行的回忆",
+    "name": "铁齿铜牙",
+    "description": "聆听小小西衍的节目",
+    "reward_level": 1,
+    "game_version": "1.4",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8005029,
+    "class": "与你同行的回忆",
+    "name": "说学逗唱",
+    "description": "聆听小往小来的节目",
+    "reward_level": 1,
+    "game_version": "1.4",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 9005001,
+    "class": "众秘探奇",
+    "name": "北风造英雄",
+    "description": "在「冬兵进行曲」难度Ⅲ击败门后的杰帕德",
+    "reward_level": 1,
+    "game_version": "1.4",
+    "hidden": 0
+  }
+]

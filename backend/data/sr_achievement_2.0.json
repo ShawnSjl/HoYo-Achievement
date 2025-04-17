@@ -1,0 +1,866 @@
+[
+  {
+    "achievement_id": 2008001,
+    "class": "通往群星的轨道",
+    "name": "你还记得我吗？",
+    "description": "在旅程之初遇见了意外的人… ※在陌生的梦境与黄泉邂逅",
+    "reward_level": 2,
+    "game_version": "2.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 2008002,
+    "class": "通往群星的轨道",
+    "name": "梦之国的开拓者",
+    "description": "来到不可思议的梦想之地！ ※抵达「黄金的时刻」",
+    "reward_level": 2,
+    "game_version": "2.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 2008003,
+    "class": "通往群星的轨道",
+    "name": "夜色名为温柔",
+    "description": "目睹流星划过梦中的天空 ※在筑梦边境得知流萤的秘密",
+    "reward_level": 2,
+    "game_version": "2.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 2008004,
+    "class": "通往群星的轨道",
+    "name": "当甜蜜来敲门",
+    "description": "发现梦境世界的意外之喜 ※逃离「死亡」的阴影",
+    "reward_level": 2,
+    "game_version": "2.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 2008005,
+    "class": "通往群星的轨道",
+    "name": "老朋友，新朋友",
+    "description": "在记忆的深海中感受温暖… ※与星核猎手萨姆交战",
+    "reward_level": 2,
+    "game_version": "2.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 2008006,
+    "class": "通往群星的轨道",
+    "name": "使一颗心免于哀伤",
+    "description": "整个匹诺康尼都将为之疯狂… ※见证第二起命案",
+    "reward_level": 2,
+    "game_version": "2.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 3008001,
+    "class": "战意奔涌",
+    "name": "晚安厨房",
+    "description": "单次战斗中，利用惊梦剧团的十七分熟施放的「厨房事故」消灭至少两个敌人",
+    "reward_level": 1,
+    "game_version": "2.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 3008002,
+    "class": "战意奔涌",
+    "name": "全民欢乐秀",
+    "description": "单次战斗中，使3个连续的惊梦剧团的圆幕先生都进入「惊喜频道」状态",
+    "reward_level": 1,
+    "game_version": "2.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 3008003,
+    "class": "战意奔涌",
+    "name": "有害垃圾",
+    "description": "战斗中1名我方角色被王下一桶击败",
+    "reward_level": 1,
+    "game_version": "2.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 3008004,
+    "class": "战意奔涌",
+    "name": "万般皆注定",
+    "description": "黑天鹅施放秘技「取此真相，弃舍表征」进入战斗时，累计使敌方目标陷入大于等于20层「奥迹」",
+    "reward_level": 1,
+    "game_version": "2.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 3008005,
+    "class": "战意奔涌",
+    "name": "对、对、对、对不起",
+    "description": "米沙施放终结技「要…要迟到了！」时，单次攻击同时使至少4个不同的敌人陷入冻结状态",
+    "reward_level": 1,
+    "game_version": "2.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 3008006,
+    "class": "战意奔涌",
+    "name": "打上花火",
+    "description": "单场战斗中，使用花火的终结技「一人千役」共计获得20个战技点",
+    "reward_level": 1,
+    "game_version": "2.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 3008007,
+    "class": "战意奔涌",
+    "name": "持续断糖",
+    "description": "单次战斗中，使用护盾反弹同一惊梦剧团的甜猿泰山扔出的10个汽水瓶",
+    "reward_level": 1,
+    "game_version": "2.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 3008008,
+    "class": "战意奔涌",
+    "name": "存在朝向死亡",
+    "description": "在只有一人可以行动的情况下击败忆域迷因「何物朝向死亡」",
+    "reward_level": 1,
+    "game_version": "2.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 3008009,
+    "class": "战意奔涌",
+    "name": "安静燃烧",
+    "description": "在与「星核猎手」萨姆的战斗中，敌方萨姆进入「次级燃烧」后没有使用「DHGDR-超新星过载」就解除该状态",
+    "reward_level": 1,
+    "game_version": "2.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 3008010,
+    "class": "战意奔涌",
+    "name": "燃我心火，焚尽其身",
+    "description": "在和「星核猎手」萨姆的战斗中，使用燃烧的战技点使我方1名角色的生命值低于5%",
+    "reward_level": 1,
+    "game_version": "2.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 7008001,
+    "class": "瞬息欢愉",
+    "name": "摩擦，摩擦",
+    "description": "通过梦客漫步能力在同一条梦泡桥梁上来回通过多次",
+    "reward_level": 1,
+    "game_version": "2.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 7008002,
+    "class": "瞬息欢愉",
+    "name": "视差怪",
+    "description": "在2分钟内与筑梦遥眼装置交互5次以上",
+    "reward_level": 1,
+    "game_version": "2.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 7008003,
+    "class": "瞬息欢愉",
+    "name": "鸟为什么会飞？",
+    "description": "在1分钟内与控制筑梦模块的鸟型装置交互5次以上",
+    "reward_level": 1,
+    "game_version": "2.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 7008004,
+    "class": "瞬息欢愉",
+    "name": "彭罗斯三角",
+    "description": "通过调整视角拼凑出筑梦边境的「彭罗斯三角」",
+    "reward_level": 1,
+    "game_version": "2.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 7008005,
+    "class": "瞬息欢愉",
+    "name": "千爵时代的故事",
+    "description": "通过作弊的方式赢得「幸运转盘」的特殊奖励",
+    "reward_level": 1,
+    "game_version": "2.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 7008006,
+    "class": "瞬息欢愉",
+    "name": "如脆筒般脆弱",
+    "description": "使用消耗品「美梦脆筒」后，对错误的敌方目标施放技能",
+    "reward_level": 1,
+    "game_version": "2.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 7008007,
+    "class": "瞬息欢愉",
+    "name": "精神分析学入门",
+    "description": "合成「选择背叛的刹那」、「一瞬间的幸福」、「弥留之际」、「热烈的气氛」、「疑虑的阴云」、「片刻自由」中的任意一个消耗品",
+    "reward_level": 1,
+    "game_version": "2.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 7008008,
+    "class": "瞬息欢愉",
+    "name": "常在路边走…",
+    "description": "违反交通规则，被匹诺康尼的交通工具撞飞",
+    "reward_level": 1,
+    "game_version": "2.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 7008009,
+    "class": "瞬息欢愉",
+    "name": "广——告——牌——",
+    "description": "想办法让匹诺康尼的广告牌被交通工具撞飞",
+    "reward_level": 1,
+    "game_version": "2.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 7008010,
+    "class": "瞬息欢愉",
+    "name": "一切真理须如货币般流通",
+    "description": "在支援助战中使用真理医生参与1场战斗",
+    "reward_level": 1,
+    "game_version": "2.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8008001,
+    "class": "与你同行的回忆",
+    "name": "请勿摇晃汽水",
+    "description": "首次使用气泡弹珠",
+    "reward_level": 1,
+    "game_version": "2.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8008002,
+    "class": "与你同行的回忆",
+    "name": "向着明亮的那方",
+    "description": "哪怕生活充满痛苦，也绝不放手",
+    "reward_level": 1,
+    "game_version": "2.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8008003,
+    "class": "与你同行的回忆",
+    "name": "他也在这阳光下长大",
+    "description": "或许…放手也是正确的选择",
+    "reward_level": 1,
+    "game_version": "2.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8008004,
+    "class": "与你同行的回忆",
+    "name": "伊甸园之东",
+    "description": "见证一位转瞬即逝的银河巨星的故事",
+    "reward_level": 1,
+    "game_version": "2.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8008005,
+    "class": "与你同行的回忆",
+    "name": "罪与罚",
+    "description": "见证一位「好人」的故事",
+    "reward_level": 1,
+    "game_version": "2.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8008006,
+    "class": "与你同行的回忆",
+    "name": "舞会进行时",
+    "description": "完成同行任务「假面双人舞」",
+    "reward_level": 1,
+    "game_version": "2.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8008007,
+    "class": "与你同行的回忆",
+    "name": "保护人者是前世所修善行",
+    "description": "见证一位科学家挣扎曲折的一生",
+    "reward_level": 1,
+    "game_version": "2.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8008008,
+    "class": "与你同行的回忆",
+    "name": "虚构动物学家",
+    "description": "驱散5座猎犬雕像",
+    "reward_level": 1,
+    "game_version": "2.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8008009,
+    "class": "与你同行的回忆",
+    "name": "品味感觉",
+    "description": "「钟表把戏」能带来什么？ ※在梦中引导1个人的情绪",
+    "reward_level": 1,
+    "game_version": "2.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8008010,
+    "class": "与你同行的回忆",
+    "name": "感到一阵温暖",
+    "description": "「钟表把戏」能帮人找回真正的自我 ※解决1次钟表把戏的突发事件",
+    "reward_level": 1,
+    "game_version": "2.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8008011,
+    "class": "与你同行的回忆",
+    "name": "心脏怦怦直跳",
+    "description": "在梦里，就连情绪都有实体 ※收集1个情绪齿轮",
+    "reward_level": 1,
+    "game_version": "2.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8008012,
+    "class": "与你同行的回忆",
+    "name": "我懂你的心",
+    "description": "你能抵御心理辅导的诱惑吗？ ※在梦中引导至少5个人的情绪",
+    "reward_level": 1,
+    "game_version": "2.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8008013,
+    "class": "与你同行的回忆",
+    "name": "我的爱车",
+    "description": "在「白日梦酒店」的专属车位停放车辆",
+    "reward_level": 1,
+    "game_version": "2.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8008014,
+    "class": "与你同行的回忆",
+    "name": "回本的路",
+    "description": "委托出租车赚得足够的收入",
+    "reward_level": 1,
+    "game_version": "2.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8008015,
+    "class": "与你同行的回忆",
+    "name": "您拨打的号码暂时无法接通",
+    "description": "总有些地方不对外开放 ※打给一个不能被接通的号码",
+    "reward_level": 1,
+    "game_version": "2.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8008016,
+    "class": "与你同行的回忆",
+    "name": "城里的酒杯",
+    "description": "撮合水晶杯与廉价葡萄酒",
+    "reward_level": 1,
+    "game_version": "2.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8008017,
+    "class": "与你同行的回忆",
+    "name": "磐石的心意",
+    "description": "撮合水晶杯与朗姆酒",
+    "reward_level": 1,
+    "game_version": "2.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8008018,
+    "class": "与你同行的回忆",
+    "name": "了不起的香槟瓶",
+    "description": "撮合水晶杯与金色香槟酒",
+    "reward_level": 1,
+    "game_version": "2.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8008019,
+    "class": "与你同行的回忆",
+    "name": "勿要拾起不祥之物",
+    "description": "并非所有都市传说都只是传说 ※捡到了一盘诡异的磁带",
+    "reward_level": 1,
+    "game_version": "2.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8008020,
+    "class": "与你同行的回忆",
+    "name": "格拉克斯之狼",
+    "description": "找出喷钞取款机卡顿的原因",
+    "reward_level": 1,
+    "game_version": "2.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8008021,
+    "class": "与你同行的回忆",
+    "name": "每个赌徒都有借口",
+    "description": "见证传奇赌神的结局",
+    "reward_level": 1,
+    "game_version": "2.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8008022,
+    "class": "与你同行的回忆",
+    "name": "堕落天使",
+    "description": "知晓浔桑的真实来历",
+    "reward_level": 1,
+    "game_version": "2.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8008023,
+    "class": "与你同行的回忆",
+    "name": "罗生门",
+    "description": "所以…是谁撞了谁？ ※目睹格拉克斯大道车祸的来龙去脉",
+    "reward_level": 1,
+    "game_version": "2.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8008024,
+    "class": "与你同行的回忆",
+    "name": "魔形皮皮西",
+    "description": "皮皮西？变形怪？ ※在酒店大堂识破「皮皮西」的真身",
+    "reward_level": 1,
+    "game_version": "2.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8008025,
+    "class": "与你同行的回忆",
+    "name": "盛会之星与六苜蓿币",
+    "description": "爱和梦想究竟哪个更重要？ ※了解一个被梦想撕碎的家庭的故事",
+    "reward_level": 1,
+    "game_version": "2.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8008026,
+    "class": "与你同行的回忆",
+    "name": "精神卫生",
+    "description": "保护环境，从我做起 ※帮助格-蕾回收梦境中的垃圾",
+    "reward_level": 1,
+    "game_version": "2.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8008027,
+    "class": "与你同行的回忆",
+    "name": "梦的解析",
+    "description": "通过窥梦电话探视7个人的梦境",
+    "reward_level": 1,
+    "game_version": "2.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8008028,
+    "class": "与你同行的回忆",
+    "name": "四海牌友",
+    "description": "认识所有种类的贱贱广告牌",
+    "reward_level": 1,
+    "game_version": "2.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8008029,
+    "class": "与你同行的回忆",
+    "name": "无人交响乐",
+    "description": "当欢乐的演奏家变得更欢乐会发生什么？ ※麦克斯的音乐变得更加欢乐",
+    "reward_level": 1,
+    "game_version": "2.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8008030,
+    "class": "与你同行的回忆",
+    "name": "踏上「贪饕」命途…",
+    "description": "吃掉维塔利的「脆筒舞者」",
+    "reward_level": 1,
+    "game_version": "2.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8008031,
+    "class": "与你同行的回忆",
+    "name": "跳进兔子洞",
+    "description": "在梦境中聆听多样物品的神秘低语",
+    "reward_level": 1,
+    "game_version": "2.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8008032,
+    "class": "与你同行的回忆",
+    "name": "天空与你之间",
+    "description": "独自重游故地 ※在一切结束后，回到流萤的秘密基地",
+    "reward_level": 1,
+    "game_version": "2.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8008033,
+    "class": "与你同行的回忆",
+    "name": "看见那梯子了吗？",
+    "description": "试图爬上筑梦边境的梯子 ※但是爬不上去",
+    "reward_level": 1,
+    "game_version": "2.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8008034,
+    "class": "与你同行的回忆",
+    "name": "重力泉",
+    "description": "在稚子之梦中观赏奇异的瀑布",
+    "reward_level": 1,
+    "game_version": "2.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8008035,
+    "class": "与你同行的回忆",
+    "name": "幸运条纹人",
+    "description": "累积获得超过77个艾迪恩代币",
+    "reward_level": 1,
+    "game_version": "2.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8008036,
+    "class": "与你同行的回忆",
+    "name": "我爱这游戏",
+    "description": "发现藏在「美梦排排乐」游戏中的终极奖励",
+    "reward_level": 1,
+    "game_version": "2.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8008037,
+    "class": "与你同行的回忆",
+    "name": "就没有皮皮西人吗？",
+    "description": "使用比切诺更矮的我方角色与她对话",
+    "reward_level": 1,
+    "game_version": "2.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8008038,
+    "class": "与你同行的回忆",
+    "name": "既视感",
+    "description": "在梦境中邂逅熟悉的风景 ※没错，是垃圾桶！",
+    "reward_level": 1,
+    "game_version": "2.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8008039,
+    "class": "与你同行的回忆",
+    "name": "垃美西斯二世",
+    "description": "挑战「白日梦」酒店、黄金的时刻、稚子的梦、筑梦边境中全部的王下一桶",
+    "reward_level": 1,
+    "game_version": "2.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8008040,
+    "class": "与你同行的回忆",
+    "name": "后窗",
+    "description": "调查酒店中所有紧锁的房间",
+    "reward_level": 1,
+    "game_version": "2.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8008041,
+    "class": "与你同行的回忆",
+    "name": "全民公敌",
+    "description": "精准而迅速地冒犯遇见的每位皮皮西 ※尝试触摸「黄金的时刻」中所有皮皮西的绒球",
+    "reward_level": 1,
+    "game_version": "2.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8008042,
+    "class": "与你同行的回忆",
+    "name": "最「糟糕」的无名客",
+    "description": "给帕姆看看某个特定的梦泡",
+    "reward_level": 1,
+    "game_version": "2.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8008043,
+    "class": "与你同行的回忆",
+    "name": "遥星之门",
+    "description": "冒险家还是海盗？ ※倾听科琳关于宇宙的故事",
+    "reward_level": 1,
+    "game_version": "2.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8008044,
+    "class": "与你同行的回忆",
+    "name": "就是这么牛",
+    "description": "见证一个「伟大的愿景」 ※收集家族成员对于筑梦边境项目的评价",
+    "reward_level": 1,
+    "game_version": "2.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8008045,
+    "class": "与你同行的回忆",
+    "name": "托拉斯之梦",
+    "description": "你看见的都是我的专利！ ※帮助艾默里奇完成他的计划",
+    "reward_level": 1,
+    "game_version": "2.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8008046,
+    "class": "与你同行的回忆",
+    "name": "现实太重，梦想太轻",
+    "description": "人类终归无法相互理解 ※旁听拉洛丝与芙尔拉的对话",
+    "reward_level": 1,
+    "game_version": "2.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8008047,
+    "class": "与你同行的回忆",
+    "name": "漫长的告别",
+    "description": "愿她早日告别旧时阴霾 ※见证卢•阿彻的故事",
+    "reward_level": 1,
+    "game_version": "2.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8008048,
+    "class": "与你同行的回忆",
+    "name": "食不过三",
+    "description": "在「黄金的时刻」一次性吃掉太多脆筒……",
+    "reward_level": 1,
+    "game_version": "2.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8008049,
+    "class": "与你同行的回忆",
+    "name": "奥帝经济学",
+    "description": "人人都发钱，等于没发钱 ※反复触发街头的喷钞机",
+    "reward_level": 1,
+    "game_version": "2.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 9008001,
+    "class": "众秘探奇",
+    "name": "天堂的这一边",
+    "description": "在匹诺康尼激活15次界域定锚",
+    "reward_level": 1,
+    "game_version": "2.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 9008002,
+    "class": "众秘探奇",
+    "name": "匹诺康尼梦",
+    "description": "开启120次匹诺康尼战利品",
+    "reward_level": 2,
+    "game_version": "2.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 9008003,
+    "class": "众秘探奇",
+    "name": "太空漫步",
+    "description": "完成「屠场」任务，查清梦境酒店背后的真相",
+    "reward_level": 1,
+    "game_version": "2.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 9008004,
+    "class": "众秘探奇",
+    "name": "啾？",
+    "description": "帮助1只折纸小鸟回到「大树」",
+    "reward_level": 1,
+    "game_version": "2.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 9008005,
+    "class": "众秘探奇",
+    "name": "啾啾啾！",
+    "description": "帮助60只折纸小鸟回到「大树」",
+    "reward_level": 1,
+    "game_version": "2.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 9008006,
+    "class": "众秘探奇",
+    "name": "永远与时间同步",
+    "description": "修复15个梦境迷钟",
+    "reward_level": 1,
+    "game_version": "2.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 9008007,
+    "class": "众秘探奇",
+    "name": "谁人的梦？",
+    "description": "首次见证稚子梦中的神秘奇观",
+    "reward_level": 1,
+    "game_version": "2.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 9008008,
+    "class": "众秘探奇",
+    "name": "集异璧",
+    "description": "首次通过筑梦遥眼拼凑出不可能的道路，并通过它",
+    "reward_level": 1,
+    "game_version": "2.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 9008009,
+    "class": "众秘探奇",
+    "name": "画中世界",
+    "description": "通过筑梦拼图获得10次奖励",
+    "reward_level": 1,
+    "game_version": "2.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 9008010,
+    "class": "众秘探奇",
+    "name": "Fly me 2 the balloon",
+    "description": "打破黄金的时刻中的特殊石头老板气球",
+    "reward_level": 1,
+    "game_version": "2.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 9008011,
+    "class": "众秘探奇",
+    "name": "气球学园2",
+    "description": "打破筑梦边境中的特殊石头老板气球",
+    "reward_level": 1,
+    "game_version": "2.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 9008012,
+    "class": "众秘探奇",
+    "name": "气球3",
+    "description": "打破稚子的梦中的特殊石头老板气球",
+    "reward_level": 1,
+    "game_version": "2.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 9008013,
+    "class": "众秘探奇",
+    "name": "气球：匹诺康尼",
+    "description": "打破「白日梦」酒店-梦境中的特殊石头老板气球",
+    "reward_level": 1,
+    "game_version": "2.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 9008014,
+    "class": "众秘探奇",
+    "name": "年满十八",
+    "description": "首次来到「惊梦酒吧」",
+    "reward_level": 1,
+    "game_version": "2.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 9008015,
+    "class": "众秘探奇",
+    "name": "所有悲伤的年轻人",
+    "description": "首次进入某个「白日梦」酒店-现实中的「特殊客房」",
+    "reward_level": 1,
+    "game_version": "2.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 9008016,
+    "class": "众秘探奇",
+    "name": "面面俱到",
+    "description": "通过梦客漫步能力首次走上梦泡桥梁",
+    "reward_level": 1,
+    "game_version": "2.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 9008017,
+    "class": "众秘探奇",
+    "name": "与狼同行",
+    "description": "收集《小小哈努行动•上篇》全集",
+    "reward_level": 1,
+    "game_version": "2.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 9008018,
+    "class": "众秘探奇",
+    "name": "让敌人高估你的缺点",
+    "description": "在《小小哈努行动》中推下的重物没有砸到怪物",
+    "reward_level": 1,
+    "game_version": "2.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 9008019,
+    "class": "众秘探奇",
+    "name": "抵达逃逸速度",
+    "description": "在《小小哈努行动》中的火箭传送时间超过4秒",
+    "reward_level": 1,
+    "game_version": "2.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 9008020,
+    "class": "众秘探奇",
+    "name": "警戒度100%",
+    "description": "在《小小哈努行动》中死里逃生",
+    "reward_level": 1,
+    "game_version": "2.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 9008021,
+    "class": "众秘探奇",
+    "name": "睡眠学习法",
+    "description": "收集15件来自匹诺康尼的阅读物",
+    "reward_level": 1,
+    "game_version": "2.0",
+    "hidden": 0
+  }
+]

@@ -1,0 +1,533 @@
+[
+  {
+    "achievement_id": 2014001,
+    "class": "通往群星的轨道",
+    "name": "壮绝•狩猎•终了",
+    "description": "灭却末法•劫火，完成壮绝•狩猎，此事在《银河忍法帖》中亦有记载 ※击败「奇想林中的蕉研组」",
+    "reward_level": 2,
+    "game_version": "2.6",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 2014002,
+    "class": "通往群星的轨道",
+    "name": "蕉个朋友!",
+    "description": "蕉？蕉蕉，蕉蕉蕉蕉！ ※第一次见到「睡蕉小猴」",
+    "reward_level": 2,
+    "game_version": "2.6",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 2014003,
+    "class": "通往群星的轨道",
+    "name": "建筑师之腹",
+    "description": "这点苦都受不了，干别的肯定也不行 ※成为筑梦学院的学生",
+    "reward_level": 2,
+    "game_version": "2.6",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 2014004,
+    "class": "通往群星的轨道",
+    "name": "歌舞青春",
+    "description": "跟组品尝十二梦境菜式盒饭，上镜收集斯坦威游隼碎片 ※成为谐乐学院的学生",
+    "reward_level": 2,
+    "game_version": "2.6",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 2014005,
+    "class": "通往群星的轨道",
+    "name": "雅皮士之梦",
+    "description": "上午做下SWOT，下午补个PEST，晚上启动吃瓜PPT ※成为财富学院的学生",
+    "reward_level": 2,
+    "game_version": "2.6",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 2014006,
+    "class": "通往群星的轨道",
+    "name": "绳索与棍棒",
+    "description": "世界上有两种人，一种不讲道理，一种喜欢放屁 ※波提欧视角下，用抢来的证件加入睡蕉社",
+    "reward_level": 2,
+    "game_version": "2.6",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 2014007,
+    "class": "通往群星的轨道",
+    "name": "没有「人」比我更懂睡蕉",
+    "description": "世界上有两种枪手，一种知道怎么开枪，一种知道怎么不开枪 ※波提欧视角下，通过测验加入睡蕉社",
+    "reward_level": 2,
+    "game_version": "2.6",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 2014008,
+    "class": "通往群星的轨道",
+    "name": "蕉学事故",
+    "description": "哟，想让我尊重你，你得先学会尊重别人 ※第一次击败学校中的「蕉师」",
+    "reward_level": 2,
+    "game_version": "2.6",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 2014009,
+    "class": "通往群星的轨道",
+    "name": "我的朋友波提欧",
+    "description": "猿猴崇尚野蛮，也将以野蛮的方式死去 ※波提欧视角下，击败扰乱流梦礁的「助蕉」",
+    "reward_level": 2,
+    "game_version": "2.6",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 2014010,
+    "class": "通往群星的轨道",
+    "name": "侠忍•前尘",
+    "description": "窥探忍界•暗面的真实，扫却缭乱•忍侠旧忆上的落尘•蛛丝 ※见证乱破的前尘•影事",
+    "reward_level": 2,
+    "game_version": "2.6",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 2014011,
+    "class": "通往群星的轨道",
+    "name": "邪祟•惊觉",
+    "description": "实际慈悲，此战有如大药师神向病危的邪祟垂下易断的蛛丝，点到•为止 ※在「睡蕉的时刻」中，击败少量「睡蕉小猴」",
+    "reward_level": 2,
+    "game_version": "2.6",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 2014012,
+    "class": "通往群星的轨道",
+    "name": "邪祟•破除",
+    "description": "实际无情，此战有如大拏怒苛神的怒目邪火般吞噬了诸般邪祟，风卷•残云 ※在「睡蕉的时刻」中，击败许多「睡蕉小猴」",
+    "reward_level": 2,
+    "game_version": "2.6",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 2014013,
+    "class": "通往群星的轨道",
+    "name": "邪祟•无踪",
+    "description": "实际可怖，此战有如大岚神亲手向邪祟掷出了万亿忍•神•光矢，净除•殆尽 ※在「睡蕉的时刻」中，击败大量「睡蕉小猴」",
+    "reward_level": 2,
+    "game_version": "2.6",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 3014001,
+    "class": "战意奔涌",
+    "name": "「蕉」育高手",
+    "description": "在和「奇想林中的蕉研组」的战斗中，使其一次都没有释放【致博士：蕉学成果汇演】",
+    "reward_level": 1,
+    "game_version": "2.6",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 3014002,
+    "class": "战意奔涌",
+    "name": "不可「蕉」也",
+    "description": "在和「奇想林中的蕉研组」的战斗中，使所有蕉研组成员同时处于被击破状态",
+    "reward_level": 1,
+    "game_version": "2.6",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 3014003,
+    "class": "战意奔涌",
+    "name": "缭乱·忍法·破！",
+    "description": "单场战斗中，使用乱破对敌人造成10次弱点击破",
+    "reward_level": 1,
+    "game_version": "2.6",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 3014004,
+    "class": "战意奔涌",
+    "name": "宛如厉鬼的步伐",
+    "description": "使用乱破秘技「忍步•血义理」，在「涂鸦」的滑行状态下没有撞到任何障碍物",
+    "reward_level": 1,
+    "game_version": "2.6",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 5014001,
+    "class": "果壳中的宇宙",
+    "name": "并无恶意",
+    "description": "跟随黑塔，探明「权杖」系统背后的真相 ※见证孤波算法难题的诞生",
+    "reward_level": 1,
+    "game_version": "2.6",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 5014002,
+    "class": "果壳中的宇宙",
+    "name": "涟漪上的蝴蝶",
+    "description": "协助天才们消除模拟宇宙中的不可知域 ※打破波尔卡•卡卡目的全知域",
+    "reward_level": 1,
+    "game_version": "2.6",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 5014003,
+    "class": "果壳中的宇宙",
+    "name": "最后的沉思",
+    "description": "获得关于宇宙未来的「唯一解」",
+    "reward_level": 1,
+    "game_version": "2.6",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 5014004,
+    "class": "果壳中的宇宙",
+    "name": "神们自己",
+    "description": "聆听一场不曾存在的对谈",
+    "reward_level": 1,
+    "game_version": "2.6",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 5014005,
+    "class": "果壳中的宇宙",
+    "name": "不完美学者",
+    "description": "在「模拟宇宙：不可知域」中，通过「庸众集」的所有关卡",
+    "reward_level": 2,
+    "game_version": "2.6",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 5014006,
+    "class": "果壳中的宇宙",
+    "name": "加入光荣的进化",
+    "description": "通关「模拟宇宙：不可知域」时，权杖完成5次及以上改装",
+    "reward_level": 1,
+    "game_version": "2.6",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 5014007,
+    "class": "果壳中的宇宙",
+    "name": "钢铁朝阳",
+    "description": "通关「模拟宇宙：不可知域」时，拥有20个以上组件",
+    "reward_level": 1,
+    "game_version": "2.6",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 5014008,
+    "class": "果壳中的宇宙",
+    "name": "学习成为「我」",
+    "description": "通关「模拟宇宙：不可知域」时，完成30次以上组件覆写",
+    "reward_level": 1,
+    "game_version": "2.6",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 5014009,
+    "class": "果壳中的宇宙",
+    "name": "帝国炼金师",
+    "description": "通关「模拟宇宙：不可知域」时，在造物调试台中完成4次以上组件合成",
+    "reward_level": 1,
+    "game_version": "2.6",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 5014010,
+    "class": "果壳中的宇宙",
+    "name": "冲出概率泥沼",
+    "description": "在难题等级为6的情况下，通关「模拟宇宙：不可知域」",
+    "reward_level": 1,
+    "game_version": "2.6",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 5014011,
+    "class": "果壳中的宇宙",
+    "name": "卡尔达肖夫-III",
+    "description": "在「模拟宇宙：不可知域」中获取3星组件",
+    "reward_level": 1,
+    "game_version": "2.6",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 5014012,
+    "class": "果壳中的宇宙",
+    "name": "超越认知",
+    "description": "在「模拟宇宙：不可知域」中获取3星权杖",
+    "reward_level": 1,
+    "game_version": "2.6",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 5014013,
+    "class": "果壳中的宇宙",
+    "name": "钟慢效应",
+    "description": "在「模拟宇宙：不可知域」中，首次扣除额外轮次计数",
+    "reward_level": 1,
+    "game_version": "2.6",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 5014014,
+    "class": "果壳中的宇宙",
+    "name": "1：4：9",
+    "description": "找到寂静领主留下的痕迹",
+    "reward_level": 1,
+    "game_version": "2.6",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8014001,
+    "class": "与你同行的回忆",
+    "name": "周日夜现场",
+    "description": "找齐三位「不太一样」的梦境迷钟，并与它们共聚留念",
+    "reward_level": 1,
+    "game_version": "2.6",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8014002,
+    "class": "与你同行的回忆",
+    "name": "欢迎来到学术自由主义教室",
+    "description": "在折纸大学旁听3堂专业课",
+    "reward_level": 1,
+    "game_version": "2.6",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8014003,
+    "class": "与你同行的回忆",
+    "name": "再见酒瓶",
+    "description": "帮助电影部成员完成影片拍摄",
+    "reward_level": 1,
+    "game_version": "2.6",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8014004,
+    "class": "与你同行的回忆",
+    "name": "善恶终有报",
+    "description": "再次遇见拍卖你签名照的皮皮西学生",
+    "reward_level": 1,
+    "game_version": "2.6",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8014005,
+    "class": "与你同行的回忆",
+    "name": "好大的气球",
+    "description": "仰望中央舞台上方的大鸟气球",
+    "reward_level": 1,
+    "game_version": "2.6",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8014006,
+    "class": "与你同行的回忆",
+    "name": "已老实…？",
+    "description": "与在走廊罚站的学生交谈",
+    "reward_level": 1,
+    "game_version": "2.6",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8014007,
+    "class": "与你同行的回忆",
+    "name": "折纸浩室",
+    "description": "发现跟随舞台音乐唱歌的折纸小鸟",
+    "reward_level": 1,
+    "game_version": "2.6",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8014008,
+    "class": "与你同行的回忆",
+    "name": "毕业联络簿",
+    "description": "帮助所有需要撰写年鉴的同学，并留下你的评语",
+    "reward_level": 1,
+    "game_version": "2.6",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8014009,
+    "class": "与你同行的回忆",
+    "name": "笔自己画画！",
+    "description": "在涂鸦墙上再次留下属于你的涂鸦",
+    "reward_level": 1,
+    "game_version": "2.6",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8014010,
+    "class": "与你同行的回忆",
+    "name": "'39",
+    "description": "使用钟表把戏阅读哈里森的所有情绪",
+    "reward_level": 1,
+    "game_version": "2.6",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8014011,
+    "class": "与你同行的回忆",
+    "name": "天佑折纸大学！",
+    "description": "旁听两位热心学生的对话",
+    "reward_level": 1,
+    "game_version": "2.6",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8014012,
+    "class": "与你同行的回忆",
+    "name": "襁褓中的美梦",
+    "description": "旁听猫头鹰老师与小鸟们的对话",
+    "reward_level": 1,
+    "game_version": "2.6",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8014013,
+    "class": "与你同行的回忆",
+    "name": "速度与家人",
+    "description": "旁听赛车社成员的对话",
+    "reward_level": 1,
+    "game_version": "2.6",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8014014,
+    "class": "与你同行的回忆",
+    "name": "美梦多彩，理想自由",
+    "description": "帮助折纸大学「真正」的校长",
+    "reward_level": 1,
+    "game_version": "2.6",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8014015,
+    "class": "与你同行的回忆",
+    "name": "火焰杯",
+    "description": "使用钟表把戏阅读普蕾玛的所有情绪",
+    "reward_level": 1,
+    "game_version": "2.6",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8014016,
+    "class": "与你同行的回忆",
+    "name": "妄想学生社团",
+    "description": "在想象中建立属于你的学生社团",
+    "reward_level": 1,
+    "game_version": "2.6",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8014017,
+    "class": "与你同行的回忆",
+    "name": "真的假的？",
+    "description": "找到折纸大学吹奏部的社团摊位",
+    "reward_level": 1,
+    "game_version": "2.6",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8014018,
+    "class": "与你同行的回忆",
+    "name": "Factory Library",
+    "description": "在「音律狩猎忍法帖」中，累计收集3个作曲灵感",
+    "reward_level": 1,
+    "game_version": "2.6",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8014019,
+    "class": "与你同行的回忆",
+    "name": "右右右右右右右",
+    "description": "在「音律狩猎忍法帖」中，任意困难难度的音乐挑战里获得3颗星",
+    "reward_level": 1,
+    "game_version": "2.6",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8014020,
+    "class": "与你同行的回忆",
+    "name": "Remix 10",
+    "description": "在「音律狩猎忍法帖」中，解锁舞台的第四首乐曲",
+    "reward_level": 2,
+    "game_version": "2.6",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8014021,
+    "class": "与你同行的回忆",
+    "name": "心理测量者",
+    "description": "帮助梦境里所有缺失情绪的人补全表盘",
+    "reward_level": 1,
+    "game_version": "2.6",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8014022,
+    "class": "与你同行的回忆",
+    "name": "乐队狂想曲",
+    "description": "在「音律狩猎忍法帖」中，为你组建的乐队取名",
+    "reward_level": 1,
+    "game_version": "2.6",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8014023,
+    "class": "与你同行的回忆",
+    "name": "夏祭",
+    "description": "在「音律狩猎忍法帖」中，和你的乐队完成音乐派对的首场演出",
+    "reward_level": 1,
+    "game_version": "2.6",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8014024,
+    "class": "与你同行的回忆",
+    "name": "天国与地狱",
+    "description": "在「音律狩猎忍法帖」中，和你的乐队完成音乐派对的第二场演出",
+    "reward_level": 1,
+    "game_version": "2.6",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8014025,
+    "class": "与你同行的回忆",
+    "name": "Testify",
+    "description": "在「音律狩猎忍法帖」中，和你的乐队完成音乐派对的闭幕演出",
+    "reward_level": 1,
+    "game_version": "2.6",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8014026,
+    "class": "与你同行的回忆",
+    "name": "怪诞故事集",
+    "description": "使用钟表把戏阅读丽姬娅的所有情绪",
+    "reward_level": 1,
+    "game_version": "2.6",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 9014001,
+    "class": "众秘探奇",
+    "name": "气球永不落幕",
+    "description": "打破折纸大学所有特殊石头老板气球",
+    "reward_level": 1,
+    "game_version": "2.6",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 9014002,
+    "class": "众秘探奇",
+    "name": "再见，折纸鸟！",
+    "description": "帮助全部折纸小鸟回到「大树」和「学堂」",
+    "reward_level": 2,
+    "game_version": "2.6",
+    "hidden": 1
+  }
+]

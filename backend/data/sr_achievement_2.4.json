@@ -1,0 +1,335 @@
+[
+  {
+    "achievement_id": 2012001,
+    "class": "通往群星的轨道",
+    "name": "以剑交心",
+    "description": "当两柄剑相遇… ※见证彦卿与云璃试图分出高下的一战",
+    "reward_level": 2,
+    "game_version": "2.4",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 2012002,
+    "class": "通往群星的轨道",
+    "name": "辩才无碍",
+    "description": "唇枪舌剑才是外交的真正底色… ※凭自己的口才说服公司专员",
+    "reward_level": 2,
+    "game_version": "2.4",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 2012003,
+    "class": "通往群星的轨道",
+    "name": "以「力」服人",
+    "description": "外交事务中偶尔你也得来些硬的… ※凭物理手段「劝服」公司专员",
+    "reward_level": 2,
+    "game_version": "2.4",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 2012004,
+    "class": "通往群星的轨道",
+    "name": "开棺定论",
+    "description": "开启货箱，犹如开启一尊棺木… ※击败公司的危险货物「咆哮灵柩」",
+    "reward_level": 2,
+    "game_version": "2.4",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 2012005,
+    "class": "通往群星的轨道",
+    "name": "剑花秋莲光出匣",
+    "description": "接下师父们的礼物与殷切期待 ※三月七视角下，开始学习仙舟剑术",
+    "reward_level": 2,
+    "game_version": "2.4",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 2012006,
+    "class": "通往群星的轨道",
+    "name": "破狱深牢",
+    "description": "而今，最危险的囚犯挣脱了枷锁 ※椒丘视角下，完成对呼雷的探视",
+    "reward_level": 2,
+    "game_version": "2.4",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 2012007,
+    "class": "通往群星的轨道",
+    "name": "狩猎的时间",
+    "description": "猎人与猎物的游戏尚未开始 ※将军们…行将出征",
+    "reward_level": 2,
+    "game_version": "2.4",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 3012001,
+    "class": "战意奔涌",
+    "name": "寻剑",
+    "description": "使用包含云璃的队伍获得1场对王下一桶的战斗的胜利",
+    "reward_level": 1,
+    "game_version": "2.4",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 3012002,
+    "class": "战意奔涌",
+    "name": "忽冷忽热",
+    "description": "在同一场战斗中用一倍速度触发停云「普攻」语音与椒丘「普攻」语音",
+    "reward_level": 1,
+    "game_version": "2.4",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 3012003,
+    "class": "战意奔涌",
+    "name": "对月无言",
+    "description": "「月狂」倒计时结束前，场上所有敌人已提前解除「月狂」状态",
+    "reward_level": 1,
+    "game_version": "2.4",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 3012004,
+    "class": "战意奔涌",
+    "name": "没什么好怕的",
+    "description": "单场战斗中，我方角色受到的所有来自咆哮灵柩的「恐惧萦绕」状态都被成功解除",
+    "reward_level": 1,
+    "game_version": "2.4",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 3012005,
+    "class": "战意奔涌",
+    "name": "科学怪狗",
+    "description": "咆哮灵柩击败一名处于「恐惧」状态下的我方角色",
+    "reward_level": 1,
+    "game_version": "2.4",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 3012006,
+    "class": "战意奔涌",
+    "name": "十万个冷知识",
+    "description": "使用三月七•巡猎对20个不同的角色施放战技「师父，请喝茶！」",
+    "reward_level": 1,
+    "game_version": "2.4",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 3012007,
+    "class": "战意奔涌",
+    "name": "就是地道！",
+    "description": "单场战斗中，使用三月七•巡猎施放战技「师父，请喝茶！」时，出现苏打豆汁儿",
+    "reward_level": 1,
+    "game_version": "2.4",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 3012008,
+    "class": "战意奔涌",
+    "name": "蜜三刀",
+    "description": "单场战斗中，使用云璃触发3次「勘破·灭」",
+    "reward_level": 1,
+    "game_version": "2.4",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 7012001,
+    "class": "瞬息欢愉",
+    "name": "还是门比较硬",
+    "description": "被幽囚狱大门夹到脑袋",
+    "reward_level": 1,
+    "game_version": "2.4",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8012001,
+    "class": "与你同行的回忆",
+    "name": "石中剑，云中人",
+    "description": "完成同行任务「铸剑为犁」",
+    "reward_level": 1,
+    "game_version": "2.4",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8012002,
+    "class": "与你同行的回忆",
+    "name": "四时剑意",
+    "description": "在「初花习剑录」中，领悟任意「得心应手」以上的剑法",
+    "reward_level": 1,
+    "game_version": "2.4",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8012003,
+    "class": "与你同行的回忆",
+    "name": "三尺之水，可堪截云",
+    "description": "在「初花习剑录」中，剑术进境达到「剑心初成」",
+    "reward_level": 1,
+    "game_version": "2.4",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8012004,
+    "class": "与你同行的回忆",
+    "name": "奥卡姆剃刀没有出鞘",
+    "description": "在「初花习剑录」中，收集完所有的结局",
+    "reward_level": 2,
+    "game_version": "2.4",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8012005,
+    "class": "与你同行的回忆",
+    "name": "明明超强却过分慎重",
+    "description": "在「初花习剑录」中，三月七的4项训练属性达到1000以上",
+    "reward_level": 1,
+    "game_version": "2.4",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8012006,
+    "class": "与你同行的回忆",
+    "name": "飞越平台期",
+    "description": "在「初花习剑录」中，单回合内提升训练属性达到300点",
+    "reward_level": 1,
+    "game_version": "2.4",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8012007,
+    "class": "与你同行的回忆",
+    "name": "初花旅游录",
+    "description": "在「初花习剑录」中，练剑日程只有游历没有训练",
+    "reward_level": 1,
+    "game_version": "2.4",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8012008,
+    "class": "与你同行的回忆",
+    "name": "只学习不玩耍，聪明三月也变傻",
+    "description": "在「初花习剑录」中，一直训练到三月七的心情为0",
+    "reward_level": 1,
+    "game_version": "2.4",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8012009,
+    "class": "与你同行的回忆",
+    "name": "真假开拓王",
+    "description": "与变身成自己的「无相者」嘟嘟对峙，并证明自己才是开拓者",
+    "reward_level": 1,
+    "game_version": "2.4",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8012010,
+    "class": "与你同行的回忆",
+    "name": "绳网委托",
+    "description": "帮助白鸟穿过漆黑的集装箱找到正确的通路",
+    "reward_level": 1,
+    "game_version": "2.4",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8012011,
+    "class": "与你同行的回忆",
+    "name": "仙舟导游",
+    "description": "与皮皮西游客、智械游客在罗浮仙舟重逢",
+    "reward_level": 1,
+    "game_version": "2.4",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8012012,
+    "class": "与你同行的回忆",
+    "name": "人有五名，逃犯有三",
+    "description": "将藏身于幽囚狱中的逃犯找出，并见证司狱的审判",
+    "reward_level": 1,
+    "game_version": "2.4",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8012013,
+    "class": "与你同行的回忆",
+    "name": "魔阴身考在哪里",
+    "description": "找到失踪已久的《魔阴身考》，并尝试了解失踪的原因",
+    "reward_level": 1,
+    "game_version": "2.4",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8012014,
+    "class": "与你同行的回忆",
+    "name": "影卫信条",
+    "description": "初次在幽囚狱上层俯瞰幽囚狱时，选择凝视深渊",
+    "reward_level": 1,
+    "game_version": "2.4",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8012015,
+    "class": "与你同行的回忆",
+    "name": "影卫信条：叛变",
+    "description": "初次在幽囚狱上层俯瞰幽囚狱时，选择暂时撤退",
+    "reward_level": 1,
+    "game_version": "2.4",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8012016,
+    "class": "与你同行的回忆",
+    "name": "囚室巡访",
+    "description": "启动机巧鸟，并以访客身份调查3处高层的囚室",
+    "reward_level": 1,
+    "game_version": "2.4",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8012017,
+    "class": "与你同行的回忆",
+    "name": "不存在的记忆",
+    "description": "调查特殊的石门，回想起「人有五名，代价有三个…」的情景",
+    "reward_level": 1,
+    "game_version": "2.4",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8012018,
+    "class": "与你同行的回忆",
+    "name": "陵园购",
+    "description": "在幽囚狱中与「阿合马铁窗集团」任意成员完成一次交易",
+    "reward_level": 1,
+    "game_version": "2.4",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8012019,
+    "class": "与你同行的回忆",
+    "name": "能和我转一辈子魔方吗",
+    "description": "完成幽囚狱中全部的「枘凿六合•Remake」谜题",
+    "reward_level": 1,
+    "game_version": "2.4",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 9012001,
+    "class": "众秘探奇",
+    "name": "青鸟探看",
+    "description": "利用机巧鸟打开隐藏的地下通路",
+    "reward_level": 1,
+    "game_version": "2.4",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 9012002,
+    "class": "众秘探奇",
+    "name": "隐秘的角落",
+    "description": "利用机巧鸟进入隐藏房间",
+    "reward_level": 1,
+    "game_version": "2.4",
+    "hidden": 0
+  }
+]

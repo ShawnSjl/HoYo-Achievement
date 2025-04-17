@@ -1,0 +1,272 @@
+[
+  {
+    "achievement_id": 2003001,
+    "class": "通往群星的轨道",
+    "name": "长生梦短",
+    "description": "如果死而复生，就再杀一次… ※击败「药王秘传」魁首",
+    "reward_level": 2,
+    "game_version": "1.2",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 2003002,
+    "class": "通往群星的轨道",
+    "name": "饮月君临",
+    "description": "海若不隐珠，骊龙吐明月 ※目睹丹恒分开鳞渊境的海水",
+    "reward_level": 2,
+    "game_version": "1.2",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 2003003,
+    "class": "通往群星的轨道",
+    "name": "若木折枝",
+    "description": "一切阴谋诡计必将覆灭 ※帮助景元击败幻胧",
+    "reward_level": 3,
+    "game_version": "1.2",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 3003001,
+    "class": "战意奔涌",
+    "name": "印堂发黑",
+    "description": "与幻胧的单场战斗中，累计解除「噬命」状态5次",
+    "reward_level": 1,
+    "game_version": "1.2",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 3003002,
+    "class": "战意奔涌",
+    "name": "园艺达人",
+    "description": "不消灭丰饶玄莲的情况下击败幻胧",
+    "reward_level": 2,
+    "game_version": "1.2",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 3003003,
+    "class": "战意奔涌",
+    "name": "BOOM～",
+    "description": "单场战斗中，使用卡芙卡单次施放「月光摩挲连绵」触发4个不同的持续伤害的效果",
+    "reward_level": 1,
+    "game_version": "1.2",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 3003004,
+    "class": "战意奔涌",
+    "name": "求不得",
+    "description": "多事 ※单场战斗中，使用我方角色刃在单次攻击中从血量小于等于5%恢复至大于等于30%2次",
+    "reward_level": 1,
+    "game_version": "1.2",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 3003005,
+    "class": "战意奔涌",
+    "name": "去吧，阿刃",
+    "description": "使用我方角色刃对战卡芙卡并陷入「支配」状态",
+    "reward_level": 1,
+    "game_version": "1.2",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 3003006,
+    "class": "战意奔涌",
+    "name": "点数取胜",
+    "description": "单场战斗中，使用卢卡累计施放4次「直冲碎天拳」",
+    "reward_level": 1,
+    "game_version": "1.2",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 3003007,
+    "class": "战意奔涌",
+    "name": "自我暗示",
+    "description": "使用我方角色卡芙卡对战卡芙卡并陷入「支配」状态",
+    "reward_level": 1,
+    "game_version": "1.2",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 6003001,
+    "class": "不屈者的荣光",
+    "name": "重天渡尽",
+    "description": "通关「忘却之庭•仙舟回忆其六」",
+    "reward_level": 2,
+    "game_version": "1.2",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 7003001,
+    "class": "瞬息欢愉",
+    "name": "地下守护者",
+    "description": "使用同时包含娜塔莎、希儿、卢卡的队伍获得1场战斗的胜利",
+    "reward_level": 1,
+    "game_version": "1.2",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8003001,
+    "class": "与你同行的回忆",
+    "name": "折翼纸鸢与高飞的鸟",
+    "description": "完成同行任务「因为我已触碰过天空」",
+    "reward_level": 1,
+    "game_version": "1.2",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8003002,
+    "class": "与你同行的回忆",
+    "name": "自由意志",
+    "description": "完成同行任务「陌生女人的来信」 ※你选择了帮助卡芙卡",
+    "reward_level": 1,
+    "game_version": "1.2",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8003003,
+    "class": "与你同行的回忆",
+    "name": "真正的自由意志",
+    "description": "完成同行任务「陌生女人的来信」 ※你选择了离开卡芙卡，很少有人会这么做，但这就是你拥有自由意志的明证",
+    "reward_level": 1,
+    "game_version": "1.2",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8003004,
+    "class": "与你同行的回忆",
+    "name": "云骑之友",
+    "description": "心无旁骛地完成将军的托付",
+    "reward_level": 2,
+    "game_version": "1.2",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8003005,
+    "class": "与你同行的回忆",
+    "name": "愿者不上钩",
+    "description": "发现工造司两位钓鱼者之间关联",
+    "reward_level": 1,
+    "game_version": "1.2",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8003006,
+    "class": "与你同行的回忆",
+    "name": "我如何学会停止恐惧",
+    "description": "成功处理中子弹危机",
+    "reward_level": 1,
+    "game_version": "1.2",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8003007,
+    "class": "与你同行的回忆",
+    "name": "环波月古海",
+    "description": "参与1次金人驾驶员测试",
+    "reward_level": 1,
+    "game_version": "1.2",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8003008,
+    "class": "与你同行的回忆",
+    "name": "文采斐然",
+    "description": "在格律诗人的挑战中，获得它的认可",
+    "reward_level": 1,
+    "game_version": "1.2",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8003009,
+    "class": "与你同行的回忆",
+    "name": "略输文采",
+    "description": "在格律诗人的挑战中，未能获得它的认可",
+    "reward_level": 1,
+    "game_version": "1.2",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8003010,
+    "class": "与你同行的回忆",
+    "name": "论心不论迹",
+    "description": "与「放生帮」共同完成1次成功的放生",
+    "reward_level": 1,
+    "game_version": "1.2",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8003011,
+    "class": "与你同行的回忆",
+    "name": "论迹不论心",
+    "description": "见证「放生帮」的结局",
+    "reward_level": 1,
+    "game_version": "1.2",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 9003001,
+    "class": "众秘探奇",
+    "name": "游踪遐远",
+    "description": "在仙舟「罗浮」激活20次界域定锚",
+    "reward_level": 1,
+    "game_version": "1.2",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 9003002,
+    "class": "众秘探奇",
+    "name": "财星临照",
+    "description": "开启170次仙舟「罗浮」战利品",
+    "reward_level": 2,
+    "game_version": "1.2",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 9003003,
+    "class": "众秘探奇",
+    "name": "到此一飞：穹仪",
+    "description": "控制机巧鸟飞行到穹仪附近",
+    "reward_level": 1,
+    "game_version": "1.2",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 9003004,
+    "class": "众秘探奇",
+    "name": "到此一飞：穷观阵",
+    "description": "控制机巧鸟飞行到穷观阵中间",
+    "reward_level": 1,
+    "game_version": "1.2",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 9003005,
+    "class": "众秘探奇",
+    "name": "到此一飞：太真丹室",
+    "description": "控制机巧鸟飞行到太真丹室附近",
+    "reward_level": 1,
+    "game_version": "1.2",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 9003006,
+    "class": "众秘探奇",
+    "name": "悠着点，伊卡洛斯",
+    "description": "尝试控制机巧鸟挑战遥控范围的极限",
+    "reward_level": 1,
+    "game_version": "1.2",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 9003007,
+    "class": "众秘探奇",
+    "name": "开箱评测",
+    "description": "没有比你更靠谱的快递安检工作者了",
+    "reward_level": 1,
+    "game_version": "1.2",
+    "hidden": 0
+  }
+]

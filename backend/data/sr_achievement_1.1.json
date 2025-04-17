@@ -1,0 +1,146 @@
+[
+  {
+    "achievement_id": 3002001,
+    "class": "战意奔涌",
+    "name": "脆弱之身",
+    "description": "单场战斗中，使用我方角色银狼为同一敌方单体累计添加3次不同属性的弱点",
+    "reward_level": 2,
+    "game_version": "1.1",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 3002002,
+    "class": "战意奔涌",
+    "name": "猎手何苦为难猎手",
+    "description": "使用我方角色银狼在对战卡芙卡时，单场战斗中累计为卡芙卡添加2个弱点",
+    "reward_level": 1,
+    "game_version": "1.1",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 4002001,
+    "class": "流光遗痕",
+    "name": "畅聊之火",
+    "description": "回复10条角色闲聊短信",
+    "reward_level": 1,
+    "game_version": "1.1",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 4002002,
+    "class": "流光遗痕",
+    "name": "友谊之船",
+    "description": "回复60条角色闲聊短信",
+    "reward_level": 1,
+    "game_version": "1.1",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 7002001,
+    "class": "瞬息欢愉",
+    "name": "尘世百态",
+    "description": "使用我方角色罗刹提供治疗时，触发10句不同的回复生命语音",
+    "reward_level": 1,
+    "game_version": "1.1",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 7002002,
+    "class": "瞬息欢愉",
+    "name": "星穹折剑",
+    "description": "使用同时包含罗刹、素裳、彦卿的队伍配置取得1场战斗的胜利",
+    "reward_level": 1,
+    "game_version": "1.1",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8002001,
+    "class": "与你同行的回忆",
+    "name": "完美无缺的名侦探",
+    "description": "完成同行任务「异邦骑士」",
+    "reward_level": 1,
+    "game_version": "1.1",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8002002,
+    "class": "与你同行的回忆",
+    "name": "剑中魁首",
+    "description": "完成同行任务「霜刃一试」",
+    "reward_level": 1,
+    "game_version": "1.1",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8002003,
+    "class": "与你同行的回忆",
+    "name": "再见，朋克洛德！",
+    "description": "完成同行任务「朋克洛德精神」",
+    "reward_level": 1,
+    "game_version": "1.1",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8002004,
+    "class": "与你同行的回忆",
+    "name": "棺材舞者",
+    "description": "见证罗刹的不为人知的一面 ※查看修复后的影像，听到罗刹的独白",
+    "reward_level": 1,
+    "game_version": "1.1",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8002005,
+    "class": "与你同行的回忆",
+    "name": "今日免费开放",
+    "description": "开启贝洛伯格历史文化博物馆的综合展区",
+    "reward_level": 1,
+    "game_version": "1.1",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8002006,
+    "class": "与你同行的回忆",
+    "name": "猫鼠游戏",
+    "description": "开启贝洛伯格历史文化博物馆的三个展区",
+    "reward_level": 1,
+    "game_version": "1.1",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8002007,
+    "class": "与你同行的回忆",
+    "name": "你应该待在博物馆里！",
+    "description": "收集贝洛伯格历史文化博物馆的全部展品",
+    "reward_level": 2,
+    "game_version": "1.1",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8002008,
+    "class": "与你同行的回忆",
+    "name": "何枝可依",
+    "description": "在任务「譬如朝露」中，向梁沐透露魔阴身怪物的身份",
+    "reward_level": 1,
+    "game_version": "1.1",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8002009,
+    "class": "与你同行的回忆",
+    "name": "心念旧恩",
+    "description": "在任务「譬如朝露」中，向梁沐隐瞒魔阴身怪物的身份",
+    "reward_level": 1,
+    "game_version": "1.1",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 9002001,
+    "class": "众秘探奇",
+    "name": "自投罗网",
+    "description": "累计在战斗中捕捉迷路的扑满1次",
+    "reward_level": 1,
+    "game_version": "1.1",
+    "hidden": 1
+  }
+]

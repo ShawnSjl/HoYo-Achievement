@@ -1,0 +1,1235 @@
+[
+  {
+    "achievement_id": 1016001,
+    "class": "我，开拓者",
+    "name": "与昨日再会",
+    "description": "开拓者踏上「记忆」命途",
+    "reward_level": 3,
+    "game_version": "3.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 2016001,
+    "class": "通往群星的轨道",
+    "name": "面涂黄金的婴孩",
+    "description": "这一次，你们的所作所为将令阿基维利感到骄傲 ※在翁法罗斯插下第一支界域定锚",
+    "reward_level": 2,
+    "game_version": "3.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 2016002,
+    "class": "通往群星的轨道",
+    "name": "吾好梦中缠人",
+    "description": "信任，是开拓最好的伙伴 ※于阿格莱雅的拷问下生还",
+    "reward_level": 2,
+    "game_version": "3.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 2016003,
+    "class": "通往群星的轨道",
+    "name": "300",
+    "description": "以一千道伤痕和一百条性命，换取最荣耀的死亡 ※见证「天谴之矛」的不死之躯",
+    "reward_level": 2,
+    "game_version": "3.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 2016004,
+    "class": "通往群星的轨道",
+    "name": "瓶中萤火",
+    "description": "再见，我那未曾发生过的记忆 ※于不存在的记忆中同流萤告别",
+    "reward_level": 2,
+    "game_version": "3.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 2016005,
+    "class": "通往群星的轨道",
+    "name": "蛛丝浮沉",
+    "description": "再见，我那未曾发生过的记忆 ※于不存在的记忆中同卡芙卡告别",
+    "reward_level": 2,
+    "game_version": "3.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 2016006,
+    "class": "通往群星的轨道",
+    "name": "回来吧，旧日的幻影！",
+    "description": "伴随战鼓，破碎的记忆再度浮现于世 ※回到全盛时期的悬锋城",
+    "reward_level": 2,
+    "game_version": "3.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 2016007,
+    "class": "通往群星的轨道",
+    "name": "三度迎来日落",
+    "description": "追随理性的呼唤，掐灭神性的光芒 ※回收「天谴之矛」的火种",
+    "reward_level": 2,
+    "game_version": "3.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 2016008,
+    "class": "通往群星的轨道",
+    "name": "世代如落叶",
+    "description": "开启你在翁法罗斯的英雄史诗 ※归还「纷争」的火种，等待白厄归来",
+    "reward_level": 2,
+    "game_version": "3.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 2016009,
+    "class": "通往群星的轨道",
+    "name": "活死人黎明",
+    "description": "回到翁法罗斯「开拓」的起点 ※回到列车坠毁的地方看看",
+    "reward_level": 2,
+    "game_version": "3.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 3016001,
+    "class": "战意奔涌",
+    "name": "潘克拉辛的真意",
+    "description": "单次攻击中破坏至少4名敌人的【战甲】",
+    "reward_level": 1,
+    "game_version": "3.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 3016002,
+    "class": "战意奔涌",
+    "name": "永恒极枪",
+    "description": "在和「天谴先锋」的战斗中，在破坏其【战甲】时完成制胜一击",
+    "reward_level": 1,
+    "game_version": "3.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 3016003,
+    "class": "战意奔涌",
+    "name": "斜行战术",
+    "description": "在和「天谴先锋」的战斗中，至少5名我方目标参与分摊【在滔滔血海中沉溺】的伤害，且分摊伤害后没有我方目标被击败",
+    "reward_level": 1,
+    "game_version": "3.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 3016004,
+    "class": "战意奔涌",
+    "name": "无上荣光",
+    "description": "在和「蛮神，疯王，纷争的化身」的单场战斗中，所有我方角色的【荣耀】达到2层上限",
+    "reward_level": 1,
+    "game_version": "3.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 3016005,
+    "class": "战意奔涌",
+    "name": "止战之殇",
+    "description": "在和「蛮神，疯王，纷争的化身」的单场战斗中，破坏其【战甲】和【泰坦神躯】",
+    "reward_level": 1,
+    "game_version": "3.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 3016006,
+    "class": "战意奔涌",
+    "name": "折旌的战场",
+    "description": "在和「颁赐者，千军首，天谴之矛」的战斗中，令其施放【畏怖溃军皆成铠仗】时没有吸收到「征服或被征服」",
+    "reward_level": 1,
+    "game_version": "3.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 3016007,
+    "class": "战意奔涌",
+    "name": "征服王",
+    "description": "在「颁赐者，千军首，天谴之矛」施放【受征伐者皆见灾殃】后，用同一个角色消灭所有的「征服或被征服」",
+    "reward_level": 1,
+    "game_version": "3.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 3016008,
+    "class": "战意奔涌",
+    "name": "伙伴，约定！",
+    "description": "使用「记忆」命途开拓者召唤迷迷",
+    "reward_level": 1,
+    "game_version": "3.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 3016009,
+    "class": "战意奔涌",
+    "name": "一起，着迷！",
+    "description": "单场战斗中，使我方至少4名角色同时持有【迷迷的声援】",
+    "reward_level": 1,
+    "game_version": "3.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 3016010,
+    "class": "战意奔涌",
+    "name": "金线降神",
+    "description": "单场战斗中，使用我方角色阿格莱雅召唤1次「衣匠」",
+    "reward_level": 1,
+    "game_version": "3.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 3016011,
+    "class": "战意奔涌",
+    "name": "热狂圆舞",
+    "description": "单场战斗中，使用我方角色阿格莱雅在【至高之姿】状态下累计施放5次【孤锋千吻】",
+    "reward_level": 1,
+    "game_version": "3.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 3016012,
+    "class": "战意奔涌",
+    "name": "天衣无缝",
+    "description": "单场战斗中，仅使用我方角色阿格莱雅的「衣匠」消灭敌方所有目标并获得战斗胜利",
+    "reward_level": 1,
+    "game_version": "3.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 3016013,
+    "class": "战意奔涌",
+    "name": "回忆突然攻击我",
+    "description": "使用记忆命途角色对战卡芙卡，其操控的忆灵陷入「支配」状态并攻击忆师本人",
+    "reward_level": 1,
+    "game_version": "3.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 3016014,
+    "class": "战意奔涌",
+    "name": "擢升的渴慕",
+    "description": "单次战斗中，使用我方角色星期日使任意一名忆师和忆灵的行动提前5次",
+    "reward_level": 1,
+    "game_version": "3.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 3016015,
+    "class": "战意奔涌",
+    "name": "往日之惩",
+    "description": "累计使用忆灵技伤害消灭30名敌人",
+    "reward_level": 1,
+    "game_version": "3.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 3016016,
+    "class": "战意奔涌",
+    "name": "代理人战争",
+    "description": "单场战斗中，场上同时存在4名及以上我方忆灵",
+    "reward_level": 1,
+    "game_version": "3.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 3016017,
+    "class": "战意奔涌",
+    "name": "真实是永远的必杀技",
+    "description": "累计使用真实伤害消灭10名敌人",
+    "reward_level": 1,
+    "game_version": "3.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 3016018,
+    "class": "战意奔涌",
+    "name": "阅读理解",
+    "description": "单次战斗中，使用我方角色大黑塔累计5次叠加出42层的【解读】",
+    "reward_level": 1,
+    "game_version": "3.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 7016001,
+    "class": "瞬息欢愉",
+    "name": "回到未未未未来",
+    "description": "在短时间内连续使用「奇迹典籍」切换时空5次",
+    "reward_level": 1,
+    "game_version": "3.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 7016002,
+    "class": "瞬息欢愉",
+    "name": "神圣车行",
+    "description": "连续开关「奇迹宝珠」5次",
+    "reward_level": 1,
+    "game_version": "3.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 7016003,
+    "class": "瞬息欢愉",
+    "name": "柱倒啦—",
+    "description": "感受「真理」的重量 ※在翁法罗斯探索过程中，被残留有记忆的柱子砸中",
+    "reward_level": 1,
+    "game_version": "3.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 7016004,
+    "class": "瞬息欢愉",
+    "name": "美丽的淑女",
+    "description": "桥塌啦？还好你不在桥上——在桥下？ ※在翁法罗斯探索过程中，被不稳定的桥砸中",
+    "reward_level": 1,
+    "game_version": "3.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 7016005,
+    "class": "瞬息欢愉",
+    "name": "无罪者能先拿起石头",
+    "description": "来玩保龄球，我当球瓶 ※在翁法罗斯探索过程中，被石球砸中",
+    "reward_level": 1,
+    "game_version": "3.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 7016006,
+    "class": "瞬息欢愉",
+    "name": "动啊，为什么不动？",
+    "description": "神龛？什么神龛？ ※在翁法罗斯探索过程中，回溯残留有记忆的某个物件时，因超过能力限度而失败五次",
+    "reward_level": 1,
+    "game_version": "3.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8016001,
+    "class": "与你同行的回忆",
+    "name": "招手停",
+    "description": "通过摇铃召唤大地兽5次",
+    "reward_level": 1,
+    "game_version": "3.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8016002,
+    "class": "与你同行的回忆",
+    "name": "我呼唤永恒的黎明",
+    "description": "阅读「永恒圣城」奥赫玛所有启目集",
+    "reward_level": 1,
+    "game_version": "3.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8016003,
+    "class": "与你同行的回忆",
+    "name": "我呼唤新王的君临",
+    "description": "阅读「纷争荒墟」悬锋城所有启目集",
+    "reward_level": 1,
+    "game_version": "3.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8016004,
+    "class": "与你同行的回忆",
+    "name": "我呼唤丰盛的和平",
+    "description": "阅读「浴血战端」悬锋城所有启目集",
+    "reward_level": 1,
+    "game_version": "3.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8016005,
+    "class": "与你同行的回忆",
+    "name": "我呼唤远古的黑夜",
+    "description": "阅读「命运重渊」雅努萨波利斯所有启目集",
+    "reward_level": 1,
+    "game_version": "3.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8016006,
+    "class": "与你同行的回忆",
+    "name": "大城轶事",
+    "description": "窥探「永恒圣城」奥赫玛全部的追忆残像",
+    "reward_level": 1,
+    "game_version": "3.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8016007,
+    "class": "与你同行的回忆",
+    "name": "纷争余夜",
+    "description": "窥探「纷争荒墟」悬锋城全部的追忆残像",
+    "reward_level": 1,
+    "game_version": "3.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8016008,
+    "class": "与你同行的回忆",
+    "name": "战争的黎明",
+    "description": "窥探「浴血战端」悬锋城全部的追忆残像",
+    "reward_level": 1,
+    "game_version": "3.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8016009,
+    "class": "与你同行的回忆",
+    "name": "圣鹿之死",
+    "description": "窥探「命运重渊」雅努萨波利斯全部的追忆残像",
+    "reward_level": 1,
+    "game_version": "3.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8016010,
+    "class": "与你同行的回忆",
+    "name": "与浪花和兽相戏",
+    "description": "获取声音记录《神性的回响：海洋》",
+    "reward_level": 1,
+    "game_version": "3.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8016011,
+    "class": "与你同行的回忆",
+    "name": "停歇疯狂的不和",
+    "description": "获取声音记录《神性的回响：纷争》",
+    "reward_level": 1,
+    "game_version": "3.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8016012,
+    "class": "与你同行的回忆",
+    "name": "驱赶光明至地下",
+    "description": "获取声音记录《神性的回响：岁月》",
+    "reward_level": 1,
+    "game_version": "3.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8016013,
+    "class": "与你同行的回忆",
+    "name": "平凡的世界",
+    "description": "回首来路，你或许已经在许多人的生活里泛起了不小的涟漪 ※看看那些接受过星穹列车帮助的普通人现在过得如何",
+    "reward_level": 1,
+    "game_version": "3.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8016014,
+    "class": "与你同行的回忆",
+    "name": "大宇宙，小人间",
+    "description": "在完成「寻人记」任务后，与星穹列车上的小机器人对话",
+    "reward_level": 1,
+    "game_version": "3.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8016015,
+    "class": "与你同行的回忆",
+    "name": "黑潮时期的爱情",
+    "description": "见证厄琉斯与宁芙的结局",
+    "reward_level": 1,
+    "game_version": "3.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8016016,
+    "class": "与你同行的回忆",
+    "name": "无果之树",
+    "description": "在奥赫玛完成神秘仪式交互事件",
+    "reward_level": 1,
+    "game_version": "3.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8016017,
+    "class": "与你同行的回忆",
+    "name": "开拓者悖论",
+    "description": "见证「最强之盾」与「最强之矛」的结局",
+    "reward_level": 1,
+    "game_version": "3.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8016018,
+    "class": "与你同行的回忆",
+    "name": "明天又是新的一天",
+    "description": "找回你在奥赫玛丢失的东西… ※并见证一个孩子的转变",
+    "reward_level": 1,
+    "game_version": "3.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8016019,
+    "class": "与你同行的回忆",
+    "name": "宿命论",
+    "description": "帮助德墨忒尔调查女儿失踪的线索并阐述自己的推论",
+    "reward_level": 1,
+    "game_version": "3.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8016020,
+    "class": "与你同行的回忆",
+    "name": "偶像的黄昏",
+    "description": "在修辞学论辩中，为希诺的观点辩护",
+    "reward_level": 1,
+    "game_version": "3.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8016021,
+    "class": "与你同行的回忆",
+    "name": "一切皆一",
+    "description": "在修辞学论辩中，为帕门弥德的观点辩护",
+    "reward_level": 1,
+    "game_version": "3.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8016022,
+    "class": "与你同行的回忆",
+    "name": "形而上的坏死",
+    "description": "仅借智慧所创造的一切，都是虚假之物 ※获得第一枚翻飞之币",
+    "reward_level": 1,
+    "game_version": "3.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8016023,
+    "class": "与你同行的回忆",
+    "name": "未选择的路",
+    "description": "调查位于「纷争荒墟」悬锋城的雅努斯之驹",
+    "reward_level": 1,
+    "game_version": "3.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8016024,
+    "class": "与你同行的回忆",
+    "name": "成神之日",
+    "description": "调查位于「浴血战端」悬锋城的雅努斯之驹",
+    "reward_level": 1,
+    "game_version": "3.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8016025,
+    "class": "与你同行的回忆",
+    "name": "手拘飞羽",
+    "description": "调查位于「命运重渊」雅努萨波利斯的雅努斯之驹",
+    "reward_level": 1,
+    "game_version": "3.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8016026,
+    "class": "与你同行的回忆",
+    "name": "尚未揭示的秘密",
+    "description": "在「永恒圣城」奥赫玛、「纷争荒墟」悬锋城、「浴血战端」悬锋城、「命运重渊」雅努萨波利斯阻止「贼灵」的所有盗窃行为。",
+    "reward_level": 1,
+    "game_version": "3.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8016027,
+    "class": "与你同行的回忆",
+    "name": "火已渐熄",
+    "description": "完成「黄金替罪羊」任务",
+    "reward_level": 1,
+    "game_version": "3.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8016028,
+    "class": "与你同行的回忆",
+    "name": "新的传火者",
+    "description": "修复任意一个吉奥里亚活火并满足它的要求",
+    "reward_level": 1,
+    "game_version": "3.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8016029,
+    "class": "与你同行的回忆",
+    "name": "哲学士",
+    "description": "找到奥赫玛中所有的吉奥里亚活火",
+    "reward_level": 1,
+    "game_version": "3.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8016030,
+    "class": "与你同行的回忆",
+    "name": "哲学王",
+    "description": "找到奥赫玛中4个真言狮口并回答它们的提问",
+    "reward_level": 1,
+    "game_version": "3.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8016031,
+    "class": "与你同行的回忆",
+    "name": "光明行者",
+    "description": "找到奥赫玛中8个真言狮口并回答它们的提问",
+    "reward_level": 1,
+    "game_version": "3.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8016032,
+    "class": "与你同行的回忆",
+    "name": "寄居蟹",
+    "description": "找到奥赫玛中所有的圣烛并激活互动",
+    "reward_level": 1,
+    "game_version": "3.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8016033,
+    "class": "与你同行的回忆",
+    "name": "绝对客观记忆",
+    "description": "调查位于「永恒圣城」奥赫玛的雅努斯之驹",
+    "reward_level": 1,
+    "game_version": "3.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8016034,
+    "class": "与你同行的回忆",
+    "name": "重塑雕像的权利",
+    "description": "收集第一个记忆碎片",
+    "reward_level": 1,
+    "game_version": "3.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8016035,
+    "class": "与你同行的回忆",
+    "name": "伪币制造者",
+    "description": "累积修复奥赫玛城内的3座雕像",
+    "reward_level": 1,
+    "game_version": "3.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8016036,
+    "class": "与你同行的回忆",
+    "name": "众神与人",
+    "description": "揭露更多藏于星宿中的秘密 ※查阅创世涡心的泰坦星宿图鉴",
+    "reward_level": 1,
+    "game_version": "3.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8016037,
+    "class": "与你同行的回忆",
+    "name": "为何欢乐的喧闹哑默？",
+    "description": "世界的起点曾是海洋 ※聆听创世涡心中潮汐的声音",
+    "reward_level": 1,
+    "game_version": "3.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8016038,
+    "class": "与你同行的回忆",
+    "name": "山峦·铁匠·老主顾",
+    "description": "大顾客，谢谢 ※购买哈托努斯打造的全部种类的武器",
+    "reward_level": 1,
+    "game_version": "3.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8016039,
+    "class": "与你同行的回忆",
+    "name": "我们席地而坐",
+    "description": "向巴克斯购买秘酿，并触发特定迷醉事件 ※向巴克斯购买秘酿，并触发一次大地兽相关迷醉事件",
+    "reward_level": 1,
+    "game_version": "3.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8016040,
+    "class": "与你同行的回忆",
+    "name": "睡在上铺的兄弟",
+    "description": "向巴克斯购买秘酿，并触发特定迷醉事件 ※向巴克斯购买秘酿，并触发一次丹恒相关迷醉事件",
+    "reward_level": 1,
+    "game_version": "3.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8016041,
+    "class": "与你同行的回忆",
+    "name": "瓶中花月",
+    "description": "向巴克斯购买秘酿，并触发所有迷醉事件",
+    "reward_level": 1,
+    "game_version": "3.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8016042,
+    "class": "与你同行的回忆",
+    "name": "漂浮曲与凝固音符",
+    "description": "天外回音可绕梁 ※在帕西提亚处重温过往的天外之音",
+    "reward_level": 1,
+    "game_version": "3.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8016043,
+    "class": "与你同行的回忆",
+    "name": "月桂捎来讯息…",
+    "description": "可窥命运，但切莫盲信 ※让帕西提亚给你算一次命",
+    "reward_level": 1,
+    "game_version": "3.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8016044,
+    "class": "与你同行的回忆",
+    "name": "皮袋装满的声音",
+    "description": "阿克蒙的消息向来明码标价，绝对不坑朋友~ ※买光阿克蒙的打折纸条",
+    "reward_level": 1,
+    "game_version": "3.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8016045,
+    "class": "与你同行的回忆",
+    "name": "善良的种类",
+    "description": "师傅，你是做什么工作的？ ※打扰浴场侍者的工作，让达罗跟你聊了聊",
+    "reward_level": 1,
+    "game_version": "3.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8016046,
+    "class": "与你同行的回忆",
+    "name": "土装在另一个胃里",
+    "description": "能吃，但不建议 ※在与克特西的交谈中，亲自尝试他做给大地兽的「菜色」",
+    "reward_level": 1,
+    "game_version": "3.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8016047,
+    "class": "与你同行的回忆",
+    "name": "理性动物之理性",
+    "description": "寻找一个可能和你有着类似爱好的人… ※找到住在桶里的第欧根娜",
+    "reward_level": 1,
+    "game_version": "3.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8016048,
+    "class": "与你同行的回忆",
+    "name": "浴露均沾",
+    "description": "尝试过云石天宫里的高温浴池、低温浴池与试温池",
+    "reward_level": 1,
+    "game_version": "3.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8016049,
+    "class": "与你同行的回忆",
+    "name": "磐岩式社交",
+    "description": "有时候，人们只是害羞 ※锲而不舍地与佩特拉对话，并成功引起他的注意",
+    "reward_level": 1,
+    "game_version": "3.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8016050,
+    "class": "与你同行的回忆",
+    "name": "小哥，要苹果吗？",
+    "description": "造访奥赫玛城中所有商贩",
+    "reward_level": 1,
+    "game_version": "3.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8016051,
+    "class": "与你同行的回忆",
+    "name": "打捞过往之河",
+    "description": "你的私人浴宫里多出了什么？ ※获得记忆的力量后，发现奇怪的晶体",
+    "reward_level": 1,
+    "game_version": "3.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8016052,
+    "class": "与你同行的回忆",
+    "name": "大地在波动",
+    "description": "新的生命正在孕育 ※触摸大地兽工坊内奇怪的蛋",
+    "reward_level": 1,
+    "game_version": "3.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8016053,
+    "class": "与你同行的回忆",
+    "name": "旅行家的虚荣",
+    "description": "猜猜谁是奥赫玛最爱大地兽的人？ ※拦下大地兽商队「阿尔戈」，并与伊阿宋完成一次对话",
+    "reward_level": 1,
+    "game_version": "3.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8016054,
+    "class": "与你同行的回忆",
+    "name": "背上的事诗",
+    "description": "拦下大地兽背上的吟游诗人，与他聊聊",
+    "reward_level": 1,
+    "game_version": "3.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8016055,
+    "class": "与你同行的回忆",
+    "name": "爱宠机密",
+    "description": "在「永恒圣城」奥赫玛的雅努斯之驹处购买小奇美拉",
+    "reward_level": 1,
+    "game_version": "3.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8016056,
+    "class": "与你同行的回忆",
+    "name": "时光之尘",
+    "description": "第一次获得记忆残晶",
+    "reward_level": 1,
+    "game_version": "3.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8016057,
+    "class": "与你同行的回忆",
+    "name": "哭泣的昨日草原",
+    "description": "累积获得100个记忆残晶",
+    "reward_level": 1,
+    "game_version": "3.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8016058,
+    "class": "与你同行的回忆",
+    "name": "朋友，好",
+    "description": "与奥赫玛的山之民们结识",
+    "reward_level": 1,
+    "game_version": "3.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8016059,
+    "class": "与你同行的回忆",
+    "name": "温暖的长屋在何方？",
+    "description": "见证奥赫玛的社会难题 ※我们该去往何方？面对这一永恒之问，你选择以仁慈作答",
+    "reward_level": 1,
+    "game_version": "3.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8016060,
+    "class": "与你同行的回忆",
+    "name": "火与铁剑在何方？",
+    "description": "见证奥赫玛的社会难题 ※我们该去往何方？面对这一永恒之问，你选择以强硬作答",
+    "reward_level": 1,
+    "game_version": "3.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8016061,
+    "class": "与你同行的回忆",
+    "name": "然旧岁之雪又在何方？",
+    "description": "见证奥赫玛的社会难题 ※我们该去往何方？面对这一永恒之问，你选择以沉默作答",
+    "reward_level": 1,
+    "game_version": "3.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8016062,
+    "class": "与你同行的回忆",
+    "name": "忧郁的扼杀",
+    "description": "他首先爱着水，其次是爱着他自己所缺少的那部分 ※得知阿卡迪亚的真相",
+    "reward_level": 1,
+    "game_version": "3.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8016063,
+    "class": "与你同行的回忆",
+    "name": "不再喧嚣",
+    "description": "即使命运冰冷无情，也总有些事情会发生改变 ※找寻在梦中呼唤帕西提亚的幽灵",
+    "reward_level": 1,
+    "game_version": "3.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8016064,
+    "class": "与你同行的回忆",
+    "name": "书中自有……",
+    "description": "好粉的书中精灵！ ※发现书中的精灵",
+    "reward_level": 1,
+    "game_version": "3.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8016065,
+    "class": "与你同行的回忆",
+    "name": "虚构集或永恒史",
+    "description": "那是何人写下的故事？ ※读完最初的7段故事后，你陷入凝思",
+    "reward_level": 1,
+    "game_version": "3.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8016066,
+    "class": "与你同行的回忆",
+    "name": "翁法罗斯公民",
+    "description": "在翁法罗斯旁听过人们的对话",
+    "reward_level": 1,
+    "game_version": "3.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8016067,
+    "class": "与你同行的回忆",
+    "name": "翁法罗斯包打听",
+    "description": "在翁法罗斯旁听人们的对话10次",
+    "reward_level": 1,
+    "game_version": "3.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8016068,
+    "class": "与你同行的回忆",
+    "name": "翁法罗斯万事通",
+    "description": "在翁法罗斯旁听人们的对话30次",
+    "reward_level": 1,
+    "game_version": "3.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 9016001,
+    "class": "众秘探奇",
+    "name": "翁法罗斯掌管宝箱的半神",
+    "description": "开启120次翁法罗斯战利品",
+    "reward_level": 2,
+    "game_version": "3.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 9016002,
+    "class": "众秘探奇",
+    "name": "顺着这光柱走去",
+    "description": "第一次走入「奇迹宝珠」的照射范围",
+    "reward_level": 1,
+    "game_version": "3.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 9016003,
+    "class": "众秘探奇",
+    "name": "虫鸣秘闻：黄金征途",
+    "description": "蝴蝶们要去向何方？ ※解开「永恒圣城」奥赫玛的预言谜题",
+    "reward_level": 1,
+    "game_version": "3.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 9016004,
+    "class": "众秘探奇",
+    "name": "虫鸣秘闻：捷足悖论",
+    "description": "战士总是在奔跑吗？ ※解开「纷争荒墟」悬锋城的预言谜题",
+    "reward_level": 1,
+    "game_version": "3.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 9016005,
+    "class": "众秘探奇",
+    "name": "虫鸣秘闻：光之瑕玷",
+    "description": "阳光能普照所有角落吗？ ※解开「浴血战端」悬锋城的预言谜题",
+    "reward_level": 1,
+    "game_version": "3.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 9016006,
+    "class": "众秘探奇",
+    "name": "虫鸣秘闻：多重面相",
+    "description": "命运能仅凭一人解读吗？ ※解开「命运重渊」雅努萨波利斯的预言谜题",
+    "reward_level": 1,
+    "game_version": "3.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 9016007,
+    "class": "众秘探奇",
+    "name": "蝴蝶与灵魂",
+    "description": "与泰坦的织者初识 ※搜集1只创生若虫的赐福",
+    "reward_level": 1,
+    "game_version": "3.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 9016008,
+    "class": "众秘探奇",
+    "name": "盒子里的美",
+    "description": "为织者们建立一座小型乐园 ※搜集70只创生若虫的赐福",
+    "reward_level": 1,
+    "game_version": "3.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 9016009,
+    "class": "众秘探奇",
+    "name": "天气预报",
+    "description": "使用「预言算碑」让悬锋城铁链上的「落雷」消散",
+    "reward_level": 1,
+    "game_version": "3.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 9016010,
+    "class": "众秘探奇",
+    "name": "反戴的荆棘冠冕",
+    "description": "有人头戴荆棘的冠冕。但也有人…… ※在「黄金替罪羊」中，失足跌落在荆棘上",
+    "reward_level": 1,
+    "game_version": "3.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 9016011,
+    "class": "众秘探奇",
+    "name": "并非盗取的火焰",
+    "description": "即使走着荒诞的道路，物质奖励也同样重要 ※在「黄金替罪羊」中，领取一次胜利后的奖励宝箱",
+    "reward_level": 1,
+    "game_version": "3.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 9016012,
+    "class": "众秘探奇",
+    "name": "已成词句的血肉",
+    "description": "或许，在遥远的过去，也曾有人推石上山 ※在「黄金替罪羊」中，集齐所有「黄金替罪羊的呓语」",
+    "reward_level": 1,
+    "game_version": "3.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 9016013,
+    "class": "众秘探奇",
+    "name": "踏入岁月的河流",
+    "description": "学会「欧洛尼斯祷言」",
+    "reward_level": 1,
+    "game_version": "3.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 9016014,
+    "class": "众秘探奇",
+    "name": "不在场证明",
+    "description": "利用场景中残留有记忆的物件击败敌人",
+    "reward_level": 1,
+    "game_version": "3.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 9016015,
+    "class": "众秘探奇",
+    "name": "完美的不在场证明",
+    "description": "利用场景中残留有记忆的物件，同时击倒敌人跟你自己",
+    "reward_level": 1,
+    "game_version": "3.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 9016016,
+    "class": "众秘探奇",
+    "name": "烫手山芋",
+    "description": "念错祷言可以重念，但总要有个限度…… ※使用欧洛尼斯祷言让一个物件维持在回溯过程中的状态超过30秒",
+    "reward_level": 1,
+    "game_version": "3.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 9016017,
+    "class": "众秘探奇",
+    "name": "刹那永远",
+    "description": "当时间逆流撞上时间凝滞，会发生什么？ ※利用暂停时间的能力凝固回溯中的物件",
+    "reward_level": 1,
+    "game_version": "3.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 9016018,
+    "class": "众秘探奇",
+    "name": "时空悍将",
+    "description": "将悬锋斗技场（夜）的所有战魂塑像全部回溯",
+    "reward_level": 1,
+    "game_version": "3.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 9016019,
+    "class": "众秘探奇",
+    "name": "毁灭雕像的权利",
+    "description": "将奥赫玛城内的所有雕塑全部打坏",
+    "reward_level": 1,
+    "game_version": "3.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 9016020,
+    "class": "众秘探奇",
+    "name": "日光节约时制",
+    "description": "将奥赫玛城内所有残留有记忆的物件全部回溯完好",
+    "reward_level": 1,
+    "game_version": "3.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 9016021,
+    "class": "众秘探奇",
+    "name": "投石入湖",
+    "description": "在发动「欧洛尼斯祷言」的过程中，被另一个残留有记忆的的物件砸中",
+    "reward_level": 1,
+    "game_version": "3.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 9016022,
+    "class": "众秘探奇",
+    "name": "夏虫不可忆冰",
+    "description": "使若虫被残留有记忆的物件砸中",
+    "reward_level": 1,
+    "game_version": "3.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 9016023,
+    "class": "众秘探奇",
+    "name": "同步鸟瞰点",
+    "description": "抵达云石市集的最高处",
+    "reward_level": 1,
+    "game_version": "3.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 9016024,
+    "class": "众秘探奇",
+    "name": "奔河停流，山峦趋步",
+    "description": "驻足聆听水漫琴的琴声",
+    "reward_level": 1,
+    "game_version": "3.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 9016025,
+    "class": "众秘探奇",
+    "name": "高空折返跑",
+    "description": "通过悬锋城的浮空锁链",
+    "reward_level": 1,
+    "game_version": "3.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 9016026,
+    "class": "众秘探奇",
+    "name": "权衡中",
+    "description": "通过「命运重渊」雅努萨波利斯中塔兰顿的审判来到第三层区域",
+    "reward_level": 1,
+    "game_version": "3.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 9016027,
+    "class": "众秘探奇",
+    "name": "雕刻灾难",
+    "description": "通过「浴血战端」悬锋城中纷争正殿的机关，前往地下的铸魂区",
+    "reward_level": 1,
+    "game_version": "3.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 9016028,
+    "class": "众秘探奇",
+    "name": "懦弱之人，绝不姑息",
+    "description": "使用「扎格列斯之手」的冲拳动作击败掘石场角落的泰坦眷属",
+    "reward_level": 1,
+    "game_version": "3.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 9016029,
+    "class": "众秘探奇",
+    "name": "自我批评",
+    "description": "使用「扎格列斯之手」的冲拳动作攻击自己",
+    "reward_level": 1,
+    "game_version": "3.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 9016030,
+    "class": "众秘探奇",
+    "name": "诺维科夫自洽性原则",
+    "description": "使用「扎格列斯之手」时进入「奇迹宝珠」的照射范围，并停留一段时间",
+    "reward_level": 1,
+    "game_version": "3.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 9016031,
+    "class": "众秘探奇",
+    "name": "碎盾一拳",
+    "description": "使用「扎格列斯之手」的冲拳动作破坏场景中的小型盾构",
+    "reward_level": 1,
+    "game_version": "3.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 9016032,
+    "class": "众秘探奇",
+    "name": "秋名山之手",
+    "description": "在「地宫迷踪」活动的「扎格列斯之手」房间中，通关时撞墙不超过3次",
+    "reward_level": 1,
+    "game_version": "3.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 9016033,
+    "class": "众秘探奇",
+    "name": "禁飞区",
+    "description": "击碎1个飞天坛递",
+    "reward_level": 1,
+    "game_version": "3.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 9016034,
+    "class": "众秘探奇",
+    "name": "爆裂坛递",
+    "description": "在「浴血战端」悬锋城击碎超速运行的飞天坛递",
+    "reward_level": 1,
+    "game_version": "3.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 9016035,
+    "class": "众秘探奇",
+    "name": "雅努斯的馈赠",
+    "description": "在黄金短矛的指引下获得1个战利品",
+    "reward_level": 1,
+    "game_version": "3.0",
+    "hidden": 1
+  }
+]

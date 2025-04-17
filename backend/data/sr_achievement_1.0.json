@@ -1,0 +1,3071 @@
+[
+  {
+    "achievement_id": 1001001,
+    "class": "我，开拓者",
+    "name": "炽燃不灭的琥珀",
+    "description": "开拓者踏上「存护」命途",
+    "reward_level": 3,
+    "game_version": "1.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 1001002,
+    "class": "我，开拓者",
+    "name": "童年",
+    "description": "任意角色等级达到40级",
+    "reward_level": 2,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 1001003,
+    "class": "我，开拓者",
+    "name": "在人间",
+    "description": "任意角色等级达到60级",
+    "reward_level": 2,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 1001004,
+    "class": "我，开拓者",
+    "name": "我的大学",
+    "description": "任意角色等级达到80级",
+    "reward_level": 3,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 1001005,
+    "class": "我，开拓者",
+    "name": "童年的终结",
+    "description": "4名角色等级达到80级",
+    "reward_level": 3,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 1001006,
+    "class": "我，开拓者",
+    "name": "命运之中（一）",
+    "description": "拥有1枚等级达到40级的光锥",
+    "reward_level": 2,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 1001007,
+    "class": "我，开拓者",
+    "name": "命运之中（二）",
+    "description": "拥有1枚等级达到60级的光锥",
+    "reward_level": 2,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 1001008,
+    "class": "我，开拓者",
+    "name": "命运之中（三）",
+    "description": "拥有1枚等级达到80级的光锥",
+    "reward_level": 3,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 1001009,
+    "class": "我，开拓者",
+    "name": "时间足够你爱",
+    "description": "拥有4枚等级达到80级的光锥",
+    "reward_level": 3,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 1001010,
+    "class": "我，开拓者",
+    "name": "知难而上（一）",
+    "description": "均衡等级达到1级",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 1001011,
+    "class": "我，开拓者",
+    "name": "知难而上（二）",
+    "description": "均衡等级达到3级",
+    "reward_level": 2,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 1001012,
+    "class": "我，开拓者",
+    "name": "知难而上（三）",
+    "description": "均衡等级达到6级",
+    "reward_level": 3,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 1001013,
+    "class": "我，开拓者",
+    "name": "命途的行迹（一）",
+    "description": "累计激活或提升角色行迹3次",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 1001014,
+    "class": "我，开拓者",
+    "name": "命途的行迹（二）",
+    "description": "累计激活或提升角色行迹20次",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 1001015,
+    "class": "我，开拓者",
+    "name": "命途的行迹（三）",
+    "description": "累计激活或提升角色行迹50次",
+    "reward_level": 2,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 1001016,
+    "class": "我，开拓者",
+    "name": "命途的行迹（四）",
+    "description": "累计激活或提升角色行迹100次",
+    "reward_level": 3,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 1001017,
+    "class": "我，开拓者",
+    "name": "应行的路，我行尽了",
+    "description": "将任意角色全部行迹提升至最高等级",
+    "reward_level": 3,
+    "game_version": "1.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 1001018,
+    "class": "我，开拓者",
+    "name": "圣•遗器（四）",
+    "description": "将1件4星遗器强化至最高等级",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 1001019,
+    "class": "我，开拓者",
+    "name": "圣•遗器（五）",
+    "description": "将1件5星遗器强化至最高等级",
+    "reward_level": 2,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 1001020,
+    "class": "我，开拓者",
+    "name": "全副武装",
+    "description": "将4件遗器强化至15级",
+    "reward_level": 3,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 1001021,
+    "class": "我，开拓者",
+    "name": "至尊战甲",
+    "description": "任意角色所有部件均装备15级5星遗器",
+    "reward_level": 3,
+    "game_version": "1.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 2001001,
+    "class": "通往群星的轨道",
+    "name": "群星，我的归宿",
+    "description": "开启浩瀚银河之旅 ※恭喜！你登上了星穹列车！",
+    "reward_level": 3,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 2001002,
+    "class": "通往群星的轨道",
+    "name": "永冬城之夜",
+    "description": "在漫天雪幕之后… ※你来到了名为贝洛伯格的城市",
+    "reward_level": 2,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 2001003,
+    "class": "通往群星的轨道",
+    "name": "失落的世界",
+    "description": "发现雅利洛-Ⅵ地下的秘密 ※竟然有人生活在地下…",
+    "reward_level": 2,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 2001004,
+    "class": "通往群星的轨道",
+    "name": "1/2绿野仙踪",
+    "description": "击败铁皮人和小女孩 ※史瓦罗与克拉拉成为你的同伴了！",
+    "reward_level": 2,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 2001005,
+    "class": "通往群星的轨道",
+    "name": "凛冬将逝",
+    "description": "从我做起，改变贝洛伯格 ※第一步，就是打倒大守护者可可利亚…",
+    "reward_level": 3,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 2001006,
+    "class": "通往群星的轨道",
+    "name": "有狐绥绥",
+    "description": "所谓的外交，就是彼此交换意见… ※与仙舟「罗浮」的领袖（们）会晤",
+    "reward_level": 2,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 2001007,
+    "class": "通往群星的轨道",
+    "name": "法眼无遗",
+    "description": "天道好轮回，违法者必被捉 ※成功抓获星核猎手卡芙卡",
+    "reward_level": 2,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 2001008,
+    "class": "通往群星的轨道",
+    "name": "殷勤探看",
+    "description": "看风的人在桌旁看你… ※找到沉迷牌戏的青雀…",
+    "reward_level": 2,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 2001009,
+    "class": "通往群星的轨道",
+    "name": "善易不卜",
+    "description": "见证太卜司的阵法之秘 ※以穷观阵审问卡芙卡，用洞见对抗预言…",
+    "reward_level": 2,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 2001010,
+    "class": "通往群星的轨道",
+    "name": "共逐失鹿",
+    "description": "洪炉不灭，鹿鸣止息 ※从危机中拯救工造司",
+    "reward_level": 2,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 2001011,
+    "class": "通往群星的轨道",
+    "name": "鹿死谁手",
+    "description": "尝试行走「巡猎」的命途… ※帮助仙舟击败了丰饶孽物「玄鹿」",
+    "reward_level": 2,
+    "game_version": "1.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 3001001,
+    "class": "战意奔涌",
+    "name": "势不可挡",
+    "description": "连续施放4次终结技",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 3001002,
+    "class": "战意奔涌",
+    "name": "破防致4",
+    "description": "单场战斗中对同一敌人造成4次弱点击破",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 3001003,
+    "class": "战意奔涌",
+    "name": "认真殴打",
+    "description": "造成大于等于1000点单次伤害",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 3001004,
+    "class": "战意奔涌",
+    "name": "寸劲•开天",
+    "description": "造成大于等于20000点单次伤害",
+    "reward_level": 2,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 3001005,
+    "class": "战意奔涌",
+    "name": "全数抹煞",
+    "description": "造成大于等于150000点单次伤害",
+    "reward_level": 2,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 3001006,
+    "class": "战意奔涌",
+    "name": "连续普通拳",
+    "description": "单次攻击造成2000点伤害",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 3001007,
+    "class": "战意奔涌",
+    "name": "太虚剑神",
+    "description": "单次攻击造成40000点伤害",
+    "reward_level": 2,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 3001008,
+    "class": "战意奔涌",
+    "name": "毁世震荡",
+    "description": "单次攻击造成300000点伤害",
+    "reward_level": 2,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 3001009,
+    "class": "战意奔涌",
+    "name": "创伤小组白金套餐",
+    "description": "我方角色单次提供的治疗量超过8000点",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 3001010,
+    "class": "战意奔涌",
+    "name": "壁垒",
+    "description": "单个角色同时持有的护盾量超过5000点",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 3001011,
+    "class": "战意奔涌",
+    "name": "冰与火之歌",
+    "description": "使1名敌人同时处于冻结和灼烧状态",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 3001012,
+    "class": "战意奔涌",
+    "name": "回忆、悲伤与荆棘",
+    "description": "使1名敌人同时处于4个持续伤害状态",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 3001013,
+    "class": "战意奔涌",
+    "name": "电子梦",
+    "description": "单场战斗中使用雷属性击破伤害消灭3名敌人",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 3001014,
+    "class": "战意奔涌",
+    "name": "华氏451°",
+    "description": "单场战斗中使用火属性击破伤害消灭3名敌人",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 3001015,
+    "class": "战意奔涌",
+    "name": "太阳风",
+    "description": "单场战斗中使用风属性击破伤害消灭3名敌人",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 3001016,
+    "class": "战意奔涌",
+    "name": "被毁灭的人",
+    "description": "单场战斗中使用物理属性击破伤害消灭3名敌人",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 3001017,
+    "class": "战意奔涌",
+    "name": "雷破阵（一）",
+    "description": "累计使用雷属性击破伤害消灭20名敌人",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 3001018,
+    "class": "战意奔涌",
+    "name": "雷破阵（二）",
+    "description": "累计使用雷属性击破伤害消灭60名敌人",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 3001019,
+    "class": "战意奔涌",
+    "name": "火破阵（一）",
+    "description": "累计使用火属性击破伤害消灭20名敌人",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 3001020,
+    "class": "战意奔涌",
+    "name": "火破阵（二）",
+    "description": "累计使用火属性击破伤害消灭60名敌人",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 3001021,
+    "class": "战意奔涌",
+    "name": "风破阵（一）",
+    "description": "累计使用风属性击破伤害消灭20名敌人",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 3001022,
+    "class": "战意奔涌",
+    "name": "风破阵（二）",
+    "description": "累计使用风属性击破伤害消灭60名敌人",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 3001023,
+    "class": "战意奔涌",
+    "name": "物理破阵（一）",
+    "description": "累计使用物理属性击破伤害消灭20名敌人",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 3001024,
+    "class": "战意奔涌",
+    "name": "物理破阵（二）",
+    "description": "累计使用物理属性击破伤害消灭60名敌人",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 3001025,
+    "class": "战意奔涌",
+    "name": "遇事不决，量子力学",
+    "description": "单场战斗中造成5次量子属性的弱点击破",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 3001026,
+    "class": "战意奔涌",
+    "name": "冷酷的方程式",
+    "description": "单场战斗中造成5次冰属性的弱点击破",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 3001027,
+    "class": "战意奔涌",
+    "name": "虚数不能解释一切",
+    "description": "单场战斗中造成5次虚数属性的弱点击破",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 3001028,
+    "class": "战意奔涌",
+    "name": "量子破阵（一）",
+    "description": "累计触发100次量子属性击破效果",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 3001029,
+    "class": "战意奔涌",
+    "name": "量子破阵（二）",
+    "description": "累计触发300次量子属性击破效果",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 3001030,
+    "class": "战意奔涌",
+    "name": "冰破阵（一）",
+    "description": "累计触发100次冰属性击破效果",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 3001031,
+    "class": "战意奔涌",
+    "name": "冰破阵（二）",
+    "description": "累计触发300次冰属性击破效果",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 3001032,
+    "class": "战意奔涌",
+    "name": "虚数破阵（一）",
+    "description": "累计触发100次虚数属性击破效果",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 3001033,
+    "class": "战意奔涌",
+    "name": "虚数破阵（二）",
+    "description": "累计触发300次虚数属性击破效果",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 3001034,
+    "class": "战意奔涌",
+    "name": "先发制人",
+    "description": "使用秘技伤害消灭1名敌人",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 3001035,
+    "class": "战意奔涌",
+    "name": "秘技破阵（一）",
+    "description": "累计使用秘技伤害消灭10名敌人",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 3001036,
+    "class": "战意奔涌",
+    "name": "莫桑比克射击法",
+    "description": "单场战斗中通过追加攻击消灭3个敌人",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 3001037,
+    "class": "战意奔涌",
+    "name": "追击破阵（一）",
+    "description": "累计使用追加攻击消灭80名敌人",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 3001038,
+    "class": "战意奔涌",
+    "name": "追击破阵（二）",
+    "description": "累计使用追加攻击消灭240名敌人",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 3001039,
+    "class": "战意奔涌",
+    "name": "一把小刀…",
+    "description": "单场战斗中通过持续伤害消灭3名敌人",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 3001040,
+    "class": "战意奔涌",
+    "name": "持伤破阵（一）",
+    "description": "累计使用持续伤害消灭80名敌人",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 3001041,
+    "class": "战意奔涌",
+    "name": "持伤破阵（二）",
+    "description": "累计使用持续伤害消灭240名敌人",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 3001042,
+    "class": "战意奔涌",
+    "name": "无意冒犯",
+    "description": "单场战斗中，累计解除敌方目标5次增益效果",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 3001043,
+    "class": "战意奔涌",
+    "name": "驱魔人",
+    "description": "单场战斗中，累计解除我方目标5次负面效果",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 3001044,
+    "class": "战意奔涌",
+    "name": "永冻机",
+    "description": "连续冻结1名敌人3回合",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 3001045,
+    "class": "战意奔涌",
+    "name": "赴死者向你致敬",
+    "description": "任意角色在生命值小于1%的情况下消灭敌方单位",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 3001046,
+    "class": "战意奔涌",
+    "name": "让我单挑",
+    "description": "4名角色进入战斗，在战斗胜利时仅有1名角色尚能战斗",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 3001047,
+    "class": "战意奔涌",
+    "name": "勿忘汝终有一死",
+    "description": "在生命值为100%的情况下受到敌人的致命攻击",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 3001048,
+    "class": "战意奔涌",
+    "name": "能量葛朗台",
+    "description": "任意角色连续4个回合开始时，能量保持为100%",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 3001049,
+    "class": "战意奔涌",
+    "name": "似花过亡城",
+    "description": "单场战斗中，使2名陷入无法战斗状态角色回复至可战斗状态",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 3001050,
+    "class": "战意奔涌",
+    "name": "落井下石",
+    "description": "单场战斗中对陷入弱点击破的敌人累计造成20000伤害",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 3001051,
+    "class": "战意奔涌",
+    "name": "甲胄之殇",
+    "description": "单场战斗，1名角色累计受到10000点伤害",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 3001052,
+    "class": "战意奔涌",
+    "name": "各个击破",
+    "description": "单次行动中造成4名敌方目标弱点击破",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 3001053,
+    "class": "战意奔涌",
+    "name": "天和",
+    "description": "使用秘技在进入战斗后消灭所有敌人",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 3001054,
+    "class": "战意奔涌",
+    "name": "不打无准备之仗",
+    "description": "任意角色回合开始时，同时拥有大于等于5种增益效果",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 3001055,
+    "class": "战意奔涌",
+    "name": "高速之星",
+    "description": "我方全体在单场战斗中累计行动100次",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 3001056,
+    "class": "战意奔涌",
+    "name": "极限求生",
+    "description": "当队伍中4名角色生命值百分比同时小于等于5%的情况下获得战斗胜利",
+    "reward_level": 2,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 3001057,
+    "class": "战意奔涌",
+    "name": "子弹时间",
+    "description": "在我方单位行动10次期间，敌方单位未行动",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 3001058,
+    "class": "战意奔涌",
+    "name": "灭亡之歌",
+    "description": "战斗中与敌方目标同归于尽",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 3001059,
+    "class": "战意奔涌",
+    "name": "大炮打蚊子",
+    "description": "单次攻击对当前生命值百分比小于等于1%的敌方目标造成大于等于20000点伤害",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 3001060,
+    "class": "战意奔涌",
+    "name": "主角的特权",
+    "description": "单场战斗中，使用「毁灭」命途开拓者对敌人造成3次弱点击破",
+    "reward_level": 2,
+    "game_version": "1.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 3001061,
+    "class": "战意奔涌",
+    "name": "转体四周半",
+    "description": "我方目标造成单次攻击后，黑塔触发天赋旋转5圈",
+    "reward_level": 2,
+    "game_version": "1.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 3001062,
+    "class": "战意奔涌",
+    "name": "滔天牌浪",
+    "description": "使用青雀连续3回合开始时处于「暗杠」状态",
+    "reward_level": 2,
+    "game_version": "1.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 3001063,
+    "class": "战意奔涌",
+    "name": "我的回合",
+    "description": "在下一个我方角色行动前，使希儿连续行动5次",
+    "reward_level": 2,
+    "game_version": "1.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 3001064,
+    "class": "战意奔涌",
+    "name": "十三试炼",
+    "description": "在单场战斗中，使史瓦罗为克拉拉抵挡攻击13次",
+    "reward_level": 2,
+    "game_version": "1.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 3001065,
+    "class": "战意奔涌",
+    "name": "咖啡爱好者",
+    "description": "早、午、晚各一杯咖啡，提神醒脑 ※在单场战斗中，使用姬子施放终结技3次",
+    "reward_level": 2,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 3001066,
+    "class": "战意奔涌",
+    "name": "过度防卫",
+    "description": "我方角色杰帕德施加的护盾没有遭到任何损耗的情况下获得1场战斗胜利",
+    "reward_level": 2,
+    "game_version": "1.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 3001067,
+    "class": "战意奔涌",
+    "name": "当家国之歌响起",
+    "description": "使用我方角色布洛妮娅在对战杰帕德、可可利亚和布洛妮娅时分别施放1次「贝洛伯格进行曲」",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 3001068,
+    "class": "战意奔涌",
+    "name": "我愚蠢的弟弟啊…",
+    "description": "使用我方角色希露瓦在对战杰帕德时完成最后的制胜一击",
+    "reward_level": 2,
+    "game_version": "1.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 3001069,
+    "class": "战意奔涌",
+    "name": "致同桌的你",
+    "description": "使用我方角色希露瓦在对战可可利亚时完成最后的制胜一击",
+    "reward_level": 2,
+    "game_version": "1.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 3001070,
+    "class": "战意奔涌",
+    "name": "还有你，布洛妮娅？",
+    "description": "使用我方角色布洛妮娅在对战可可利亚时完成最后的制胜一击",
+    "reward_level": 2,
+    "game_version": "1.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 3001071,
+    "class": "战意奔涌",
+    "name": "听我说…",
+    "description": "使用开拓者对战卡芙卡，并陷入「支配」状态",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 3001072,
+    "class": "战意奔涌",
+    "name": "不讲武德",
+    "description": "队伍中4名角色都激怒守护者之影",
+    "reward_level": 2,
+    "game_version": "1.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 3001073,
+    "class": "战意奔涌",
+    "name": "武德充沛",
+    "description": "不激怒守护者之影的情况下将其消灭",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 3001074,
+    "class": "战意奔涌",
+    "name": "强攻！不计代价！",
+    "description": "触发4次以上银鬃尉官「盾反」并将其击败",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 3001075,
+    "class": "战意奔涌",
+    "name": "擒贼先擒王",
+    "description": "不消灭银鬃铁卫的情况下击败银鬃尉官",
+    "reward_level": 2,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 3001076,
+    "class": "战意奔涌",
+    "name": "瘸狼",
+    "description": "不触发「砍伐指令」的情况下击败自动机兵「齿狼」",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 3001077,
+    "class": "战意奔涌",
+    "name": "反刍",
+    "description": "使深寒徘徊者「吞噬衍生物」时失败",
+    "reward_level": 2,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 3001078,
+    "class": "战意奔涌",
+    "name": "打人得打脸",
+    "description": "「历战余响」中，在不消灭末日兽双手的情况下击败反物质引擎",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 3001079,
+    "class": "战意奔涌",
+    "name": "灾虐未至",
+    "description": "「历战余响」中，阻止末日兽施放「末日临空」",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 3001080,
+    "class": "战意奔涌",
+    "name": "铁卫是可爱的",
+    "description": "不消灭银鬃铁卫的情况下击败布洛妮娅",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 3001081,
+    "class": "战意奔涌",
+    "name": "射人先射马",
+    "description": "在虚卒·践踏者瞄准我方角色时将其消灭",
+    "reward_level": 2,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 3001082,
+    "class": "战意奔涌",
+    "name": "无风带",
+    "description": "使兴风者的「风落暴矢」技能因场上没有处于风化状态的我方目标而施放失败",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 3001083,
+    "class": "战意奔涌",
+    "name": "骑士道",
+    "description": "不消灭召唤出的「银鬃铁卫」的情况下消灭杰帕德",
+    "reward_level": 2,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 3001084,
+    "class": "战意奔涌",
+    "name": "全金属外壳",
+    "description": "受到辅助机械臂单元「控场起爆」技能攻击后仍然存活",
+    "reward_level": 3,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 3001085,
+    "class": "战意奔涌",
+    "name": "左膀右臂与右臂与右臂",
+    "description": "消灭4个辅助机械臂单元的情况下击败史瓦罗",
+    "reward_level": 2,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 3001086,
+    "class": "战意奔涌",
+    "name": "自制碎碎冰",
+    "description": "消灭可可利亚召唤出的冰锋4次",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 3001087,
+    "class": "战意奔涌",
+    "name": "卡诺莎悔罪",
+    "description": "在可可利亚蓄力状态下打断「雪国圣徒的烈怒」技能的施放",
+    "reward_level": 2,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 3001088,
+    "class": "战意奔涌",
+    "name": "冤有头债有主",
+    "description": "不击败布洛妮娅的情况下，击败可可利亚",
+    "reward_level": 3,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 3001089,
+    "class": "战意奔涌",
+    "name": "胸有洪炉火",
+    "description": "「历战余响」中，全程我方无人被冻结情况下击败可可利亚，虚妄之母",
+    "reward_level": 3,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 3001090,
+    "class": "战意奔涌",
+    "name": "意外失忆",
+    "description": "清空蚕食者之影的「追忆刻度」使其施放「黄金年代的解放」失败",
+    "reward_level": 2,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 3001091,
+    "class": "战意奔涌",
+    "name": "机器人何苦伤害机器人",
+    "description": "利用入魔机巧 • 灯昼龙鱼施放的「烛花」消灭金人司阍",
+    "reward_level": 2,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 3001092,
+    "class": "战意奔涌",
+    "name": "愤怒的金人",
+    "description": "单场战斗中累计让金人司阍进入3次暴怒状态",
+    "reward_level": 2,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 3001093,
+    "class": "战意奔涌",
+    "name": "钢铁意志",
+    "description": "单场战斗中累计解除3次卡芙卡施加的「支配」状态",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 4001001,
+    "class": "流光遗痕",
+    "name": "银河系搭车客指南",
+    "description": "获得10名角色",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 4001002,
+    "class": "流光遗痕",
+    "name": "列车乘员登记名册",
+    "description": "获得20名角色",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 4001003,
+    "class": "流光遗痕",
+    "name": "星际大迁徙",
+    "description": "获得50名角色",
+    "reward_level": 2,
+    "game_version": "1.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 4001004,
+    "class": "流光遗痕",
+    "name": "迪拉克海上的涟漪（一）",
+    "description": "获得10种光锥",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 4001005,
+    "class": "流光遗痕",
+    "name": "迪拉克海上的涟漪（二）",
+    "description": "获得20种光锥",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 4001006,
+    "class": "流光遗痕",
+    "name": "迪拉克海上的涟漪（三）",
+    "description": "获得40种光锥",
+    "reward_level": 2,
+    "game_version": "1.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 4001007,
+    "class": "流光遗痕",
+    "name": "奈落的至宝",
+    "description": "获得1件5星遗器",
+    "reward_level": 2,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 4001008,
+    "class": "流光遗痕",
+    "name": "奇异赝品",
+    "description": "通过「万能合成机」获得5件5星遗器",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 4001009,
+    "class": "流光遗痕",
+    "name": "星际和平钻石会员",
+    "description": "累计获得1000000信用点",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 4001010,
+    "class": "流光遗痕",
+    "name": "星际和平黄钻会员",
+    "description": "累计获得10000000信用点",
+    "reward_level": 2,
+    "game_version": "1.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 4001011,
+    "class": "流光遗痕",
+    "name": "扭曲光线的超级富豪",
+    "description": "累计获得100000000信用点",
+    "reward_level": 2,
+    "game_version": "1.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 5001001,
+    "class": "果壳中的宇宙",
+    "name": "最初和最终的自由",
+    "description": "「模拟宇宙」内，进入战斗时我方4名角色当前生命值百分比均小于等于1%",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 5001002,
+    "class": "果壳中的宇宙",
+    "name": "爱的艺术",
+    "description": "「模拟宇宙」战斗内，我方所有角色累计获得护盾次数达到50",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 5001003,
+    "class": "果壳中的宇宙",
+    "name": "不许动！",
+    "description": "「模拟宇宙」战斗内，任意单个敌人处于冻结状态下累计达到10个回合",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 5001004,
+    "class": "果壳中的宇宙",
+    "name": "元素反应机制",
+    "description": "「模拟宇宙」战斗内，单次攻击对敌人造成大于等于5种属性伤害",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 5001005,
+    "class": "果壳中的宇宙",
+    "name": "您的对手网络不佳",
+    "description": "「模拟宇宙」战斗内，我方所有角色连续行动累计达到20次",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 5001006,
+    "class": "果壳中的宇宙",
+    "name": "二十四首情诗与一首绝望的歌",
+    "description": "「模拟宇宙」战斗胜利时，我方所有角色当前生命值百分比小于等于5%",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 5001007,
+    "class": "果壳中的宇宙",
+    "name": "黑暗中跳舞的心脏叫月亮",
+    "description": "「模拟宇宙」战斗内，至少使3名敌人同时处于触电、灼烧、裂伤、风化4种负面状态",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 5001008,
+    "class": "果壳中的宇宙",
+    "name": "晚安，我的朋友",
+    "description": "「模拟宇宙」内，累计消灭15个敌人",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 5001009,
+    "class": "果壳中的宇宙",
+    "name": "头号玩家",
+    "description": "「模拟宇宙」内，累计消灭1000个敌人",
+    "reward_level": 2,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 5001010,
+    "class": "果壳中的宇宙",
+    "name": "消费主义心理学",
+    "description": "累计获得500宇宙碎片",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 5001011,
+    "class": "果壳中的宇宙",
+    "name": "了不起的商业大亨",
+    "description": "累计获得20000宇宙碎片",
+    "reward_level": 2,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 5001012,
+    "class": "果壳中的宇宙",
+    "name": "特殊体验",
+    "description": "「模拟宇宙」内，累计遭遇10次特殊事件",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 5001013,
+    "class": "果壳中的宇宙",
+    "name": "不太特殊的体验",
+    "description": "「模拟宇宙」内，累计遭遇100次特殊事件",
+    "reward_level": 2,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 5001014,
+    "class": "果壳中的宇宙",
+    "name": "一间自己的房间",
+    "description": "完成「模拟宇宙·第一世界」的探索",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 5001015,
+    "class": "果壳中的宇宙",
+    "name": "彭罗斯阶梯",
+    "description": "完成难度2或以上「模拟宇宙」的探索",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 5001016,
+    "class": "果壳中的宇宙",
+    "name": "无限空间之王",
+    "description": "完成难度4或以上「模拟宇宙」的探索",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 5001017,
+    "class": "果壳中的宇宙",
+    "name": "狂热打击",
+    "description": "「模拟宇宙」内，累计击碎20次可破坏物",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 5001018,
+    "class": "果壳中的宇宙",
+    "name": "玫瑰花蕾",
+    "description": "「模拟宇宙」内，累计击碎400次可破坏物",
+    "reward_level": 2,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 5001019,
+    "class": "果壳中的宇宙",
+    "name": "肾上腺素",
+    "description": "「模拟宇宙」内，累计主动强化10次祝福",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 5001020,
+    "class": "果壳中的宇宙",
+    "name": "好运会传染",
+    "description": "「模拟宇宙」内，累计主动强化200次祝福",
+    "reward_level": 2,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 5001021,
+    "class": "果壳中的宇宙",
+    "name": "仿生蜗牛会梦到电子树吗",
+    "description": "在技能树中，累计激活技能2次",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 5001022,
+    "class": "果壳中的宇宙",
+    "name": "爬树高手",
+    "description": "在技能树中，累计激活技能26次",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 5001023,
+    "class": "果壳中的宇宙",
+    "name": "我的百变口袋",
+    "description": "「模拟宇宙」内，累计解锁3个奇物",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 5001024,
+    "class": "果壳中的宇宙",
+    "name": "千星寰宇，一场游戏",
+    "description": "「模拟宇宙」内，累计解锁40个奇物",
+    "reward_level": 2,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 5001025,
+    "class": "果壳中的宇宙",
+    "name": "我的精灵球呢？",
+    "description": "「模拟宇宙」内，捕捉扑满1次",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 5001026,
+    "class": "果壳中的宇宙",
+    "name": "猪猪足球队",
+    "description": "「模拟宇宙」内，捕捉扑满66次",
+    "reward_level": 2,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 5001027,
+    "class": "果壳中的宇宙",
+    "name": "别让它跑了！",
+    "description": "「模拟宇宙」内，放跑扑满1次",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 5001028,
+    "class": "果壳中的宇宙",
+    "name": "存在先于本质",
+    "description": "「模拟宇宙」内，累计解锁12个「存护」命途的祝福",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 5001029,
+    "class": "果壳中的宇宙",
+    "name": "记忆看见我",
+    "description": "「模拟宇宙」内，累计解锁12个「记忆」命途的祝福",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 5001030,
+    "class": "果壳中的宇宙",
+    "name": "制造美妙混乱",
+    "description": "「模拟宇宙」内，累计解锁12个「欢愉」命途的祝福",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 5001031,
+    "class": "果壳中的宇宙",
+    "name": "宇宙膨胀的速度",
+    "description": "「模拟宇宙」内，累计解锁12个「巡猎」命途的祝福",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 5001032,
+    "class": "果壳中的宇宙",
+    "name": "无敌破坏王",
+    "description": "「模拟宇宙」内，累计解锁12个「毁灭」命途的祝福",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 5001033,
+    "class": "果壳中的宇宙",
+    "name": "诺斯替",
+    "description": "「模拟宇宙」内，累计解锁12个「虚无」命途的祝福",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 5001034,
+    "class": "果壳中的宇宙",
+    "name": "呼吸",
+    "description": "「模拟宇宙」内，累计解锁12个「丰饶」命途的祝福",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 5001035,
+    "class": "果壳中的宇宙",
+    "name": "琥珀里的千年虫",
+    "description": "通关「模拟宇宙」时，携带「存护」命途的祝福数量大于等于10",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 5001036,
+    "class": "果壳中的宇宙",
+    "name": "你看见记忆",
+    "description": "通关「模拟宇宙」时，携带「记忆」命途的祝福数量大于等于10",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 5001037,
+    "class": "果壳中的宇宙",
+    "name": "图个好玩，不必在意",
+    "description": "通关「模拟宇宙」时，携带「欢愉」命途的祝福数量大于等于10",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 5001038,
+    "class": "果壳中的宇宙",
+    "name": "思考传递的速度",
+    "description": "通关「模拟宇宙」时，携带「巡猎」命途的祝福数量大于等于10",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 5001039,
+    "class": "果壳中的宇宙",
+    "name": "不要回头看爆炸",
+    "description": "通关「模拟宇宙」时，携带「毁灭」命途的祝福数量大于等于10",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 5001040,
+    "class": "果壳中的宇宙",
+    "name": "幻想的瘟疫",
+    "description": "通关「模拟宇宙」时，携带「虚无」命途的祝福数量大于等于10",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 5001041,
+    "class": "果壳中的宇宙",
+    "name": "大天使的呼吸",
+    "description": "通关「模拟宇宙」时，携带「丰饶」命途的祝福数量大于等于10",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 5001042,
+    "class": "果壳中的宇宙",
+    "name": "心猿意马的你",
+    "description": "通关「模拟宇宙」时，携带祝福所来自的命途数量大于等于6",
+    "reward_level": 2,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 5001043,
+    "class": "果壳中的宇宙",
+    "name": "孤狼舞台",
+    "description": "通关「模拟宇宙」时，携带祝福总数小于等于6（难度2及以上）",
+    "reward_level": 2,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 5001044,
+    "class": "果壳中的宇宙",
+    "name": "私人收藏家",
+    "description": "通关「模拟宇宙」时，携带祝福总数大于等于22",
+    "reward_level": 2,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 5001045,
+    "class": "果壳中的宇宙",
+    "name": "三角战略",
+    "description": "「模拟宇宙」内，在单次尼尔迪斯牌事件中翻牌达到3次",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 5001046,
+    "class": "果壳中的宇宙",
+    "name": "大师球",
+    "description": "通关「模拟宇宙」时，携带奇物数量大于等于8",
+    "reward_level": 2,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 5001047,
+    "class": "果壳中的宇宙",
+    "name": "四星级的白日梦",
+    "description": "通关「模拟宇宙」时，拥有的宇宙碎片数量小于等于0",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 5001048,
+    "class": "果壳中的宇宙",
+    "name": "有钱真好！",
+    "description": "通关「模拟宇宙」时，拥有的宇宙碎片数量大于等于1024",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 5001049,
+    "class": "果壳中的宇宙",
+    "name": "猎户星座端沿燃烧",
+    "description": "在与「模拟宇宙」精英敌人的战斗中落败",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 5001050,
+    "class": "果壳中的宇宙",
+    "name": "唐怀瑟之门闪耀",
+    "description": "在与「模拟宇宙」首领敌人的战斗中落败",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 5001051,
+    "class": "果壳中的宇宙",
+    "name": "醒醒！",
+    "description": "在「模拟宇宙」尼尔迪斯牌事件的战斗中落败",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 5001052,
+    "class": "果壳中的宇宙",
+    "name": "眼泪消匿于雨中",
+    "description": "在「模拟宇宙」酒馆事件的战斗中落败",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 5001053,
+    "class": "果壳中的宇宙",
+    "name": "单机游戏",
+    "description": "在不使用下载装置的情况下通关「模拟宇宙」（难度2及以上）",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 5001054,
+    "class": "果壳中的宇宙",
+    "name": "假如我能使一颗心免于破碎",
+    "description": "在不打碎任何可破坏物的情况下通关「模拟宇宙」（难度2及以上）",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 5001055,
+    "class": "果壳中的宇宙",
+    "name": "布达佩斯大饭店",
+    "description": "通关「模拟宇宙」时（难度2及以上），累计施放25次秘技",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 5001056,
+    "class": "果壳中的宇宙",
+    "name": "阿莱夫即是宇宙",
+    "description": "通关「模拟宇宙」时（难度2及以上），出场队伍仅为1名角色",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 5001057,
+    "class": "果壳中的宇宙",
+    "name": "彗星来的那一夜",
+    "description": "通关「模拟宇宙」时（难度2及以上），使用4名相同命途的角色出战",
+    "reward_level": 2,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 5001058,
+    "class": "果壳中的宇宙",
+    "name": "这游戏没有白金奖杯吗？",
+    "description": "通关「模拟宇宙」时（难度2及以上），每场战斗胜利我方所有角色的当前生命值均等于各自的生命上限",
+    "reward_level": 2,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 6001001,
+    "class": "不屈者的荣光",
+    "name": "影逝百度（一）",
+    "description": "击败100次凝滞虚影",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 6001002,
+    "class": "不屈者的荣光",
+    "name": "影逝百度（四）",
+    "description": "击败400次凝滞虚影",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 6001003,
+    "class": "不屈者的荣光",
+    "name": "影逝百度（八）",
+    "description": "击败800次凝滞虚影",
+    "reward_level": 2,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 6001004,
+    "class": "不屈者的荣光",
+    "name": "天外魔花（一）",
+    "description": "击败100次拟造花萼",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 6001005,
+    "class": "不屈者的荣光",
+    "name": "天外魔花（二）",
+    "description": "击败500次拟造花萼",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 6001006,
+    "class": "不屈者的荣光",
+    "name": "天外魔花（三）",
+    "description": "击败1000次拟造花萼",
+    "reward_level": 2,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 6001007,
+    "class": "不屈者的荣光",
+    "name": "隧洞幽影（一）",
+    "description": "通关100次侵蚀隧洞",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 6001008,
+    "class": "不屈者的荣光",
+    "name": "隧洞幽影（二）",
+    "description": "通关400次侵蚀隧洞",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 6001009,
+    "class": "不屈者的荣光",
+    "name": "隧洞幽影（三）",
+    "description": "通关800次侵蚀隧洞",
+    "reward_level": 2,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 6001010,
+    "class": "不屈者的荣光",
+    "name": "历战余响（一）",
+    "description": "通关1次历战余响",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 6001011,
+    "class": "不屈者的荣光",
+    "name": "历战余响（二）",
+    "description": "通关10次历战余响",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 7001001,
+    "class": "瞬息欢愉",
+    "name": "地球周",
+    "description": "连续登录7天",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 7001002,
+    "class": "瞬息欢愉",
+    "name": "地球月",
+    "description": "累计登录30天",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 7001003,
+    "class": "瞬息欢愉",
+    "name": "地球年",
+    "description": "累计登录365天",
+    "reward_level": 3,
+    "game_version": "1.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 7001004,
+    "class": "瞬息欢愉",
+    "name": "第欧根尼理想国",
+    "description": "探索贝洛伯格的名片吧！ ※垃圾桶里每个有用的道具都落入你的囊中！",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 7001005,
+    "class": "瞬息欢愉",
+    "name": "不能满足",
+    "description": "有的时候太满足也不是好事… ※使用1次「催吐剂」",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 7001006,
+    "class": "瞬息欢愉",
+    "name": "恶趣味",
+    "description": "就连一块垃圾，也有它的作用 ※累计使用「垃圾」合成消耗品10次",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 7001007,
+    "class": "瞬息欢愉",
+    "name": "业报",
+    "description": "让居住在我们心中的崇高存在对你摇头叹息 ※想办法用掉「崇高道德的赞许」",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 7001008,
+    "class": "瞬息欢愉",
+    "name": "圣人",
+    "description": "让居住在我们心中的崇高存在对你竖起大拇指 ※累计获得20次「崇高道德的赞许」",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 7001009,
+    "class": "瞬息欢愉",
+    "name": "三人成行",
+    "description": "在队伍中有3个相同命途角色的情况下获得战斗胜利",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 7001010,
+    "class": "瞬息欢愉",
+    "name": "百搭鬼牌",
+    "description": "使用累计20位角色与桑博组队并取得至少1场战斗的胜利",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 7001011,
+    "class": "瞬息欢愉",
+    "name": "消消乐",
+    "description": "在队伍中有3个相同属性角色的情况下获得战斗胜利",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 7001012,
+    "class": "瞬息欢愉",
+    "name": "相亲相爱一家人",
+    "description": "使用姬子、瓦尔特、丹恒、三月七的4人队伍配置取得1场战斗的胜利",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 7001013,
+    "class": "瞬息欢愉",
+    "name": "热血开拓者",
+    "description": "在对话中选择热血选项5次",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 7001014,
+    "class": "瞬息欢愉",
+    "name": "筑城者（与前筑城者）",
+    "description": "使用布洛妮娅、杰帕德、佩拉、希露瓦的4人队伍配置取得1场战斗的胜利",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 7001015,
+    "class": "瞬息欢愉",
+    "name": "悲观开拓者",
+    "description": "在对话中选择悲观选项5次",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 7001016,
+    "class": "瞬息欢愉",
+    "name": "抱歉开拓者",
+    "description": "在对话中选择道歉选项5次",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 7001017,
+    "class": "瞬息欢愉",
+    "name": "沉默开拓者",
+    "description": "在对话中选择沉默选项5次",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 7001018,
+    "class": "瞬息欢愉",
+    "name": "复读机",
+    "description": "在对话中选择复读选项3次",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 7001019,
+    "class": "瞬息欢愉",
+    "name": "选择的意义",
+    "description": "在对话中选择性别专属选项3次",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 7001020,
+    "class": "瞬息欢愉",
+    "name": "独狼",
+    "description": "队伍中仅有单个角色的情况下获得10场胜利",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 7001021,
+    "class": "瞬息欢愉",
+    "name": "敬琥珀王",
+    "description": "队伍中有4名「存护」命途角色的情况下获得10场胜利",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 7001022,
+    "class": "瞬息欢愉",
+    "name": "受命净空诸界",
+    "description": "队伍中有4名「毁灭」命途角色的情况下获得10场胜利",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 7001023,
+    "class": "瞬息欢愉",
+    "name": "仙舟联盟",
+    "description": "队伍中有4名「巡猎」命途角色的情况下获得10场胜利",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 7001024,
+    "class": "瞬息欢愉",
+    "name": "无意义的成就",
+    "description": "队伍中有4名「虚无」命途角色的情况下获得10场胜利",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 7001025,
+    "class": "瞬息欢愉",
+    "name": "大和谐",
+    "description": "队伍中有4名「同谐」命途角色的情况下获得10场胜利",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 7001026,
+    "class": "瞬息欢愉",
+    "name": "知识就是力量",
+    "description": "队伍中有4名「智识」命途角色的情况下获得10场胜利",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 7001027,
+    "class": "瞬息欢愉",
+    "name": "药师奇迹",
+    "description": "队伍中有4名「丰饶」命途角色的情况下获得10场胜利",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 7001028,
+    "class": "瞬息欢愉",
+    "name": "狂风臣服",
+    "description": "队伍中有4名「风」属性角色的情况下获得10场胜利",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 7001029,
+    "class": "瞬息欢愉",
+    "name": "雷电招来",
+    "description": "队伍中有4名「雷」属性角色的情况下获得10场胜利",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 7001030,
+    "class": "瞬息欢愉",
+    "name": "烈焰焚尽",
+    "description": "队伍中有4名「火」属性角色的情况下获得10场胜利",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 7001031,
+    "class": "瞬息欢愉",
+    "name": "冰霜主人",
+    "description": "队伍中有4名「冰」属性角色的情况下获得10场胜利",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 7001032,
+    "class": "瞬息欢愉",
+    "name": "量子测试",
+    "description": "队伍中有4名「量子」属性角色的情况下获得10场胜利",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 7001033,
+    "class": "瞬息欢愉",
+    "name": "虚数法则",
+    "description": "队伍中有4名「虚数」属性角色的情况下获得10场胜利",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 7001034,
+    "class": "瞬息欢愉",
+    "name": "拳头说话",
+    "description": "队伍中有4名「物理」属性角色的情况下获得10场胜利",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8001001,
+    "class": "与你同行的回忆",
+    "name": "猜猜我是谁",
+    "description": "完成同行任务「知名不具」",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8001002,
+    "class": "与你同行的回忆",
+    "name": "少年阿兰之烦恼",
+    "description": "完成同行任务「阴差阳错」",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8001003,
+    "class": "与你同行的回忆",
+    "name": "贤者的礼物",
+    "description": "完成同行任务「虎克的礼物」",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8001004,
+    "class": "与你同行的回忆",
+    "name": "城郊静悄悄",
+    "description": "完成同行任务「风雪免疫」",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8001005,
+    "class": "与你同行的回忆",
+    "name": "克拉拉与太阳",
+    "description": "完成同行任务「难得有情」",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8001006,
+    "class": "与你同行的回忆",
+    "name": "泪水流逝",
+    "description": "完成同行任务「只是孩子」",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8001007,
+    "class": "与你同行的回忆",
+    "name": "只待明日",
+    "description": "在任务「小虎克的宝贝」中找到所有尤利安的物品",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8001008,
+    "class": "与你同行的回忆",
+    "name": "软件体的生命周期",
+    "description": "在任务「难得有情•其二」中选择不格式化小机器人",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8001009,
+    "class": "与你同行的回忆",
+    "name": "趁生命气息逗留",
+    "description": "在任务「难得有情•其二」中选择格式化小机器人",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8001010,
+    "class": "与你同行的回忆",
+    "name": "十七岁的地图",
+    "description": "在任务「宓堂空境」中集齐关于艾丝妲的阅读物",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8001011,
+    "class": "与你同行的回忆",
+    "name": "钻石与铁锈",
+    "description": "在任务「致：黯淡星」中选择将转译录交给伯纳德",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8001012,
+    "class": "与你同行的回忆",
+    "name": "再见了，猎彗人",
+    "description": "在任务「触不可及」中收集三封「猎彗人来信」",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8001013,
+    "class": "与你同行的回忆",
+    "name": "她是否一人独行？",
+    "description": "完成任务「向导佯谬」，见证仿生人的结局",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8001014,
+    "class": "与你同行的回忆",
+    "name": "第六类接触",
+    "description": "在任务「安魂弥撒」中获得与呜呜伯对话的能力",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8001015,
+    "class": "与你同行的回忆",
+    "name": "随用随弃",
+    "description": "在空间站里找到所有的黑塔并和她对话",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8001016,
+    "class": "与你同行的回忆",
+    "name": "为了忘却的纪念",
+    "description": "寻访科员荣仓终的纪念碑",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8001017,
+    "class": "与你同行的回忆",
+    "name": "滴——下班卡！",
+    "description": "将空间站的小机器人关机6次",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8001018,
+    "class": "与你同行的回忆",
+    "name": "新世界的大门",
+    "description": "使用奇物「新世界的大门」",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8001019,
+    "class": "与你同行的回忆",
+    "name": "只是个数字",
+    "description": "使用奇物「定分枪」",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8001020,
+    "class": "与你同行的回忆",
+    "name": "王权无永恒",
+    "description": "使用奇物「不可承受之重」，并破解神秘声音的内容",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8001021,
+    "class": "与你同行的回忆",
+    "name": "因材施浇",
+    "description": "与奇怪的植物对话，并在第二天继续拜访它",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8001022,
+    "class": "与你同行的回忆",
+    "name": "贪婪心理学",
+    "description": "在任务「生存智慧」中拿到真正的宝藏",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8001023,
+    "class": "与你同行的回忆",
+    "name": "公德充沛",
+    "description": "与公物保卫者对峙，让他知道阻止你的代价（或者卑微地认错）。",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8001024,
+    "class": "与你同行的回忆",
+    "name": "外乡人",
+    "description": "将在铆钉镇找到的八音盒交还给它心碎的主人。",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8001025,
+    "class": "与你同行的回忆",
+    "name": "50信用点？！",
+    "description": "集齐被张贴在贝洛伯格各个角落的列车组成员通缉令。",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8001026,
+    "class": "与你同行的回忆",
+    "name": "亮亮的，滑滑的",
+    "description": "获得3枚古老的钱币",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8001027,
+    "class": "与你同行的回忆",
+    "name": "一路向…西北",
+    "description": "在雅利洛-Ⅵ的星球仪上找到…呃…帕姆？",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8001028,
+    "class": "与你同行的回忆",
+    "name": "拆弹部队",
+    "description": "解决贝洛伯格缆车站危机的同时规避道德风险",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8001029,
+    "class": "与你同行的回忆",
+    "name": "梦开始的地方",
+    "description": "回到曾存放星核的房间，唤醒一段模糊的记忆。",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8001030,
+    "class": "与你同行的回忆",
+    "name": "急人之所急",
+    "description": "找到逻辑语言中枢，并将其交给业余机械师菲多拉",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8001031,
+    "class": "与你同行的回忆",
+    "name": "诚实的好孩子",
+    "description": "通过神秘的科员设下的道德考验。",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8001032,
+    "class": "与你同行的回忆",
+    "name": "曼德拉效应",
+    "description": "与贝洛伯格的「后巷」接触",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8001033,
+    "class": "与你同行的回忆",
+    "name": "不干不净，吃了没病",
+    "description": "在与歌德大饭店的掌柜歌蒂的对话中取得炒饭的食谱",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8001034,
+    "class": "与你同行的回忆",
+    "name": "爱乐之城",
+    "description": "在与黄金歌剧院的女演员塔米拉的对话中取得留声机的乐谱",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8001035,
+    "class": "与你同行的回忆",
+    "name": "冬城陷阱",
+    "description": "完整听完一次流浪者的说唱",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8001036,
+    "class": "与你同行的回忆",
+    "name": "仅限12岁以上人士",
+    "description": "参加「黑暗拳斗大赛」并取得最终胜利",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8001037,
+    "class": "与你同行的回忆",
+    "name": "飞舞如蝶，蛰刺如蜂",
+    "description": "制霸磐岩镇超级联赛五大赛事",
+    "reward_level": 2,
+    "game_version": "1.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8001038,
+    "class": "与你同行的回忆",
+    "name": "法外狂徒",
+    "description": "发掘埋藏在贝洛伯格行政区喷泉中的宝藏",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8001039,
+    "class": "与你同行的回忆",
+    "name": "平庸之恶",
+    "description": "在「庸人的容器」任务中完成所有愚者之箱谜题",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8001040,
+    "class": "与你同行的回忆",
+    "name": "第四只小鼹鼠",
+    "description": "在任务「冒险鼹鼠队」中，找到所有的隐藏宝箱",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8001041,
+    "class": "与你同行的回忆",
+    "name": "《冒险鼹鼠队》超级成长版",
+    "description": "在贝洛伯格的书商处买到《冒险鼹鼠队：隐形的宝藏》",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8001042,
+    "class": "与你同行的回忆",
+    "name": "雄虺蓁蓁",
+    "description": "见证丹枢的故事",
+    "reward_level": 2,
+    "game_version": "1.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8001043,
+    "class": "与你同行的回忆",
+    "name": "朴实的生活",
+    "description": "在任务「解雇」完成后，收到芦慧的近况汇报短信",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8001044,
+    "class": "与你同行的回忆",
+    "name": "一鼓作气，再而衰，三而竭",
+    "description": "在任务「亦师亦友」完成后，收到所有铖杰热情衰退的短信",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8001045,
+    "class": "与你同行的回忆",
+    "name": "赛博诈骗",
+    "description": "在任务「仙舟追爱记」中，选择让狐仙投案自首",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8001046,
+    "class": "与你同行的回忆",
+    "name": "杜丝先生",
+    "description": "在任务「仙舟追爱记」中，选择让狐仙公开真实身份",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8001047,
+    "class": "与你同行的回忆",
+    "name": "秘密造就女人",
+    "description": "在任务「仙舟追爱记」中，选择让狐仙继续神秘",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8001048,
+    "class": "与你同行的回忆",
+    "name": "机巧鸟七故障：懒惰",
+    "description": "说服忧伤的机巧鸟回到它的本职工作",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8001049,
+    "class": "与你同行的回忆",
+    "name": "千鸟在林，不如七鸟在手",
+    "description": "帮鹤运物流找回所有走失的机巧鸟",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8001050,
+    "class": "与你同行的回忆",
+    "name": "师出有名",
+    "description": "堂堂正正地赢得仙舟罗浮大胃王比赛",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8001051,
+    "class": "与你同行的回忆",
+    "name": "上兵伐谋",
+    "description": "以不太光彩的形式赢得仙舟罗浮大胃王比赛",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8001052,
+    "class": "与你同行的回忆",
+    "name": "一败涂地",
+    "description": "在仙舟罗浮大胃王比赛中落败",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8001053,
+    "class": "与你同行的回忆",
+    "name": "世外悠悠隔人间",
+    "description": "与罐中仙对话，并从罐中取得「谢礼」",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8001054,
+    "class": "与你同行的回忆",
+    "name": "慨怀潇潇任风逝",
+    "description": "与罐中仙对话，并拒绝了仙人的「谢礼」",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8001055,
+    "class": "与你同行的回忆",
+    "name": "魔方人滚出仙舟",
+    "description": "完成魔方秘社的15个「枘凿六合」挑战",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8001056,
+    "class": "与你同行的回忆",
+    "name": "拿这个考我啊",
+    "description": "完成魔方秘社的15个新版本的「枘凿六合」挑战",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8001057,
+    "class": "与你同行的回忆",
+    "name": "劳形案牍",
+    "description": "在神策府中，查看3个不同的档案柜",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8001058,
+    "class": "与你同行的回忆",
+    "name": "祈祷落幕时",
+    "description": "阻止了奇怪的游客向星槎引擎扔硬币",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8001059,
+    "class": "与你同行的回忆",
+    "name": "航班取消",
+    "description": "帮助了奇怪的游客向星槎引擎扔硬币",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8001060,
+    "class": "与你同行的回忆",
+    "name": "归去来",
+    "description": "从碰瓷者那里收回被敲诈的信用点",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8001061,
+    "class": "与你同行的回忆",
+    "name": "不拾遗",
+    "description": "没有从碰瓷者那里收回被敲诈的信用点",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8001062,
+    "class": "与你同行的回忆",
+    "name": "贪无餍",
+    "description": "从碰瓷者那里索要过量被敲诈的信用点",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8001063,
+    "class": "与你同行的回忆",
+    "name": "机巧鸟七故障：色欲",
+    "description": "跟随绅士机巧鸟找到被海关扣留的画册",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8001064,
+    "class": "与你同行的回忆",
+    "name": "机巧鸟七故障：暴食",
+    "description": "与不满的机巧鸟完成一次打赌",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8001065,
+    "class": "与你同行的回忆",
+    "name": "机巧鸟七故障：贪婪",
+    "description": "探索由「恶龙」守护的「快递山」",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8001066,
+    "class": "与你同行的回忆",
+    "name": "机巧鸟七故障：嫉妒",
+    "description": "完成充满怨气的机巧鸟挑战",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8001067,
+    "class": "与你同行的回忆",
+    "name": "机巧鸟七故障：暴怒",
+    "description": "与勇敢的机巧鸟一起战胜拦路恶徒",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8001068,
+    "class": "与你同行的回忆",
+    "name": "机巧鸟七故障：傲慢",
+    "description": "完成「罗浮四大恶人」（自称）的挑战",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 9001001,
+    "class": "众秘探奇",
+    "name": "直到光芒把我们带走",
+    "description": "激活空间站「黑塔」5个界域定锚",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 9001002,
+    "class": "众秘探奇",
+    "name": "不开放世界",
+    "description": "激活贝洛伯格14个界域定锚",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 9001003,
+    "class": "众秘探奇",
+    "name": "仙路去何通",
+    "description": "激活仙舟「罗浮」10个界域定锚",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 9001004,
+    "class": "众秘探奇",
+    "name": "角色扮演游戏里合法",
+    "description": "开启30次空间站「黑塔」战利品",
+    "reward_level": 3,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 9001005,
+    "class": "众秘探奇",
+    "name": "那么代价是什么？",
+    "description": "开启110次贝洛伯格战利品",
+    "reward_level": 3,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 9001006,
+    "class": "众秘探奇",
+    "name": "浮财小事",
+    "description": "开启100次仙舟「罗浮」战利品",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 9001007,
+    "class": "众秘探奇",
+    "name": "毁灭的冲动",
+    "description": "击碎100个可破坏物",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 9001008,
+    "class": "众秘探奇",
+    "name": "自由毁灭意志",
+    "description": "击碎1000个可破坏物",
+    "reward_level": 2,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 9001009,
+    "class": "众秘探奇",
+    "name": "攻其不备",
+    "description": "使用对应属性的攻击进入战斗100次",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 9001010,
+    "class": "众秘探奇",
+    "name": "身背无眼",
+    "description": "在探索中遇袭",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 9001011,
+    "class": "众秘探奇",
+    "name": "第三个技能",
+    "description": "施放50次秘技",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 9001012,
+    "class": "众秘探奇",
+    "name": "第三个维度",
+    "description": "施放300次秘技",
+    "reward_level": 2,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 9001013,
+    "class": "众秘探奇",
+    "name": "开题报告",
+    "description": "收集10本来自空间站「黑塔」的阅读物",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 9001014,
+    "class": "众秘探奇",
+    "name": "文献综述",
+    "description": "收集50本来自空间站「黑塔」的阅读物",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 9001015,
+    "class": "众秘探奇",
+    "name": "并非垃圾文学",
+    "description": "收集20本来自贝洛伯格的阅读物",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 9001016,
+    "class": "众秘探奇",
+    "name": "冬城史学家",
+    "description": "收集80本来自贝洛伯格的阅读物",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 9001017,
+    "class": "众秘探奇",
+    "name": "手不释卷",
+    "description": "收集30本来自仙舟「罗浮」的阅读物",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 9001018,
+    "class": "众秘探奇",
+    "name": "腹笥深广",
+    "description": "收集80本来自仙舟「罗浮」的阅读物",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 9001019,
+    "class": "众秘探奇",
+    "name": "红名警告",
+    "description": "完成5次强敌挑战",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 9001020,
+    "class": "众秘探奇",
+    "name": "等级碾压",
+    "description": "完成15次强敌挑战",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 9001021,
+    "class": "众秘探奇",
+    "name": "间域漫游",
+    "description": "完成1次历战探游",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 9001022,
+    "class": "众秘探奇",
+    "name": "没成就就想打副本？",
+    "description": "完成9次历战探游",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 9001023,
+    "class": "众秘探奇",
+    "name": "廷达罗斯猪崽",
+    "description": "捕捉次元扑满1次",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 9001024,
+    "class": "众秘探奇",
+    "name": "相位提款机",
+    "description": "捕捉次元扑满10次",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 9001025,
+    "class": "众秘探奇",
+    "name": "感官社交",
+    "description": "集齐散落在空间站「黑塔」中的全部忆泡",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 9001026,
+    "class": "众秘探奇",
+    "name": "不世之材",
+    "description": "发现所有不世之材战利品",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 9001027,
+    "class": "众秘探奇",
+    "name": "七桥问题",
+    "description": "发现所有斥力桥战利品",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 9001028,
+    "class": "众秘探奇",
+    "name": "悲剧的诞生",
+    "description": "发现所有愚者之箱战利品",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 9001029,
+    "class": "众秘探奇",
+    "name": "矿山的西绪福斯",
+    "description": "完成最终的矿车工测试",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 9001030,
+    "class": "众秘探奇",
+    "name": "鼹鼠的故事",
+    "description": "集齐所有的《冒险鼹鼠队》",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 9001031,
+    "class": "众秘探奇",
+    "name": "红的连红的，白的连白的",
+    "description": "完成10次磁流解阈",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 9001032,
+    "class": "众秘探奇",
+    "name": "浪费是可耻的",
+    "description": "从垃圾桶中获得「吉姆•罗杰面包味汽水」",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 9001033,
+    "class": "众秘探奇",
+    "name": "洞穴之喻",
+    "description": "完成30次枘凿六合",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 9001034,
+    "class": "众秘探奇",
+    "name": "西北偏北",
+    "description": "完成20次引航罗盘",
+    "reward_level": 1,
+    "game_version": "1.0",
+    "hidden": 0
+  }
+]
