@@ -9,8 +9,8 @@ exports.up = async function(knex) {
       table.string('name', 128).notNullable();
       table.string('description', 256).notNullable();
       table.integer('reward_level').defaultTo(1);
-      table.string('game_version', 16).notNullable();
       table.integer('hidden').defaultTo(0);
+      table.string('game_version', 16).notNullable();
   })
 };
 
