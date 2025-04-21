@@ -61,4 +61,11 @@ async function getAchievementInSameBranch (achievement_id) {
         .andWhere('achievement_id', '!=', achievement_id);
 }
 
-module.exports = {getAll, getAllByUserId, updateById, getAchievementInSameBranch}
+async function getAchievementById (achievement_id) {
+    return db('sr_achievement')
+        .select('achievement_id', 'name')
+        .where({ achievement_id: achievement_id })
+        .first();
+}
+
+module.exports = {getAll, getAllByUserId, updateById, getAchievementInSameBranch, getAchievementById}
