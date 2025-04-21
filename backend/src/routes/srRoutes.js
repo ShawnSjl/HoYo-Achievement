@@ -6,5 +6,6 @@ const router = express.Router();
 
 router.get("/all", authenticateToken, srAchievementController.getAllAchievement);
 router.put("/user-update", authenticateToken, srAchievementController.updateUserAchievement);
+router.get("/branch", srAchievementController.getAchievementInBranch);
 
 module.exports = router;

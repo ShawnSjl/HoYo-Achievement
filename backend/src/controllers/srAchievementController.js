@@ -65,3 +65,20 @@ exports.updateUserAchievement = async (req, res) => {
         return res.status(500).json({ error: "Server error" });
     }
 }
+
+exports.getAchievementInBranch = async (req, res) => {
+    try {
+        const achievement_id = req.body.achievement_id;
+        if (achievement_id == null) return res.status(400).json({ error: "Fields missing" });
+
+        // Check if achievement id is valid
+        const foundAchievement = await getAchievementById(achievement_id);
+        if (!foundAchievement) return res.status(401).json({error: "Achievement does not exist"});
+
+        const achievementInSameBranch = await getAchievementInSameBranch(achievement_id);
+        res.status(200).json( achievementInSameBranch );
+    } catch (err) {
+        console.error(err);
+        return res.status(500).json({ error: "Server error" });
+    }
+}
