@@ -59,7 +59,7 @@ export const useSrAchievementStore = defineStore (
             if (user) {
                 // 尝试更新，如果更新失败，重新获取所有数据
                 try {
-                    const response = await srUpdateAchievement({ achievement_id: achievementId, complete: complete });
+                    await srUpdateAchievement({ achievement_id: achievementId, complete: complete });
                 } catch (error) {
                     console.error('Fail to update achievements:', error);
                     await fetchAchievements();
@@ -77,7 +77,7 @@ export const useSrAchievementStore = defineStore (
             }
         }
 
-        return { achievements, isCompleteFirst, fetchAchievements, completeAchievement };
+        return { achievements, isCompleteFirst, fetchAchievements, updateAchievements, completeAchievement };
     },
     {
         persist: true,

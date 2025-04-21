@@ -1,0 +1,98 @@
+<script setup>
+import {useAuthStore} from "@/stores/authStore";
+import {useSrAchievementStore} from "@/stores/srAchievementStore";
+import {useIsMobileStore} from "@/stores/isMobileStore";
+import {computed, nextTick, onBeforeUnmount, onMounted, ref, watch} from "vue";
+import {srClasses} from "@/utils/srAchievementClass";
+import SrTable from "@/views/SrAchievement/SrTable.vue";
+
+// 使用Pinia作为本地缓存
+const authStore = useAuthStore()
+const srAchievementStore = useSrAchievementStore()
+const isMobileStore = useIsMobileStore()
+
+const loading = ref(true);
+const errorMessage = ref('');
+
+const achievementClass = ref(srClasses[0])
+
+// 根据类别筛选成就
+const filteredAchievements = computed(() => {
+  return srAchievementStore.achievements.filter(achievement => achievement.class === achievementClass.value)
+})
+
+// 根据条件排序
+const sortedAchievements = computed(() => {
+  if (srAchievementStore.isCompleteFirst) {
+    return [...filteredAchievements.value].sort((a, b) => {
+      // 1️⃣ 优先按 complete 状态：complete === 1 的放后面
+      if (a.complete === 1 && b.complete !== 1) return 1;
+      if (a.complete !== 1 && b.complete === 1) return -1;
+
+      // 2️⃣ 如果 complete 相同，按 id 升序排序
+      return a.id - b.id;
+    });
+  } else {
+    return filteredAchievements.value;
+  }
+})
+
+// 设置表格高度
+const tableHeight = ref(500) // 初始值，防止第一次加载为 0
+const calculateTableHeight = () => {
+  const windowHeight = window.innerHeight
+
+  const headerEl = document.querySelector('.el-header') // 获取头部高度
+  const headerHeight = headerEl ? headerEl.offsetHeight : 0
+
+  const margin = isMobileStore.isMobile ? 90 : 142 // 预留的 padding/margin（可调）
+
+  tableHeight.value = windowHeight - headerHeight - margin
+}
+
+const fetchData = async () => {
+  try {
+    loading.value = true;
+    authStore.loadUser();
+    await srAchievementStore.updateAchievements();
+    errorMessage.value = "";
+  } catch (e) {
+    errorMessage.value = 'Load data failed';
+  } finally {
+    loading.value = false;
+  }
+}
+
+onMounted(() => {
+  fetchData();
+});
+
+watch(achievementClass, async (newClass) => {
+  await fetchData();
+});
+
+const userName = computed(() => authStore.getUserName());
+watch(userName, async (newUserName) => {
+  console.log(newUserName);
+  await fetchData();
+});
+onMounted(async () => {
+  await nextTick()
+  calculateTableHeight()
+  window.addEventListener('resize', calculateTableHeight)
+});
+
+onBeforeUnmount(() => {
+  window.removeEventListener('resize', calculateTableHeight)
+})
+</script>
+
+<template>
+  <sr-table v-model="achievementClass"
+            :sortedAchievements="sortedAchievements"
+            :table-height="tableHeight" />
+</template>
+
+<style scoped>
+
+</style>
