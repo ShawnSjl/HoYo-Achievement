@@ -13,12 +13,9 @@ const props = defineProps({
 })
 
 // 获取成就图片
-const getAchievementImg = (sr_class, achievement_level) => {
-  const class_id = srClasses.indexOf(sr_class) + 1;
-  return `/src/assets/image/sr-class-${class_id}-level-${achievement_level}.png`;
-}
 const achievementImg = computed(() => {
-  return getAchievementImg(props.achievement.class, props.achievement.reward_level);
+  const class_id = srClasses.indexOf(props.achievement.class) + 1;
+  return `/src/assets/image/sr-class-${class_id}-level-${props.achievement.reward_level}.png`;
 })
 
 // 获取奖励数量
@@ -64,7 +61,7 @@ const disableButton = computed(() => {return props.achievement.complete === 2});
       <div class="sr-game-version" >{{ props.achievement.game_version }}</div>
       <div class="sr-achievement-reward-bg">
         <img :src="SrAchievementReward" alt="achievement reward" class="sr-achievement-reward-image" />
-        <div class="sr-achievement-reward-count">5</div>
+        <div class="sr-achievement-reward-count">{{achievementReward}}</div>
       </div>
       <el-button round :disabled="disableButton" :plain="!isComplete" type="primary" class="sr-complete-button">
         {{ completeButtonMsg }}
@@ -109,15 +106,13 @@ const disableButton = computed(() => {return props.achievement.complete === 2});
   height: 53px;
   border-radius: 50%; /* 核心代码：让图片变圆 */
   object-fit: cover;   /* 保证图片不变形、居中裁剪 */
-  border: 3px solid #686161; /* 可选的边框 */
-  background-color: #686868;
+  background-color: #6a6a6b;
 }
 
 @media (max-width: 830px) {
   .sr-achievement-image {
     width: 36px;
     height: 36px;
-    border: 2px solid #686161; /* 可选的边框 */
   }
 }
 
@@ -157,7 +152,6 @@ const disableButton = computed(() => {return props.achievement.complete === 2});
   justify-content: center;  /* 水平居中 */
   align-items: center;      /* 垂直居中 */
 }
-
 
 .sr-detail {
   display: flex;
@@ -242,7 +236,7 @@ const disableButton = computed(() => {return props.achievement.complete === 2});
   color: #fff;
   border: #000000;
   border-radius: 5px;
-  background-color: rgba(0, 0, 0, 0);
+  background-color: rgb(244, 245, 247);
   font-size: 16px;
   text-shadow:
       -2px -2px 2px black,
