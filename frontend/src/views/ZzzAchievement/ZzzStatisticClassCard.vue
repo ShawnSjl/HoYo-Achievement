@@ -111,7 +111,7 @@ const getCompleteLevel3Number = computed(() => {
   height: 53px;
   border-radius: 50%; /* 核心代码：让图片变圆 */
   object-fit: cover;   /* 保证图片不变形、居中裁剪 */
-  border: 3px solid #686161; /* 可选的边框 */
+  border: 3px solid #000000; /* 可选的边框 */
   background-color: #000000;
 }
 
