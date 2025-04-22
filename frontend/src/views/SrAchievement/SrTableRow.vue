@@ -62,11 +62,10 @@ const disableButton = computed(() => {return props.achievement.complete === 2});
 
     <div class="sr-table-row-right">
       <div class="sr-game-version" >{{ props.achievement.game_version }}</div>
-      <el-badge v-if="!isMobileStore.isMobile" :value="achievementReward" :offset="[-45, 47]">
-        <div class="sr-achievement-reward-bg">
-          <img :src="SrAchievementReward" alt="achievement reward" class="sr-achievement-reward-image" />
-        </div>
-      </el-badge>
+      <div class="sr-achievement-reward-bg">
+        <img :src="SrAchievementReward" alt="achievement reward" class="sr-achievement-reward-image" />
+        <div class="sr-achievement-reward-count">5</div>
+      </div>
       <el-button round :disabled="disableButton" :plain="!isComplete" type="primary" class="sr-complete-button">
         {{ completeButtonMsg }}
       </el-button>
@@ -125,8 +124,8 @@ const disableButton = computed(() => {return props.achievement.complete === 2});
 .sr-achievement-reward-bg {
   width: 70px;              /* 控制背景大小 */
   height: 70px;
-  background-color: rgb(255, 221, 88);
-  border: 1px solid rgba(255, 221, 88, 0.5);
+  background: linear-gradient(to bottom, #9a6450, #efb700);
+  border-top-right-radius: 12px;
   margin-right: 20px;
 
   display: flex;            /* 用 flex 居中图片 */
@@ -136,11 +135,29 @@ const disableButton = computed(() => {return props.achievement.complete === 2});
 }
 
 .sr-achievement-reward-image {
-  width: 46px;
-  height: 46px;
+  width: 60px;
+  height: 60px;
   object-fit: contain;
-  border-radius: 10px;      /* 可选：如果图片也想圆点效果 */
 }
+
+.sr-achievement-reward-count {
+  height: 16px;
+  width: 70px;
+  position: absolute;
+  bottom: 16px;
+  padding: 0 0;
+
+  background-color: rgba(64, 40, 0, 0.6); /* 半透明黑底 */
+  color: white;
+
+  font-weight: bold;
+  text-align: center;
+  font-size: 12px;
+  display: flex;
+  justify-content: center;  /* 水平居中 */
+  align-items: center;      /* 垂直居中 */
+}
+
 
 .sr-detail {
   display: flex;
