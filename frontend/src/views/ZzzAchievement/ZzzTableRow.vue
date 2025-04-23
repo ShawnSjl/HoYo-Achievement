@@ -72,7 +72,7 @@ const getAchievementName = computed(() => {
       <div class="zzz-detail">
         <div class="zzz-name">
           {{ getAchievementName }}
-          <span v-if="props.achievement.hidden === 1" class="zzz-hidden-badge">
+          <span v-if="props.achievement.hidden !== 0" class="zzz-hidden-badge">
             隐藏
           </span>
         </div>
