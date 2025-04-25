@@ -5,6 +5,7 @@ import {useIsMobileStore} from "@/stores/isMobileStore";
 import {computed, nextTick, onBeforeUnmount, onMounted, ref, watch} from "vue";
 import {srClasses} from "@/utils/srAchievementClass";
 import SrTable from "@/views/SrAchievement/SrTable.vue";
+import SrHeader from "@/views/SrAchievement/SrHeader.vue";
 
 // 使用Pinia作为本地缓存
 const authStore = useAuthStore()
@@ -88,11 +89,49 @@ onBeforeUnmount(() => {
 </script>
 
 <template>
-  <sr-table v-model="achievementClass"
-            :sortedAchievements="sortedAchievements"
-            :table-height="tableHeight" />
+  <div class="sr-bg-page">
+    <div class="sr-content">
+      <el-container style="height: 100vh">
+        <el-header class="sr-container-header">
+          <sr-header />
+        </el-header>
+
+        <el-container>
+          <el-aside>
+
+          </el-aside>
+          <el-main>
+            <sr-table v-model="achievementClass"
+                      :sortedAchievements="sortedAchievements"
+                      :table-height="tableHeight" />
+          </el-main>
+        </el-container>
+
+      </el-container>
+    </div>
+  </div>
 </template>
 
 <style scoped>
+.sr-bg-page {
+  width: 100%;
+  height: 100vh;
+  background-image: url("@/assets/image-sr/sr-bg-3.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  z-index: -1;
+  inset: 0;
+  position: fixed;
+}
 
+.sr-content {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.sr-container-header {
+  margin-top: 8px;
+}
 </style>

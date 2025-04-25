@@ -7,7 +7,7 @@ import Sr from "@/assets/image-sr/sr.png"
 const handleClick = (command) => {
   switch (command) {
     case 'sr':
-
+      router.push({ path: '/sr' });
       break
     case 'zzz':
       router.push({ path: '/zzz' });
@@ -30,7 +30,7 @@ const handleClick = (command) => {
 
     <template #dropdown>
       <el-dropdown-menu>
-        <el-dropdown-item command="sr" disabled>
+        <el-dropdown-item command="sr">
           <div class="game-switch-item">
             <el-avatar shape="square" :src="Sr" />
             <p>崩坏：星穹铁道</p>
