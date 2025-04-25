@@ -49,7 +49,7 @@ const disableButton = computed(() => {return props.achievement.complete === 2});
       <div class="sr-detail">
         <div class="sr-name">
           {{ props.achievement.name }}
-          <span v-if="props.achievement.hidden === 1" class="sr-hidden-badge">
+          <span v-if="props.achievement.hidden !== 0" class="sr-hidden-badge">
             隐藏
           </span>
         </div>
@@ -106,7 +106,7 @@ const disableButton = computed(() => {return props.achievement.complete === 2});
   width: 53px;
   height: 53px;
   border-radius: 50%; /* 核心代码：让图片变圆 */
-  object-fit: cover;   /* 保证图片不变形、居中裁剪 */
+  object-fit: contain;   /* 保证图片不变形、居中裁剪 */
   background-color: #6a6a6b;
 }
 
@@ -168,7 +168,7 @@ const disableButton = computed(() => {return props.achievement.complete === 2});
   flex: 1;
   font-weight: bold;
   font-size: 17px;
-  color: rgb(37, 37, 37);
+  color: rgb(14, 14, 14);
 }
 
 .sr-desc {

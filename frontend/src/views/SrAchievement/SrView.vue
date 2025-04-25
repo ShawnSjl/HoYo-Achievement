@@ -6,6 +6,7 @@ import {computed, nextTick, onBeforeUnmount, onMounted, ref, watch} from "vue";
 import {srClasses} from "@/utils/srAchievementClass";
 import SrTable from "@/views/SrAchievement/SrTable.vue";
 import SrHeader from "@/views/SrAchievement/SrHeader.vue";
+import SrAside from "@/views/SrAchievement/SrAside.vue";
 
 // 使用Pinia作为本地缓存
 const authStore = useAuthStore()
@@ -97,8 +98,8 @@ onBeforeUnmount(() => {
         </el-header>
 
         <el-container>
-          <el-aside>
-
+          <el-aside class="sr-container-aside">
+            <sr-aside v-model="achievementClass"  style="align-self: center"/>
           </el-aside>
           <el-main>
             <sr-table v-model="achievementClass"
@@ -133,5 +134,10 @@ onBeforeUnmount(() => {
 
 .sr-container-header {
   margin-top: 8px;
+}
+
+.sr-container-aside {
+  width: 100px;
+  display: flex;
 }
 </style>
