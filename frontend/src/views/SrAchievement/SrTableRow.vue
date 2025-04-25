@@ -101,6 +101,7 @@ const disableButton = computed(() => {return props.achievement.complete === 2});
   flex: 1;
 }
 
+/* 成就图片 */
 .sr-achievement-image {
   width: 53px;
   height: 53px;
@@ -116,7 +117,9 @@ const disableButton = computed(() => {return props.achievement.complete === 2});
   }
 }
 
+/* 成就奖励图片 */
 .sr-achievement-reward-bg {
+  position: relative;
   width: 70px;              /* 控制背景大小 */
   height: 70px;
   background: linear-gradient(to bottom, #9a6450, #efb700);
@@ -139,8 +142,7 @@ const disableButton = computed(() => {return props.achievement.complete === 2});
   height: 16px;
   width: 70px;
   position: absolute;
-  bottom: 16px;
-  padding: 0 0;
+  margin-top: 54px;
 
   background-color: rgba(64, 40, 0, 0.6); /* 半透明黑底 */
   color: white;
@@ -153,20 +155,13 @@ const disableButton = computed(() => {return props.achievement.complete === 2});
   align-items: center;      /* 垂直居中 */
 }
 
+/* 成就介绍 */
 .sr-detail {
   display: flex;
   flex-direction: column;
   align-content: flex-start;
   gap: 10px;
   padding: 15px;
-}
-
-@media (max-width: 830px) {
-  .sr-detail {
-    font-size: 12px;
-    gap: 6px;
-    padding: 7px;
-  }
 }
 
 .sr-name {
@@ -176,42 +171,11 @@ const disableButton = computed(() => {return props.achievement.complete === 2});
   color: rgb(37, 37, 37);
 }
 
-@media (max-width: 830px) {
-  .sr-name {
-    font-size: 15px;
-  }
-}
-
-.sr-game-version {
-  font-weight: normal;
-  font-size: 17px;
-  margin-right: 25px;
-  color: #555555;
-}
-
-@media (max-width: 830px) {
-  .sr-game-version {
-    font-weight: normal;
-    font-size: 14px;
-    margin-right: 5px;
-  }
-}
-
 .sr-desc {
   flex: 1;
   text-align: left;
   word-break: break-word;
   color: #757575;
-}
-
-.sr-complete-button {
-  margin-right: 10px;
-}
-
-@media (max-width: 830px) {
-  .sr-complete-button {
-    margin-right: 0;
-  }
 }
 
 .sr-hidden-badge {
@@ -227,21 +191,45 @@ const disableButton = computed(() => {return props.achievement.complete === 2});
 }
 
 @media (max-width: 830px) {
+  .sr-detail {
+    font-size: 12px;
+    gap: 6px;
+    padding: 7px;
+  }
+
+  .sr-name {
+    font-size: 15px;
+  }
+
   .sr-hidden-badge {
     font-size: 10px;
   }
 }
 
-::v-deep(.el-badge__content) {
-  color: #fff;
-  border: #000000;
-  border-radius: 5px;
-  background-color: rgb(244, 245, 247);
-  font-size: 16px;
-  text-shadow:
-      -2px -2px 2px black,
-      2px -2px 2px black,
-      -2px 2px 2px black,
-      2px 2px 2px black;
+/* 成就版本 */
+.sr-game-version {
+  font-weight: normal;
+  font-size: 17px;
+  margin-right: 25px;
+  color: #555555;
+}
+
+@media (max-width: 830px) {
+  .sr-game-version {
+    font-weight: normal;
+    font-size: 14px;
+    margin-right: 5px;
+  }
+}
+
+/* 完成按钮 */
+.sr-complete-button {
+  margin-right: 10px;
+}
+
+@media (max-width: 830px) {
+  .sr-complete-button {
+    margin-right: 0;
+  }
 }
 </style>
