@@ -1,7 +1,7 @@
 <script setup>
 import {computed} from 'vue';
 import {useIsMobileStore} from "@/stores/isMobileStore";
-import SrAchievementReward from "@/assets/image/sr-achievement-reward.png";
+import SrAchievementReward from "@/assets/image-sr/sr-achievement-reward.png";
 import {srClasses} from "@/utils/srAchievementClass";
 
 // 使用Pinia作为本地缓存
@@ -15,7 +15,7 @@ const props = defineProps({
 // 获取成就图片
 const achievementImg = computed(() => {
   const class_id = srClasses.indexOf(props.achievement.class) + 1;
-  return `/src/assets/image/sr-class-${class_id}-level-${props.achievement.reward_level}.png`;
+  return `/src/assets/image-sr/sr-class-${class_id}-level-${props.achievement.reward_level}.png`;
 })
 
 // 获取奖励数量

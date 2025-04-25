@@ -22,7 +22,7 @@
 <style scoped>
 .card-bg {
   min-height: 360px;
-  background-image: url("@/assets/image/sr-bg-1.png");
+  background-image: url("@/assets/image-sr/sr-bg-1.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: left -40px top;

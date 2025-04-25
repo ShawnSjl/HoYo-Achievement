@@ -2,7 +2,7 @@
 import { ArrowDown } from '@element-plus/icons-vue';
 import router from "@/router";
 import Zzz from '@/assets/image/zzz.png'
-import Sr from "@/assets/image/sr.png"
+import Sr from "@/assets/image-sr/sr.png"
 
 const handleClick = (command) => {
   switch (command) {

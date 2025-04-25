@@ -9,15 +9,33 @@ const achievementClass = defineModel()
 </script>
 
 <template>
-  <el-table :data="sortedAchievements" style="width: 100%" :show-header="false" :max-height="tableHeight">
-    <el-table-column>
-      <template #default="{ row }">
+  <el-scrollbar :height="tableHeight">
+    <div class="sr-table">
+      <el-card
+        v-for="(row, index) in sortedAchievements"
+        :key="index"
+        class="sr-table-row"
+        shadow="hover"
+        >
         <sr-table-row :achievement="row" />
-      </template>
-    </el-table-column>
-  </el-table>
+      </el-card>
+    </div>
+  </el-scrollbar>
 </template>
 
 <style scoped>
+.sr-table {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 10px;
+}
 
+.sr-table-row {
+  border-radius: 0 16px 0 0;
+}
+
+:deep(.sr-table-row .el-card__body) {
+  padding: 4px 16px;
+}
 </style>
