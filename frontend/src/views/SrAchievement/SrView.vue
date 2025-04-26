@@ -52,7 +52,7 @@ const calculateTableHeight = () => {
   const headerEl = document.querySelector('.el-header') // 获取头部高度
   const headerHeight = headerEl ? headerEl.offsetHeight : 0
 
-  const margin = isMobileStore.isMobile ? 90 : 142 // 预留的 padding/margin（可调）
+  const margin = isMobileStore.isMobile ? 90 : 180 // 预留的 padding/margin（可调）
 
   tableHeight.value = windowHeight - headerHeight - margin
 }
@@ -106,14 +106,18 @@ onBeforeUnmount(() => {
           <el-aside class="sr-container-aside">
             <sr-aside v-model="achievementClass"  style="align-self: center"/>
           </el-aside>
-          <el-main>
+          <el-main class="sr-container-main">
             <sr-statistic-class
                       :achievementClass="achievementClass"
                       style="margin-left: 10px" />
             <el-divider />
-            <sr-table v-model="achievementClass"
-                      :sortedAchievements="sortedAchievements"
-                      :table-height="tableHeight" />
+            <p v-if="loading">加载中...</p>
+            <p v-else-if="errorMessage">{{ errorMessage }}</p>
+            <div v-else >
+              <sr-table v-model="achievementClass"
+                        :sortedAchievements="sortedAchievements"
+                        :table-height="tableHeight" />
+            </div>
           </el-main>
         </el-container>
 
@@ -148,5 +152,9 @@ onBeforeUnmount(() => {
 .sr-container-aside {
   width: 100px;
   display: flex;
+}
+
+.sr-container-main {
+  height: 100%;
 }
 </style>
