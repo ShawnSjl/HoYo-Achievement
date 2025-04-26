@@ -7,6 +7,7 @@ import {srClasses} from "@/utils/srAchievementClass";
 import SrTable from "@/views/SrAchievement/SrTable.vue";
 import SrHeader from "@/views/SrAchievement/SrHeader.vue";
 import SrAside from "@/views/SrAchievement/SrAside.vue";
+import SrStatisticClass from "@/views/SrAchievement/SrStatisticClass.vue";
 
 // 使用Pinia作为本地缓存
 const authStore = useAuthStore()
@@ -27,11 +28,15 @@ const filteredAchievements = computed(() => {
 const sortedAchievements = computed(() => {
   if (srAchievementStore.isCompleteFirst) {
     return [...filteredAchievements.value].sort((a, b) => {
-      // 1️⃣ 优先按 complete 状态：complete === 1 的放后面
-      if (a.complete === 1 && b.complete !== 1) return 1;
-      if (a.complete !== 1 && b.complete === 1) return -1;
+      const completeA = a.complete === 2 ? 1 : a.complete;
+      const completeB = b.complete === 2 ? 1 : b.complete;
 
-      // 2️⃣ 如果 complete 相同，按 id 升序排序
+      // 1️⃣ 优先按 complete 状态
+      if (completeA !== completeB) {
+        return completeA - completeB;
+      }
+
+      // 2️⃣ complete 相同，按 id 升序
       return a.id - b.id;
     });
   } else {
@@ -102,6 +107,10 @@ onBeforeUnmount(() => {
             <sr-aside v-model="achievementClass"  style="align-self: center"/>
           </el-aside>
           <el-main>
+            <sr-statistic-class
+                      :achievementClass="achievementClass"
+                      style="margin-left: 10px" />
+            <el-divider />
             <sr-table v-model="achievementClass"
                       :sortedAchievements="sortedAchievements"
                       :table-height="tableHeight" />

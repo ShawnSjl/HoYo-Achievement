@@ -6,10 +6,6 @@ import {showInfo} from "@/utils/notification";
 const achievementClass = defineModel()
 
 // 获取成就类别图片
-// const achievementImg = computed(() => {
-//   const class_id = srClasses.indexOf(achievementClass.value) + 1;
-//   return `/src/assets/image-sr/sr-class-${class_id}.png`;
-// })
 function getAchievementImg(cls) {
   const class_id = srClasses.indexOf(cls) + 1;
   return new URL(`/src/assets/image-sr/sr-class-${class_id}.png`, import.meta.url).href
