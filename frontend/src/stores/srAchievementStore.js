@@ -1,11 +1,12 @@
-import { defineStore } from "pinia";
+import {defineStore} from "pinia";
 import {ref} from "vue";
-import {srGetAll, srGetBranchAchievement, srUpdateAchievement} from "@/api/sr";
+import {srGetAll, srGetAllBranch, srUpdateAchievement} from "@/api/sr";
 
 export const useSrAchievementStore = defineStore (
     'sr-achievements',
     () => {
         const achievements = ref([]);
+        const branches = ref([]);
         const length = ref(0);
         const currentUser = ref(null);
         const isCompleteFirst = ref(false);
@@ -16,6 +17,8 @@ export const useSrAchievementStore = defineStore (
             try {
                 const response = await srGetAll();
                 achievements.value = response.achievements;
+
+                branches.value = await srGetAllBranch();
             } catch (error) {
                 console.error('Fail to get achievements:', error);
                 achievements.value = [];
@@ -59,7 +62,7 @@ export const useSrAchievementStore = defineStore (
             if (user) {
                 // 尝试更新，如果更新失败，重新获取所有数据
                 try {
-                    await srUpdateAchievement({ achievement_id: achievementId, complete: complete });
+                    await srUpdateAchievement({ achievement_id: `${achievementId}`, complete: `${complete}` });
                 } catch (error) {
                     console.error('Fail to update achievements:', error);
                     await fetchAchievements();
@@ -69,13 +72,27 @@ export const useSrAchievementStore = defineStore (
 
             // 更新本地数据
             target.complete = complete;
-            const branchAchievements = await srGetBranchAchievement( { achievement_id: achievementId });
-            const branchStatus = complete === "1" ? 2 : 0;
-            for (const branchAchievement in branchAchievements) {
-                const branchTarget = achievements.value.find(item => item.achievement_id === branchAchievement.achievement_id);
+            const branchAchievements = getOtherAchievements (achievementId);
+            const branchStatus = complete === 1 ? 2 : 0;
+            for (const branchAchievement of branchAchievements) {
+                const branchTarget = achievements.value.find(item => item.achievement_id === branchAchievement);
                 branchTarget.complete = branchStatus;
             }
         }
+
+        function getOtherAchievements(targetId) {
+            const branch = branches.value.find(item => item.achievement_id.includes(targetId));
+            if (!branch) return []; // 找不到直接返回空数组
+
+            return branch.achievement_id.filter(id => id !== targetId);
+        }
+
+        // function getBranchAchievementsNumber() {
+        //     const branchNumber = branches.value.length;
+        //     const totalAchievements = branches.value.map(item => item.achievement_id.length).reduce((a, b) => a + b, 0);
+        //
+        //     return totalAchievements - branchNumber;
+        // }
 
         return { achievements, isCompleteFirst, fetchAchievements, updateAchievements, completeAchievement };
     },

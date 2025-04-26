@@ -3,9 +3,12 @@ import {computed} from 'vue';
 import {useIsMobileStore} from "@/stores/isMobileStore";
 import SrAchievementReward from "@/assets/image-sr/sr-achievement-reward.png";
 import {srClasses} from "@/utils/srAchievementClass";
+import {showInfo} from "@/utils/notification";
+import {useSrAchievementStore} from "@/stores/srAchievementStore";
 
 // 使用Pinia作为本地缓存
 const isMobileStore = useIsMobileStore();
+const srAchievementStore = useSrAchievementStore();
 
 // 传入参数
 const props = defineProps({
@@ -40,6 +43,15 @@ const completeButtonMsg = computed(() => {
 })
 const isComplete = computed(() => {return props.achievement.complete === 1});
 const disableButton = computed(() => {return props.achievement.complete === 2});
+
+const handleComplete = async () => {
+  if (props.achievement.complete === 2) {
+    showInfo('该分支成就已完成，不可更改')
+    return;
+  }
+  const newState = props.achievement.complete === 1 ? 0 : 1;
+  await srAchievementStore.completeAchievement(props.achievement.achievement_id, newState);
+}
 </script>
 
 <template>
@@ -63,7 +75,8 @@ const disableButton = computed(() => {return props.achievement.complete === 2});
         <img :src="SrAchievementReward" alt="achievement reward" class="sr-achievement-reward-image" />
         <div class="sr-achievement-reward-count">{{achievementReward}}</div>
       </div>
-      <el-button round :disabled="disableButton" :plain="!isComplete" type="primary" class="sr-complete-button">
+      <el-button round :disabled="disableButton" :plain="!isComplete" @click="handleComplete" type="primary"
+                 class="sr-complete-button">
         {{ completeButtonMsg }}
       </el-button>
     </div>

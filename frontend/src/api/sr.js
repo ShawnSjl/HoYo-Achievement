@@ -10,6 +10,7 @@ export const srUpdateAchievement = (updates) => {
     return api.put("/sr/user-update", updates);
 };
 
-export const srGetBranchAchievement = (achievement_id) => {
-    return api.get("/sr/branch", achievement_id);
+// Get all SR achievement branch
+export const srGetAllBranch = () => {
+    return api.get('/sr/branch');
 }

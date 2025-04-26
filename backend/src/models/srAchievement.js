@@ -44,6 +44,13 @@ async function updateById (user_id, achievement_id, complete) {
         .merge();
 }
 
+async function getAllBranches () {
+    return db('sr_branch')
+        .select('*')
+        .orderBy('branch_id');
+
+}
+
 // Get other achievement in same branch, return [] for no branch achievement
 async function getAchievementInSameBranch (achievement_id) {
     const branch = await db('sr_branch')
@@ -68,4 +75,4 @@ async function getAchievementById (achievement_id) {
         .first();
 }
 
-module.exports = {getAll, getAllByUserId, updateById, getAchievementInSameBranch, getAchievementById}
+module.exports = {getAll, getAllByUserId, updateById, getAllBranches, getAchievementInSameBranch, getAchievementById}

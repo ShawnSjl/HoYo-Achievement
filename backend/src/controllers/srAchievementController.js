@@ -1,4 +1,4 @@
-const {getAll, getAllByUserId, updateById, getAchievementInSameBranch, getAchievementById} = require("../models/srAchievement")
+const {getAll, getAllByUserId, updateById, getAllBranches, getAchievementInSameBranch, getAchievementById} = require("../models/srAchievement")
 const { getUserById } = require('../models/users');
 const { isValidUserId } = require('../config/validator')
 
@@ -66,17 +66,23 @@ exports.updateUserAchievement = async (req, res) => {
     }
 }
 
-exports.getAchievementInBranch = async (req, res) => {
+exports.getBranches = async (req, res) => {
     try {
-        const achievement_id = req.body.achievement_id;
-        if (achievement_id == null) return res.status(400).json({ error: "Fields missing" });
+        const branches = await getAllBranches();
+        if (!branches) return res.status(404).send({ error: 'SR Achievement Branches not found' });
 
-        // Check if achievement id is valid
-        const foundAchievement = await getAchievementById(achievement_id);
-        if (!foundAchievement) return res.status(401).json({error: "Achievement does not exist"});
+        const map = new Map();
 
-        const achievementInSameBranch = await getAchievementInSameBranch(achievement_id);
-        res.status(200).json( achievementInSameBranch );
+        for (const { branch_id, achievement_id } of branches) {
+            if (!map.has(branch_id)) {
+                map.set(branch_id, { branch_id, achievement_id: [] });
+            }
+            map.get(branch_id).achievement_id.push(achievement_id);
+        }
+
+        const result = Array.from(map.values());
+
+        res.json(result);
     } catch (err) {
         console.error(err);
         return res.status(500).json({ error: "Server error" });
