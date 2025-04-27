@@ -13,7 +13,8 @@ const props = defineProps({
 })
 
 const totalNumber = computed(() => {
-  return achievementStore.achievements.filter(achievement => achievement.class === props.achievementClass).length;
+  return achievementStore.achievements.filter(achievement => achievement.class === props.achievementClass).length
+      - achievementStore.getBranchAchievementsNumberByClass(props.achievementClass);
 })
 const completeNumber = computed(() => {
   return achievementStore.achievements.filter(achievement => achievement.class === props.achievementClass &&
@@ -22,7 +23,8 @@ const completeNumber = computed(() => {
 
 const getLevel1Number = computed(() => {
   return achievementStore.achievements.filter(achievement => achievement.reward_level === 1
-      && achievement.class === props.achievementClass).length;
+      && achievement.class === props.achievementClass).length
+      - achievementStore.getBranchAchievementNumberByClassAndLevel(props.achievementClass, 1);
 })
 const getCompleteLevel1Number = computed(() => {
   return achievementStore.achievements.filter(achievement => achievement.reward_level === 1
@@ -33,7 +35,8 @@ const getCompleteLevel1Number = computed(() => {
 
 const getLevel2Number = computed(() => {
   return achievementStore.achievements.filter(achievement => achievement.reward_level === 2
-      && achievement.class === props.achievementClass).length;
+      && achievement.class === props.achievementClass).length
+      - achievementStore.getBranchAchievementNumberByClassAndLevel(props.achievementClass, 2);
 })
 const getCompleteLevel2Number = computed(() => {
   return achievementStore.achievements.filter(achievement => achievement.reward_level === 2
@@ -44,7 +47,8 @@ const getCompleteLevel2Number = computed(() => {
 
 const getLevel3Number = computed(() => {
   return achievementStore.achievements.filter(achievement => achievement.reward_level === 3
-      && achievement.class === props.achievementClass).length;
+      && achievement.class === props.achievementClass).length
+      - achievementStore.getBranchAchievementNumberByClassAndLevel(props.achievementClass, 3);
 })
 const getCompleteLevel3Number = computed(() => {
   return achievementStore.achievements.filter(achievement => achievement.reward_level === 3
