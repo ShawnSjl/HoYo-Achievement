@@ -39,7 +39,7 @@ const achievementReward = computed(() => {
 const completeButtonMsg = computed(() => {
   if (props.achievement.complete === 0) {return "未完成"}
   else if (props.achievement.complete === 1) {return "已完成"}
-  else {return "分支已完成"}
+  else {return "完成分支"}
 })
 const isComplete = computed(() => {return props.achievement.complete === 1});
 const disableButton = computed(() => {return props.achievement.complete === 2});
@@ -244,5 +244,9 @@ const handleComplete = async () => {
   .sr-complete-button {
     margin-right: 0;
   }
+}
+
+.el-button {
+  width: 80px;
 }
 </style>
