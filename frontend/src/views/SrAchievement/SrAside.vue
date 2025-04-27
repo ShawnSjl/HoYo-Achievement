@@ -1,7 +1,9 @@
 <script setup>
 import {computed} from "vue";
 import {srClasses} from "@/utils/srAchievementClass";
-import {showInfo} from "@/utils/notification";
+import {useSrAchievementStore} from "@/stores/srAchievementStore";
+
+const achievementStore = useSrAchievementStore()
 
 const achievementClass = defineModel()
 
@@ -14,6 +16,20 @@ function getAchievementImg(cls) {
 const handleSelect = async (srClass) => {
   achievementClass.value = srClass;
 }
+
+const completePercentage = computed(() => {
+  return (sr_class) => {
+    const totalNumber = achievementStore.achievements.filter(achievement => achievement.class === sr_class).length
+        - achievementStore.getBranchAchievementsNumberByClass(sr_class);
+
+    const completeNumber = achievementStore.achievements.filter(achievement => achievement.class === sr_class &&
+        achievement.complete === 1).length;
+
+    if (totalNumber === 0) return 0; // 避免除以 0
+
+    return Math.floor((completeNumber / totalNumber) * 1000) / 10;
+  };
+});
 </script>
 
 <template>
@@ -27,6 +43,7 @@ const handleSelect = async (srClass) => {
             @click="handleSelect(srClass)"
         >
           <img :src="getAchievementImg(srClass)" :alt="srClass" class="sr-button-image" />
+          <p class="sr-button-text">{{completePercentage(srClass)}}%</p>
         </div>
       </div>
     </el-scrollbar>
@@ -36,7 +53,7 @@ const handleSelect = async (srClass) => {
 <style scoped>
 .sr-button-group {
   overflow: hidden;
-  width: 80px;
+  width: 130px;
 }
 
 .sr-button-wrapper {
@@ -47,13 +64,13 @@ const handleSelect = async (srClass) => {
 }
 
 .selector-button {
-  width: 60px;
+  width: 110px;
   height: 60px;
-  border-radius: 50%;
+  border-radius: 30px;
   background-color: rgba(85, 85, 85, 0.42);
 
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   overflow: hidden;
 }
@@ -66,6 +83,12 @@ const handleSelect = async (srClass) => {
   height: 50px;
   width: 50px;
   object-fit: contain;
+}
+
+.sr-button-text {
+  font-weight: bold;
+  font-size: 16px;
+  color: #ffffff;
 }
 
 .el-button+.el-button {

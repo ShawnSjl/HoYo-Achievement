@@ -150,7 +150,7 @@ onBeforeUnmount(() => {
 }
 
 .sr-container-aside {
-  width: 100px;
+  width: 130px;
   display: flex;
 }
 
