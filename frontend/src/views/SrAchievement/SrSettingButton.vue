@@ -5,6 +5,8 @@ import {useSrAchievementStore} from "@/stores/srAchievementStore";
 import {Check, Close, Warning} from '@element-plus/icons-vue';
 import {ElMessageBox} from "element-plus";
 import {showError, showSuccess} from "@/utils/notification";
+import {srExport} from "@/utils/srExport";
+import SrImportButton from "@/views/SrAchievement/SrImportButton.vue";
 
 // 移动端适配
 const isMobileStore = useIsMobileStore();
@@ -66,6 +68,24 @@ const openWarn = () => {
             :active-icon="Check"
             :inactive-icon="Close"
         />
+      </div>
+      <div>
+        <p>导入:</p>
+        <div style="display: flex">
+          <sr-import-button />
+          <el-tooltip placement="top" effect="light">
+            <el-button :icon="Warning" circle text style="margin-left: 5px" />
+            <template #content>
+              <p>表格头匹配格式：</p>
+              <p>成就名称：'名称', '成就'</p>
+              <p>完成状态：'完成', '完成状态', '获取状态', '状态' </p>
+            </template>
+          </el-tooltip>
+        </div>
+      </div>
+      <div>
+        <p>导出:</p>
+        <el-button type="primary" round dark @click="srExport()">导出成就表格</el-button>
       </div>
       <div>
         <p>强制更新数据:</p>
