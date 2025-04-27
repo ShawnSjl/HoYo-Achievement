@@ -74,7 +74,11 @@ async function handleFile(file) {
         showError('未知成就名', item.name)
         continue;
       }
-      // 如果目标依旧被标记为完成其它分支，且更新状态为未完成，跳过
+      // 忽略未更改数据
+      if (target.complete === complete) {
+        continue;
+      }
+      // 防止被标记为未完成的分支成就清除了加载过的成就的状态
       if (target.complete === 2 && complete === 0) {
         continue;
       }
