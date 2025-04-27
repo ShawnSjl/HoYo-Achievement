@@ -2,6 +2,7 @@
 import Avatar from "@/components/Avatar.vue";
 import GameSwitch from "@/components/GameSwitch.vue";
 import SrAchievement from "@/assets/image-sr/sr-achievement.png"
+import SrSettingButton from "@/views/SrAchievement/SrSettingButton.vue";
 </script>
 
 <template>
@@ -18,7 +19,8 @@ import SrAchievement from "@/assets/image-sr/sr-achievement.png"
     </div>
 
     <div class="sr-header-right">
-      <game-switch style="margin-right: 30px" />
+      <sr-setting-button />
+      <game-switch style="margin-right: 30px; margin-left: 30px" />
       <avatar />
     </div>
   </div>
