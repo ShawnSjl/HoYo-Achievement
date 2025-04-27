@@ -3,6 +3,7 @@ import Avatar from "@/components/Avatar.vue";
 import GameSwitch from "@/components/GameSwitch.vue";
 import SrAchievement from "@/assets/image-sr/sr-achievement.png"
 import SrSettingButton from "@/views/SrAchievement/SrSettingButton.vue";
+import SrStatisticTotal from "@/views/SrAchievement/SrStatisticTotal.vue";
 </script>
 
 <template>
@@ -13,9 +14,9 @@ import SrSettingButton from "@/views/SrAchievement/SrSettingButton.vue";
         <div class="sr-header-title">成就</div>
       </div>
 
-<!--      <div class="sr-header-statistic-wrapper">-->
-<!--        统计-->
-<!--      </div>-->
+      <div class="sr-header-statistic-wrapper">
+        <sr-statistic-total />
+      </div>
     </div>
 
     <div class="sr-header-right">
@@ -54,6 +55,14 @@ import SrSettingButton from "@/views/SrAchievement/SrSettingButton.vue";
 .sr-header-title-img {
   height: 50px;
   object-fit: contain;
+}
+
+.sr-header-statistic-wrapper {
+  margin-left: 40px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 .sr-header-right {

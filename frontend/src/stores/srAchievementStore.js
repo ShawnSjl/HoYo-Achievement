@@ -87,6 +87,27 @@ export const useSrAchievementStore = defineStore (
             return branch.achievement_id.filter(id => id !== targetId);
         }
 
+        function getBranchAchievementsNumber() {
+            let count = 0;
+            for (const branch of branches.value) {
+                count = count + branch.achievement_id.length - 1;
+            }
+            return count;
+        }
+
+        function getBranchAchievementNumberByLevel(level) {
+            let count = 0;
+            for (const branch of branches.value) {
+                const achievement_id = branch.achievement_id[0];
+                const achievement = achievements.value.find(item => item.achievement_id === achievement_id);
+
+                if (level === achievement.reward_level) {
+                    count = count + branch.achievement_id.length - 1;
+                }
+            }
+            return count;
+        }
+
         function getBranchAchievementsNumberByClass(sr_class) {
             let count = 0;
             for (const branch of branches.value) {
@@ -113,7 +134,16 @@ export const useSrAchievementStore = defineStore (
             return count;
         }
 
-        return { achievements, isCompleteFirst, fetchAchievements, updateAchievements, completeAchievement, getBranchAchievementsNumberByClass, getBranchAchievementNumberByClassAndLevel };
+        return {
+            achievements,
+            isCompleteFirst,
+            fetchAchievements,
+            updateAchievements,
+            completeAchievement,
+            getBranchAchievementsNumber,
+            getBranchAchievementNumberByLevel,
+            getBranchAchievementsNumberByClass,
+            getBranchAchievementNumberByClassAndLevel };
     },
     {
         persist: true,
