@@ -51,4 +51,11 @@ async function updateById (user_id, achievement_id, complete) {
 
 }
 
-module.exports = {getAll, getAllByUserId, updateById}
+async function getAchievementById (achievement_id) {
+    return db('zzz_achievement')
+        .select('achievement_id', 'name')
+        .where({ achievement_id: achievement_id })
+        .first();
+}
+
+module.exports = {getAll, getAllByUserId, updateById, getAchievementById}

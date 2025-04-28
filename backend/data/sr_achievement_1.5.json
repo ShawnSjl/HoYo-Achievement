@@ -1,0 +1,380 @@
+[
+  {
+    "achievement_id": 1006001,
+    "class": "我，开拓者",
+    "name": "有序入场",
+    "description": "首次浏览访客登记簿",
+    "reward_level": 1,
+    "game_version": "1.5",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 2006001,
+    "class": "通往群星的轨道",
+    "name": "我心里危险的东西",
+    "description": "与桂乃芬一起绥园探灵 ※镇伏大岁阳浮烟，解决了绥园的岁阳危机",
+    "reward_level": 2,
+    "game_version": "1.5",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 2006002,
+    "class": "通往群星的轨道",
+    "name": "有尾庞庞",
+    "description": "与捉鬼小队一起收集怪谈异闻 ※找回尾巴，镇伏罗浮逃逸岁阳…",
+    "reward_level": 2,
+    "game_version": "1.5",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 3006001,
+    "class": "战意奔涌",
+    "name": "地主家也没有余粮啊",
+    "description": "拥有「窃据」异状的敌方单位攻击时偷取战技点失败5次",
+    "reward_level": 1,
+    "game_version": "1.5",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 3006002,
+    "class": "战意奔涌",
+    "name": "真判官讨鬼传",
+    "description": "未受到伤害完成「降妖辑录」任意关卡",
+    "reward_level": 1,
+    "game_version": "1.5",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 3006003,
+    "class": "战意奔涌",
+    "name": "鬼火的邪恶镰刀",
+    "description": "使用驱邪术将扑满变成扑满",
+    "reward_level": 1,
+    "game_version": "1.5",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 3006004,
+    "class": "战意奔涌",
+    "name": "五雷轰顶",
+    "description": "同时触发3个及以上的「五雷镇邪」并结束战斗",
+    "reward_level": 1,
+    "game_version": "1.5",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 3006005,
+    "class": "战意奔涌",
+    "name": "燚",
+    "description": "在「幻障迷境•浮烟」挑战中，场上同时存在4只「炎华造物」",
+    "reward_level": 1,
+    "game_version": "1.5",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 3006006,
+    "class": "战意奔涌",
+    "name": "全体集合！解散——",
+    "description": "使用藿藿秘技「凶煞•劾压鬼物」，同时让6个及以上目标逃跑",
+    "reward_level": 1,
+    "game_version": "1.5",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 5006001,
+    "class": "果壳中的宇宙",
+    "name": "纯美的自助",
+    "description": "在「模拟宇宙」中，使用包含银枝的队伍接受纯美骑士的帮助",
+    "reward_level": 1,
+    "game_version": "1.5",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 7006001,
+    "class": "瞬息欢愉",
+    "name": "不可能任务？",
+    "description": "使用藿藿普攻「令旗•征风召雨」，击败幻胧",
+    "reward_level": 1,
+    "game_version": "1.5",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 7006002,
+    "class": "瞬息欢愉",
+    "name": "晚安玛卡巴卡",
+    "description": "使用安眠锤后进入战斗，并有任意角色陷入强烈震荡状态",
+    "reward_level": 1,
+    "game_version": "1.5",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 7006003,
+    "class": "瞬息欢愉",
+    "name": "捉鬼敢死队",
+    "description": "使用同时包含藿藿、素裳、桂乃芬、开拓者的队伍获得1场战斗的胜利",
+    "reward_level": 1,
+    "game_version": "1.5",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 7006004,
+    "class": "瞬息欢愉",
+    "name": "逃避可耻但有用！",
+    "description": "使用我方角色藿藿在队友全部陷入无法战斗状态时撤退",
+    "reward_level": 1,
+    "game_version": "1.5",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 7006005,
+    "class": "瞬息欢愉",
+    "name": "银河枪骑队",
+    "description": "使用同时包含银枝、开拓者的队伍获得1场战斗的胜利",
+    "reward_level": 1,
+    "game_version": "1.5",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 7006006,
+    "class": "瞬息欢愉",
+    "name": "在世界中心呼唤我",
+    "description": "触发10句不同的队伍编成•开拓者语音",
+    "reward_level": 1,
+    "game_version": "1.5",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8006001,
+    "class": "与你同行的回忆",
+    "name": "百战天虫",
+    "description": "完成同行任务「宇宙幻觉之夜」",
+    "reward_level": 1,
+    "game_version": "1.5",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8006002,
+    "class": "与你同行的回忆",
+    "name": "我，龙尊，打钱",
+    "description": "在绥园收到假冒龙尊的诈骗短信",
+    "reward_level": 1,
+    "game_version": "1.5",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8006003,
+    "class": "与你同行的回忆",
+    "name": "鬼哈哈！",
+    "description": "从绥园小鬼处获得900个谜题的奖励",
+    "reward_level": 1,
+    "game_version": "1.5",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8006004,
+    "class": "与你同行的回忆",
+    "name": "何不于君指上听",
+    "description": "帮助古琴上的岁阳完成琴曲",
+    "reward_level": 1,
+    "game_version": "1.5",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8006005,
+    "class": "与你同行的回忆",
+    "name": "高山与流水",
+    "description": "与鬼伶合唱一曲《合巹记》，完美演出",
+    "reward_level": 1,
+    "game_version": "1.5",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8006006,
+    "class": "与你同行的回忆",
+    "name": "学徒、儿徒和逆徒！",
+    "description": "与鬼伶合唱一曲《合巹记》，记错唱词",
+    "reward_level": 1,
+    "game_version": "1.5",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8006007,
+    "class": "与你同行的回忆",
+    "name": "灵鹫宫石壁",
+    "description": "在狐眠冢，破解墓碑上的神秘传承",
+    "reward_level": 1,
+    "game_version": "1.5",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8006008,
+    "class": "与你同行的回忆",
+    "name": "闭上我的眼",
+    "description": "在狐眠冢，遭遇墓碑主人",
+    "reward_level": 1,
+    "game_version": "1.5",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8006009,
+    "class": "与你同行的回忆",
+    "name": "金色！传奇！",
+    "description": "在帝垣琼玉新玩法中开出金色奖励！",
+    "reward_level": 1,
+    "game_version": "1.5",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8006010,
+    "class": "与你同行的回忆",
+    "name": "微暗的火",
+    "description": "在文远和若昔的苦苦哀求中，坚持带走岁阳",
+    "reward_level": 1,
+    "game_version": "1.5",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8006011,
+    "class": "与你同行的回忆",
+    "name": "致不灭的你",
+    "description": "在文远和若昔的苦苦哀求中，选择放过岁阳",
+    "reward_level": 1,
+    "game_version": "1.5",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8006012,
+    "class": "与你同行的回忆",
+    "name": "直到世界尽头",
+    "description": "与宝烛畅游罗浮之后，将它放归宇宙",
+    "reward_level": 1,
+    "game_version": "1.5",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8006013,
+    "class": "与你同行的回忆",
+    "name": "煞炁镇乾坤",
+    "description": "与宝烛畅游罗浮之后，将它封入镇妖塔",
+    "reward_level": 1,
+    "game_version": "1.5",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8006014,
+    "class": "与你同行的回忆",
+    "name": "你好，世界！",
+    "description": "在「罗浮杂俎」网站上发布一条帖子",
+    "reward_level": 1,
+    "game_version": "1.5",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8006015,
+    "class": "与你同行的回忆",
+    "name": "你好，新世界！",
+    "description": "在「罗浮杂俎」网站上收获100.0万粉丝",
+    "reward_level": 2,
+    "game_version": "1.5",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8006016,
+    "class": "与你同行的回忆",
+    "name": "云笈七签",
+    "description": "掌握所有驱邪之术",
+    "reward_level": 1,
+    "game_version": "1.5",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8006017,
+    "class": "与你同行的回忆",
+    "name": "枰上棋争",
+    "description": "完成降妖辑录所有的挑战",
+    "reward_level": 2,
+    "game_version": "1.5",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8006018,
+    "class": "与你同行的回忆",
+    "name": "巡猎型博主",
+    "description": "在「罗浮杂俎」网站上发布了更多「震惊头条」的帖子",
+    "reward_level": 1,
+    "game_version": "1.5",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8006019,
+    "class": "与你同行的回忆",
+    "name": "神秘型博主",
+    "description": "在「罗浮杂俎」网站上发布了更多「怪谈科普」的帖子",
+    "reward_level": 1,
+    "game_version": "1.5",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8006020,
+    "class": "与你同行的回忆",
+    "name": "欢愉型博主",
+    "description": "在「罗浮杂俎」网站上发布了更多「娱乐八卦」的帖子",
+    "reward_level": 1,
+    "game_version": "1.5",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8006021,
+    "class": "与你同行的回忆",
+    "name": "均衡型博主",
+    "description": "在「罗浮杂俎」网站上发布了同样多不同倾向的帖子",
+    "reward_level": 1,
+    "game_version": "1.5",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8006022,
+    "class": "与你同行的回忆",
+    "name": "「给我点赞吧！」",
+    "description": "在「罗浮杂俎」网站上累计为15个帖子点赞",
+    "reward_level": 1,
+    "game_version": "1.5",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8006023,
+    "class": "与你同行的回忆",
+    "name": "密码在手中",
+    "description": "在「罗浮杂俎」网站上累计回复数超过10个",
+    "reward_level": 1,
+    "game_version": "1.5",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8006024,
+    "class": "与你同行的回忆",
+    "name": "聚是一团火，散是满天星",
+    "description": "使用「降魔机巧鸟」收集了24个逸散岁阳",
+    "reward_level": 1,
+    "game_version": "1.5",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 9006001,
+    "class": "众秘探奇",
+    "name": "泥人哥连出世记",
+    "description": "在绥园，累计获得9次「寻径指津」奖励",
+    "reward_level": 1,
+    "game_version": "1.5",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 9006002,
+    "class": "众秘探奇",
+    "name": "初极狭，才通人",
+    "description": "穿过铜镜，打开藏在浮空岛上的战利品",
+    "reward_level": 1,
+    "game_version": "1.5",
+    "hidden": 0
+  }
+]

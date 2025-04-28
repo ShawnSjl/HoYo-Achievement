@@ -1,0 +1,398 @@
+[
+  {
+    "achievement_id": 2011001,
+    "class": "通往群星的轨道",
+    "name": "繁花将尽",
+    "description": "为逝者干杯，敬苦涩的现实 ※调制特饮「长梦苦短」",
+    "reward_level": 2,
+    "game_version": "2.3",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 2011002,
+    "class": "通往群星的轨道",
+    "name": "生活多美好",
+    "description": "为逝者干杯，敬甜蜜的明天 ※调制特饮「溺甜」",
+    "reward_level": 2,
+    "game_version": "2.3",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 2011003,
+    "class": "通往群星的轨道",
+    "name": "与我同行",
+    "description": "与星穹列车不期而遇 ※流萤视角下，在晖长石号上看到列车组",
+    "reward_level": 2,
+    "game_version": "2.3",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 2011004,
+    "class": "通往群星的轨道",
+    "name": "在路上",
+    "description": "与星穹列车擦肩而过 ※流萤视角下，在晖长石号上专注于寻找「慈玉典押」",
+    "reward_level": 2,
+    "game_version": "2.3",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 2011005,
+    "class": "通往群星的轨道",
+    "name": "愚人船",
+    "description": "为你我的命运添上新的注脚 ※成功解决「炸弹」危机，观赏盛大的烟火",
+    "reward_level": 2,
+    "game_version": "2.3",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 2011006,
+    "class": "通往群星的轨道",
+    "name": "请为我叙说，缪斯",
+    "description": "决定匹诺康尼之旅的下一站 ※出发——「永恒之地」翁法罗斯！",
+    "reward_level": 2,
+    "game_version": "2.3",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 3011001,
+    "class": "战意奔涌",
+    "name": "盛会之星专项组",
+    "description": "使用同时包含托帕&账账、真理医生、砂金、翡翠的队伍获得1场战斗的胜利",
+    "reward_level": 1,
+    "game_version": "2.3",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 3011002,
+    "class": "战意奔涌",
+    "name": "《救猫咪》",
+    "description": "使用同时包含银狼、刃、卡芙卡、流萤的队伍获得1场战斗的胜利",
+    "reward_level": 1,
+    "game_version": "2.3",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 3011003,
+    "class": "战意奔涌",
+    "name": "致命契约",
+    "description": "单场战斗中，当友方持有翡翠战技【收债人】效果时，将当前生命值消耗至1",
+    "reward_level": 1,
+    "game_version": "2.3",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 3011004,
+    "class": "战意奔涌",
+    "name": "去吧，阿…萨姆",
+    "description": "使用我方角色流萤对战卡芙卡并陷入「支配」状态",
+    "reward_level": 1,
+    "game_version": "2.3",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 3011005,
+    "class": "战意奔涌",
+    "name": "我将，点燃大海！",
+    "description": "单场战斗中，使用装甲「萨姆」在「完全燃烧」状态结束前施放4次【火萤Ⅳ型-死星过载】",
+    "reward_level": 1,
+    "game_version": "2.3",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 3011006,
+    "class": "战意奔涌",
+    "name": "见过夏天",
+    "description": "使用同时包含流萤、开拓者的队伍获得1场战斗的胜利",
+    "reward_level": 1,
+    "game_version": "2.3",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 7011001,
+    "class": "瞬息欢愉",
+    "name": "客随主便",
+    "description": "在获得晖长石号所有权之前，在泳池中冲刺玩水并遭到训斥",
+    "reward_level": 1,
+    "game_version": "2.3",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 7011002,
+    "class": "瞬息欢愉",
+    "name": "主随客便",
+    "description": "在获得晖长石号所有权后，在泳池中冲刺玩水",
+    "reward_level": 1,
+    "game_version": "2.3",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8011001,
+    "class": "与你同行的回忆",
+    "name": "贴纸，好多贴纸",
+    "description": "「梦境护照」全部页面完成度100%",
+    "reward_level": 2,
+    "game_version": "2.3",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8011002,
+    "class": "与你同行的回忆",
+    "name": "酒店内禁止执行任务",
+    "description": "完成冒险任务「退房」",
+    "reward_level": 1,
+    "game_version": "2.3",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8011003,
+    "class": "与你同行的回忆",
+    "name": "蔷薇的葬列",
+    "description": "完成冒险任务「终末鼻烟胶卷」",
+    "reward_level": 1,
+    "game_version": "2.3",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8011004,
+    "class": "与你同行的回忆",
+    "name": "我的船长我的船",
+    "description": "完成冒险任务「云帆归心」",
+    "reward_level": 1,
+    "game_version": "2.3",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8011005,
+    "class": "与你同行的回忆",
+    "name": "未曾设想的合照",
+    "description": "「折纸小鸟对对碰」活动中，拍摄大合照",
+    "reward_level": 2,
+    "game_version": "2.3",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8011006,
+    "class": "与你同行的回忆",
+    "name": "Omega Ruby",
+    "description": "「折纸小鸟对对碰」活动中，将银狼小鸟、流萤小鸟与开拓小鸟摆放在同一侧街机上",
+    "reward_level": 1,
+    "game_version": "2.3",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8011007,
+    "class": "与你同行的回忆",
+    "name": "Alpha Sapphire",
+    "description": "「折纸小鸟对对碰」活动中，将开拓小鸟与三月小鸟摆放在相邻街机上",
+    "reward_level": 1,
+    "game_version": "2.3",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8011008,
+    "class": "与你同行的回忆",
+    "name": "根本难不倒它",
+    "description": "「折纸小鸟对对碰」活动中，单局对战内触发30次小鸟技能",
+    "reward_level": 1,
+    "game_version": "2.3",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8011009,
+    "class": "与你同行的回忆",
+    "name": "愤怒的折纸小鸟",
+    "description": "「折纸小鸟对对碰」活动中，单局对战内手动触发15次炸弹组合",
+    "reward_level": 1,
+    "game_version": "2.3",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8011010,
+    "class": "与你同行的回忆",
+    "name": "鸟！鸟！鸟！",
+    "description": "「折纸小鸟对对碰」活动中，单局对战内小鸟最高战斗力达到300",
+    "reward_level": 1,
+    "game_version": "2.3",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8011011,
+    "class": "与你同行的回忆",
+    "name": "折纸动物园",
+    "description": "「折纸小鸟对对碰」活动中，在所有自由挑战中取得胜利",
+    "reward_level": 1,
+    "game_version": "2.3",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8011012,
+    "class": "与你同行的回忆",
+    "name": "一位明星的诞生",
+    "description": "在晖长石号的舞台上安排合适的表演人员",
+    "reward_level": 1,
+    "game_version": "2.3",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8011013,
+    "class": "与你同行的回忆",
+    "name": "极品飞车",
+    "description": "在晖长石号的专属车位停放车辆",
+    "reward_level": 1,
+    "game_version": "2.3",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8011014,
+    "class": "与你同行的回忆",
+    "name": "家庭影院",
+    "description": "在晖长石号上使用放映机，并邀请列车组成员前来观看",
+    "reward_level": 1,
+    "game_version": "2.3",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8011015,
+    "class": "与你同行的回忆",
+    "name": "王下十八桶",
+    "description": "在匹诺康尼完成试炼之桶的全部挑战",
+    "reward_level": 1,
+    "game_version": "2.3",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8011016,
+    "class": "与你同行的回忆",
+    "name": "幸运特快",
+    "description": "在晖长石号上签收砂金送来的包裹",
+    "reward_level": 1,
+    "game_version": "2.3",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8011017,
+    "class": "与你同行的回忆",
+    "name": "星穹列车夜现场",
+    "description": "使用黄金扭蛋币购买小小哈努兄弟电视机，并将其安装到列车车厢内",
+    "reward_level": 1,
+    "game_version": "2.3",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8011018,
+    "class": "与你同行的回忆",
+    "name": "看不见的客人",
+    "description": "变身哈努兄弟闯入其他列车组成员的房间",
+    "reward_level": 1,
+    "game_version": "2.3",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8011019,
+    "class": "与你同行的回忆",
+    "name": "自费周边",
+    "description": "获得开拓者的船长周边玩具",
+    "reward_level": 1,
+    "game_version": "2.3",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8011020,
+    "class": "与你同行的回忆",
+    "name": "影子船长",
+    "description": "与开拓者船长的广告牌对话",
+    "reward_level": 1,
+    "game_version": "2.3",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8011021,
+    "class": "与你同行的回忆",
+    "name": "黑镜之下",
+    "description": "在控制室内，激活监控，观察晖长石号船体",
+    "reward_level": 1,
+    "game_version": "2.3",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8011022,
+    "class": "与你同行的回忆",
+    "name": "重返荣耀",
+    "description": "为晖长石号更名并更换尾翼涂装",
+    "reward_level": 1,
+    "game_version": "2.3",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8011023,
+    "class": "与你同行的回忆",
+    "name": "看不见的城市",
+    "description": "在晖长石号上使用瞭望镜",
+    "reward_level": 1,
+    "game_version": "2.3",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8011024,
+    "class": "与你同行的回忆",
+    "name": "我心永恒",
+    "description": "在晖长石号的船头远望",
+    "reward_level": 1,
+    "game_version": "2.3",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8011025,
+    "class": "与你同行的回忆",
+    "name": "完整的恐怖故事",
+    "description": "使用钟表把戏阅读贝拉的所有情绪",
+    "reward_level": 1,
+    "game_version": "2.3",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8011026,
+    "class": "与你同行的回忆",
+    "name": "恶灵附身",
+    "description": "使用钟表把戏阅读塞提芬诺的欢欣情绪",
+    "reward_level": 1,
+    "game_version": "2.3",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8011027,
+    "class": "与你同行的回忆",
+    "name": "星星的金币",
+    "description": "集齐匹诺康尼的所有黄金扭蛋币",
+    "reward_level": 1,
+    "game_version": "2.3",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8011028,
+    "class": "与你同行的回忆",
+    "name": "Captain! My Captain!",
+    "description": "首次进入晖长石号船长的专属空间",
+    "reward_level": 1,
+    "game_version": "2.3",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 9011001,
+    "class": "众秘探奇",
+    "name": "气球，向着明天——",
+    "description": "打破晖长石号中的特殊石头老板气球",
+    "reward_level": 1,
+    "game_version": "2.3",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 9011002,
+    "class": "众秘探奇",
+    "name": "可惜不是吹奏部",
+    "description": "拯救晖长石号上的迷钟「老大」",
+    "reward_level": 1,
+    "game_version": "2.3",
+    "hidden": 0
+  }
+]

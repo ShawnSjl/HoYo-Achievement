@@ -1,0 +1,731 @@
+[
+  {
+    "achievement_id": 2004001,
+    "class": "通往群星的轨道",
+    "name": "生者为过客",
+    "description": "告别仙舟「罗浮」 ※参与慰灵奠仪，与仙舟结为同盟",
+    "reward_level": 2,
+    "game_version": "1.3",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 3004001,
+    "class": "战意奔涌",
+    "name": "破冰镐",
+    "description": "使用玲可击败被冻住的敌人",
+    "reward_level": 1,
+    "game_version": "1.3",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 3004002,
+    "class": "战意奔涌",
+    "name": "演武仪典：重剑试",
+    "description": "使用我方角色素裳对战彦卿时完成制胜一击",
+    "reward_level": 1,
+    "game_version": "1.3",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 3004003,
+    "class": "战意奔涌",
+    "name": "演武仪典：细剑试",
+    "description": "使用我方角色罗刹对战彦卿时完成制胜一击",
+    "reward_level": 1,
+    "game_version": "1.3",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 3004004,
+    "class": "战意奔涌",
+    "name": "最佳第五…虫？",
+    "description": "利用次蛰虫或幼蛰虫施放的「蛰亡语」消灭虫群•真蛰虫",
+    "reward_level": 1,
+    "game_version": "1.3",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 3004005,
+    "class": "战意奔涌",
+    "name": "我即是虫群",
+    "description": "当虫群•真蛰虫施放「虫群突袭」时，场上不存在幼蛰虫或次蛰虫",
+    "reward_level": 1,
+    "game_version": "1.3",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 3004006,
+    "class": "战意奔涌",
+    "name": "只是虫子",
+    "description": "单次攻击中同时消灭2只虫群•真蛰虫",
+    "reward_level": 1,
+    "game_version": "1.3",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 3004007,
+    "class": "战意奔涌",
+    "name": "演武仪典：阵刀试",
+    "description": "使用我方角色景元对战彦卿时完成制胜一击",
+    "reward_level": 1,
+    "game_version": "1.3",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 3004008,
+    "class": "战意奔涌",
+    "name": "三龙出海",
+    "description": "单场战斗中连续3次在丹恒•饮月的回合施放「盘拏耀跃」",
+    "reward_level": 1,
+    "game_version": "1.3",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 3004009,
+    "class": "战意奔涌",
+    "name": "求生、求生、求生",
+    "description": "单场战斗使用玲可提高3次友方生命上限",
+    "reward_level": 1,
+    "game_version": "1.3",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 3004010,
+    "class": "战意奔涌",
+    "name": "呵，银河大乐透？",
+    "description": "单场战斗中，符玄累计触发4次天赋「乾清坤夷，否极泰来」的生命回复效果",
+    "reward_level": 1,
+    "game_version": "1.3",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 5004001,
+    "class": "果壳中的宇宙",
+    "name": "虫巢意志",
+    "description": "「模拟宇宙」内，累计解锁1个「繁育」命途的祝福",
+    "reward_level": 1,
+    "game_version": "1.3",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 5004002,
+    "class": "果壳中的宇宙",
+    "name": "四百击",
+    "description": "「模拟宇宙」内，单场战斗中累计使用至少40次普攻并获胜",
+    "reward_level": 1,
+    "game_version": "1.3",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 5004003,
+    "class": "果壳中的宇宙",
+    "name": "第四阶段",
+    "description": "通关「模拟宇宙」时，携带「繁育」命途的祝福数量大于等于10",
+    "reward_level": 1,
+    "game_version": "1.3",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 5004004,
+    "class": "果壳中的宇宙",
+    "name": "《菲雅尔塔的春天》",
+    "description": "使用「欢愉」命途通关「模拟宇宙：寰宇蝗灾」时，累计获得12种不同的「快乐」",
+    "reward_level": 1,
+    "game_version": "1.3",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 5004005,
+    "class": "果壳中的宇宙",
+    "name": "秋狝冬狩",
+    "description": "「模拟宇宙：寰宇蝗灾」内，使用「巡猎」命途在单一位面通过战斗捕捉8只以上扑满",
+    "reward_level": 1,
+    "game_version": "1.3",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 5004006,
+    "class": "果壳中的宇宙",
+    "name": "心房客",
+    "description": "「模拟宇宙：寰宇蝗灾」内，使用「记忆」命途连续6次复制【奖励】区域",
+    "reward_level": 1,
+    "game_version": "1.3",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 5004007,
+    "class": "果壳中的宇宙",
+    "name": "铁血战士",
+    "description": "使用「毁灭」命途通关「模拟宇宙：寰宇蝗灾」时，获得40场战斗胜利",
+    "reward_level": 1,
+    "game_version": "1.3",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 5004008,
+    "class": "果壳中的宇宙",
+    "name": "象征交换与死亡",
+    "description": "使用「虚无」命途通关「模拟宇宙：寰宇蝗灾」时，进入15个【空白】区域",
+    "reward_level": 1,
+    "game_version": "1.3",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 5004009,
+    "class": "果壳中的宇宙",
+    "name": "模拟宇宙不是一天建成的",
+    "description": "使用「存护」命途通关「模拟宇宙：寰宇蝗灾」时，为8种不同类型的区域附加【基石】",
+    "reward_level": 1,
+    "game_version": "1.3",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 5004010,
+    "class": "果壳中的宇宙",
+    "name": "弹指一挥",
+    "description": "使用「丰饶」命途通关「模拟宇宙：寰宇蝗灾」时，倒计时大于等于80",
+    "reward_level": 1,
+    "game_version": "1.3",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 5004011,
+    "class": "果壳中的宇宙",
+    "name": "重返克兰达夫",
+    "description": "使用「繁育」命途通关「模拟宇宙：寰宇蝗灾」时，进入15次【战斗•虫群】、【事件•虫群】或【首领•虫群】区域",
+    "reward_level": 1,
+    "game_version": "1.3",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 5004012,
+    "class": "果壳中的宇宙",
+    "name": "《欢迎来到猴子展厅》",
+    "description": "「模拟宇宙：寰宇蝗灾」内，累计投掷觐见之骰•欢愉100次",
+    "reward_level": 1,
+    "game_version": "1.3",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 5004013,
+    "class": "果壳中的宇宙",
+    "name": "飞砾雨散，刚瘅必毙",
+    "description": "「模拟宇宙：寰宇蝗灾」内，累计投掷觐见之骰•巡猎100次",
+    "reward_level": 1,
+    "game_version": "1.3",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 5004014,
+    "class": "果壳中的宇宙",
+    "name": "永恒和一日",
+    "description": "「模拟宇宙：寰宇蝗灾」内，累计投掷觐见之骰•记忆100次",
+    "reward_level": 1,
+    "game_version": "1.3",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 5004015,
+    "class": "果壳中的宇宙",
+    "name": "作为表象的世界",
+    "description": "「模拟宇宙：寰宇蝗灾」内，累计投掷觐见之骰•虚无100次",
+    "reward_level": 1,
+    "game_version": "1.3",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 5004016,
+    "class": "果壳中的宇宙",
+    "name": "焦土政策",
+    "description": "「模拟宇宙：寰宇蝗灾」内，累计投掷觐见之骰•毁灭100次",
+    "reward_level": 1,
+    "game_version": "1.3",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 5004017,
+    "class": "果壳中的宇宙",
+    "name": "声闻缘觉",
+    "description": "「模拟宇宙：寰宇蝗灾」内，累计投掷觐见之骰•丰饶100次",
+    "reward_level": 1,
+    "game_version": "1.3",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 5004018,
+    "class": "果壳中的宇宙",
+    "name": "均匀成核",
+    "description": "「模拟宇宙：寰宇蝗灾」内，累计投掷觐见之骰•存护100次",
+    "reward_level": 1,
+    "game_version": "1.3",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 5004019,
+    "class": "果壳中的宇宙",
+    "name": "玛士撒拉之子",
+    "description": "「模拟宇宙：寰宇蝗灾」内，累计投掷觐见之骰•繁育100次",
+    "reward_level": 1,
+    "game_version": "1.3",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 5004020,
+    "class": "果壳中的宇宙",
+    "name": "智库长",
+    "description": "通关「模拟宇宙：寰宇蝗灾」时，拥有的宇宙碎片数量大于等于9999",
+    "reward_level": 2,
+    "game_version": "1.3",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 5004021,
+    "class": "果壳中的宇宙",
+    "name": "手可摘星辰",
+    "description": "在「模拟宇宙：寰宇蝗灾」的事件星际和平公司「升职记」中掌握了无尽权力",
+    "reward_level": 1,
+    "game_version": "1.3",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 5004022,
+    "class": "果壳中的宇宙",
+    "name": "Q先生",
+    "description": "在「模拟宇宙：寰宇蝗灾」中，在同一个【交易】区域内购买所有祝福商店与奇物商店的商品",
+    "reward_level": 1,
+    "game_version": "1.3",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 5004023,
+    "class": "果壳中的宇宙",
+    "name": "欢迎来到瓦尔哈拉",
+    "description": "在「模拟宇宙：寰宇蝗灾」中，在事件天才俱乐部#55余清涂触发的战斗中失败",
+    "reward_level": 1,
+    "game_version": "1.3",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 5004024,
+    "class": "果壳中的宇宙",
+    "name": "无敌破坏王Ⅱ",
+    "description": "在一次「模拟宇宙：寰宇蝗灾」中，本次挑战累计击破可破坏物数量大于等于100",
+    "reward_level": 1,
+    "game_version": "1.3",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 5004025,
+    "class": "果壳中的宇宙",
+    "name": "牧场物语",
+    "description": "在「模拟宇宙：寰宇蝗灾」的一个【冒险】区域内捕捉扑满数量大于等于16",
+    "reward_level": 1,
+    "game_version": "1.3",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 5004026,
+    "class": "果壳中的宇宙",
+    "name": "不同命途的房间",
+    "description": "在「模拟宇宙：寰宇蝗灾」中，点亮1个隐藏的【行者之道】",
+    "reward_level": 1,
+    "game_version": "1.3",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 5004027,
+    "class": "果壳中的宇宙",
+    "name": "独唱团",
+    "description": "在一次「模拟宇宙：寰宇蝗灾」中，发生2次回响交错",
+    "reward_level": 1,
+    "game_version": "1.3",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 5004028,
+    "class": "果壳中的宇宙",
+    "name": "存护还是毁灭？",
+    "description": "在「模拟宇宙：寰宇蝗灾」的【事件】区域中，完成1次命途的抉择",
+    "reward_level": 1,
+    "game_version": "1.3",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 5004029,
+    "class": "果壳中的宇宙",
+    "name": "命运转盘",
+    "description": "在「模拟宇宙：寰宇蝗灾」的【事件】区域中，完成所有命途的抉择",
+    "reward_level": 1,
+    "game_version": "1.3",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 5004030,
+    "class": "果壳中的宇宙",
+    "name": "笃定发生",
+    "description": "在「模拟宇宙：寰宇蝗灾」中，累计使用10次作弊",
+    "reward_level": 1,
+    "game_version": "1.3",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 5004031,
+    "class": "果壳中的宇宙",
+    "name": "回到未来",
+    "description": "在「模拟宇宙：寰宇蝗灾」中，累计使用50次重投",
+    "reward_level": 1,
+    "game_version": "1.3",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 5004032,
+    "class": "果壳中的宇宙",
+    "name": "永恒国度的终焉",
+    "description": "在「模拟宇宙：寰宇蝗灾」中，使用「虚无」以外的命途进入【空白】区域",
+    "reward_level": 1,
+    "game_version": "1.3",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 5004033,
+    "class": "果壳中的宇宙",
+    "name": "乘坐彗星",
+    "description": "在「模拟宇宙：寰宇蝗灾」中，在任意【冒险】区域达成所有目标",
+    "reward_level": 1,
+    "game_version": "1.3",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 5004034,
+    "class": "果壳中的宇宙",
+    "name": "维兰德汤谷调查员",
+    "description": "在「模拟宇宙：寰宇蝗灾」中，使用「繁育」以外的命途累计进入15次【战斗•虫群】、【事件•虫群】或【首领•虫群】区域",
+    "reward_level": 1,
+    "game_version": "1.3",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 5004035,
+    "class": "果壳中的宇宙",
+    "name": "质量中继器",
+    "description": "在「模拟宇宙：寰宇蝗灾」通关时，使【位面紊乱！】的【扰动等级】大于等于20级",
+    "reward_level": 1,
+    "game_version": "1.3",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 5004036,
+    "class": "果壳中的宇宙",
+    "name": "宇宙静悄悄",
+    "description": "通关「模拟宇宙：寰宇蝗灾」全部寰宇蝗灾剧情",
+    "reward_level": 2,
+    "game_version": "1.3",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 5004037,
+    "class": "果壳中的宇宙",
+    "name": "异乡异客",
+    "description": "收集「模拟宇宙：寰宇蝗灾」全部开拓秘闻剧情",
+    "reward_level": 2,
+    "game_version": "1.3",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 5004038,
+    "class": "果壳中的宇宙",
+    "name": "轨道核打击",
+    "description": "完成「模拟宇宙：寰宇蝗灾」第五难度",
+    "reward_level": 1,
+    "game_version": "1.3",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 5004039,
+    "class": "果壳中的宇宙",
+    "name": "逐蝗疫于四裔",
+    "description": "收集「寰宇蝗灾」的章节「巡猎Ⅰ」",
+    "reward_level": 1,
+    "game_version": "1.3",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 5004040,
+    "class": "果壳中的宇宙",
+    "name": "巴别塔之梦",
+    "description": "收集「寰宇蝗灾」的章节「存护Ⅱ」",
+    "reward_level": 1,
+    "game_version": "1.3",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 5004041,
+    "class": "果壳中的宇宙",
+    "name": "看哪，这人",
+    "description": "收集「寰宇蝗灾」的章节「虚无Ⅰ」",
+    "reward_level": 1,
+    "game_version": "1.3",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 7004001,
+    "class": "瞬息欢愉",
+    "name": "先别急",
+    "description": "在被敌方追击状态下坚持15秒不进入战斗",
+    "reward_level": 1,
+    "game_version": "1.3",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 7004002,
+    "class": "瞬息欢愉",
+    "name": "茶浓于水",
+    "description": "连续3天每天饮用「仙人快乐茶」",
+    "reward_level": 1,
+    "game_version": "1.3",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 7004003,
+    "class": "瞬息欢愉",
+    "name": "罗浮老饕",
+    "description": "连续3天每天饮用「苏打豆汁儿」",
+    "reward_level": 1,
+    "game_version": "1.3",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 7004004,
+    "class": "瞬息欢愉",
+    "name": "只是张图片",
+    "description": "首次更换手机壁纸",
+    "reward_level": 1,
+    "game_version": "1.3",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 7004005,
+    "class": "瞬息欢愉",
+    "name": "超越语言的艺术",
+    "description": "首次更换短信和聊天对话框",
+    "reward_level": 1,
+    "game_version": "1.3",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 7004006,
+    "class": "瞬息欢愉",
+    "name": "帕姆总冠军！",
+    "description": "累计对5个好友发送帕姆的表情图片",
+    "reward_level": 1,
+    "game_version": "1.3",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 7004007,
+    "class": "瞬息欢愉",
+    "name": "尽在不言中",
+    "description": "累计发送20张星穹列车成员的表情图片",
+    "reward_level": 1,
+    "game_version": "1.3",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 7004008,
+    "class": "瞬息欢愉",
+    "name": "致世界上的另一个我",
+    "description": "收到另一个性别的开拓者表情图片",
+    "reward_level": 1,
+    "game_version": "1.3",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 7004009,
+    "class": "瞬息欢愉",
+    "name": "以朗道之名！",
+    "description": "使用同时包含希露瓦、杰帕德、玲可的队伍获得1场战斗的胜利",
+    "reward_level": 1,
+    "game_version": "1.3",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 7004010,
+    "class": "瞬息欢愉",
+    "name": "让炮弹飞",
+    "description": "探索中使用娜塔莎攻击超远距离敌人并进入战斗或击碎超远距离可破坏物",
+    "reward_level": 1,
+    "game_version": "1.3",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8004001,
+    "class": "与你同行的回忆",
+    "name": "忘川之水何其苦",
+    "description": "完成同行任务「全面回忆」",
+    "reward_level": 1,
+    "game_version": "1.3",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8004002,
+    "class": "与你同行的回忆",
+    "name": "雪原的原风景",
+    "description": "完成同行任务「比雪原更遥远」",
+    "reward_level": 1,
+    "game_version": "1.3",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8004003,
+    "class": "与你同行的回忆",
+    "name": "旧时雨露",
+    "description": "完成同行任务「龙返其乡」",
+    "reward_level": 1,
+    "game_version": "1.3",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8004004,
+    "class": "与你同行的回忆",
+    "name": "只剩下雪白的灰",
+    "description": "完成同行任务「我的挚爱，我的血肉」",
+    "reward_level": 1,
+    "game_version": "1.3",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8004005,
+    "class": "与你同行的回忆",
+    "name": "安逸的晚间七点",
+    "description": "完整收听1期《星际和平播报》",
+    "reward_level": 1,
+    "game_version": "1.3",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8004006,
+    "class": "与你同行的回忆",
+    "name": "往复不止",
+    "description": "向克利欧讲述陶德一事的真相",
+    "reward_level": 1,
+    "game_version": "1.3",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8004007,
+    "class": "与你同行的回忆",
+    "name": "岔路新生",
+    "description": "向克利欧隐瞒陶德一事的真相",
+    "reward_level": 1,
+    "game_version": "1.3",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8004008,
+    "class": "与你同行的回忆",
+    "name": "令金人巷再次繁荣！",
+    "description": "完成任务「金戺重喧•其四」，赢下金人巷商业区竞标",
+    "reward_level": 2,
+    "game_version": "1.3",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8004009,
+    "class": "与你同行的回忆",
+    "name": "草槎借箭",
+    "description": "「金人旧巷市廛喧」中，在货运星槎上码放6个金人司阍",
+    "reward_level": 1,
+    "game_version": "1.3",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8004010,
+    "class": "与你同行的回忆",
+    "name": "降维打击",
+    "description": "「金人旧巷市廛喧」中，在物流规划的界面里点击24艘货运星槎",
+    "reward_level": 2,
+    "game_version": "1.3",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8004011,
+    "class": "与你同行的回忆",
+    "name": "聚宝盆",
+    "description": "「金人旧巷市廛喧」中，为金人巷商会赚取1000000商会储值金",
+    "reward_level": 1,
+    "game_version": "1.3",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8004012,
+    "class": "与你同行的回忆",
+    "name": "第八号商铺",
+    "description": "「金人旧巷市廛喧」中，与霍三哥建立起商业合作",
+    "reward_level": 1,
+    "game_version": "1.3",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8004013,
+    "class": "与你同行的回忆",
+    "name": "（系统自动发送）",
+    "description": "「金人旧巷市廛喧」中，完成「鹤运物流」的客制运单",
+    "reward_level": 1,
+    "game_version": "1.3",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8004014,
+    "class": "与你同行的回忆",
+    "name": "隔窗索唤，市食盈笛",
+    "description": "「金人旧巷市廛喧」中，完成街巷事件「谛听寻人」",
+    "reward_level": 1,
+    "game_version": "1.3",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8004015,
+    "class": "与你同行的回忆",
+    "name": "千金散尽还复来",
+    "description": "「金人旧巷市廛喧」中，消费1280000商会储值金",
+    "reward_level": 1,
+    "game_version": "1.3",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8004016,
+    "class": "与你同行的回忆",
+    "name": "危险荷载",
+    "description": "「金人旧巷市廛喧」中，在一艘货运星槎上码放货物达到81",
+    "reward_level": 1,
+    "game_version": "1.3",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8004017,
+    "class": "与你同行的回忆",
+    "name": "夜市：天际线",
+    "description": "「金人旧巷市廛喧」中，任意一家商铺的航线规划分数达到81",
+    "reward_level": 1,
+    "game_version": "1.3",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8004018,
+    "class": "与你同行的回忆",
+    "name": "鹤运物流，使命不达",
+    "description": "调查所有金人巷的特殊快递箱",
+    "reward_level": 1,
+    "game_version": "1.3",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8004019,
+    "class": "与你同行的回忆",
+    "name": "道可道，无间道",
+    "description": "见证永仁隐藏身份的故事",
+    "reward_level": 1,
+    "game_version": "1.3",
+    "hidden": 1
+  }
+]

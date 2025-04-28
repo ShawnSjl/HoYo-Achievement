@@ -1,0 +1,551 @@
+[
+  {
+    "achievement_id": 2018001,
+    "class": "通往群星的轨道",
+    "name": "亲爱的母亲，是您赐予我生命",
+    "description": "接受黄金裔的邀请，一同成为英雄 ※完成欧洛尼斯的试炼",
+    "reward_level": 2,
+    "game_version": "3.2",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 2018002,
+    "class": "通往群星的轨道",
+    "name": "用铁锈色的渡船超度亡魂",
+    "description": "它曾乘着她到世间来，它将乘着她到冥地去 ※击败「死龙」玻吕刻斯",
+    "reward_level": 2,
+    "game_version": "3.2",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 2018003,
+    "class": "通往群星的轨道",
+    "name": "乌虐的黑夜，压罩不幸的凡人",
+    "description": "「死亡」曾藏身于巨龙与海浪的城邦 ※到达「龙骸古城」斯缇科西亚",
+    "reward_level": 2,
+    "game_version": "3.2",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 2018004,
+    "class": "通往群星的轨道",
+    "name": "以法为和平的王冠",
+    "description": "公民们将以投票的方式决定翁法罗斯的未来 ※见证「公民大会」最后的结果",
+    "reward_level": 2,
+    "game_version": "3.2",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 2018005,
+    "class": "通往群星的轨道",
+    "name": "拥抱你的长指",
+    "description": "如此幸福的一天，有一份独属于你的礼物 ※拾起遐蝶手工制作的戒指",
+    "reward_level": 2,
+    "game_version": "3.2",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 2018006,
+    "class": "通往群星的轨道",
+    "name": "解开缆绳，驶离那片冥界",
+    "description": "不要回头，即便那是甘美而宁静的挽留 ※接受伙伴们的帮助，走出冥界",
+    "reward_level": 2,
+    "game_version": "3.2",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 3018001,
+    "class": "战意奔涌",
+    "name": "分型的尽头",
+    "description": "使用我方角色那刻夏，用单次攻击为单个敌方目标添加5个不同的弱点",
+    "reward_level": 1,
+    "game_version": "3.2",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 3018002,
+    "class": "战意奔涌",
+    "name": "赤裸的质性",
+    "description": "单场战斗中，敌方目标连续3个回合开始时都处于【升华】状态",
+    "reward_level": 1,
+    "game_version": "3.2",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 3018003,
+    "class": "战意奔涌",
+    "name": "驯龙高手",
+    "description": "单场战斗中，使用我方角色遐蝶召唤3次「死龙·玻吕刻斯」",
+    "reward_level": 1,
+    "game_version": "3.2",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 3018004,
+    "class": "战意奔涌",
+    "name": "英雄不朽",
+    "description": "当遐蝶的专属效果触发时，使我方队伍里的4名角色同时获得【月茧】状态",
+    "reward_level": 1,
+    "game_version": "3.2",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 3018005,
+    "class": "战意奔涌",
+    "name": "冥蝶翩跹同行间",
+    "description": "使用同时包含遐蝶、开拓者的队伍获得1场战斗的胜利",
+    "reward_level": 1,
+    "game_version": "3.2",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 3018006,
+    "class": "战意奔涌",
+    "name": "茧中安眠",
+    "description": "使用我方角色遐蝶对战「冥魂渡者，死龙残躯，玻吕刻斯」时完成制胜一击",
+    "reward_level": 1,
+    "game_version": "3.2",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 3018007,
+    "class": "战意奔涌",
+    "name": "死后自会…也不会长眠",
+    "description": "在「冥魂渡者，死龙残躯，玻吕刻斯」释放【死亡想要更多的死亡】时，我方全体角色未陷入【沉沦于长眠】状态",
+    "reward_level": 1,
+    "game_version": "3.2",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 3018008,
+    "class": "战意奔涌",
+    "name": "半条命",
+    "description": "我方全体角色在最大生命值百分比低于50%的状态下，消灭「冥魂渡者，死龙残躯，玻吕刻斯」",
+    "reward_level": 1,
+    "game_version": "3.2",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 3018009,
+    "class": "战意奔涌",
+    "name": "无垢之身",
+    "description": "单场战斗中，黑潮蚀魔在施放【吞浊纳污】时，没有吸收到【侵蚀】",
+    "reward_level": 1,
+    "game_version": "3.2",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 7018001,
+    "class": "瞬息欢愉",
+    "name": "这里的花会动",
+    "description": "被隐匿于花丛中的黑潮造物袭击",
+    "reward_level": 1,
+    "game_version": "3.2",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 7018002,
+    "class": "瞬息欢愉",
+    "name": "昨日的电梯，今日的人",
+    "description": "被另一个时空的升降平台砸到",
+    "reward_level": 1,
+    "game_version": "3.2",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8018001,
+    "class": "与你同行的回忆",
+    "name": "她曾借用你的体温",
+    "description": "窥探位于「双月高塔」的追忆残像",
+    "reward_level": 1,
+    "game_version": "3.2",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8018002,
+    "class": "与你同行的回忆",
+    "name": "一日塔兰顿",
+    "description": "路过一处悲剧的排练，见证「弑神」的过程 ※你做出了你认为公正的判决",
+    "reward_level": 1,
+    "game_version": "3.2",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8018003,
+    "class": "与你同行的回忆",
+    "name": "清晨那安静的石板路",
+    "description": "与小女孩希瑞雅一同经历与「刻法勒」的对话 ※并守护一则温暖的谎言",
+    "reward_level": 1,
+    "game_version": "3.2",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8018004,
+    "class": "与你同行的回忆",
+    "name": "神颌下的渎神者",
+    "description": "窥探「黎明云崖」奥赫玛全部的追忆残像",
+    "reward_level": 1,
+    "game_version": "3.2",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8018005,
+    "class": "与你同行的回忆",
+    "name": "在那天回不去的路上",
+    "description": "窥探「龙骸古城」斯缇科西亚全部的追忆残像",
+    "reward_level": 1,
+    "game_version": "3.2",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8018006,
+    "class": "与你同行的回忆",
+    "name": "农夫与木马",
+    "description": "调查位于「黎明云崖」奥赫玛的雅努斯之驹",
+    "reward_level": 1,
+    "game_version": "3.2",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8018007,
+    "class": "与你同行的回忆",
+    "name": "冥河摆渡马",
+    "description": "调查位于「龙骸古城」斯缇科西亚的雅努斯之驹",
+    "reward_level": 1,
+    "game_version": "3.2",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8018008,
+    "class": "与你同行的回忆",
+    "name": "虫伴归途",
+    "description": "解开「龙骸古城」斯缇科西亚中，某位曾经的欧洛尼斯祭司在房间中布置的谜题",
+    "reward_level": 1,
+    "game_version": "3.2",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8018009,
+    "class": "与你同行的回忆",
+    "name": "万物的始以及终",
+    "description": "获取声音记录《神性的回响：负世》",
+    "reward_level": 1,
+    "game_version": "3.2",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8018010,
+    "class": "与你同行的回忆",
+    "name": "漫长而永恒的梦",
+    "description": "获取声音记录《神性的回响：死亡》",
+    "reward_level": 1,
+    "game_version": "3.2",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8018011,
+    "class": "与你同行的回忆",
+    "name": "揭示神秘的正义",
+    "description": "获取声音记录《神性的回响：律法》",
+    "reward_level": 1,
+    "game_version": "3.2",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8018012,
+    "class": "与你同行的回忆",
+    "name": "方生方死",
+    "description": "聆听诗人利波为你创作的第三首诗歌。",
+    "reward_level": 1,
+    "game_version": "3.2",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8018013,
+    "class": "与你同行的回忆",
+    "name": "杯中瞥视的自由",
+    "description": "畅饮一杯阿淼菲斯的法吉娜盲盒饮料，然后……",
+    "reward_level": 1,
+    "game_version": "3.2",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8018014,
+    "class": "与你同行的回忆",
+    "name": "临终千言",
+    "description": "与「龙骸古城」斯缇科西亚的所有亡语蝶对话",
+    "reward_level": 1,
+    "game_version": "3.2",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8018015,
+    "class": "与你同行的回忆",
+    "name": "阿基维利腱！",
+    "description": "将自己的脚泡进了冥河水中，获得了无敌的脚踝。",
+    "reward_level": 1,
+    "game_version": "3.2",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8018016,
+    "class": "与你同行的回忆",
+    "name": "我的脚步因思念而狂乱",
+    "description": "解决失控大地兽的烦恼",
+    "reward_level": 1,
+    "game_version": "3.2",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8018017,
+    "class": "与你同行的回忆",
+    "name": "豆豆眉最可爱！",
+    "description": "在「豹豹碰碰大作战」中，与浴场的所有小海豹对话一次，会有好事发生吗？",
+    "reward_level": 1,
+    "game_version": "3.2",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8018018,
+    "class": "与你同行的回忆",
+    "name": "标本为谁沉默",
+    "description": "在元老院的墙壁上留下你的战利品，但……",
+    "reward_level": 1,
+    "game_version": "3.2",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8018019,
+    "class": "与你同行的回忆",
+    "name": "流金献主角",
+    "description": "找到黎明云崖中所有的圣烛并激活",
+    "reward_level": 1,
+    "game_version": "3.2",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8018020,
+    "class": "与你同行的回忆",
+    "name": "我呼唤酣然的沉眠",
+    "description": "阅读「龙骸古城」斯缇科西亚所有启目集",
+    "reward_level": 1,
+    "game_version": "3.2",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8018021,
+    "class": "与你同行的回忆",
+    "name": "我呼唤论辩的终幕",
+    "description": "阅读「黎明云崖」奥赫玛所有启目集",
+    "reward_level": 1,
+    "game_version": "3.2",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8018022,
+    "class": "与你同行的回忆",
+    "name": "人上之人",
+    "description": "在言谈之间更深入了解黎明云崖 ※与黎明云崖所有公民对话",
+    "reward_level": 1,
+    "game_version": "3.2",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8018023,
+    "class": "与你同行的回忆",
+    "name": "怪盗又怎样，我可是开拓者！",
+    "description": "击败那位怪盗，捧回属于冠军的「金海豹杯」",
+    "reward_level": 2,
+    "game_version": "3.2",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8018024,
+    "class": "与你同行的回忆",
+    "name": "法吉娜圣兽全图鉴",
+    "description": "将所有款式的小海豹收入囊中",
+    "reward_level": 1,
+    "game_version": "3.2",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8018025,
+    "class": "与你同行的回忆",
+    "name": "豹潮汹涌",
+    "description": "通关「豹豹碰碰大作战·究极进化版」的挑战难度",
+    "reward_level": 1,
+    "game_version": "3.2",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8018026,
+    "class": "与你同行的回忆",
+    "name": "豹歉，你也想起舞吗？",
+    "description": "在「豹豹碰碰大作战」中，一次撞飞对手的两只小海豹",
+    "reward_level": 1,
+    "game_version": "3.2",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8018027,
+    "class": "与你同行的回忆",
+    "name": "真·海豹无双",
+    "description": "在「豹豹碰碰大作战」的单场比赛中，使用同一只小海豹击飞对手的小海豹4次及以上",
+    "reward_level": 1,
+    "game_version": "3.2",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8018028,
+    "class": "与你同行的回忆",
+    "name": "三分球是关键",
+    "description": "在「豹豹碰碰大作战」的单场比赛中，以领先对手3分及以上的优势获取胜利",
+    "reward_level": 1,
+    "game_version": "3.2",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8018029,
+    "class": "与你同行的回忆",
+    "name": "欢迎来到星舰学院",
+    "description": "获得阅读物《舰队基础知识手册》",
+    "reward_level": 1,
+    "game_version": "3.2",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 9018001,
+    "class": "众秘探奇",
+    "name": "小偷偷偷偷",
+    "description": "找到被贼灵盯上的启目集",
+    "reward_level": 1,
+    "game_version": "3.2",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 9018002,
+    "class": "众秘探奇",
+    "name": "The World！",
+    "description": "第一次使用欧洛尼斯祷言暂停回溯中的物件",
+    "reward_level": 1,
+    "game_version": "3.2",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 9018003,
+    "class": "众秘探奇",
+    "name": "时元突波",
+    "description": "将暂停进行暂停，会继续，还是更加暂停？",
+    "reward_level": 1,
+    "game_version": "3.2",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 9018004,
+    "class": "众秘探奇",
+    "name": "让我试试，能否触碰神明",
+    "description": "操控扎格列斯之手，尝试击打刻法勒的神躯。",
+    "reward_level": 1,
+    "game_version": "3.2",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 9018005,
+    "class": "众秘探奇",
+    "name": "从这里…出去！",
+    "description": "别以为躲在高处就安全了… ※使用扎格列斯之手的冲拳动作，击败「龙骸古城」斯缇科西亚高处的敌人",
+    "reward_level": 1,
+    "game_version": "3.2",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 9018006,
+    "class": "众秘探奇",
+    "name": "欧洛尼斯的擢拔",
+    "description": "将「龙骸古城」斯缇科西亚所有残留有记忆的物件全部回溯完好",
+    "reward_level": 1,
+    "game_version": "3.2",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 9018007,
+    "class": "众秘探奇",
+    "name": "双月彼此依偎",
+    "description": "行走在旧时空的锁链上，抬头看向夜空… ※你看见了高悬天际的双月",
+    "reward_level": 1,
+    "game_version": "3.2",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 9018008,
+    "class": "众秘探奇",
+    "name": "塔耳塔罗斯之上",
+    "description": "借助欧洛尼斯的奇迹，进入到冥河更深处",
+    "reward_level": 1,
+    "game_version": "3.2",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 9018009,
+    "class": "众秘探奇",
+    "name": "冥海拾遗",
+    "description": "开启位于「龙骸古城」斯缇科西亚宝库内隐秘位置的战利品。",
+    "reward_level": 1,
+    "game_version": "3.2",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 9018010,
+    "class": "众秘探奇",
+    "name": "所以，前进吧。",
+    "description": "你记得她说「所以，前进吧。不要停下向前的脚步…」 ※你已经走出了冥界，可以在她的花丛里停留半晌",
+    "reward_level": 1,
+    "game_version": "3.2",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 9018011,
+    "class": "众秘探奇",
+    "name": "聚光灯效应",
+    "description": "第一次使用「追忆符文」，被欧洛尼斯的奇迹照射",
+    "reward_level": 1,
+    "game_version": "3.2",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 9018012,
+    "class": "众秘探奇",
+    "name": "时间不是你的朋友",
+    "description": "携带「追忆符文」接近宝箱，却发现宝箱在另一个时空",
+    "reward_level": 1,
+    "game_version": "3.2",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 9018013,
+    "class": "众秘探奇",
+    "name": "虫鸣秘闻：失落祷言",
+    "description": "岁月的水面下隐藏着什么？ ※解开「龙骸古城」斯缇科西亚的预言谜题",
+    "reward_level": 1,
+    "game_version": "3.2",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 9018014,
+    "class": "众秘探奇",
+    "name": "虫鸣秘闻：朝圣之路",
+    "description": "神明需要跪拜吗？ ※解开「黎明云崖」奥赫玛的预言谜题",
+    "reward_level": 1,
+    "game_version": "3.2",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 9018015,
+    "class": "众秘探奇",
+    "name": "金茧屋",
+    "description": "为织者们建立一座中型乐园 ※搜集120只创生若虫的赐福",
+    "reward_level": 1,
+    "game_version": "3.2",
+    "hidden": 0
+  }
+]

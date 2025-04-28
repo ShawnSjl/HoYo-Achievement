@@ -1,0 +1,236 @@
+[
+  {
+    "achievement_id": 2015001,
+    "class": "通往群星的轨道",
+    "name": "在应许与遗忘之间",
+    "description": "规则就是用来打破的——千万要守护好自己的格言，以免遭窃 ※星期日视角下，抚平艾迪恩公园的余音",
+    "reward_level": 2,
+    "game_version": "2.7",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 2015002,
+    "class": "通往群星的轨道",
+    "name": "请别叫她大姐姐",
+    "description": "是时候了，我们来合成大… ※帮助停云恢复原状",
+    "reward_level": 2,
+    "game_version": "2.7",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 2015003,
+    "class": "通往群星的轨道",
+    "name": "化城再来人",
+    "description": "这还不是结局，在微笑中，请再度沉默一段时光 ※回答停云的临别一问",
+    "reward_level": 2,
+    "game_version": "2.7",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 2015004,
+    "class": "通往群星的轨道",
+    "name": "说吧，记忆",
+    "description": "我离开是为了回去，回去会解释我的离开 ※面见仙舟使者",
+    "reward_level": 2,
+    "game_version": "2.7",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 2015005,
+    "class": "通往群星的轨道",
+    "name": "片羽永恒，天空完整",
+    "description": "不是因为她的亮光，只因我们知晓彼此，可以共渡黑暗 ※星期日视角下，与知更鸟分别",
+    "reward_level": 2,
+    "game_version": "2.7",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 2015006,
+    "class": "通往群星的轨道",
+    "name": "在第八日启程",
+    "description": "失去的乐园从未被抛在身后，它在前方 ※星期日视角下，完成最后的告别",
+    "reward_level": 2,
+    "game_version": "2.7",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 3015001,
+    "class": "战意奔涌",
+    "name": "别了，七休日",
+    "description": "使用我方角色星期日对战神主日时完成制胜一击",
+    "reward_level": 1,
+    "game_version": "2.7",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 3015002,
+    "class": "战意奔涌",
+    "name": "是我杀了我？",
+    "description": "使用我方角色忘归人对战幻胧时完成制胜一击",
+    "reward_level": 1,
+    "game_version": "2.7",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 3015003,
+    "class": "战意奔涌",
+    "name": "一起飞向天空",
+    "description": "使用同时包含知更鸟、星期日的队伍获得1场战斗的胜利",
+    "reward_level": 1,
+    "game_version": "2.7",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8015001,
+    "class": "与你同行的回忆",
+    "name": "进入黑夜的漫长旅程",
+    "description": "在上床睡觉时选择关灯",
+    "reward_level": 1,
+    "game_version": "2.7",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8015002,
+    "class": "与你同行的回忆",
+    "name": "洗个痛快澡！",
+    "description": "初次使用浴缸泡澡",
+    "reward_level": 1,
+    "game_version": "2.7",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8015003,
+    "class": "与你同行的回忆",
+    "name": "沐浴之王",
+    "description": "在使用浴缸泡澡时，尝试过3种入浴剂",
+    "reward_level": 1,
+    "game_version": "2.7",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8015004,
+    "class": "与你同行的回忆",
+    "name": "蓦然回首",
+    "description": "在自己的房间中观赏所有藏品",
+    "reward_level": 1,
+    "game_version": "2.7",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8015005,
+    "class": "与你同行的回忆",
+    "name": "渺无实物之夜",
+    "description": "在小憩中沉眠至时间尽头",
+    "reward_level": 1,
+    "game_version": "2.7",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8015006,
+    "class": "与你同行的回忆",
+    "name": "电灯难题",
+    "description": "在自己的房间中多次开关电灯，直至灯泡短路",
+    "reward_level": 1,
+    "game_version": "2.7",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8015007,
+    "class": "与你同行的回忆",
+    "name": "小糕当家",
+    "description": "在自己的房间中偶遇「垃圾糕」",
+    "reward_level": 1,
+    "game_version": "2.7",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8015008,
+    "class": "与你同行的回忆",
+    "name": "靠得住的老实电脑",
+    "description": "完成「超智能病毒」的3个遗愿",
+    "reward_level": 1,
+    "game_version": "2.7",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8015009,
+    "class": "与你同行的回忆",
+    "name": "冻结与融化之间",
+    "description": "为冰箱的合理使用制定《冰箱使用新规》",
+    "reward_level": 1,
+    "game_version": "2.7",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8015010,
+    "class": "与你同行的回忆",
+    "name": "今夜无事发生",
+    "description": "在属于你的房间，度过悠然无事的夜晚 ※完成活动「宇宙家装指南」",
+    "reward_level": 1,
+    "game_version": "2.7",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8015011,
+    "class": "与你同行的回忆",
+    "name": "Mini绿野仙踪",
+    "description": "你理解了吗？花导、炒饭机器人、猫糕、佩佩，恰好对应桃乐丝、铁皮人…不对，我为什么在解释笑话？ ※在活动「宇宙家装指南」中邂逅全部4位值日帮手",
+    "reward_level": 1,
+    "game_version": "2.7",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8015012,
+    "class": "与你同行的回忆",
+    "name": "逝去时光的海洋",
+    "description": "听杨叔讲讲过去的故事 ※成为无名客，意味着你要暂别熟悉的生活，前往未知的世界展开冒险",
+    "reward_level": 1,
+    "game_version": "2.7",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8015013,
+    "class": "与你同行的回忆",
+    "name": "冷钢锻造",
+    "description": "您理解了吗？因为我的身体由钢铁制成，而钢铁冰冷坚硬，所以我的笑话很冷 ※听「闭嘴」讲冷笑话，令人忍俊不禁",
+    "reward_level": 1,
+    "game_version": "2.7",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8015014,
+    "class": "与你同行的回忆",
+    "name": "我爱我家",
+    "description": "在「宇宙家装指南」中，任意角色的工作贡献达到99",
+    "reward_level": 1,
+    "game_version": "2.7",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8015015,
+    "class": "与你同行的回忆",
+    "name": "会议不能停",
+    "description": "在「宇宙家装指南」中，单次会议的帕姆评分达到30000",
+    "reward_level": 1,
+    "game_version": "2.7",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8015016,
+    "class": "与你同行的回忆",
+    "name": "梦想改造家",
+    "description": "在「宇宙家装指南」中，完成所有区块的建设",
+    "reward_level": 2,
+    "game_version": "2.7",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8015017,
+    "class": "与你同行的回忆",
+    "name": "灾难始终快我一步",
+    "description": "在「宇宙家装指南」中，累积进入3次厄运格",
+    "reward_level": 1,
+    "game_version": "2.7",
+    "hidden": 1
+  }
+]

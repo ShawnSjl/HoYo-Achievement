@@ -7,7 +7,7 @@ const handleZZZ = () => {
 }
 
 const handleSR = () => {
-  showInfo('网站施工中', '崩坏：星穹铁道成就页面施工中...')
+  router.push({ path: '/sr' });
 }
 </script>
 
@@ -49,7 +49,7 @@ const handleSR = () => {
 
 /* 右边背景 */
 .right {
-  background-image: url('@/assets/image/sr-bg-2.png');
+  background-image: url('@/assets/image-sr/sr-bg-2.png');
   clip-path: polygon(55% 0, 100% 0, 100% 100%, 45% 100%);
   background-position: right -200px top;
   z-index: 0;

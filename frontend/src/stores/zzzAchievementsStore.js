@@ -29,7 +29,7 @@ export const useZzzAchievementStore = defineStore(
             length.value = achievements.value.length;
         }
 
-        // Get achievement by given class id
+        // Update achievement
         async function updateAchievements() {
             const user = localStorage.getItem('user');
 
@@ -43,15 +43,9 @@ export const useZzzAchievementStore = defineStore(
         }
 
         async function completeAchievement(achievementId, complete) {
-            const user = localStorage.getItem('user');
+            await updateAchievements();
 
-            // 如果本地数据是空的或者有异常，获取新的数据
-            if (achievements.value.length === 0 || achievements.value.length !== length.value) {
-                await fetchAchievements();
-            } else if (currentUser.value !== user) {
-                // 如果用户变更，则立刻更新数据
-                await fetchAchievements();
-            }
+            const user = localStorage.getItem('user');
 
             // 获取本地的成就数据
             const target = achievements.value.find(item => item.achievement_id === achievementId);
@@ -68,8 +62,8 @@ export const useZzzAchievementStore = defineStore(
             } else {
                 // 尝试更新，如果更新失败，重新获取所有数据
                 try {
-                    const response = await zzzUpdateAchievement({ achievement_id: achievementId, complete: complete });
-                    target.complete = response.complete;
+                    const response = await zzzUpdateAchievement({ achievement_id: `${achievementId}`, complete: `${complete}` });
+                    target.complete = complete;
                 } catch (error) {
                     console.error('Fail to update achievements:', error);
                     await fetchAchievements();
@@ -77,7 +71,7 @@ export const useZzzAchievementStore = defineStore(
             }
         }
 
-        return { achievements, length, currentUser, isMale, isCompleteFirst, fetchAchievements, updateAchievements, completeAchievement };
+        return { achievements, isMale, isCompleteFirst, currentUser, length, fetchAchievements, updateAchievements, completeAchievement };
     },
     {
         persist: true,

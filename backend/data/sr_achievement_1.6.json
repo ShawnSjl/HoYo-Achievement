@@ -1,0 +1,596 @@
+[
+  {
+    "achievement_id": 2007001,
+    "class": "通往群星的轨道",
+    "name": "天才在左，庸人在右",
+    "description": "平息黑塔空间站新的风波 ※完成开拓续闻「庸与神的冠冕」",
+    "reward_level": 2,
+    "game_version": "1.6",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 3007001,
+    "class": "战意奔涌",
+    "name": "在黑暗深渊之中",
+    "description": "当碎星王虫施放「孕灾虫甲」后，使其进入弱点击破状态",
+    "reward_level": 1,
+    "game_version": "1.6",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 3007002,
+    "class": "战意奔涌",
+    "name": "我心我行澄如明镜",
+    "description": "在与银枝对战时，分别消灭处于「灵魂释放」状态的「枪尖」、「盾」、「授勋」。",
+    "reward_level": 1,
+    "game_version": "1.6",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 3007003,
+    "class": "战意奔涌",
+    "name": "所作所为皆为美丽",
+    "description": "在与银枝对战时，「枪尖」、「盾」、「授勋」都没有进入过「灵魂释放」状态",
+    "reward_level": 1,
+    "game_version": "1.6",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 3007004,
+    "class": "战意奔涌",
+    "name": "冥狱无常",
+    "description": "使用同时包含寒鸦、雪衣的队伍获得1场战斗的胜利",
+    "reward_level": 1,
+    "game_version": "1.6",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 3007005,
+    "class": "战意奔涌",
+    "name": "聆听是最好的陪伴",
+    "description": "停下来听完寒鸦的碎碎念 ※完整聆听寒鸦的待机动作语音及回合待机语音",
+    "reward_level": 1,
+    "game_version": "1.6",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 3007006,
+    "class": "战意奔涌",
+    "name": "舌战群儒",
+    "description": "使用真理医生的秘技「偶像塑造」一次性嘲讽6个及以上的敌方目标",
+    "reward_level": 1,
+    "game_version": "1.6",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 3007007,
+    "class": "战意奔涌",
+    "name": "毁人不倦",
+    "description": "单场战斗中，使用真理医生连续4个回合触发天赋「我思故我在」的追加攻击效果",
+    "reward_level": 1,
+    "game_version": "1.6",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 5007001,
+    "class": "果壳中的宇宙",
+    "name": "拜谒神机",
+    "description": "「模拟宇宙」内，累计解锁1个「智识」命途的祝福",
+    "reward_level": 1,
+    "game_version": "1.6",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 5007002,
+    "class": "果壳中的宇宙",
+    "name": "欧姆弥赛亚",
+    "description": "通关「模拟宇宙」时，携带「智识」命途的祝福数量大于等于10",
+    "reward_level": 1,
+    "game_version": "1.6",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 5007003,
+    "class": "果壳中的宇宙",
+    "name": "四色问题",
+    "description": "在「模拟宇宙：黄金与机械」中，累计为200个区域附加【知识】效果",
+    "reward_level": 1,
+    "game_version": "1.6",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 5007004,
+    "class": "果壳中的宇宙",
+    "name": "世界旦夕之间",
+    "description": "在「模拟宇宙：黄金与机械」中, 累计观看10次推荐剧情",
+    "reward_level": 1,
+    "game_version": "1.6",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 5007005,
+    "class": "果壳中的宇宙",
+    "name": "逐渐理解一切",
+    "description": "在「模拟宇宙：黄金与机械」中，自我认知达到40",
+    "reward_level": 1,
+    "game_version": "1.6",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 5007006,
+    "class": "果壳中的宇宙",
+    "name": "精神灰域",
+    "description": "在「模拟宇宙：黄金与机械」中，自我认知达到-40",
+    "reward_level": 1,
+    "game_version": "1.6",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 5007007,
+    "class": "果壳中的宇宙",
+    "name": "集群意识",
+    "description": "在「模拟宇宙：黄金与机械」中，累计完成50次自我认知的改变",
+    "reward_level": 1,
+    "game_version": "1.6",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 5007008,
+    "class": "果壳中的宇宙",
+    "name": "华尔街之狼",
+    "description": "在「模拟宇宙：黄金与机械」中，在「星际和平投资机器」事件中，投资大成功",
+    "reward_level": 1,
+    "game_version": "1.6",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 5007009,
+    "class": "果壳中的宇宙",
+    "name": "太平州还是那个太平州",
+    "description": "在「模拟宇宙：黄金与机械」中，在「作弊代码（其二）」事件触发的战斗中失败",
+    "reward_level": 1,
+    "game_version": "1.6",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 5007010,
+    "class": "果壳中的宇宙",
+    "name": "D级人员",
+    "description": "在「模拟宇宙：黄金与机械」中，在「星际和平机械分部商城（其二）」事件中升级1次奇物",
+    "reward_level": 1,
+    "game_version": "1.6",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 5007011,
+    "class": "果壳中的宇宙",
+    "name": "莱博维茨的丧钟",
+    "description": "通关「模拟宇宙：黄金与机械」时，使用自定义骰「战斗推演」，获得25次及以上战斗胜利",
+    "reward_level": 1,
+    "game_version": "1.6",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 5007012,
+    "class": "果壳中的宇宙",
+    "name": "宇宙过河卒",
+    "description": "通关「模拟宇宙：黄金与机械」时，使用自定义骰「事件推演」，完成20次及以上事件交互",
+    "reward_level": 1,
+    "game_version": "1.6",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 5007013,
+    "class": "果壳中的宇宙",
+    "name": "变化的位面",
+    "description": "在「模拟宇宙：黄金与机械」中，使用自定义骰「追猎」，连续进入5个及以上不相邻的区域",
+    "reward_level": 1,
+    "game_version": "1.6",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 5007014,
+    "class": "果壳中的宇宙",
+    "name": "杀猪盘",
+    "description": "通关「模拟宇宙：黄金与机械」时，使用自定义骰「扑满推演」，在战斗中击败15个及以上扑满",
+    "reward_level": 1,
+    "game_version": "1.6",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 5007015,
+    "class": "果壳中的宇宙",
+    "name": "星港管制员",
+    "description": "通关「模拟宇宙：黄金与机械」时，使用自定义骰「行者共生」，进入15个及以上带有信标的区域",
+    "reward_level": 1,
+    "game_version": "1.6",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 5007016,
+    "class": "果壳中的宇宙",
+    "name": "前往端点星",
+    "description": "通关「模拟宇宙：黄金与机械」时，使用自定义骰「超距信标」，进入过的区域中带有所有不同种类的信标",
+    "reward_level": 1,
+    "game_version": "1.6",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 5007017,
+    "class": "果壳中的宇宙",
+    "name": "出卖月亮的人",
+    "description": "通关「模拟宇宙：黄金与机械」时，使用自定义骰「投资出售」，拥有的宇宙碎片大于等于2048",
+    "reward_level": 1,
+    "game_version": "1.6",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 5007018,
+    "class": "果壳中的宇宙",
+    "name": "翠鸟董事会专员",
+    "description": "通关「模拟宇宙：黄金与机械」时，使用自定义骰「琥珀障壁」，为30个及以上的区域附加【知识】效果",
+    "reward_level": 1,
+    "game_version": "1.6",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 5007019,
+    "class": "果壳中的宇宙",
+    "name": "时间足够你玩",
+    "description": "通关「模拟宇宙：黄金与机械」时，使用自定义骰「倒计时」，倒计时大于等于30点",
+    "reward_level": 1,
+    "game_version": "1.6",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 5007020,
+    "class": "果壳中的宇宙",
+    "name": "月亮头的奇迹商店",
+    "description": "通关「模拟宇宙：黄金与机械」时，使用自定义骰「公司时刻」，在【祝福商店】、【奇物商店】或【强化商店】购买过20件及以上商品",
+    "reward_level": 1,
+    "game_version": "1.6",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 5007021,
+    "class": "果壳中的宇宙",
+    "name": "商人与炼金术士之门",
+    "description": "通关「模拟宇宙：黄金与机械」时，使用自定义骰「数据膨胀」，使用25次及以上重投或作弊",
+    "reward_level": 1,
+    "game_version": "1.6",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 5007022,
+    "class": "果壳中的宇宙",
+    "name": "黑塔的宝藏",
+    "description": "通关「模拟宇宙：黄金与机械」时，使用自定义骰「奇物推演」，拥有30个及以上的奇物",
+    "reward_level": 1,
+    "game_version": "1.6",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 5007023,
+    "class": "果壳中的宇宙",
+    "name": "我是阿尔法",
+    "description": "收集「黄金与机械」的星神秘闻「开端」",
+    "reward_level": 1,
+    "game_version": "1.6",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 5007024,
+    "class": "果壳中的宇宙",
+    "name": "我是欧米伽",
+    "description": "收集「黄金与机械」的星神秘闻「终局」",
+    "reward_level": 2,
+    "game_version": "1.6",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 5007025,
+    "class": "果壳中的宇宙",
+    "name": "六十面骰",
+    "description": "在「模拟宇宙：黄金与机械」中，解锁60个骰面",
+    "reward_level": 1,
+    "game_version": "1.6",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 5007026,
+    "class": "果壳中的宇宙",
+    "name": "转动命运",
+    "description": "在「模拟宇宙：黄金与机械」中，解锁全部12个自定义骰",
+    "reward_level": 1,
+    "game_version": "1.6",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 5007027,
+    "class": "果壳中的宇宙",
+    "name": "XK级世界末日",
+    "description": "完成「模拟宇宙：黄金与机械」第五难度",
+    "reward_level": 1,
+    "game_version": "1.6",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 5007028,
+    "class": "果壳中的宇宙",
+    "name": "机械飞升",
+    "description": "在「模拟宇宙：黄金与机械」的神经网络中激活第1个神经",
+    "reward_level": 1,
+    "game_version": "1.6",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 5007029,
+    "class": "果壳中的宇宙",
+    "name": "巨人：福宾计划",
+    "description": "在折磨难度，属性难题等级大于等于6时，通关「模拟宇宙：黄金与机械」",
+    "reward_level": 1,
+    "game_version": "1.6",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 5007030,
+    "class": "果壳中的宇宙",
+    "name": "泡泡糖危机",
+    "description": "在折磨难度，追加难题等级大于等于6时，通关「模拟宇宙：黄金与机械」",
+    "reward_level": 1,
+    "game_version": "1.6",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 5007031,
+    "class": "果壳中的宇宙",
+    "name": "铁锈之海",
+    "description": "在折磨难度，难题等级大于等于12时，通关「模拟宇宙：黄金与机械」",
+    "reward_level": 2,
+    "game_version": "1.6",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 5007032,
+    "class": "果壳中的宇宙",
+    "name": "古旧空间的钥匙",
+    "description": "在「模拟宇宙：黄金与机械」通关时，使【位面紊乱！】的【扰动等级】大于等于20级",
+    "reward_level": 1,
+    "game_version": "1.6",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 5007033,
+    "class": "果壳中的宇宙",
+    "name": "诅咒之王",
+    "description": "通关「模拟宇宙：黄金与机械」时，拥有10个及以上的负面奇物",
+    "reward_level": 1,
+    "game_version": "1.6",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 5007034,
+    "class": "果壳中的宇宙",
+    "name": "正态分布",
+    "description": "在「模拟宇宙：黄金与机械」中，在同一觐见装置上，连续投出6个不同的骰面",
+    "reward_level": 1,
+    "game_version": "1.6",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 5007035,
+    "class": "果壳中的宇宙",
+    "name": "忧郁蓝调",
+    "description": "通关「模拟宇宙：黄金与机械」时，装备6个蓝色品质的骰面（难度三及以上）",
+    "reward_level": 1,
+    "game_version": "1.6",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 5007036,
+    "class": "果壳中的宇宙",
+    "name": "所有一切都被仁慈的机器守护",
+    "description": "在「模拟宇宙：黄金与机械」中，一场战斗中遭遇10次及以上【回响推演】",
+    "reward_level": 1,
+    "game_version": "1.6",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 5007037,
+    "class": "果壳中的宇宙",
+    "name": "命运轮盘",
+    "description": "在「模拟宇宙：黄金与机械」中，在「幸运罗盘挑战」中达成1次头等奖",
+    "reward_level": 1,
+    "game_version": "1.6",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 5007038,
+    "class": "果壳中的宇宙",
+    "name": "反射闪避",
+    "description": "在「模拟宇宙：黄金与机械」中，在「躲避射线挑战」中连续成功躲避6轮",
+    "reward_level": 1,
+    "game_version": "1.6",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 5007039,
+    "class": "果壳中的宇宙",
+    "name": "灭绝令",
+    "description": "在「模拟宇宙：黄金与机械」中，连续施放10次终结技",
+    "reward_level": 1,
+    "game_version": "1.6",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8007001,
+    "class": "与你同行的回忆",
+    "name": "永不更新",
+    "description": "在看到黑塔的手稿广告后向黑塔催更",
+    "reward_level": 1,
+    "game_version": "1.6",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8007002,
+    "class": "与你同行的回忆",
+    "name": "逃离贮囊",
+    "description": "被黑塔从禁闭舱段的实验舱中救出来",
+    "reward_level": 1,
+    "game_version": "1.6",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8007003,
+    "class": "与你同行的回忆",
+    "name": "铁王座之主",
+    "description": "在禁闭舱段选择亲自登上「王座」",
+    "reward_level": 1,
+    "game_version": "1.6",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8007004,
+    "class": "与你同行的回忆",
+    "name": "国王之手",
+    "description": "在禁闭舱段扶洞悉者登上「王座」",
+    "reward_level": 1,
+    "game_version": "1.6",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8007005,
+    "class": "与你同行的回忆",
+    "name": "合格的饲养员",
+    "description": "完成冒险任务「异宠拾遗」",
+    "reward_level": 1,
+    "game_version": "1.6",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8007006,
+    "class": "与你同行的回忆",
+    "name": "塔麻可吉又饿了",
+    "description": "在「异宠拾遗」中收集所有稀有造物",
+    "reward_level": 1,
+    "game_version": "1.6",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8007007,
+    "class": "与你同行的回忆",
+    "name": "狗仗人势",
+    "description": "协助佩佩辩倒安保机器人",
+    "reward_level": 1,
+    "game_version": "1.6",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8007008,
+    "class": "与你同行的回忆",
+    "name": "反欺骗的艺术",
+    "description": "在与「管家」的激辩中获胜",
+    "reward_level": 1,
+    "game_version": "1.6",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8007009,
+    "class": "与你同行的回忆",
+    "name": "绿手指",
+    "description": "在禁闭舱段的植物间累计三天拔掉杂草",
+    "reward_level": 1,
+    "game_version": "1.6",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8007010,
+    "class": "与你同行的回忆",
+    "name": "戴帽子的猫",
+    "description": "救出陷于「围城」与被怪物吞下的造物",
+    "reward_level": 1,
+    "game_version": "1.6",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8007011,
+    "class": "与你同行的回忆",
+    "name": "成岭成峰",
+    "description": "使用不同体型的角色观察禁闭舱段的大屏幕",
+    "reward_level": 1,
+    "game_version": "1.6",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8007012,
+    "class": "与你同行的回忆",
+    "name": "不在服务区",
+    "description": "在使用终端与阮•梅远程联络时，通讯无人接听",
+    "reward_level": 1,
+    "game_version": "1.6",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8007013,
+    "class": "与你同行的回忆",
+    "name": "三缺一",
+    "description": "将3个「幸运点心」摆放在同一区域",
+    "reward_level": 1,
+    "game_version": "1.6",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8007014,
+    "class": "与你同行的回忆",
+    "name": "午夜的孩子",
+    "description": "将3个「垃圾糕」摆放在同一区域",
+    "reward_level": 1,
+    "game_version": "1.6",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8007015,
+    "class": "与你同行的回忆",
+    "name": "物肖主人形",
+    "description": "将「拉姆之友」的照片分享给阮•梅",
+    "reward_level": 1,
+    "game_version": "1.6",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8007016,
+    "class": "与你同行的回忆",
+    "name": "海盗的好朋友",
+    "description": "完成冒险任务「游辞巧饰」",
+    "reward_level": 1,
+    "game_version": "1.6",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8007017,
+    "class": "与你同行的回忆",
+    "name": "微物之神",
+    "description": "在「异宠拾遗」活动中收集所有的造物特征",
+    "reward_level": 1,
+    "game_version": "1.6",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8007018,
+    "class": "与你同行的回忆",
+    "name": "彼此的命运",
+    "description": "获得稀有造物「墨镜猫咪」",
+    "reward_level": 1,
+    "game_version": "1.6",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8007019,
+    "class": "与你同行的回忆",
+    "name": "顽疾诊断书",
+    "description": "在禁闭舱段收集齐写有真理医生留言的阅读物",
+    "reward_level": 1,
+    "game_version": "1.6",
+    "hidden": 1
+  }
+]
