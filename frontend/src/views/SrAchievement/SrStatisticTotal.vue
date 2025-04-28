@@ -104,6 +104,7 @@ const handleClick = () => {
   font-size: 24px;
 }
 
+/* 分割线 */
 .vertical-divider {
   width: 1px;        /* 很细 */
   height: 80%;      /* 撑满父容器高度 */
