@@ -137,6 +137,9 @@ export const useSrAchievementStore = defineStore (
         return {
             achievements,
             isCompleteFirst,
+            currentUser,
+            length,
+            branches,
             fetchAchievements,
             updateAchievements,
             completeAchievement,

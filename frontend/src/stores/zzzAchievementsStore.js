@@ -71,7 +71,7 @@ export const useZzzAchievementStore = defineStore(
             }
         }
 
-        return { achievements, isMale, isCompleteFirst, fetchAchievements, updateAchievements, completeAchievement };
+        return { achievements, isMale, isCompleteFirst, currentUser, length, fetchAchievements, updateAchievements, completeAchievement };
     },
     {
         persist: true,
