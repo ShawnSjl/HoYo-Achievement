@@ -18,7 +18,7 @@ function matchRequiredHeaders(headers) {
 
   for (const [standardKey, candidates] of Object.entries(requiredFields)) {
     const match = headers.find(h =>
-        candidates.some(keyword => h.trim().includes(keyword))
+        candidates.some(keyword => h.trim() === keyword)
     );
     if (match) {
       result[standardKey] = match;
