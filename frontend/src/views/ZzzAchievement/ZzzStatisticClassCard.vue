@@ -59,7 +59,7 @@ const getCompleteLevel3Number = computed(() => {
 </script>
 
 <template>
-  <el-card shadow="never">
+  <el-card shadow="never" class="zzz-statistic-card">
     <el-scrollbar>
       <div class="zzz-statistic-card-class">
         <div slot="header" class="card-title">
@@ -85,6 +85,19 @@ const getCompleteLevel3Number = computed(() => {
 </template>
 
 <style scoped>
+.zzz-statistic-card {
+  border-radius: 12px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+@media (max-width: 830px) {
+  .zzz-statistic-card {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
 .zzz-statistic-card-class {
   display: flex;
   flex-direction: row;
@@ -111,7 +124,7 @@ const getCompleteLevel3Number = computed(() => {
   height: 53px;
   border-radius: 50%; /* 核心代码：让图片变圆 */
   object-fit: cover;   /* 保证图片不变形、居中裁剪 */
-  border: 3px solid #686161; /* 可选的边框 */
+  border: 3px solid #000000; /* 可选的边框 */
   background-color: #000000;
 }
 
@@ -119,7 +132,7 @@ const getCompleteLevel3Number = computed(() => {
   .zzz-achievement-image {
     width: 36px;
     height: 36px;
-    border: 2px solid #686161; /* 可选的边框 */
+    border: 2px solid #000000; /* 可选的边框 */
   }
 }
 
@@ -146,7 +159,7 @@ const getCompleteLevel3Number = computed(() => {
 
 .el-card {
   --el-card-bg-color: #161817;
-  --el-card-border-color: #232524;
+  --el-card-border-color: #000000;
   color: #cacaca;
 }
 

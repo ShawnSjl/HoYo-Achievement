@@ -22,17 +22,51 @@ const isMobileStore = useIsMobileStore();
     <zzz-statistic-class-card :achievement-class="achievementClass" style="margin-bottom: 10px" />
   </div>
 
-  <el-table :data="sortedAchievements" style="width: 100%" :show-header="false" :max-height="tableHeight">
-    <el-table-column>
-      <template #default="{ row }">
+  <el-scrollbar :height="tableHeight">
+    <div class="zzz-card-table">
+      <el-card
+          v-for="(row, index) in sortedAchievements"
+          :key="index"
+          class="zzz-card-row"
+          shadow="hover"
+      >
         <zzz-table-row :achievement="row" />
-      </template>
-    </el-table-column>
-  </el-table>
+      </el-card>
+    </div>
+  </el-scrollbar>
 </template>
 
 <style scoped>
+.zzz-card-table {
+  display: flex;
+  flex-direction: column;
+  gap: 12px; /* 控制卡片之间的间隔 */
+  padding: 10px;
+}
+
+.zzz-card-row {
+  border-radius: 12px;
+  transition: all 0.3s ease;
+
+  --el-card-bg-color: #242424;
+  --el-card-border-color: #000000;
+  border: 2px solid #000000;
+}
+
+:deep(.zzz-card-row .el-card__body) {
+  padding: 4px 16px;
+}
+
 @media (max-width: 830px) {
+  .zzz-card-table {
+    gap: 8px; /* 控制卡片之间的间隔 */
+    padding: 5px;
+  }
+
+  :deep(.zzz-card-row .el-card__body) {
+    padding: 4px 8px;
+  }
+
   .zzz-table-header {
     margin-bottom: 10px;
     display: flex;
@@ -49,18 +83,5 @@ const isMobileStore = useIsMobileStore();
     margin-left: 5px;
     flex: 3;
   }
-}
-
-.el-table {
-  --el-table-border-color: #232524;
-  --el-table-border: 2px solid;
-  --el-table-row-hover-bg-color: rgb(58, 58, 58);
-  --el-table-bg-color: #232524;
-  --el-table-tr-bg-color: #232524;
-  --el-table-expanded-cell-bg-color: #232524;
-}
-
-::v-deep(.el-table tr) {
-  background-color: #161817 !important;
 }
 </style>
