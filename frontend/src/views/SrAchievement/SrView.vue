@@ -52,7 +52,7 @@ const calculateTableHeight = () => {
   const headerEl = document.querySelector('.el-header') // 获取头部高度
   const headerHeight = headerEl ? headerEl.offsetHeight : 0
 
-  const margin = isMobileStore.isMobile ? 90 : 180 // 预留的 padding/margin（可调）
+  const margin = isMobileStore.isMobile ? 150 : 180 // 预留的 padding/margin（可调）
 
   tableHeight.value = windowHeight - headerHeight - margin
 }
@@ -103,10 +103,11 @@ onBeforeUnmount(() => {
         </el-header>
 
         <el-container>
-          <el-aside class="sr-container-aside">
+          <el-aside v-if="!isMobileStore.isMobile" class="sr-container-aside">
             <sr-aside v-model="achievementClass"  style="align-self: center"/>
           </el-aside>
           <el-main class="sr-container-main">
+            <sr-aside v-if="isMobileStore.isMobile" v-model="achievementClass" style="align-self: center"/>
             <sr-statistic-class
                       :achievementClass="achievementClass"
                       style="margin-left: 10px" />
@@ -156,5 +157,19 @@ onBeforeUnmount(() => {
 
 .sr-container-main {
   height: 100%;
+}
+
+@media (max-width: 830px) {
+  .el-main {
+    --el-main-padding: 10px;
+  }
+
+  .el-header {
+    --el-header-height: 44px;
+  }
+
+  .el-divider {
+    margin: 8px 0;
+  }
 }
 </style>

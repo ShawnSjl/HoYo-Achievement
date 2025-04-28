@@ -4,6 +4,9 @@ import GameSwitch from "@/components/GameSwitch.vue";
 import SrAchievement from "@/assets/image-sr/sr-achievement.png"
 import SrSettingButton from "@/views/SrAchievement/SrSettingButton.vue";
 import SrStatisticTotal from "@/views/SrAchievement/SrStatisticTotal.vue";
+import {useIsMobileStore} from "@/stores/isMobileStore";
+
+const isMobileStore = useIsMobileStore();
 </script>
 
 <template>
@@ -14,14 +17,14 @@ import SrStatisticTotal from "@/views/SrAchievement/SrStatisticTotal.vue";
         <div class="sr-header-title">成就</div>
       </div>
 
-      <div class="sr-header-statistic-wrapper">
+      <div v-if="!isMobileStore.isMobile"  class="sr-header-statistic-wrapper">
         <sr-statistic-total />
       </div>
     </div>
 
     <div class="sr-header-right">
       <sr-setting-button />
-      <game-switch style="margin-right: 30px; margin-left: 30px" />
+      <game-switch class="sr-header-right-gap" />
       <avatar />
     </div>
   </div>
@@ -46,6 +49,7 @@ import SrStatisticTotal from "@/views/SrAchievement/SrStatisticTotal.vue";
   align-items: center;
 }
 
+/* 左上角成就图标 */
 .sr-header-title-wrapper {
   display: flex;
   flex-direction: row;
@@ -57,6 +61,19 @@ import SrStatisticTotal from "@/views/SrAchievement/SrStatisticTotal.vue";
   object-fit: contain;
 }
 
+@media (max-width: 830px) {
+  .sr-header-title-img {
+    height: 30px;
+  }
+
+  .sr-header-title {
+    font-weight: bold;
+    font-size: 14px;
+    margin-right: 10px;
+  }
+}
+
+/* 总统计 */
 .sr-header-statistic-wrapper {
   margin-left: 40px;
 
@@ -65,11 +82,24 @@ import SrStatisticTotal from "@/views/SrAchievement/SrStatisticTotal.vue";
   align-items: center;
 }
 
+/* 右侧功能区 */
 .sr-header-right {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-content: flex-start;
   align-items: center;
+}
+
+.sr-header-right-gap {
+  margin-right: 30px;
+  margin-left: 30px
+}
+
+@media (max-width: 830px) {
+  .sr-header-right-gap {
+    margin-right: 10px;
+    margin-left: 10px
+  }
 }
 </style>

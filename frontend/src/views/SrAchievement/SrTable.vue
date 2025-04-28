@@ -38,4 +38,10 @@ const achievementClass = defineModel()
 :deep(.sr-table-row .el-card__body) {
   padding: 4px 16px;
 }
+
+@media (max-width: 830px) {
+  :deep(.sr-table-row .el-card__body) {
+    padding: 4px 10px;
+  }
+}
 </style>

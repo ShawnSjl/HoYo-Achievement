@@ -51,6 +51,7 @@ const completePercentage = computed(() => {
 </template>
 
 <style scoped>
+/* 主布局 */
 .sr-button-group {
   overflow: hidden;
   width: 130px;
@@ -63,6 +64,21 @@ const completePercentage = computed(() => {
   padding: 8px;
 }
 
+@media (max-width: 830px) {
+  .sr-button-group {
+    overflow: hidden;
+    width: auto;
+  }
+
+  .sr-button-wrapper {
+    flex-direction: row;
+    gap: 10px;
+    padding: 0;
+    width: fit-content;
+  }
+}
+
+/* 按钮 */
 .selector-button {
   width: 110px;
   height: 60px;
@@ -91,7 +107,20 @@ const completePercentage = computed(() => {
   color: #ffffff;
 }
 
-.el-button+.el-button {
-  margin-left: 0;
+@media (max-width: 830px) {
+  .selector-button {
+    width: 90px;
+    height: 40px;
+    border-radius: 20px;
+  }
+
+  .sr-button-image {
+    height: 36px;
+    object-fit: contain;
+  }
+
+  .sr-button-text {
+    font-size: 13px;
+  }
 }
 </style>

@@ -59,23 +59,27 @@ const getCompleteLevel3Number = computed(() => {
 </script>
 
 <template>
-  <div class="sr-statistic-class">
-    <div class="sr-statistic-left">
-      <p class="sr-statistic-title">{{props.achievementClass}}</p>
-      <p class="sr-statistic-count">成就进度 {{completeNumber}}/{{totalNumber}}</p>
-    </div>
-    <div class="sr-statistic-level">
-      <img :src="SrAchievementImg3" alt="achievement image" class="sr-statistic-img" />
-      <p class="sr-statistic-level-count">{{getCompleteLevel3Number}}/{{getLevel3Number}}</p>
-    </div>
-    <div class="sr-statistic-level">
-      <img :src="SrAchievementImg2" alt="achievement image" class="sr-statistic-img" />
-      <p class="sr-statistic-level-count">{{getCompleteLevel2Number}}/{{getLevel2Number}}</p>
-    </div>
-    <div class="sr-statistic-level">
-      <img :src="SrAchievementImg1" alt="achievement image" class="sr-statistic-img" />
-      <p class="sr-statistic-level-count">{{getCompleteLevel1Number}}/{{getLevel1Number}}</p>
-    </div>
+  <div class="sr-statistic-class-wrapper">
+    <el-scrollbar>
+      <div class="sr-statistic-class">
+        <div class="sr-statistic-left">
+          <p class="sr-statistic-title">{{props.achievementClass}}</p>
+          <p class="sr-statistic-count">成就进度 {{completeNumber}}/{{totalNumber}}</p>
+        </div>
+        <div class="sr-statistic-level">
+          <img :src="SrAchievementImg3" alt="achievement image" class="sr-statistic-img" />
+          <p class="sr-statistic-level-count">{{getCompleteLevel3Number}}/{{getLevel3Number}}</p>
+        </div>
+        <div class="sr-statistic-level">
+          <img :src="SrAchievementImg2" alt="achievement image" class="sr-statistic-img" />
+          <p class="sr-statistic-level-count">{{getCompleteLevel2Number}}/{{getLevel2Number}}</p>
+        </div>
+        <div class="sr-statistic-level">
+          <img :src="SrAchievementImg1" alt="achievement image" class="sr-statistic-img" />
+          <p class="sr-statistic-level-count">{{getCompleteLevel1Number}}/{{getLevel1Number}}</p>
+        </div>
+      </div>
+    </el-scrollbar>
   </div>
 </template>
 
@@ -92,10 +96,19 @@ const getCompleteLevel3Number = computed(() => {
   flex-direction: column;
 }
 
+@media (max-width: 830px) {
+  .sr-statistic-class-wrapper {
+    margin-top: 10px;
+    height: 50px;
+  }
+}
+
+/* 类别总计 */
 .sr-statistic-title {
   color: #ffffff;
   font-weight: bold;
   font-size: 36px;
+  white-space: nowrap
 }
 
 .sr-statistic-count {
@@ -104,6 +117,17 @@ const getCompleteLevel3Number = computed(() => {
   font-size: 18px;
 }
 
+@media (max-width: 830px) {
+  .sr-statistic-title {
+    font-size: 20px;
+  }
+
+  .sr-statistic-count {
+    font-size: 14px;
+  }
+}
+
+/* 级别统计 */
 .sr-statistic-level {
   margin-left: 45px;
   position: relative;
@@ -128,6 +152,27 @@ const getCompleteLevel3Number = computed(() => {
   color: #fae5c0;
   font-weight: bold;
   font-size: 18px;
+}
+
+@media (max-width: 830px) {
+  .sr-statistic-level {
+    margin-left: 25px;
+  }
+
+  .sr-statistic-level+.sr-statistic-level {
+    margin-left: 55px;
+  }
+
+  .sr-statistic-img {
+    max-height: 40px;
+  }
+
+  .sr-statistic-level-count {
+    margin-left: 35px;
+    margin-top: 25px;
+
+    font-size: 14px;
+  }
 }
 
 p {

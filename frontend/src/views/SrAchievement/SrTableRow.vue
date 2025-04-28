@@ -71,7 +71,7 @@ const handleComplete = async () => {
 
     <div class="sr-table-row-right">
       <div class="sr-game-version" >{{ props.achievement.game_version }}</div>
-      <div class="sr-achievement-reward-bg">
+      <div v-if="!isMobileStore.isMobile"  class="sr-achievement-reward-bg">
         <img :src="SrAchievementReward" alt="achievement reward" class="sr-achievement-reward-image" />
         <div class="sr-achievement-reward-count">{{achievementReward}}</div>
       </div>
@@ -101,6 +101,10 @@ const handleComplete = async () => {
 }
 
 @media (max-width: 830px) {
+  .sr-table-row {
+    justify-content: normal;
+  }
+
   .sr-table-row-left {
     flex: 3;
   }
@@ -182,6 +186,7 @@ const handleComplete = async () => {
   font-weight: bold;
   font-size: 17px;
   color: rgb(14, 14, 14);
+  white-space: nowrap;
 }
 
 .sr-desc {
