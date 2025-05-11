@@ -205,13 +205,6 @@ onBeforeUnmount(() => {
   margin-top: 8px;
 }
 
-@media (max-width: 900px) {
-  .el-header {
-    --el-header-height: 40px;
-    --el-header-padding: 0 10px;
-  }
-}
-
 .zzz-container-aside {
   margin-left: 8px;
   margin-top: 12px;
@@ -230,6 +223,11 @@ onBeforeUnmount(() => {
     margin-left: 0;
     margin-right: 0;
     margin-bottom: 0;
+  }
+
+  .el-header {
+    --el-header-height: 40px;
+    --el-header-padding: 0 10px;
   }
 }
 </style>

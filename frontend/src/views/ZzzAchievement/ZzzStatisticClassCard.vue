@@ -59,23 +59,23 @@ const getCompleteLevel3Number = computed(() => {
 </script>
 
 <template>
-  <el-card shadow="never" class="zzz-statistic-card">
+  <el-card shadow="never" class="zzz-statistic-card-wrapper">
     <el-scrollbar>
-      <div class="zzz-statistic-card-class">
-        <div slot="header" class="card-title">
+      <div class="zzz-statistic-card">
+        <div slot="header" class="zzz-statistic-total">
           <b class="card-text">{{props.achievementClass}}</b> 完成度:
           <br/>
           <b class="card-text">{{completeNumber}} / {{totalNumber}}</b>
         </div>
-        <div class="zzz-statistic-class">
+        <div class="zzz-statistic-level">
           <img :src="ZzzAchievementImg1" alt="achievement image" class="zzz-achievement-image" />
           <p> {{getCompleteLevel1Number}} / {{getLevel1Number}}</p>
         </div>
-        <div class="zzz-statistic-class">
+        <div class="zzz-statistic-level">
           <img :src="ZzzAchievementImg2" alt="achievement image" class="zzz-achievement-image" />
           <p> {{getCompleteLevel2Number}} / {{getLevel2Number}}</p>
         </div>
-        <div class="zzz-statistic-class">
+        <div class="zzz-statistic-level">
           <img :src="ZzzAchievementImg3" alt="achievement image" class="zzz-achievement-image" />
           <p> {{getCompleteLevel3Number}} / {{getLevel3Number}}</p>
         </div>
@@ -85,38 +85,62 @@ const getCompleteLevel3Number = computed(() => {
 </template>
 
 <style scoped>
-.zzz-statistic-card {
+.zzz-statistic-card-wrapper {
   border-radius: 12px;
   margin-left: 10px;
   margin-right: 10px;
 }
 
-@media (max-width: 900px) {
-  .zzz-statistic-card {
-    margin-left: 0;
-    margin-right: 0;
-  }
-}
-
-.zzz-statistic-card-class {
+.zzz-statistic-card {
   display: flex;
   flex-direction: row;
   align-content: space-between;
 }
 
-.zzz-statistic-class {
+.el-card {
+  --el-card-bg-color: #161817;
+  --el-card-border-color: #000000;
+  color: #cacaca;
+}
+
+@media (max-width: 900px) {
+  .zzz-statistic-card-wrapper {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  :deep(.el-card__body) {
+    padding: 5px 10px;
+  }
+}
+
+/* 类别总计 */
+.zzz-statistic-total {
+  min-width: 180px;
+}
+
+.card-text {
+  font-size: 20px;
+}
+
+@media (max-width: 900px) {
+  .zzz-statistic-total {
+    min-width: 137px;
+    font-size: 13px;
+  }
+
+  .card-text {
+    font-size: 15px;
+  }
+}
+
+/* 级别统计 */
+.zzz-statistic-level {
   display: flex;
   flex-direction: row;
   align-content: space-between;
   margin-left: 20px;
   min-width: 140px;
-}
-
-@media (max-width: 900px) {
-  .zzz-statistic-class {
-    margin-left: 10px;
-    min-width: 100px;
-  }
 }
 
 .zzz-achievement-image {
@@ -128,52 +152,22 @@ const getCompleteLevel3Number = computed(() => {
   background-color: #000000;
 }
 
-@media (max-width: 900px) {
-  .zzz-achievement-image {
-    width: 36px;
-    height: 36px;
-    border: 2px solid #000000; /* 可选的边框 */
-  }
-}
-
-.card-title {
-  min-width: 180px;
-}
-
-@media (max-width: 900px) {
-  .card-title {
-    min-width: 137px;
-    font-size: 13px;
-  }
-}
-
-.card-text {
-  font-size: 20px;
-}
-
-@media (max-width: 900px) {
-  .card-text {
-    font-size: 15px;
-  }
-}
-
-.el-card {
-  --el-card-bg-color: #161817;
-  --el-card-border-color: #000000;
-  color: #cacaca;
-}
-
-@media (max-width: 900px) {
-  :deep(.el-card__body) {
-    padding: 5px 10px;
-  }
-}
-
 p {
   margin-left: 10px;
 }
 
 @media (max-width: 900px) {
+  .zzz-statistic-level {
+    margin-left: 10px;
+    min-width: 100px;
+  }
+
+  .zzz-achievement-image {
+    width: 36px;
+    height: 36px;
+    border: 2px solid #000000; /* 可选的边框 */
+  }
+
   p {
     font-size: 13px;
   }
