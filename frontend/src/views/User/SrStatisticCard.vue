@@ -94,6 +94,7 @@ const getCompleteLevel3Number = computed(() => {
   background-repeat: no-repeat;
   border-radius: 16px;
   overflow: hidden;
+  min-height: 360px;
 }
 
 .el-card {
