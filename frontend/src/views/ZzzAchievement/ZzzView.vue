@@ -3,7 +3,13 @@ import {ref, onMounted, onBeforeUnmount, nextTick, watch, computed} from "vue";
 import { useZzzAchievementStore } from "@/stores/zzzAchievementsStore";
 import { useAuthStore } from '@/stores/authStore';
 import { useIsMobileStore } from '@/stores/isMobileStore';
-import { categories, lifeClasses, zzzGetClassIdByName } from "@/utils/zzzAchievementClass";
+import {
+  categories,
+  explorationClasses,
+  lifeClasses,
+  tacticsClasses,
+  zzzGetClassIdByName
+} from "@/utils/zzzAchievementClass";
 import ZzzTable from "@/views/ZzzAchievement/ZzzTable.vue";
 import ZzzHeader from "@/views/ZzzAchievement/ZzzHeader.vue";
 import ZzzAside from "@/views/ZzzAchievement/ZzzAside.vue";
@@ -13,26 +19,11 @@ const achievementStore = useZzzAchievementStore()
 const authStore = useAuthStore();
 const isMobileStore = useIsMobileStore();
 
-const loading = ref(true);
-const errorMessage = ref('');
-
+/* 筛选和排序成就 */
 // 选择大类别
 const category = ref(categories[0]);
 // 选择小类别
 const achievementClass = ref(lifeClasses[0]);
-
-// 设置表格高度
-const tableHeight = ref(500) // 初始值，防止第一次加载为 0
-const calculateTableHeight = () => {
-  const windowHeight = window.innerHeight
-
-  const headerEl = document.querySelector('.el-header') // 获取头部高度
-  const headerHeight = headerEl ? headerEl.offsetHeight : 0
-
-  const margin = isMobileStore.isMobile ? 90 : 142 // 预留的 padding/margin（可调）
-
-  tableHeight.value = windowHeight - headerHeight - margin
-}
 
 // 根据类别筛选成就
 const filteredAchievements = computed(() => {
@@ -56,6 +47,44 @@ const sortedAchievements = computed(() => {
   }
 });
 
+/* 根据hash定位内容 */
+async function syncWithHash() {
+  const hash = decodeURIComponent(window.location.hash.slice(1));
+  if (hash) {
+    if (lifeClasses.includes(hash)) {
+      category.value = categories[0];
+    } else if (tacticsClasses.includes(hash)) {
+      category.value = categories[1];
+    } else if (explorationClasses.includes(hash)) {
+      category.value = categories[2];
+    } else {
+      return;
+    }
+    await nextTick();
+    achievementClass.value = hash;
+  }
+}
+
+onMounted(() => {
+  syncWithHash()
+});
+
+watch(achievementClass, (newVal) => {
+  window.location.hash = encodeURIComponent(newVal);
+});
+
+onMounted(() => {
+  window.addEventListener('hashchange', syncWithHash);
+});
+
+onBeforeUnmount(() => {
+  window.removeEventListener('hashchange', syncWithHash);
+});
+
+/* 根据条件更新/获取成就数据 */
+const loading = ref(true);
+const errorMessage = ref('');
+
 const fetchData = async () => {
   try {
     loading.value = true;
@@ -73,7 +102,7 @@ onMounted(() => {
   fetchData();
 });
 
-watch(achievementClass, async (newClass) => {
+watch(achievementClass, async () => {
   await fetchData();
 });
 
@@ -83,6 +112,20 @@ watch(userName, async (newUserName) => {
   await fetchData();
 });
 
+/* 设置成就列表高度 */
+const tableHeight = ref(500) // 初始值，防止第一次加载为 0
+
+const calculateTableHeight = () => {
+  const windowHeight = window.innerHeight
+
+  const headerEl = document.querySelector('.el-header') // 获取头部高度
+  const headerHeight = headerEl ? headerEl.offsetHeight : 0
+
+  const margin = isMobileStore.isMobile ? 90 : 142 // 预留的 padding/margin（可调）
+
+  tableHeight.value = windowHeight - headerHeight - margin
+}
+
 onMounted(async () => {
   await nextTick()
   calculateTableHeight()
@@ -91,6 +134,22 @@ onMounted(async () => {
 
 onBeforeUnmount(() => {
   window.removeEventListener('resize', calculateTableHeight)
+})
+
+/* 设置侧栏高度 */
+const asideHeight = ref(900);
+
+const calculateAsideHeight = () => {
+  asideHeight.value = window.innerHeight - 90;
+}
+
+onMounted(() => {
+  calculateAsideHeight();
+  window.addEventListener('resize', calculateAsideHeight);
+})
+
+onBeforeUnmount(() => {
+  window.removeEventListener('resize', calculateAsideHeight);
 })
 </script>
 
@@ -103,7 +162,7 @@ onBeforeUnmount(() => {
         </el-header>
 
         <el-container>
-          <el-aside v-if="!isMobileStore.isMobile" class="zzz-container-aside">
+          <el-aside v-if="!isMobileStore.isMobile" class="zzz-container-aside" :style="{ height: `${asideHeight}px` }">
             <zzz-aside v-model="achievementClass"
                                  :category="category" />
           </el-aside>
@@ -146,13 +205,6 @@ onBeforeUnmount(() => {
   margin-top: 8px;
 }
 
-@media (max-width: 830px) {
-  .el-header {
-    --el-header-height: 40px;
-    --el-header-padding: 0 10px;
-  }
-}
-
 .zzz-container-aside {
   margin-left: 8px;
   margin-top: 12px;
@@ -165,12 +217,17 @@ onBeforeUnmount(() => {
   margin-bottom: 10px;
 }
 
-@media (max-width: 830px) {
+@media (max-width: 900px) {
   .zzz-container-main {
     padding: 8px;
     margin-left: 0;
     margin-right: 0;
     margin-bottom: 0;
+  }
+
+  .el-header {
+    --el-header-height: 40px;
+    --el-header-padding: 0 10px;
   }
 }
 </style>

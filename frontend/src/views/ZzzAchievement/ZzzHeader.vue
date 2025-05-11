@@ -55,7 +55,7 @@ const category = defineModel();
   margin-right: 20px;
 }
 
-@media (max-width: 830px) {
+@media (max-width: 900px) {
   .zzz-header-left-end {
     margin-right: 0;
   }

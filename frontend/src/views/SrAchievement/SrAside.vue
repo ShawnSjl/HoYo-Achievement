@@ -30,11 +30,17 @@ const completePercentage = computed(() => {
     return Math.floor((completeNumber / totalNumber) * 1000) / 10;
   };
 });
+
+// 滚动栏高度
+const scrollBarMaxHeight = computed(() => {
+  if (window.innerHeight < 900) return 550;
+  else return 750;
+})
 </script>
 
 <template>
   <div class="sr-button-group">
-    <el-scrollbar max-height="750px">
+    <el-scrollbar :max-height="scrollBarMaxHeight">
       <div class="sr-button-wrapper">
         <div
             v-for="srClass in srClasses"
@@ -64,7 +70,13 @@ const completePercentage = computed(() => {
   padding: 8px;
 }
 
-@media (max-width: 830px) {
+@media (max-height: 900px) {
+  .sr-button-wrapper {
+    gap: 30px;
+  }
+}
+
+@media (max-width: 900px) {
   .sr-button-group {
     overflow: hidden;
     width: auto;
@@ -107,7 +119,7 @@ const completePercentage = computed(() => {
   color: #ffffff;
 }
 
-@media (max-width: 830px) {
+@media (max-width: 900px) {
   .selector-button {
     width: 90px;
     height: 40px;

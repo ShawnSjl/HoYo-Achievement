@@ -57,7 +57,7 @@ const isMobileStore = useIsMobileStore();
   padding: 4px 16px;
 }
 
-@media (max-width: 830px) {
+@media (max-width: 900px) {
   .zzz-card-table {
     gap: 8px; /* 控制卡片之间的间隔 */
     padding: 5px;

@@ -100,7 +100,7 @@ const handleComplete = async () => {
   flex: 2;
 }
 
-@media (max-width: 830px) {
+@media (max-width: 900px) {
   .sr-table-row {
     justify-content: normal;
   }
@@ -127,7 +127,7 @@ const handleComplete = async () => {
   background-color: #6a6a6b;
 }
 
-@media (max-width: 830px) {
+@media (max-width: 900px) {
   .sr-achievement-image {
     width: 36px;
     height: 36px;
@@ -208,7 +208,7 @@ const handleComplete = async () => {
   left: -10px;
 }
 
-@media (max-width: 830px) {
+@media (max-width: 900px) {
   .sr-detail {
     font-size: 12px;
     gap: 6px;
@@ -232,7 +232,7 @@ const handleComplete = async () => {
   color: #555555;
 }
 
-@media (max-width: 830px) {
+@media (max-width: 900px) {
   .sr-game-version {
     font-weight: normal;
     font-size: 14px;
@@ -245,7 +245,7 @@ const handleComplete = async () => {
   margin-right: 10px;
 }
 
-@media (max-width: 830px) {
+@media (max-width: 900px) {
   .sr-complete-button {
     margin-right: 0;
   }

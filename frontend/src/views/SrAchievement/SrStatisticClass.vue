@@ -96,7 +96,7 @@ const getCompleteLevel3Number = computed(() => {
   flex-direction: column;
 }
 
-@media (max-width: 830px) {
+@media (max-width: 900px) {
   .sr-statistic-class-wrapper {
     margin-top: 10px;
     height: 50px;
@@ -117,7 +117,7 @@ const getCompleteLevel3Number = computed(() => {
   font-size: 18px;
 }
 
-@media (max-width: 830px) {
+@media (max-width: 900px) {
   .sr-statistic-title {
     font-size: 20px;
   }
@@ -154,7 +154,7 @@ const getCompleteLevel3Number = computed(() => {
   font-size: 18px;
 }
 
-@media (max-width: 830px) {
+@media (max-width: 900px) {
   .sr-statistic-level {
     margin-left: 25px;
   }

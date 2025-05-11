@@ -14,9 +14,7 @@ const authStore = useAuthStore()
 const srAchievementStore = useSrAchievementStore()
 const isMobileStore = useIsMobileStore()
 
-const loading = ref(true);
-const errorMessage = ref('');
-
+/* 筛选和排序成就 */
 const achievementClass = ref(srClasses[0])
 
 // 根据类别筛选成就
@@ -44,18 +42,33 @@ const sortedAchievements = computed(() => {
   }
 })
 
-// 设置表格高度
-const tableHeight = ref(500) // 初始值，防止第一次加载为 0
-const calculateTableHeight = () => {
-  const windowHeight = window.innerHeight
-
-  const headerEl = document.querySelector('.el-header') // 获取头部高度
-  const headerHeight = headerEl ? headerEl.offsetHeight : 0
-
-  const margin = isMobileStore.isMobile ? 150 : 180 // 预留的 padding/margin（可调）
-
-  tableHeight.value = windowHeight - headerHeight - margin
+/* 根据hash定位内容 */
+function syncWithHash() {
+  const hash = decodeURIComponent(window.location.hash.slice(1));
+  if (hash && srClasses.includes(hash)) {
+    achievementClass.value = hash;
+  }
 }
+
+onMounted(() => {
+  syncWithHash()
+});
+
+watch(achievementClass, (newVal) => {
+  window.location.hash = encodeURIComponent(newVal);
+});
+
+onMounted(() => {
+  window.addEventListener('hashchange', syncWithHash);
+});
+
+onBeforeUnmount(() => {
+  window.removeEventListener('hashchange', syncWithHash);
+});
+
+/* 根据条件更新/获取成就数据 */
+const loading = ref(true);
+const errorMessage = ref('');
 
 const fetchData = async () => {
   try {
@@ -74,7 +87,7 @@ onMounted(() => {
   fetchData();
 });
 
-watch(achievementClass, async (newClass) => {
+watch(achievementClass, async () => {
   await fetchData();
 });
 
@@ -83,6 +96,21 @@ watch(userName, async (newUserName) => {
   console.log(newUserName);
   await fetchData();
 });
+
+/* 设置成就列表高度 */
+const tableHeight = ref(500) // 初始值，防止第一次加载为 0
+
+const calculateTableHeight = () => {
+  const windowHeight = window.innerHeight
+
+  const headerEl = document.querySelector('.el-header') // 获取头部高度
+  const headerHeight = headerEl ? headerEl.offsetHeight : 0
+
+  const margin = isMobileStore.isMobile ? 150 : 180 // 预留的 padding/margin（可调）
+
+  tableHeight.value = windowHeight - headerHeight - margin
+}
+
 onMounted(async () => {
   await nextTick()
   calculateTableHeight()
@@ -91,6 +119,22 @@ onMounted(async () => {
 
 onBeforeUnmount(() => {
   window.removeEventListener('resize', calculateTableHeight)
+})
+
+/* 设置侧栏高度 */
+const asideHeight = ref('auto');
+
+const calculateAsideHeight = () => {
+  asideHeight.value = `${window.innerHeight - 90}px`;
+}
+
+onMounted(() => {
+  calculateAsideHeight();
+  window.addEventListener('resize', calculateAsideHeight);
+})
+
+onBeforeUnmount(() => {
+  window.removeEventListener('resize', calculateAsideHeight);
 })
 </script>
 
@@ -103,11 +147,11 @@ onBeforeUnmount(() => {
         </el-header>
 
         <el-container>
-          <el-aside v-if="!isMobileStore.isMobile" class="sr-container-aside">
-            <sr-aside v-model="achievementClass"  style="align-self: center"/>
+          <el-aside v-if="!isMobileStore.isMobile" class="sr-container-aside" :style="{ height: asideHeight }">
+            <sr-aside v-model="achievementClass" />
           </el-aside>
           <el-main class="sr-container-main">
-            <sr-aside v-if="isMobileStore.isMobile" v-model="achievementClass" style="align-self: center"/>
+            <sr-aside v-if="isMobileStore.isMobile" v-model="achievementClass" />
             <sr-statistic-class
                       :achievementClass="achievementClass"
                       style="margin-left: 10px" />
@@ -153,13 +197,14 @@ onBeforeUnmount(() => {
 .sr-container-aside {
   width: 130px;
   display: flex;
+  align-items: center;
 }
 
 .sr-container-main {
   height: 100%;
 }
 
-@media (max-width: 830px) {
+@media (max-width: 900px) {
   .el-main {
     --el-main-padding: 10px;
   }

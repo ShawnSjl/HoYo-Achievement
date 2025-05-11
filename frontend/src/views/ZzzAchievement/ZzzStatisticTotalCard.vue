@@ -56,15 +56,15 @@ const getCompleteLevel3Number = computed(() => {
       <div style="align-self: center; margin-left: 11px">总计：</div>
       <p> {{getTotalCompleteNumber}} / {{getTotalNumber}}</p>
     </div>
-    <div class="zzz-statistic-total">
+    <div class="zzz-statistic-detail">
       <img :src="ZzzAchievementImg1" alt="achievement image" class="zzz-achievement-image" />
       <p> {{getCompleteLevel1Number}} / {{getLevel1Number}}</p>
     </div>
-    <div class="zzz-statistic-total">
+    <div class="zzz-statistic-detail">
       <img :src="ZzzAchievementImg2" alt="achievement image" class="zzz-achievement-image" />
       <p> {{getCompleteLevel2Number}} / {{getLevel2Number}}</p>
     </div>
-    <div class="zzz-statistic-total">
+    <div class="zzz-statistic-detail">
       <img :src="ZzzAchievementImg3" alt="achievement image" class="zzz-achievement-image" />
       <p> {{getCompleteLevel3Number}} / {{getLevel3Number}}</p>
     </div>
@@ -76,7 +76,19 @@ const getCompleteLevel3Number = computed(() => {
   display: flex;
   flex-direction: row;
   align-content: space-between;
-  margin-bottom: 10px;
+}
+
+.zzz-statistic-detail {
+  display: flex;
+  flex-direction: row;
+  align-content: space-between;
+  margin-top: 10px;
+}
+
+@media (max-height: 900px) {
+  .zzz-statistic-detail {
+    display: none;
+  }
 }
 
 .zzz-achievement-image {

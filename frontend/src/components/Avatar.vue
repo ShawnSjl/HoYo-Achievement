@@ -1,5 +1,5 @@
 <script setup>
-import {computed, ref} from 'vue';
+import {computed} from 'vue';
 import router from "@/router";
 import Zzz from '@/assets/image/zzz.png'
 import {useAuthStore} from "@/stores/authStore";
@@ -67,7 +67,7 @@ const handleClick = () => {
   color: #ededed;
 }
 
-@media (max-width: 830px) {
+@media (max-width: 900px) {
   .avatar-username {
     font-size: 14px;
     font-weight: bold;
