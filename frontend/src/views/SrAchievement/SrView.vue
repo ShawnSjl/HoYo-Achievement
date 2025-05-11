@@ -120,6 +120,22 @@ onMounted(async () => {
 onBeforeUnmount(() => {
   window.removeEventListener('resize', calculateTableHeight)
 })
+
+/* 设置侧栏高度 */
+const asideHeight = ref('auto');
+
+const calculateAsideHeight = () => {
+  asideHeight.value = `${window.innerHeight - 90}px`;
+}
+
+onMounted(() => {
+  calculateAsideHeight();
+  window.addEventListener('resize', calculateAsideHeight);
+})
+
+onBeforeUnmount(() => {
+  window.removeEventListener('resize', calculateAsideHeight);
+})
 </script>
 
 <template>
@@ -131,11 +147,11 @@ onBeforeUnmount(() => {
         </el-header>
 
         <el-container>
-          <el-aside v-if="!isMobileStore.isMobile" class="sr-container-aside">
-            <sr-aside v-model="achievementClass"  style="align-self: center"/>
+          <el-aside v-if="!isMobileStore.isMobile" class="sr-container-aside" :style="{ height: asideHeight }">
+            <sr-aside v-model="achievementClass" />
           </el-aside>
           <el-main class="sr-container-main">
-            <sr-aside v-if="isMobileStore.isMobile" v-model="achievementClass" style="align-self: center"/>
+            <sr-aside v-if="isMobileStore.isMobile" v-model="achievementClass" />
             <sr-statistic-class
                       :achievementClass="achievementClass"
                       style="margin-left: 10px" />
@@ -181,6 +197,7 @@ onBeforeUnmount(() => {
 .sr-container-aside {
   width: 130px;
   display: flex;
+  align-items: center;
 }
 
 .sr-container-main {
