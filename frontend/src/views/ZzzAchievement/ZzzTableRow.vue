@@ -1,5 +1,5 @@
 <script setup>
-import {computed, ref} from 'vue';
+import {computed} from 'vue';
 import { useZzzAchievementStore } from "@/stores/zzzAchievementsStore";
 import ZzzAchievementImg1 from '@/assets/image/zzz-achievement-level-1.png';
 import ZzzAchievementImg2 from '@/assets/image/zzz-achievement-level-2.png';

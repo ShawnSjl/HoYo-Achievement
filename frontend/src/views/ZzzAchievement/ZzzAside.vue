@@ -1,5 +1,5 @@
 <script setup>
-import {computed, onBeforeUnmount, onMounted, ref, watch} from "vue";
+import {computed, watch} from "vue";
 import { useZzzAchievementStore } from "@/stores/zzzAchievementsStore";
 import {zzzGetClassByCategory, zzzGetClassIdByName} from "@/utils/zzzAchievementClass";
 import ZzzStatisticTotalCard from "@/views/ZzzAchievement/ZzzStatisticTotalCard.vue";

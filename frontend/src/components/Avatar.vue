@@ -1,5 +1,5 @@
 <script setup>
-import {computed, ref} from 'vue';
+import {computed} from 'vue';
 import router from "@/router";
 import Zzz from '@/assets/image/zzz.png'
 import {useAuthStore} from "@/stores/authStore";

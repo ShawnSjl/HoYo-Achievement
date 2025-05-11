@@ -1,9 +1,9 @@
 <script setup>
-import {ref, computed, onMounted, watch} from "vue";
+import {computed, onMounted, watch} from "vue";
 import DefaultAvatar from '@/assets/image/zzz.png'
 import {useAuthStore} from "@/stores/authStore";
 import {useZzzAchievementStore} from "@/stores/zzzAchievementsStore";
-import {showError, showInfo} from "@/utils/notification";
+import {showError} from "@/utils/notification";
 import ProfileSettingButton from "@/views/User/ProfileSettingButton.vue";
 import LoginButton from "@/components/LoginButton.vue";
 import LogoutButton from "@/components/LogoutButton.vue";

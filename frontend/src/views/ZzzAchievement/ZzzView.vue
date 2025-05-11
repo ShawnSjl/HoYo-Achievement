@@ -102,7 +102,7 @@ onMounted(() => {
   fetchData();
 });
 
-watch(achievementClass, async (newClass) => {
+watch(achievementClass, async () => {
   await fetchData();
 });
 
