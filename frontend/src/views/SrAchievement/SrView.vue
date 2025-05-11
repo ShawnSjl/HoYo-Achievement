@@ -204,7 +204,7 @@ onBeforeUnmount(() => {
   height: 100%;
 }
 
-@media (max-width: 830px) {
+@media (max-width: 900px) {
   .el-main {
     --el-main-padding: 10px;
   }

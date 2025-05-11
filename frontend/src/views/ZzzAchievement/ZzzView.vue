@@ -205,7 +205,7 @@ onBeforeUnmount(() => {
   margin-top: 8px;
 }
 
-@media (max-width: 830px) {
+@media (max-width: 900px) {
   .el-header {
     --el-header-height: 40px;
     --el-header-padding: 0 10px;
@@ -224,7 +224,7 @@ onBeforeUnmount(() => {
   margin-bottom: 10px;
 }
 
-@media (max-width: 830px) {
+@media (max-width: 900px) {
   .zzz-container-main {
     padding: 8px;
     margin-left: 0;

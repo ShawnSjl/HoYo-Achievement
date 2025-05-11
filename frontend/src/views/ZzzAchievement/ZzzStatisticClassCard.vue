@@ -91,7 +91,7 @@ const getCompleteLevel3Number = computed(() => {
   margin-right: 10px;
 }
 
-@media (max-width: 830px) {
+@media (max-width: 900px) {
   .zzz-statistic-card {
     margin-left: 0;
     margin-right: 0;
@@ -112,7 +112,7 @@ const getCompleteLevel3Number = computed(() => {
   min-width: 140px;
 }
 
-@media (max-width: 830px) {
+@media (max-width: 900px) {
   .zzz-statistic-class {
     margin-left: 10px;
     min-width: 100px;
@@ -128,7 +128,7 @@ const getCompleteLevel3Number = computed(() => {
   background-color: #000000;
 }
 
-@media (max-width: 830px) {
+@media (max-width: 900px) {
   .zzz-achievement-image {
     width: 36px;
     height: 36px;
@@ -140,7 +140,7 @@ const getCompleteLevel3Number = computed(() => {
   min-width: 180px;
 }
 
-@media (max-width: 830px) {
+@media (max-width: 900px) {
   .card-title {
     min-width: 137px;
     font-size: 13px;
@@ -151,7 +151,7 @@ const getCompleteLevel3Number = computed(() => {
   font-size: 20px;
 }
 
-@media (max-width: 830px) {
+@media (max-width: 900px) {
   .card-text {
     font-size: 15px;
   }
@@ -163,7 +163,7 @@ const getCompleteLevel3Number = computed(() => {
   color: #cacaca;
 }
 
-@media (max-width: 830px) {
+@media (max-width: 900px) {
   :deep(.el-card__body) {
     padding: 5px 10px;
   }
@@ -173,7 +173,7 @@ p {
   margin-left: 10px;
 }
 
-@media (max-width: 830px) {
+@media (max-width: 900px) {
   p {
     font-size: 13px;
   }

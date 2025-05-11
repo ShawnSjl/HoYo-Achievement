@@ -76,7 +76,7 @@ const scrollBarMaxHeight = computed(() => {
   }
 }
 
-@media (max-width: 830px) {
+@media (max-width: 900px) {
   .sr-button-group {
     overflow: hidden;
     width: auto;
@@ -119,7 +119,7 @@ const scrollBarMaxHeight = computed(() => {
   color: #ffffff;
 }
 
-@media (max-width: 830px) {
+@media (max-width: 900px) {
   .selector-button {
     width: 90px;
     height: 40px;

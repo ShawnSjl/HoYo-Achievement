@@ -61,7 +61,7 @@ const isMobileStore = useIsMobileStore();
   object-fit: contain;
 }
 
-@media (max-width: 830px) {
+@media (max-width: 900px) {
   .sr-header-title-img {
     height: 30px;
   }
@@ -96,7 +96,7 @@ const isMobileStore = useIsMobileStore();
   margin-left: 30px
 }
 
-@media (max-width: 830px) {
+@media (max-width: 900px) {
   .sr-header-right-gap {
     margin-right: 10px;
     margin-left: 10px

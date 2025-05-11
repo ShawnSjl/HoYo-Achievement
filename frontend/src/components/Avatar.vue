@@ -67,7 +67,7 @@ const handleClick = () => {
   color: #ededed;
 }
 
-@media (max-width: 830px) {
+@media (max-width: 900px) {
   .avatar-username {
     font-size: 14px;
     font-weight: bold;

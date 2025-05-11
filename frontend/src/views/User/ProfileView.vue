@@ -97,7 +97,7 @@ html, body {
   padding: 0 20px;
 }
 
-@media (max-width: 830px) {
+@media (max-width: 900px) {
   .profile-content {
     max-width: 830px;
     margin: 0 auto;
@@ -116,7 +116,7 @@ html, body {
   align-items: center;
 }
 
-@media (max-width: 830px) {
+@media (max-width: 900px) {
   .profile-header {
     padding-top: 10px;
     width: 80%;
@@ -143,7 +143,7 @@ html, body {
 }
 
 
-@media (max-width: 830px) {
+@media (max-width: 900px) {
   .profile-info {
     margin-left: 10px;
     justify-self: center;
@@ -159,7 +159,7 @@ html, body {
   padding: 0 5px;
 }
 
-@media (max-width: 830px) {
+@media (max-width: 900px) {
   .profile-statistic {
     width: 95%;
   }

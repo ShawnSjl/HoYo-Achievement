@@ -110,7 +110,7 @@ const getAchievementName = computed(() => {
   flex: 2;
 }
 
-@media (max-width: 830px) {
+@media (max-width: 900px) {
   .zzz-table-row-left {
     flex: 3;
   }
@@ -143,7 +143,7 @@ const getAchievementName = computed(() => {
   object-fit: cover;   /* 保证图片不变形、居中裁剪 */
 }
 
-@media (max-width: 830px) {
+@media (max-width: 900px) {
   .zzz-achievement-image-bg{
     width: 40px;
     height: 40px;
@@ -228,7 +228,7 @@ const getAchievementName = computed(() => {
   left: -10px;
 }
 
-@media (max-width: 830px) {
+@media (max-width: 900px) {
   .zzz-detail {
     font-size: 12px;
     gap: 6px;
@@ -252,7 +252,7 @@ const getAchievementName = computed(() => {
   color: #acacac;
 }
 
-@media (max-width: 830px) {
+@media (max-width: 900px) {
   .zzz-game-version {
     font-weight: normal;
     font-size: 14px;
@@ -265,7 +265,7 @@ const getAchievementName = computed(() => {
   margin-right: 10px;
 }
 
-@media (max-width: 830px) {
+@media (max-width: 900px) {
   .zzz-complete-button {
     margin-right: 0;
   }
