@@ -37,31 +37,10 @@ const completePercentage = computed(() => {
     return Math.floor((numberComplete / numberTotal) * 1000) / 10;
   };
 });
-
-/* 设置侧栏高度 */
-const asideHeight = ref(900);
-
-const calculateAsideHeight = () => {
-  if (window.innerHeight > 900) {
-    asideHeight.value = window.innerHeight - 90;
-  } else {
-    const vh = window.innerHeight * 0.01;
-    asideHeight.value = vh * 90;
-  }
-}
-
-onMounted(() => {
-  calculateAsideHeight();
-  window.addEventListener('resize', calculateAsideHeight);
-})
-
-onBeforeUnmount(() => {
-  window.removeEventListener('resize', calculateAsideHeight);
-})
 </script>
 
 <template>
-  <div class="zzz-aside" :style="{ height: `${asideHeight}px` }">
+  <div class="zzz-aside">
     <el-segmented v-model="achievementClass" :options="classes" size="large" direction="vertical">
       <template #default="each">
         <div class="zzz-class-option">

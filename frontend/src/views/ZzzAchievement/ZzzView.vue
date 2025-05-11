@@ -135,6 +135,22 @@ onMounted(async () => {
 onBeforeUnmount(() => {
   window.removeEventListener('resize', calculateTableHeight)
 })
+
+/* 设置侧栏高度 */
+const asideHeight = ref(900);
+
+const calculateAsideHeight = () => {
+  asideHeight.value = window.innerHeight - 90;
+}
+
+onMounted(() => {
+  calculateAsideHeight();
+  window.addEventListener('resize', calculateAsideHeight);
+})
+
+onBeforeUnmount(() => {
+  window.removeEventListener('resize', calculateAsideHeight);
+})
 </script>
 
 <template>
@@ -146,7 +162,7 @@ onBeforeUnmount(() => {
         </el-header>
 
         <el-container>
-          <el-aside v-if="!isMobileStore.isMobile" class="zzz-container-aside">
+          <el-aside v-if="!isMobileStore.isMobile" class="zzz-container-aside" :style="{ height: `${asideHeight}px` }">
             <zzz-aside v-model="achievementClass"
                                  :category="category" />
           </el-aside>
