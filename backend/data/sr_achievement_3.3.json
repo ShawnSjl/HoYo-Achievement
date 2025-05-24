@@ -1,0 +1,506 @@
+[
+  {
+    "achievement_id": 2019001,
+    "class": "通往群星的轨道",
+    "name": "黎明沉默无言",
+    "description": "哀悼一位伟大凡人的陨落※聆听白厄的演讲",
+    "reward_level": 2,
+    "game_version": "3.3",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 2019002,
+    "class": "通往群星的轨道",
+    "name": "鎏金，铩羽",
+    "description": "堕入那一池滚烫的黄金……※击败天空泰坦的化身",
+    "reward_level": 2,
+    "game_version": "3.3",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 2019003,
+    "class": "通往群星的轨道",
+    "name": "我们的天空",
+    "description": "以人的意志，为神明的时代画上句号※战胜塞涅俄丝的意志",
+    "reward_level": 2,
+    "game_version": "3.3",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 2019004,
+    "class": "通往群星的轨道",
+    "name": "出卖世界的女孩",
+    "description": "见证一则谎言的落幕※见证千年之谎被揭穿的时刻",
+    "reward_level": 2,
+    "game_version": "3.3",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 2019005,
+    "class": "通往群星的轨道",
+    "name": "一切终点的起点",
+    "description": "世上从无两全其美※完成逐火之旅",
+    "reward_level": 2,
+    "game_version": "3.3",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 3019001,
+    "class": "战意奔涌",
+    "name": "偷天换日",
+    "description": "单场战斗中，我方角色赛飞儿天赋效果记录的伤害值超过9999999点",
+    "reward_level": 1,
+    "game_version": "3.3",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 3019002,
+    "class": "战意奔涌",
+    "name": "满血就是斩杀线",
+    "description": "单场战斗中，使用赛飞儿的终结技【猫咪怪盗，敬上！】对2名生命值为100%的敌人造成致命攻击",
+    "reward_level": 1,
+    "game_version": "3.3",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 3019003,
+    "class": "战意奔涌",
+    "name": "化作微风守护你",
+    "description": "单场战斗中，使用我方角色风堇的小伊卡，通过治疗队友累计消耗10000点生命值",
+    "reward_level": 1,
+    "game_version": "3.3",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 3019004,
+    "class": "战意奔涌",
+    "name": "奔腾年代",
+    "description": "单场战斗中，使用我方角色风堇的小伊卡，对「兴风者」或「虚卒·践踏者」造成最后一击",
+    "reward_level": 1,
+    "game_version": "3.3",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 3019005,
+    "class": "战意奔涌",
+    "name": "熄灭天火的忿怒",
+    "description": "在与「至高，至阳，天空的化身」的战斗中，使【温度】降低30",
+    "reward_level": 1,
+    "game_version": "3.3",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 3019006,
+    "class": "战意奔涌",
+    "name": "争夺雷电的权柄",
+    "description": "在与「至高，至阳，天空的化身」的战斗中，通过争夺所有【雷云】打断敌人的【霆，如山摇海倾】",
+    "reward_level": 1,
+    "game_version": "3.3",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 3019007,
+    "class": "战意奔涌",
+    "name": "直面苍穹的神罚",
+    "description": "在「绝灭者，阳雷的业果，晨昏之眼」的【黑潮同步率】达到最高时，承受【烬灰死寂•诸神屠灭】的攻击且没有我方角色陷入无法战斗状态",
+    "reward_level": 1,
+    "game_version": "3.3",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 3019008,
+    "class": "战意奔涌",
+    "name": "衣角微脏",
+    "description": "在与「黑日狮鹫」的战斗中，在未受到来自其召唤物伤害的条件下获得战斗胜利",
+    "reward_level": 1,
+    "game_version": "3.3",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 3019009,
+    "class": "战意奔涌",
+    "name": "角斗士",
+    "description": "通过对「黑潮斗将」造成弱点击破，在【决斗】机制中取胜",
+    "reward_level": 1,
+    "game_version": "3.3",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 7019001,
+    "class": "瞬息欢愉",
+    "name": "真正的堂吉诃德",
+    "description": "真是个好天气，让我们把风扇搞坏吧！※短时间内改变同一个风场装置的状态10次",
+    "reward_level": 1,
+    "game_version": "3.3",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8019001,
+    "class": "与你同行的回忆",
+    "name": "烈火朝生暮死",
+    "description": "将伊来内换取的「余火」汇入火焰",
+    "reward_level": 1,
+    "game_version": "3.3",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8019002,
+    "class": "与你同行的回忆",
+    "name": "假如给我三天温暖",
+    "description": "令「沉沦暮城」奥赫玛和「无晖祈堂」黎明云崖中所有熄灭的吉奥里亚活火复燃",
+    "reward_level": 1,
+    "game_version": "3.3",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8019003,
+    "class": "与你同行的回忆",
+    "name": "狮子王",
+    "description": "修复「沉沦暮城」奥赫玛和「无晖祈堂」黎明云崖中所有损坏的真言狮口",
+    "reward_level": 1,
+    "game_version": "3.3",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8019004,
+    "class": "与你同行的回忆",
+    "name": "云计算恢复中",
+    "description": "观测天才们研究翁法罗斯的会议记录",
+    "reward_level": 1,
+    "game_version": "3.3",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8019005,
+    "class": "与你同行的回忆",
+    "name": "一日刻法勒",
+    "description": "为了守护孩子们的笑容，假扮一次刻法勒",
+    "reward_level": 1,
+    "game_version": "3.3",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8019006,
+    "class": "与你同行的回忆",
+    "name": "生物圈二号",
+    "description": "在众人的协助下巩固一处新的避难所",
+    "reward_level": 1,
+    "game_version": "3.3",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8019007,
+    "class": "与你同行的回忆",
+    "name": "我呼唤轻柔的晨曦",
+    "description": "阅读「穹顶关塞」晨昏之眼所有启目集",
+    "reward_level": 1,
+    "game_version": "3.3",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8019008,
+    "class": "与你同行的回忆",
+    "name": "我呼唤启程的新篇",
+    "description": "夺取艾格勒火种后首次阅读启目集",
+    "reward_level": 1,
+    "game_version": "3.3",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8019009,
+    "class": "与你同行的回忆",
+    "name": "废墟的遗赠",
+    "description": "在「沉沦暮城」奥赫玛的雅努斯之驹处，购买所有已毁城邦特产的合成公式",
+    "reward_level": 1,
+    "game_version": "3.3",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8019010,
+    "class": "与你同行的回忆",
+    "name": "西风志铭",
+    "description": "见证一位奥赫玛居民的结局，记述下他们的故事",
+    "reward_level": 1,
+    "game_version": "3.3",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8019011,
+    "class": "与你同行的回忆",
+    "name": "这是人类的落日",
+    "description": "窥探「沉沦暮城」奥赫玛全部的追忆残像",
+    "reward_level": 1,
+    "game_version": "3.3",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8019012,
+    "class": "与你同行的回忆",
+    "name": "活过一百万次的猫",
+    "description": "窥探捷足的羁客最后的追忆残像",
+    "reward_level": 1,
+    "game_version": "3.3",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8019013,
+    "class": "与你同行的回忆",
+    "name": "补天",
+    "description": "窥探摇光的医师最后的追忆残像",
+    "reward_level": 1,
+    "game_version": "3.3",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8019014,
+    "class": "与你同行的回忆",
+    "name": "无边的平原延伸",
+    "description": "获取声音记录《神性的回响：大地》",
+    "reward_level": 1,
+    "game_version": "3.3",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8019015,
+    "class": "与你同行的回忆",
+    "name": "言语有千般颜色",
+    "description": "获取声音记录《神性的回响：诡计》",
+    "reward_level": 1,
+    "game_version": "3.3",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8019016,
+    "class": "与你同行的回忆",
+    "name": "你在瞬息里巡行",
+    "description": "获取声音记录《神性的回响：天空》",
+    "reward_level": 1,
+    "game_version": "3.3",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8019017,
+    "class": "与你同行的回忆",
+    "name": "我只等待自己",
+    "description": "调查过位于「穹顶关塞」晨昏之眼与「云端遗堡」晨昏之眼的两匹雅努斯之驹",
+    "reward_level": 1,
+    "game_version": "3.3",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8019018,
+    "class": "与你同行的回忆",
+    "name": "球棒即正义！",
+    "description": "在「银河球棒侠传说」活动中，合成最强球棒",
+    "reward_level": 1,
+    "game_version": "3.3",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8019019,
+    "class": "与你同行的回忆",
+    "name": "Evil May Cry",
+    "description": "在「银河球棒侠传说」活动中，战胜黑斗篷魔王",
+    "reward_level": 2,
+    "game_version": "3.3",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8019020,
+    "class": "与你同行的回忆",
+    "name": "银河流星一击",
+    "description": "在「银河球棒侠传说」活动中，合成至尊超武",
+    "reward_level": 1,
+    "game_version": "3.3",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8019021,
+    "class": "与你同行的回忆",
+    "name": "阳光与黯影",
+    "description": "在「银河球棒侠传说」活动中，合成双子超武",
+    "reward_level": 1,
+    "game_version": "3.3",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8019022,
+    "class": "与你同行的回忆",
+    "name": "平砍连击带顺劈",
+    "description": "在「银河球棒侠传说」活动中，使用「暴风雷霆之锤」打出16连锤",
+    "reward_level": 1,
+    "game_version": "3.3",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8019023,
+    "class": "与你同行的回忆",
+    "name": "The Chosen One",
+    "description": "在「银河球棒侠传说」活动中，一次「幸运轮盘」或「幸运儿的赌局」攻击中roll到5个钻石",
+    "reward_level": 1,
+    "game_version": "3.3",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 9019001,
+    "class": "众秘探奇",
+    "name": "交通罚单，请收好",
+    "description": "在「云端遗堡」晨昏之眼击碎超速运行的飞天坛递",
+    "reward_level": 1,
+    "game_version": "3.3",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 9019002,
+    "class": "众秘探奇",
+    "name": "虫鸣秘闻：无形长阶",
+    "description": "是什么遮蔽了燃火之路？※解开「无晖祈堂」黎明云崖的预言谜题",
+    "reward_level": 1,
+    "game_version": "3.3",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 9019003,
+    "class": "众秘探奇",
+    "name": "虫鸣秘闻：西风苦旅",
+    "description": "捷足能否逃离厄运？※解开「沉沦暮城」奥赫玛的预言谜题",
+    "reward_level": 1,
+    "game_version": "3.3",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 9019004,
+    "class": "众秘探奇",
+    "name": "虫鸣秘闻：神机之秘",
+    "description": "如何驯服神机？※解开「穹顶关塞」晨昏之眼的预言谜题",
+    "reward_level": 1,
+    "game_version": "3.3",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 9019005,
+    "class": "众秘探奇",
+    "name": "虫鸣秘闻：虹彩尽头",
+    "description": "如何抵达彩虹的尽头？※解开「云端遗堡」晨昏之眼的预言谜题",
+    "reward_level": 1,
+    "game_version": "3.3",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 9019006,
+    "class": "众秘探奇",
+    "name": "将黄金织作方舟",
+    "description": "集齐全部16块颂言石块后，与原型衣匠交流",
+    "reward_level": 1,
+    "game_version": "3.3",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 9019007,
+    "class": "众秘探奇",
+    "name": "再见了，所有的飞天坛递",
+    "description": "打碎超长彩虹道路上所有的飞天坛递",
+    "reward_level": 1,
+    "game_version": "3.3",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 9019008,
+    "class": "众秘探奇",
+    "name": "最小生成树",
+    "description": "使用不多于两次旋转操作来解开一个西风罗盘的谜题",
+    "reward_level": 1,
+    "game_version": "3.3",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 9019009,
+    "class": "众秘探奇",
+    "name": "潮起潮落",
+    "description": "解决晨昏之眼中所有西风罗盘的谜题，拿到属于它们的战利品。",
+    "reward_level": 1,
+    "game_version": "3.3",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 9019010,
+    "class": "众秘探奇",
+    "name": "而知也无涯",
+    "description": "找到「知道虫」",
+    "reward_level": 1,
+    "game_version": "3.3",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 9019011,
+    "class": "众秘探奇",
+    "name": "巴特鲁斯玻色子",
+    "description": "找到一只原地打转的贼灵",
+    "reward_level": 1,
+    "game_version": "3.3",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 9019012,
+    "class": "众秘探奇",
+    "name": "巴特鲁斯什么也不知道",
+    "description": "见证一只贼灵消灭宝箱旁的怪物",
+    "reward_level": 1,
+    "game_version": "3.3",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 9019013,
+    "class": "众秘探奇",
+    "name": "天空的路标",
+    "description": "借助西风罗盘，抵达「云端遗堡」晨昏之眼的某个特殊天象区块",
+    "reward_level": 1,
+    "game_version": "3.3",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 9019014,
+    "class": "众秘探奇",
+    "name": "苍天之拳",
+    "description": "别以为躲在天上就没事了…※使用扎格列斯之手的冲拳动作，击败「穹顶关塞」晨昏之眼中某个躲藏的敌人",
+    "reward_level": 1,
+    "game_version": "3.3",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 9019015,
+    "class": "众秘探奇",
+    "name": "光化学合成",
+    "description": "真正的强者，可以踏空而行…※在「云端遗堡」晨昏之眼中，利用「奇迹宝珠」抵达平台另一侧",
+    "reward_level": 1,
+    "game_version": "3.3",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 9019016,
+    "class": "众秘探奇",
+    "name": "芝麻，开门",
+    "description": "解开谜题，获得「云端遗堡」晨昏之眼中存储区块的隐藏战利品",
+    "reward_level": 1,
+    "game_version": "3.3",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 9019017,
+    "class": "众秘探奇",
+    "name": "杰克与豌豆",
+    "description": "解开谜题，获得「云端遗堡」晨昏之眼中天象区块的隐藏战利品",
+    "reward_level": 1,
+    "game_version": "3.3",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 9019018,
+    "class": "众秘探奇",
+    "name": "天气控制仪",
+    "description": "在「穹顶关塞」晨昏之眼中，首次激活天象画壁…※你会发现，苍穹也能如手中黏土般随意摆弄",
+    "reward_level": 1,
+    "game_version": "3.3",
+    "hidden": 0
+  }
+]

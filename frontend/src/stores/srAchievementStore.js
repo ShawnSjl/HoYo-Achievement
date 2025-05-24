@@ -96,6 +96,10 @@ export const useSrAchievementStore = defineStore (
         }
 
         function getBranchAchievementNumberByLevel(level) {
+            if (achievements.value.length === 0) {
+                fetchAchievements();
+            }
+
             let count = 0;
             for (const branch of branches.value) {
                 const achievement_id = branch.achievement_id[0];
@@ -109,6 +113,10 @@ export const useSrAchievementStore = defineStore (
         }
 
         function getBranchAchievementsNumberByClass(sr_class) {
+            if (achievements.value.length === 0) {
+                fetchAchievements();
+            }
+
             let count = 0;
             for (const branch of branches.value) {
                 const achievement_id = branch.achievement_id[0];
@@ -122,6 +130,10 @@ export const useSrAchievementStore = defineStore (
         }
 
         function getBranchAchievementNumberByClassAndLevel(sr_class, level) {
+            if (achievements.value.length === 0) {
+                fetchAchievements();
+            }
+
             let count = 0;
             for (const branch of branches.value) {
                 const achievement_id = branch.achievement_id[0];
