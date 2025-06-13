@@ -1,7 +1,7 @@
 [
   {
     "achievement_id": 1001080,
-    "class_id": 1001,
+    "class_id": 2002,
     "name": "被嘉音包围了！",
     "description": "在丽都各处，寻找并拍摄5张耀嘉音主演的影片、广告和演唱会的海报。",
     "reward_level": 1,
@@ -10,7 +10,7 @@
   },
   {
     "achievement_id": 1001081,
-    "class_id": 1001,
+    "class_id": 2002,
     "name": "关于致富的尝试",
     "description": "在星环电视塔的VIP包厢中，「试坐」一下昂贵的沙发。",
     "reward_level": 1,
@@ -19,7 +19,7 @@
   },
   {
     "achievement_id": 1001082,
-    "class_id": 1001,
+    "class_id": 2002,
     "name": "另一颗星星",
     "description": "在星环电视塔，「碰巧」听到一些关于莫妮卡女士的聊天。",
     "reward_level": 1,
@@ -28,7 +28,7 @@
   },
   {
     "achievement_id": 1001083,
-    "class_id": 1001,
+    "class_id": 2002,
     "name": "眺望拂晓的天光",
     "description": "在星环电视塔，「碰巧」找到一些关于「妄想天使」的消息。",
     "reward_level": 1,
@@ -82,7 +82,7 @@
   },
   {
     "achievement_id": 1006011,
-    "class_id": 1006,
+    "class_id": 1002,
     "name": "这只鲨鲨不太冷",
     "description": "完成艾莲的代理人秘闻「我是艾莲，在忙，有事留言」。",
     "reward_level": 2,
@@ -91,7 +91,7 @@
   },
   {
     "achievement_id": 1007004,
-    "class_id": 1007,
+    "class_id": 1003,
     "name": "乘着歌声的翅膀",
     "description": "完成耀嘉音的独家视界「闪耀的此刻」。",
     "reward_level": 3,
@@ -100,7 +100,7 @@
   },
   {
     "achievement_id": 1008009,
-    "class_id": 1008,
+    "class_id": 1005,
     "name": "大师赛一号种子",
     "description": "在「厄匹斯极钓大师赛」中，完成比赛。",
     "reward_level": 1,
@@ -109,7 +109,7 @@
   },
   {
     "achievement_id": 1008010,
-    "class_id": 1008,
+    "class_id": 1005,
     "name": "钓鱼佬闲话集",
     "description": "在「厄匹斯极钓大师赛」中，完成所有「港口逸事」。",
     "reward_level": 1,
@@ -118,7 +118,7 @@
   },
   {
     "achievement_id": 1008011,
-    "class_id": 1008,
+    "class_id": 1005,
     "name": "绝不！空军！",
     "description": "在「厄匹斯极钓大师赛」的「垂钓图鉴」中，集齐77颗星星。",
     "reward_level": 1,
@@ -127,7 +127,7 @@
   },
   {
     "achievement_id": 1008012,
-    "class_id": 1008,
+    "class_id": 1005,
     "name": "什么都能钓到，除了…",
     "description": "在「厄匹斯极钓大师赛」的「垂钓图鉴」中，集齐所有杂物。",
     "reward_level": 1,
@@ -136,7 +136,7 @@
   },
   {
     "achievement_id": 1008013,
-    "class_id": 1008,
+    "class_id": 1005,
     "name": "什么都能钓到，包括鱼！",
     "description": "在「厄匹斯极钓大师赛」的「垂钓图鉴」中，集齐所有鱼类。",
     "reward_level": 1,
@@ -145,7 +145,7 @@
   },
   {
     "achievement_id": 1008014,
-    "class_id": 1008,
+    "class_id": 1005,
     "name": "瓶中的心愿",
     "description": "在「厄匹斯极钓大师赛」中，完成委托「奇迹从不迟到」。",
     "reward_level": 1,
@@ -154,7 +154,7 @@
   },
   {
     "achievement_id": 1008015,
-    "class_id": 1008,
+    "class_id": 1005,
     "name": "保持风格！",
     "description": "在「如愿璀璨之日」中，穿着非关卡主题的装扮赢下「丽都有布」的任意关卡。",
     "reward_level": 1,
@@ -163,7 +163,7 @@
   },
   {
     "achievement_id": 1008016,
-    "class_id": 1008,
+    "class_id": 1005,
     "name": "舞蹈练习生",
     "description": "在「如愿璀璨之日」中，完成「丽都有布」的所有「加练」关卡并获得S级评分。",
     "reward_level": 1,
@@ -172,7 +172,7 @@
   },
   {
     "achievement_id": 1008017,
-    "class_id": 1008,
+    "class_id": 1005,
     "name": "舞所布能",
     "description": "在「如愿璀璨之日」中，完成「丽都有布」的所有「精进」关卡并获得S级评分。",
     "reward_level": 1,
@@ -181,7 +181,7 @@
   },
   {
     "achievement_id": 1008018,
-    "class_id": 1008,
+    "class_id": 1005,
     "name": "缪斯的衣橱",
     "description": "在「如愿璀璨之日」的「伊埃斯梦工场」中，集齐所有演出服装。",
     "reward_level": 1,
@@ -190,7 +190,7 @@
   },
   {
     "achievement_id": 2004045,
-    "class_id": 2004,
+    "class_id": 3005,
     "name": "世间并无穷途",
     "description": "在「鏖战试炼·末路」中，通关第100层。",
     "reward_level": 3,
@@ -199,7 +199,7 @@
   },
   {
     "achievement_id": 2004046,
-    "class_id": 2004,
+    "class_id": 3005,
     "name": "踏上末路…之前呢？",
     "description": "在「鏖战试炼·末路」中，发现隐藏层。",
     "reward_level": 1,
@@ -208,7 +208,7 @@
   },
   {
     "achievement_id": 2004047,
-    "class_id": 2004,
+    "class_id": 3005,
     "name": "魔王预备役",
     "description": "在「鏖战试炼·末路」中，获得1个「『魔王』奖章」。",
     "reward_level": 2,
@@ -217,7 +217,7 @@
   },
   {
     "achievement_id": 2004048,
-    "class_id": 2004,
+    "class_id": 3005,
     "name": "魔王优等生",
     "description": "在「鏖战试炼·末路」中，累计获得10个「『魔王』奖章」。",
     "reward_level": 3,
@@ -226,7 +226,7 @@
   },
   {
     "achievement_id": 2004049,
-    "class_id": 2004,
+    "class_id": 3005,
     "name": "港口环保大师",
     "description": "完成厄匹斯港区域的3个拉力委托，并全部获得S级评价。",
     "reward_level": 2,
@@ -235,7 +235,7 @@
   },
   {
     "achievement_id": 2004050,
-    "class_id": 2004,
+    "class_id": 3005,
     "name": "全量回收确认",
     "description": "在厄匹斯港区域的3个拉力委托中，找到所有隐藏的小卡格车。",
     "reward_level": 1,

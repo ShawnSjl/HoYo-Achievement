@@ -1,7 +1,7 @@
 [
   {
     "achievement_id": 1001057,
-    "class_id": 1001,
+    "class_id": 2004,
     "name": "...无力野人？",
     "description": "在野火镇拍摄已经掉漆的「无边野火」路牌。",
     "reward_level": 1,
@@ -10,7 +10,7 @@
   },
   {
     "achievement_id": 1001058,
-    "class_id": 1001,
+    "class_id": 2004,
     "name": "无可挑剔",
     "description": "在「芝托邦」找到牙签仙人掌「盆栽」。",
     "reward_level": 1,
@@ -19,7 +19,7 @@
   },
   {
     "achievement_id": 1001059,
-    "class_id": 1001,
+    "class_id": 2004,
     "name": "您这是正经杂货店吗？",
     "description": "在深夜的野火镇找到「747」杂货摊位。",
     "reward_level": 1,
@@ -28,7 +28,7 @@
   },
   {
     "achievement_id": 1001060,
-    "class_id": 1001,
+    "class_id": 2001,
     "name": "少女神明的七日箱庭",
     "description": "通过［调整时段］功能，累计推移28个时段。",
     "reward_level": 1,
@@ -37,7 +37,7 @@
   },
   {
     "achievement_id": 1001061,
-    "class_id": 1001,
+    "class_id": 2004,
     "name": "荒野采风",
     "description": "在野火镇找到喵吉长官，并集齐全部奖章。",
     "reward_level": 1,
@@ -82,7 +82,7 @@
   },
   {
     "achievement_id": 1005007,
-    "class_id": 1005,
+    "class_id": 1001,
     "name": "英雄诞生",
     "description": "完成法厄同纪事「火狱骑行」。",
     "reward_level": 3,
@@ -91,7 +91,7 @@
   },
   {
     "achievement_id": 1006008,
-    "class_id": 1006,
+    "class_id": 1002,
     "name": "曾经阔过！",
     "description": "完成柏妮思的代理人秘闻「幸运当头」。",
     "reward_level": 2,
@@ -100,7 +100,7 @@
   },
   {
     "achievement_id": 1008001,
-    "class_id": 1008,
+    "class_id": 1005,
     "name": "欢迎光临「芝托邦」",
     "description": "重建「芝托邦」。",
     "reward_level": 1,
@@ -109,7 +109,7 @@
   },
   {
     "achievement_id": 1008002,
-    "class_id": 1008,
+    "class_id": 1005,
     "name": "隐藏菜单",
     "description": "经营「芝托邦」并解锁留言簿中的全部菜品。",
     "reward_level": 1,
@@ -118,7 +118,7 @@
   },
   {
     "achievement_id": 1008003,
-    "class_id": 1008,
+    "class_id": 1005,
     "name": "六星好评",
     "description": "经营「芝托邦」并获得所有顾客的盛赞。",
     "reward_level": 1,
@@ -127,7 +127,7 @@
   },
   {
     "achievement_id": 1008004,
-    "class_id": 1008,
+    "class_id": 1005,
     "name": "芝士就是力量",
     "description": "完成「芝托邦」的所有待办事项。",
     "reward_level": 1,
@@ -136,7 +136,7 @@
   },
   {
     "achievement_id": 1009001,
-    "class_id": 1009,
+    "class_id": 1006,
     "name": "「心法」炼成",
     "description": "使用「11号」作战并在恰当的时机点按普通攻击，连续发动11次「火力镇压」。",
     "reward_level": 1,
@@ -145,7 +145,7 @@
   },
   {
     "achievement_id": 1009002,
-    "class_id": 1009,
+    "class_id": 1006,
     "name": "{M#执事的晚安}{F#晚安大小姐}",
     "description": "在深夜时段，偶遇正在赏月的莱卡恩。",
     "reward_level": 1,
@@ -154,7 +154,7 @@
   },
   {
     "achievement_id": 2001064,
-    "class_id": 2001,
+    "class_id": 3002,
     "name": "大额存单",
     "description": "在枯萎之都中，在「零号银行」累计获得2000积分。",
     "reward_level": 1,
@@ -163,7 +163,7 @@
   },
   {
     "achievement_id": 2001065,
-    "class_id": 2001,
+    "class_id": 3002,
     "name": "我在空洞里捡到一分钱",
     "description": "枯萎之都单次探索中，获得的齿轮硬币累计超过30000枚。",
     "reward_level": 1,
@@ -172,7 +172,7 @@
   },
   {
     "achievement_id": 2001066,
-    "class_id": 2001,
+    "class_id": 3002,
     "name": "揠苗助长",
     "description": "在［以太活性 11］的难度下，通关「枯败花圃·苗床」。",
     "reward_level": 3,
@@ -181,7 +181,7 @@
   },
   {
     "achievement_id": 2001067,
-    "class_id": 2001,
+    "class_id": 3002,
     "name": "除草熟练工",
     "description": "通关「枯败花圃·苗床」时，所有代理人生命值均高于70%。",
     "reward_level": 1,
@@ -190,7 +190,7 @@
   },
   {
     "achievement_id": 2003006,
-    "class_id": 2003,
+    "class_id": 3004,
     "name": "路边逼停",
     "description": "在对战「庞培」的两阶段中，都在其使出钩锁时进行「招架支援」令其摔倒。",
     "reward_level": 1,
@@ -199,7 +199,7 @@
   },
   {
     "achievement_id": 2004032,
-    "class_id": 2004,
+    "class_id": 3005,
     "name": "下「雨」不愁",
     "description": "完成「仙人掌花的邀约」拉力委托，并全部获得S级评价。",
     "reward_level": 2,
@@ -208,7 +208,7 @@
   },
   {
     "achievement_id": 2004033,
-    "class_id": 2004,
+    "class_id": 3005,
     "name": "「黑」吃「黑」",
     "description": "在「仙人掌花的邀约」中，找到所有隐藏的小卡格车。",
     "reward_level": 1,
@@ -217,7 +217,7 @@
   },
   {
     "achievement_id": 2004035,
-    "class_id": 2004,
+    "class_id": 3005,
     "name": "一次瞌睡都没打！",
     "description": "完成所有的「调查员培训课」。",
     "reward_level": 2,
@@ -226,7 +226,7 @@
   },
   {
     "achievement_id": 2004036,
-    "class_id": 2004,
+    "class_id": 3005,
     "name": "同仇敌忾",
     "description": "接取黑曜石营的战斗委托，完成「与空洞为敌Ⅰ」、「与空洞为敌Ⅱ」。",
     "reward_level": 1,
@@ -235,7 +235,7 @@
   },
   {
     "achievement_id": 2004037,
-    "class_id": 2004,
+    "class_id": 3005,
     "name": "老顾客·新生意",
     "description": "接取芮恩的战斗委托，完成「夜雨的请托：谜影搏杀Ⅰ」、「夜雨的请托：谜影搏杀Ⅱ」。",
     "reward_level": 1,
@@ -244,7 +244,7 @@
   },
   {
     "achievement_id": 3001023,
-    "class_id": 3001,
+    "class_id": 4001,
     "name": "外环最速传说",
     "description": "在「英雄诞生的骑行」中，150秒内通过空洞内的骑行路段。",
     "reward_level": 1,
@@ -253,7 +253,7 @@
   },
   {
     "achievement_id": 3001024,
-    "class_id": 3001,
+    "class_id": 4001,
     "name": "完美漂移",
     "description": "在「英雄诞生的骑行」中，未躲避路面障碍的次数小于5次。",
     "reward_level": 1,
@@ -262,7 +262,7 @@
   },
   {
     "achievement_id": 3001025,
-    "class_id": 3001,
+    "class_id": 4001,
     "name": "飞蓬与旷野",
     "description": "在「远行的序幕」中，为即将出发的阿蓬和小野合影，并把照片交给他们。",
     "reward_level": 1,
@@ -271,7 +271,7 @@
   },
   {
     "achievement_id": 3001026,
-    "class_id": 3001,
+    "class_id": 4001,
     "name": "高效越狱，附赠烟花",
     "description": "在「岩矿场的救赎」中，连续引爆10个埋藏在矿井中的炸弹。",
     "reward_level": 1,

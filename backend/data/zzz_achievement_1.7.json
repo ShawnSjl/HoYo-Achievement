@@ -1,7 +1,7 @@
 [
   {
     "achievement_id": 1001084,
-    "class_id": 1001,
+    "class_id": 2002,
     "name": "「设计如此」",
     "description": "在星环电视塔的流光大厅中，偶遇努力通关的专业设计师。",
     "reward_level": 1,
@@ -10,7 +10,7 @@
   },
   {
     "achievement_id": 1001085,
-    "class_id": 1001,
+    "class_id": 2002,
     "name": "旅鸟的归巢",
     "description": "在厄匹斯港的炬光灯塔上，观赏老唐的海鸥提灯。",
     "reward_level": 1,
@@ -73,7 +73,7 @@
   },
   {
     "achievement_id": 1008019,
-    "class_id": 1008,
+    "class_id": 1005,
     "name": "投我以春花",
     "description": "在「花语未明之言」中，选中所有代理人喜爱的花材、配饰或花盆。",
     "reward_level": 1,
@@ -82,7 +82,7 @@
   },
   {
     "achievement_id": 1008020,
-    "class_id": 1008,
+    "class_id": 1005,
     "name": "这是什么？我用一下！",
     "description": "在「花语未明之言」中，使用过所有的花材、配饰和花盆。",
     "reward_level": 1,
@@ -91,7 +91,7 @@
   },
   {
     "achievement_id": 1008021,
-    "class_id": 1008,
+    "class_id": 1005,
     "name": "愿君多采撷",
     "description": "在「花语未明之言」中，点击代理人喜爱的物件20次，并听到反应。",
     "reward_level": 1,
@@ -100,7 +100,7 @@
   },
   {
     "achievement_id": 1008022,
-    "class_id": 1008,
+    "class_id": 1005,
     "name": "恭喜发财！",
     "description": "在「花语未明之言」中，营业额累计达到888888丁尼。",
     "reward_level": 1,
@@ -109,7 +109,7 @@
   },
   {
     "achievement_id": 1008023,
-    "class_id": 1008,
+    "class_id": 1005,
     "name": "怪盗的职业素养",
     "description": "在「花语未明之言」中，发现雨果找到「尼尼微」的来源。",
     "reward_level": 1,
@@ -118,7 +118,7 @@
   },
   {
     "achievement_id": 1008024,
-    "class_id": 1008,
+    "class_id": 1005,
     "name": "「菩提本无树」",
     "description": "在「花语未明之言」中，只使用花盆并完成了代理人的花艺委托。",
     "reward_level": 1,
@@ -127,7 +127,7 @@
   },
   {
     "achievement_id": 1009005,
-    "class_id": 1009,
+    "class_id": 1006,
     "name": "捣蛋邦布马失前蹄",
     "description": "在星环电视塔的流光大厅中，目睹捣蛋邦布们被逮住。",
     "reward_level": 1,
@@ -136,7 +136,7 @@
   },
   {
     "achievement_id": 1009006,
-    "class_id": 1009,
+    "class_id": 1006,
     "name": "「法厄同呀法厄同~」",
     "description": "为3个代理人各装备6枚「法厄同之歌」驱动盘，完成1场战斗。",
     "reward_level": 1,
