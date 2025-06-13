@@ -28,7 +28,7 @@
   },
   {
     "achievement_id": 1005009,
-    "class_id": 1005,
+    "class_id": 1001,
     "name": "命运于此收场",
     "description": "完成法厄同纪事「将眼泪与过往一同埋葬 上」。",
     "reward_level": 3,
@@ -37,7 +37,7 @@
   },
   {
     "achievement_id": 1006012,
-    "class_id": 1006,
+    "class_id": 1002,
     "name": "最后一眼与初次见面",
     "description": "完成「扳机」的代理人秘闻「目不可及」。",
     "reward_level": 2,
@@ -46,7 +46,7 @@
   },
   {
     "achievement_id": 1006013,
-    "class_id": 1006,
+    "class_id": 1002,
     "name": "白银的见证者",
     "description": "完成「零号·安比」的代理人秘闻「白银的复苏」。",
     "reward_level": 2,
@@ -55,7 +55,7 @@
   },
   {
     "achievement_id": 1009003,
-    "class_id": 1009,
+    "class_id": 1006,
     "name": "见证者·万层之巅",
     "description": "在HIA俱乐部，听到关于「拟真鏖战试炼」万层通关者的讨论。",
     "reward_level": 1,
@@ -64,7 +64,7 @@
   },
   {
     "achievement_id": 1009004,
-    "class_id": 1009,
+    "class_id": 1006,
     "name": "见证者·勇者之踵",
     "description": "在HIA俱乐部，听到退役调查员体验「拟真鏖战试炼」的故事。",
     "reward_level": 1,
@@ -73,7 +73,7 @@
   },
   {
     "achievement_id": 2005009,
-    "class_id": 2005,
+    "class_id": 3001,
     "name": "暂无迷失之虞",
     "description": "在［以太活性 12］的难度下，通关「战线肃清·难度六」。",
     "reward_level": 3,
@@ -82,7 +82,7 @@
   },
   {
     "achievement_id": 2005010,
-    "class_id": 2005,
+    "class_id": 3001,
     "name": "婉拒医疗援助",
     "description": "单局内，3次进入[休憩调息]，每次都选择获得鸣徽。",
     "reward_level": 1,
@@ -91,7 +91,7 @@
   },
   {
     "achievement_id": 2005011,
-    "class_id": 2005,
+    "class_id": 3001,
     "name": "急需医疗援助！",
     "description": "单局内，3次进入[休憩调息]，每次都选择回复生命。",
     "reward_level": 1,
@@ -100,7 +100,7 @@
   },
   {
     "achievement_id": 2005012,
-    "class_id": 2005,
+    "class_id": 3001,
     "name": "狂热采购者",
     "description": "单次进入[邦布商店]后，一次性购买8个藏品。",
     "reward_level": 1,
@@ -109,7 +109,7 @@
   },
   {
     "achievement_id": 2005013,
-    "class_id": 2005,
+    "class_id": 3001,
     "name": "谨慎消费者",
     "description": "单局内，3次进入[邦布商店]，花费齿轮硬币都少于500枚。",
     "reward_level": 1,
@@ -118,7 +118,7 @@
   },
   {
     "achievement_id": 2005014,
-    "class_id": 2005,
+    "class_id": 3001,
     "name": "挑剔的顾客",
     "description": "单次进入[邦布商店]后，刷新鸣徽超过6次。",
     "reward_level": 1,
@@ -127,7 +127,7 @@
   },
   {
     "achievement_id": 2005015,
-    "class_id": 2005,
+    "class_id": 3001,
     "name": "轻盈身法",
     "description": "进入[挑战·无伤]区域，在不受击的情况下通关。",
     "reward_level": 1,
@@ -136,7 +136,7 @@
   },
   {
     "achievement_id": 2005016,
-    "class_id": 2005,
+    "class_id": 3001,
     "name": "快刀斩乱骸",
     "description": "进入[挑战·限时]区域，在6秒内通关。",
     "reward_level": 1,
@@ -145,7 +145,7 @@
   },
   {
     "achievement_id": 2005017,
-    "class_id": 2005,
+    "class_id": 3001,
     "name": "一网打尽",
     "description": "进入[挑战·收割]区域，击败所有敌人。",
     "reward_level": 1,
@@ -154,7 +154,7 @@
   },
   {
     "achievement_id": 2005018,
-    "class_id": 2005,
+    "class_id": 3001,
     "name": "精确购物预算",
     "description": "进入奸商布的[偶遇事件]，接受其交易并当场花光所有齿轮硬币。",
     "reward_level": 1,
@@ -163,7 +163,7 @@
   },
   {
     "achievement_id": 2005019,
-    "class_id": 2005,
+    "class_id": 3001,
     "name": "大空洞的馈赠",
     "description": "进入「神秘的声音」的[偶遇事件]，获得其提供的额外武备。",
     "reward_level": 1,
@@ -172,7 +172,7 @@
   },
   {
     "achievement_id": 2005021,
-    "class_id": 2005,
+    "class_id": 3001,
     "name": "谁是衰仔？",
     "description": "光顾衰仔的「『好彩』降临点」，连续3次未能获得好收获。",
     "reward_level": 1,
@@ -181,7 +181,7 @@
   },
   {
     "achievement_id": 2005022,
-    "class_id": 2005,
+    "class_id": 3001,
     "name": "没有衰仔！",
     "description": "光顾衰仔的「『好彩』降临点」，连续3次抽奖获得好收获。",
     "reward_level": 1,
@@ -190,7 +190,7 @@
   },
   {
     "achievement_id": 2005023,
-    "class_id": 2005,
+    "class_id": 3001,
     "name": "只想要试用装",
     "description": "进入VIP客服的[偶遇事件]，不消耗齿轮硬币并获得3枚鸣徽。",
     "reward_level": 1,
@@ -199,7 +199,7 @@
   },
   {
     "achievement_id": 2005024,
-    "class_id": 2005,
+    "class_id": 3001,
     "name": "出门靠朋友",
     "description": "累计5次，进入[战斗]区域时，发现代理人已经清扫战场。",
     "reward_level": 1,
@@ -208,7 +208,7 @@
   },
   {
     "achievement_id": 2005025,
-    "class_id": 2005,
+    "class_id": 3001,
     "name": "空洞金融大亨",
     "description": "获得卡牌「金钱攻势」，并携带超过8000枚齿轮硬币通关。",
     "reward_level": 1,
@@ -217,7 +217,7 @@
   },
   {
     "achievement_id": 2005026,
-    "class_id": 2005,
+    "class_id": 3001,
     "name": "金融大亨小失误",
     "description": "获得卡牌「大垄断家」，并触发「仅获得1枚齿轮硬币」的效果。",
     "reward_level": 1,

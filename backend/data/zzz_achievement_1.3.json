@@ -1,7 +1,7 @@
 [
   {
     "achievement_id": 1001062,
-    "class_id": 1001,
+    "class_id": 2002,
     "name": "灵感贩售处",
     "description": "解锁光映广场的「3Z设计工作室」。",
     "reward_level": 1,
@@ -10,7 +10,7 @@
   },
   {
     "achievement_id": 1001063,
-    "class_id": 1001,
+    "class_id": 2002,
     "name": "我全要了！",
     "description": "从「3Z设计工作室」兑换5件乙的作品。",
     "reward_level": 1,
@@ -19,7 +19,7 @@
   },
   {
     "achievement_id": 1001064,
-    "class_id": 1001,
+    "class_id": 2002,
     "name": "连环失窃案·协理",
     "description": "在「丽都周纪」中，找回葵家的刀、海藤大叔的鱼线、尚先生的照片和多莉的滑轮装置。",
     "reward_level": 1,
@@ -28,7 +28,7 @@
   },
   {
     "achievement_id": 1001065,
-    "class_id": 1001,
+    "class_id": 2002,
     "name": "连环失窃案·真相",
     "description": "在「丽都周纪」中，向邻居和朋友们了解更多「猫小偷」相关的信息。",
     "reward_level": 1,
@@ -37,7 +37,7 @@
   },
   {
     "achievement_id": 1003044,
-    "class_id": 1003,
+    "class_id": 2001,
     "name": "不慎斩获过多荣誉",
     "description": "更换绳网称号。",
     "reward_level": 1,
@@ -64,7 +64,7 @@
   },
   {
     "achievement_id": 1006009,
-    "class_id": 1006,
+    "class_id": 1002,
     "name": "烈拳困斗",
     "description": "完成莱特的代理人秘闻「无人喝彩之冠」。",
     "reward_level": 2,
@@ -73,7 +73,7 @@
   },
   {
     "achievement_id": 1007003,
-    "class_id": 1007,
+    "class_id": 1003,
     "name": "六课的大脑",
     "description": "完成月城柳的独家视界「虚拟杀机」。",
     "reward_level": 3,
@@ -82,7 +82,7 @@
   },
   {
     "achievement_id": 2001068,
-    "class_id": 2001,
+    "class_id": 3002,
     "name": "绝境逢生",
     "description": "在枯萎之都中，获得过所有「顽强」类型的鸣徽。",
     "reward_level": 1,
@@ -91,7 +91,7 @@
   },
   {
     "achievement_id": 2001069,
-    "class_id": 2001,
+    "class_id": 3002,
     "name": "速效救援",
     "description": "在枯萎之都中，获得「顽强」类型的进阶鸣徽II。",
     "reward_level": 1,
@@ -100,7 +100,7 @@
   },
   {
     "achievement_id": 2004038,
-    "class_id": 2004,
+    "class_id": 3005,
     "name": "迈出新手村！",
     "description": "在「拟真鏖战试炼」中，到达第5阶层。",
     "reward_level": 1,
@@ -109,7 +109,7 @@
   },
   {
     "achievement_id": 2004039,
-    "class_id": 2004,
+    "class_id": 3005,
     "name": "头号调查员",
     "description": "在「拟真鏖战试炼」中，到达第25阶层。",
     "reward_level": 3,
@@ -118,7 +118,7 @@
   },
   {
     "achievement_id": 2004040,
-    "class_id": 2004,
+    "class_id": 3005,
     "name": "迷宫的跨越者",
     "description": "在「拟真鏖战试炼」中，通关第100阶层并完成一场在虚拟空间的会面。",
     "reward_level": 3,
@@ -127,7 +127,7 @@
   },
   {
     "achievement_id": 3001027,
-    "class_id": 3001,
+    "class_id": 4001,
     "name": "空洞速降训练",
     "description": "在「无底深渊」中，完成空洞第30层的探索。",
     "reward_level": 1,
@@ -136,7 +136,7 @@
   },
   {
     "achievement_id": 3002001,
-    "class_id": 3002,
+    "class_id": 4002,
     "name": "渐入「佳」境",
     "description": "在「断层之谜」中，队伍在探索中累计升级30次。",
     "reward_level": 1,
@@ -145,7 +145,7 @@
   },
   {
     "achievement_id": 3002002,
-    "class_id": 3002,
+    "class_id": 4002,
     "name": "工业化空洞探索",
     "description": "在「断层之谜」中，进行30次探索科技树的升级。",
     "reward_level": 1,
@@ -154,7 +154,7 @@
   },
   {
     "achievement_id": 3002003,
-    "class_id": 3002,
+    "class_id": 4002,
     "name": "专业导览，随机应变",
     "description": "在「断层之谜」中，解锁全部五种编队战略。",
     "reward_level": 2,
@@ -163,7 +163,7 @@
   },
   {
     "achievement_id": 3002004,
-    "class_id": 3002,
+    "class_id": 4002,
     "name": "回廊深处的秘密",
     "description": "在「断层之谜」中，完成「乱流回廊」谷底区域的探索。",
     "reward_level": 3,
@@ -172,7 +172,7 @@
   },
   {
     "achievement_id": 3002005,
-    "class_id": 3002,
+    "class_id": 4002,
     "name": "迟来的礼物",
     "description": "在「断层之谜」中，完成所有隐藏区域探索。",
     "reward_level": 3,

@@ -4,9 +4,9 @@ import { useZzzAchievementStore } from "@/stores/zzzAchievementsStore";
 import { useAuthStore } from '@/stores/authStore';
 import { useIsMobileStore } from '@/stores/isMobileStore';
 import {
-  categories,
+  categories, cityClasses,
   explorationClasses,
-  lifeClasses,
+  storyClasses,
   tacticsClasses,
   zzzGetClassIdByName
 } from "@/utils/zzzAchievementClass";
@@ -23,7 +23,7 @@ const isMobileStore = useIsMobileStore();
 // 选择大类别
 const category = ref(categories[0]);
 // 选择小类别
-const achievementClass = ref(lifeClasses[0]);
+const achievementClass = ref(storyClasses[0]);
 
 // 根据类别筛选成就
 const filteredAchievements = computed(() => {
@@ -51,12 +51,14 @@ const sortedAchievements = computed(() => {
 async function syncWithHash() {
   const hash = decodeURIComponent(window.location.hash.slice(1));
   if (hash) {
-    if (lifeClasses.includes(hash)) {
+    if (storyClasses.includes(hash)) {
       category.value = categories[0];
-    } else if (tacticsClasses.includes(hash)) {
+    } else if (cityClasses.includes(hash)) {
       category.value = categories[1];
-    } else if (explorationClasses.includes(hash)) {
+    } else if (tacticsClasses.includes(hash)) {
       category.value = categories[2];
+    } else if (explorationClasses.includes(hash)) {
+      category.value = categories[3];
     } else {
       return;
     }
