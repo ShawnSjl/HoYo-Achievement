@@ -59,7 +59,7 @@ export const zzzGetClassIdByName = (class_name) => {
         case '零号密钥':
             return 4002;
         case '勘域探境':
-            return 4003
+            return 4003;
         default:
             return 0;
     }
