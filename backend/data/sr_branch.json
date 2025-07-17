@@ -334,5 +334,17 @@
     {
         "branch_id": 37,
         "achievement_id": 8016061
+    },
+    {
+        "branch_id": 38,
+        "achievement_id": 3020003
+    },
+    {
+        "branch_id": 38,
+        "achievement_id": 3020004
+    },
+    {
+        "branch_id": 38,
+        "achievement_id": 3020005
     }
 ]

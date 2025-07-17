@@ -1,0 +1,398 @@
+[
+  {
+    "achievement_id": 2020001,
+    "class": "通往群星的轨道",
+    "name": "门扉之始，王座之终",
+    "description": "英雄啊，兑现那染血的冀望※完成「再创世」之旅…？",
+    "reward_level": 2,
+    "game_version": "3.4",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 2020002,
+    "class": "通往群星的轨道",
+    "name": "走过安眠地的花丛",
+    "description": "英雄啊，回返那安宁的家乡※在哀丽秘榭见到已故之人",
+    "reward_level": 2,
+    "game_version": "3.4",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 2020003,
+    "class": "通往群星的轨道",
+    "name": "在黎明升起时坠落",
+    "description": "英雄啊，粉碎那悲哀的造像※斩下盗火行者的面具",
+    "reward_level": 2,
+    "game_version": "3.4",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 2020004,
+    "class": "通往群星的轨道",
+    "name": "因为太阳将要毁伤",
+    "description": "英雄啊，点燃那最初的骄阳※接过三千万世的火炬",
+    "reward_level": 2,
+    "game_version": "3.4",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 2020005,
+    "class": "通往群星的轨道",
+    "name": "再创世的凯歌",
+    "description": "英雄啊，将创世的凯歌奏响※踏上最后的「再创世」之旅",
+    "reward_level": 2,
+    "game_version": "3.4",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 2020006,
+    "class": "通往群星的轨道",
+    "name": "骑乘B",
+    "description": "骑士王再度乘上「战马」之日※和Saber一同击败音符姥姥",
+    "reward_level": 2,
+    "game_version": "3.4",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 2020007,
+    "class": "通往群星的轨道",
+    "name": "命运之夜，驻足此刻",
+    "description": "天秤的守护者，跨越时光而来※成功召唤你的从者",
+    "reward_level": 2,
+    "game_version": "3.4",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 2020008,
+    "class": "通往群星的轨道",
+    "name": "丧钟为谁而鸣",
+    "description": "赝品有赝品的好处，正品有正品的优势※战胜邪恶的钟表老子",
+    "reward_level": 2,
+    "game_version": "3.4",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 2020009,
+    "class": "通往群星的轨道",
+    "name": "了不起的格瑞迪",
+    "description": "烂片之王破裂的心中，流淌着一个时代※破除葛瑞迪先生的宝具",
+    "reward_level": 2,
+    "game_version": "3.4",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 2020010,
+    "class": "通往群星的轨道",
+    "name": "星辰啊，请照耀前路",
+    "description": "迈步向前吧，仅此便足以为英雄※突破「平庸」的束缚",
+    "reward_level": 2,
+    "game_version": "3.4",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 2020011,
+    "class": "通往群星的轨道",
+    "name": "摩登时代",
+    "description": "虫豸啃噬金钱，贪婪腐化奇迹※战胜圣杯战争的幕后黑手",
+    "reward_level": 2,
+    "game_version": "3.4",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 2020012,
+    "class": "通往群星的轨道",
+    "name": "啊，朋友再见",
+    "description": "守望月亮的稚子，终于与故人重逢※当列车迎来意料之外的访客",
+    "reward_level": 2,
+    "game_version": "3.4",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 3020001,
+    "class": "战意奔涌",
+    "name": "诚如刻法勒所述",
+    "description": "单场战斗中，我方角色白厄成为队友6种不同类型技能的施放目标",
+    "reward_level": 1,
+    "game_version": "3.4",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 3020002,
+    "class": "战意奔涌",
+    "name": "天火，出鞘",
+    "description": "我方角色白厄在变身状态下，使用单次攻击同时消灭5个敌人",
+    "reward_level": 1,
+    "game_version": "3.4",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 3020003,
+    "class": "战意奔涌",
+    "name": "是谁得了MVP?",
+    "description": "使用同时包含白厄、万敌的队伍获得一场战斗的胜利，并且白厄消灭的敌人数量超过万敌",
+    "reward_level": 1,
+    "game_version": "3.4",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 3020004,
+    "class": "战意奔涌",
+    "name": "是谁得了MVP?",
+    "description": "使用同时包含白厄、万敌的队伍获得一场战斗的胜利，并且万敌消灭的敌人数量超过白厄",
+    "reward_level": 1,
+    "game_version": "3.4",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 3020005,
+    "class": "战意奔涌",
+    "name": "是谁得了MVP?",
+    "description": "使用同时包含白厄、万敌的队伍获得一场战斗的胜利，并且白厄和万敌消灭的敌人数量相同",
+    "reward_level": 1,
+    "game_version": "3.4",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 3020006,
+    "class": "战意奔涌",
+    "name": "魔力放出",
+    "description": "我方角色Saber施放【风王铁槌】时，一次性消耗15点【炉心共鸣】恢复能量",
+    "reward_level": 1,
+    "game_version": "3.4",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 3020007,
+    "class": "战意奔涌",
+    "name": "星之剑，王之剑",
+    "description": "单场战斗中，我方角色Saber累计使用10次【誓约胜利之剑】",
+    "reward_level": 1,
+    "game_version": "3.4",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 3020008,
+    "class": "战意奔涌",
+    "name": "Trace on!",
+    "description": "使用我方角色Archer施放【伪•螺旋剑】时，在【回路连接】状态下连续释5次【伪•螺旋剑】",
+    "reward_level": 1,
+    "game_version": "3.4",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 3020009,
+    "class": "战意奔涌",
+    "name": "武器的储备足够吗",
+    "description": "使用我方角色Archer对彦卿施放1次【无限剑制】",
+    "reward_level": 1,
+    "game_version": "3.4",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 3020010,
+    "class": "战意奔涌",
+    "name": "开饭",
+    "description": "使用同时包含Archer、Saber的队伍获得1场战斗的胜利",
+    "reward_level": 1,
+    "game_version": "3.4",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8020001,
+    "class": "与你同行的回忆",
+    "name": "妖精森友会",
+    "description": "查阅村长邮箱中所有属于你的信件",
+    "reward_level": 1,
+    "game_version": "3.4",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8020002,
+    "class": "与你同行的回忆",
+    "name": "昨日重现",
+    "description": "白厄视角下，与任意一名村民对话",
+    "reward_level": 1,
+    "game_version": "3.4",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8020003,
+    "class": "与你同行的回忆",
+    "name": "欢迎加入哀丽秘榭",
+    "description": "打扰妖精的安眠※逼出家里蹲的妖精",
+    "reward_level": 1,
+    "game_version": "3.4",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8020004,
+    "class": "与你同行的回忆",
+    "name": "空谷有足音回响",
+    "description": "送别白厄昔日的笔友",
+    "reward_level": 1,
+    "game_version": "3.4",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8020005,
+    "class": "与你同行的回忆",
+    "name": "刻录故事的一页",
+    "description": "与昔涟一同在哀丽秘榭度过一段美好时光",
+    "reward_level": 1,
+    "game_version": "3.4",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8020006,
+    "class": "与你同行的回忆",
+    "name": "全频段共振",
+    "description": "与所有被风铃吸引来的妖精对话",
+    "reward_level": 1,
+    "game_version": "3.4",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8020007,
+    "class": "与你同行的回忆",
+    "name": "绑架代替购买",
+    "description": "与哀丽秘榭的小奇美拉建立缘分",
+    "reward_level": 1,
+    "game_version": "3.4",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8020008,
+    "class": "与你同行的回忆",
+    "name": "侏罗纪花园",
+    "description": "在哀丽秘榭骑乘大地兽",
+    "reward_level": 1,
+    "game_version": "3.4",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8020009,
+    "class": "与你同行的回忆",
+    "name": "红花与六粒种",
+    "description": "在祝祭庭院的花盆中播下种子",
+    "reward_level": 1,
+    "game_version": "3.4",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8020010,
+    "class": "与你同行的回忆",
+    "name": "两只海豹游得快",
+    "description": "为哀丽秘榭的小海豹找个伴",
+    "reward_level": 1,
+    "game_version": "3.4",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8020011,
+    "class": "与你同行的回忆",
+    "name": "铃儿响叮当",
+    "description": "将魔法风铃中的魔力消耗一空",
+    "reward_level": 1,
+    "game_version": "3.4",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8020012,
+    "class": "与你同行的回忆",
+    "name": "仲夏夜之梦",
+    "description": "参加妖精们的舞会",
+    "reward_level": 1,
+    "game_version": "3.4",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8020013,
+    "class": "与你同行的回忆",
+    "name": "一杯赏英雄",
+    "description": "见证一位异乡友人的归去",
+    "reward_level": 1,
+    "game_version": "3.4",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8020014,
+    "class": "与你同行的回忆",
+    "name": "绿一色",
+    "description": "使用青雀小鸟，并在同一局对战中，累计使用道具14次",
+    "reward_level": 1,
+    "game_version": "3.4",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8020015,
+    "class": "与你同行的回忆",
+    "name": "还是我的回合",
+    "description": "双人对战中，同一回合内，己方连续行动步数达到8",
+    "reward_level": 1,
+    "game_version": "3.4",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8020016,
+    "class": "与你同行的回忆",
+    "name": "波音小鸟777",
+    "description": "双人对战中，己方小鸟最高战力达到777",
+    "reward_level": 1,
+    "game_version": "3.4",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8020017,
+    "class": "与你同行的回忆",
+    "name": "三好学啾",
+    "description": "将所有道具全部强化至3星",
+    "reward_level": 1,
+    "game_version": "3.4",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8020018,
+    "class": "与你同行的回忆",
+    "name": "今天开始做老板",
+    "description": "获得街机店经营权",
+    "reward_level": 1,
+    "game_version": "3.4",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8020019,
+    "class": "与你同行的回忆",
+    "name": "双鸟成行",
+    "description": "目睹波提欧和青雀双双变作折纸小鸟",
+    "reward_level": 1,
+    "game_version": "3.4",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8020020,
+    "class": "与你同行的回忆",
+    "name": "你醒啦，起来打工吧！",
+    "description": "招募幽灵小鸟作为街机店员工",
+    "reward_level": 2,
+    "game_version": "3.4",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 9020001,
+    "class": "众秘探奇",
+    "name": "虫鸣秘闻：铃中古调",
+    "description": "风铃诉说着怎样的旋律？※解开哀丽秘榭的预言谜题",
+    "reward_level": 1,
+    "game_version": "3.4",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 9020002,
+    "class": "众秘探奇",
+    "name": "黄金国",
+    "description": "为织者们建立一座大型乐园※搜集190只创生若虫的赐福",
+    "reward_level": 1,
+    "game_version": "3.4",
+    "hidden": 0
+  }
+]
