@@ -1,0 +1,326 @@
+[
+  {
+    "achievement_id": 1005514,
+    "class_id": 1001,
+    "name": "直觉的选择·柚叶/爱丽丝/走为上",
+    "description": "在「迟吟的浪涌」中，在牢房中寻找通风口时，先与现场的柚叶/爱丽丝/不与其他人交换情报。",
+    "reward_level": 1,
+    "hidden": 1,
+    "game_version": 2.1
+  },
+  {
+    "achievement_id": 1005515,
+    "class_id": 1001,
+    "name": "归岸的航程",
+    "description": "完成法厄同纪事「迟吟的浪涌」。",
+    "reward_level": 3,
+    "hidden": 1,
+    "game_version": 2.1
+  },
+  {
+    "achievement_id": 1004556,
+    "class_id": 1004,
+    "name": "随波逐流亦何妨",
+    "description": "柚叶对绳匠的信赖达到4阶。",
+    "reward_level": 1,
+    "hidden": 1,
+    "game_version": 2.1
+  },
+  {
+    "achievement_id": 1004557,
+    "class_id": 1004,
+    "name": "致爱丽丝",
+    "description": "爱丽丝对绳匠的信赖达到4阶。",
+    "reward_level": 1,
+    "hidden": 1,
+    "game_version": 2.1
+  },
+  {
+    "achievement_id": 1008529,
+    "class_id": 1005,
+    "name": "度假村荣誉合伙人",
+    "description": "在「仲夏游梦绮谭」中，成功振兴绮梦度假村。",
+    "reward_level": 1,
+    "hidden": 0,
+    "game_version": 2.1
+  },
+  {
+    "achievement_id": 1008530,
+    "class_id": 1005,
+    "name": "传说中的美人鱼",
+    "description": "在「仲夏游梦绮谭」中，完成柚叶的夏夜番外故事「人鱼之梦」。",
+    "reward_level": 1,
+    "hidden": 0,
+    "game_version": 2.1
+  },
+  {
+    "achievement_id": 1008531,
+    "class_id": 1005,
+    "name": "「热浪兔兔」驾到！",
+    "description": "在「仲夏游梦绮谭」中，完成爱丽丝的夏夜番外故事「乘风破浪」。",
+    "reward_level": 1,
+    "hidden": 0,
+    "game_version": 2.1
+  },
+  {
+    "achievement_id": 1008532,
+    "class_id": 1005,
+    "name": "水族箱造景专家",
+    "description": "在「仲夏游梦绮谭」的水族馆中，展示所有鱼类并解锁全部装饰物",
+    "reward_level": 1,
+    "hidden": 0,
+    "game_version": 2.1
+  },
+  {
+    "achievement_id": 1008533,
+    "class_id": 1005,
+    "name": "顺便完成海洋研究",
+    "description": "在「仲夏游梦绮谭」的「渔获图鉴」中，解锁全部种类的鱼",
+    "reward_level": 1,
+    "hidden": 0,
+    "game_version": 2.1
+  },
+  {
+    "achievement_id": 1008534,
+    "class_id": 1005,
+    "name": "与热浪共舞",
+    "description": "在「仲夏游梦绮谭」中，所有「热焰冲浪」关卡的评级全部达到S",
+    "reward_level": 1,
+    "hidden": 0,
+    "game_version": 2.1
+  },
+  {
+    "achievement_id": 1008535,
+    "class_id": 1005,
+    "name": "海上狙神",
+    "description": "在「仲夏游梦绮谭」中，所有「环岛射击」关卡的评级全部达到S。",
+    "reward_level": 1,
+    "hidden": 0,
+    "game_version": 2.1
+  },
+  {
+    "achievement_id": 1008536,
+    "class_id": 1005,
+    "name": "钓客（悲天悯鱼版）",
+    "description": "在「仲夏游梦绮谭」中，累计放生500条鱼。",
+    "reward_level": 1,
+    "hidden": 0,
+    "game_version": 2.1
+  },
+  {
+    "achievement_id": 1008537,
+    "class_id": 1005,
+    "name": "超高规格展览",
+    "description": "在「仲夏游梦绮谭」的水族馆中，展示的8种鱼全部是稀彩亚种。",
+    "reward_level": 1,
+    "hidden": 0,
+    "game_version": 2.1
+  },
+  {
+    "achievement_id": 1008538,
+    "class_id": 1005,
+    "name": "相聚一刻·好友会面",
+    "description": "在「仲夏游梦绮谭」中，在音乐节举行前后，与视频通话过的老朋友们见面。",
+    "reward_level": 1,
+    "hidden": 1,
+    "game_version": 2.1
+  },
+  {
+    "achievement_id": 1008539,
+    "class_id": 1005,
+    "name": "相聚一刻·全员集合！",
+    "description": "在「仲夏游梦绮谭」中，在音乐节举行前后，与所有抵达度假村的老朋友们见面。",
+    "reward_level": 1,
+    "hidden": 1,
+    "game_version": 2.1
+  },
+  {
+    "achievement_id": 1008540,
+    "class_id": 1005,
+    "name": "简化的真相拼图",
+    "description": "在「仲夏游梦绮谭」中，从特蕾莎处获取绮梦度假村隐藏的背景信息。",
+    "reward_level": 1,
+    "hidden": 1,
+    "game_version": 2.1
+  },
+  {
+    "achievement_id": 1008541,
+    "class_id": 1005,
+    "name": "深入的真相拼图",
+    "description": "在「仲夏游梦绮谭」中，获取度假村背景信息的同时，从他人处获取额外信息。",
+    "reward_level": 1,
+    "hidden": 1,
+    "game_version": 2.1
+  },
+  {
+    "achievement_id": 1008542,
+    "class_id": 1005,
+    "name": "完整的真相拼图",
+    "description": "在「仲夏游梦绮谭」中，获取度假村背景信息的同时，获取到完整的额外信息。",
+    "reward_level": 1,
+    "hidden": 1,
+    "game_version": 2.1
+  },
+  {
+    "achievement_id": 1009508,
+    "class_id": 1006,
+    "name": "见证者·意在大鱼",
+    "description": "在度假村偶遇第一位钓起三星粉额章鱼的极钓大师赛选手，并得到其慷慨的馈赠。或者在度假村偶遇第一位钓起三星粉额章鱼的极钓大师赛选手，并向其展示自己的收获",
+    "reward_level": 1,
+    "hidden": 1,
+    "game_version": 2.1
+  },
+  {
+    "achievement_id": 1009509,
+    "class_id": 1006,
+    "name": "激烈的办公室斗争",
+    "description": "在HIA俱乐部，目睹两只加班布在讨论星见雅和仪玄的战斗力时互相「肘击」。",
+    "reward_level": 1,
+    "hidden": 1,
+    "game_version": 2.1
+  },
+  {
+    "achievement_id": 4001515,
+    "class_id": 2001,
+    "name": "「德丰大押」荣誉顾客",
+    "description": "在「德丰大押」中，用云纹徽兑换[鹤唳天青]、[翠影朱绾]和[柠火溯流] / [丹砂衔翎]、[翠璎聆风]和[青柑跃动]。",
+    "reward_level": 1,
+    "hidden": 1,
+    "game_version": 2.1
+  },
+  {
+    "achievement_id": 4003527,
+    "class_id": 2003,
+    "name": "「禁止倒卖空洞出物」",
+    "description": "在澄辉坪，遇到有人在「禁止倒卖空洞出物」的告示牌旁收购辉岭石。",
+    "reward_level": 1,
+    "hidden": 1,
+    "game_version": 2.1
+  },
+  {
+    "achievement_id": 4003528,
+    "class_id": 2003,
+    "name": "陌生的熟人",
+    "description": "在澄辉坪，帮助白祇重工的代理人们与白祇重工的宣传广告合影",
+    "reward_level": 1,
+    "hidden": 1,
+    "game_version": 2.1
+  },
+  {
+    "achievement_id": 4003529,
+    "class_id": 2003,
+    "name": "过去很久的事Ⅰ",
+    "description": "在泅笼涠，观察失落的航天器",
+    "reward_level": 1,
+    "hidden": 1,
+    "game_version": 2.1
+  },
+  {
+    "achievement_id": 4003530,
+    "class_id": 2003,
+    "name": "过去很久的事Ⅱ",
+    "description": "在泅笼涠，听德鲁说起航天城过往的故事。",
+    "reward_level": 1,
+    "hidden": 1,
+    "game_version": 2.1
+  },
+  {
+    "achievement_id": 4003531,
+    "class_id": 2003,
+    "name": "学习方言的第一步",
+    "description": "在泅笼涠，尝试听清老旧收音机里的声音。",
+    "reward_level": 1,
+    "hidden": 1,
+    "game_version": 2.1
+  },
+  {
+    "achievement_id": 4003532,
+    "class_id": 2003,
+    "name": "特色「饮品」",
+    "description": "在澄辉坪，听到有人讨论「猫草水」的口味。",
+    "reward_level": 1,
+    "hidden": 1,
+    "game_version": 2.1
+  },
+  {
+    "achievement_id": 1001169,
+    "class_id": 2005,
+    "name": "挑战，吃遍度假村！",
+    "description": "在绮梦度假村，找到3种「特色美食」。",
+    "reward_level": 1,
+    "hidden": 1,
+    "game_version": 2.1
+  },
+  {
+    "achievement_id": 1001170,
+    "class_id": 2005,
+    "name": "同样「禁止垂钓」",
+    "description": "在绮梦度假村，遇到有人在「禁止钓鱼」的告示牌旁讲解钓鱼技巧。",
+    "reward_level": 1,
+    "hidden": 1,
+    "game_version": 2.1
+  },
+  {
+    "achievement_id": 2005531,
+    "class_id": 3001,
+    "name": "暴力美学艺术家",
+    "description": "在「特遣突袭」中，任一[突袭挑战]的总得分达到30000分。",
+    "reward_level": 3,
+    "hidden": 0,
+    "game_version": 2.1
+  },
+  {
+    "achievement_id": 2003509,
+    "class_id": 3004,
+    "name": "「釜底抽薪」",
+    "description": "与[秽息妖鬼·名可名]作战时，吸引来自地面的攻击并引爆所有[秽息泽]",
+    "reward_level": 1,
+    "hidden": 1,
+    "game_version": 2.1
+  },
+  {
+    "achievement_id": 2004051,
+    "class_id": 3005,
+    "name": "大道至简",
+    "description": "在任意[鏖战试炼]的第50层，不使用特殊技和终结技通关。",
+    "reward_level": 3,
+    "hidden": 1,
+    "game_version": 2.1
+  },
+  {
+    "achievement_id": 3003520,
+    "class_id": 4003,
+    "name": "「箱」不厌诈",
+    "description": "在[航天城]的材料实验室废墟中，帮助两名盗洞客击败渔人蟹。",
+    "reward_level": 1,
+    "hidden": 1,
+    "game_version": 2.1
+  },
+  {
+    "achievement_id": 3003521,
+    "class_id": 4003,
+    "name": "又行一善",
+    "description": "在[航天城]中，找到材料实验室废墟内受困的TOPS调查员，与其对话并成功解救她。",
+    "reward_level": 1,
+    "hidden": 1,
+    "game_version": 2.1
+  },
+  {
+    "achievement_id": 3003522,
+    "class_id": 4003,
+    "name": "干涸的试剂",
+    "description": "在航天城中，对[幽闭密所·材料实验室]的探索进度达到100%",
+    "reward_level": 1,
+    "hidden": 1,
+    "game_version": 2.1
+  },
+  {
+    "achievement_id": 3003523,
+    "class_id": 4003,
+    "name": "无主的货箱",
+    "description": "在航天城中，对[社区储运站]的探索进度达到100%",
+    "reward_level": 1,
+    "hidden": 1,
+    "game_version": 2.1
+  }
+]
