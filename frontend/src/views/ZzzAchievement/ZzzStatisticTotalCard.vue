@@ -10,14 +10,16 @@ import ZzzAchievementImg3 from '@/assets/image/zzz-achievement-level-3.png';
 const achievementStore = useZzzAchievementStore()
 
 const getTotalNumber = computed(() => {
-  return achievementStore.achievements.length;
+  return achievementStore.achievements.length
+    - achievementStore.getBranchAchievementsNumber();
 })
 const getTotalCompleteNumber = computed(() => {
   return achievementStore.achievements.filter(achievement => achievement.complete === 1).length;
 })
 
 const getLevel1Number = computed(() => {
-  return achievementStore.achievements.filter(achievement => achievement.reward_level === 1).length;
+  return achievementStore.achievements.filter(achievement => achievement.reward_level === 1).length
+    - achievementStore.getBranchAchievementNumberByLevel(1);
 })
 const getCompleteLevel1Number = computed(() => {
   return achievementStore.achievements.filter(achievement => achievement.reward_level === 1 &&
@@ -26,7 +28,8 @@ const getCompleteLevel1Number = computed(() => {
 })
 
 const getLevel2Number = computed(() => {
-  return achievementStore.achievements.filter(achievement => achievement.reward_level === 2).length;
+  return achievementStore.achievements.filter(achievement => achievement.reward_level === 2).length
+    - achievementStore.getBranchAchievementNumberByLevel(2);
 })
 const getCompleteLevel2Number = computed(() => {
   return achievementStore.achievements.filter(achievement => achievement.reward_level === 2 &&
@@ -35,7 +38,8 @@ const getCompleteLevel2Number = computed(() => {
 })
 
 const getLevel3Number = computed(() => {
-  return achievementStore.achievements.filter(achievement => achievement.reward_level === 3).length;
+  return achievementStore.achievements.filter(achievement => achievement.reward_level === 3).length
+    - achievementStore.getBranchAchievementNumberByLevel(3);
 })
 const getCompleteLevel3Number = computed(() => {
   return achievementStore.achievements.filter(achievement => achievement.reward_level === 3 &&

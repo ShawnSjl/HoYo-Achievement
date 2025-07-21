@@ -9,3 +9,8 @@ export const zzzGetAll = () => {
 export const zzzUpdateAchievement = (updates) => {
     return api.put("/zzz/user-update", updates);
 };
+
+// Get all ZZZ achievement branch
+export const zzzGetAllBranch = () => {
+    return api.get('/zzz/branch');
+}

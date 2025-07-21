@@ -6,6 +6,7 @@ export const useZzzAchievementStore = defineStore(
     'zzz-achievements',
     ()=> {
         const achievements = ref([]);
+        const branches = ref([]);
         const length = ref(0);
         const currentUser = ref(null);
         const isMale = ref(true);
@@ -17,6 +18,8 @@ export const useZzzAchievementStore = defineStore(
             try {
                 const response = await zzzGetAll();
                 achievements.value = response.achievements;
+
+                branches.value = await zzzGetAllBranch();
             } catch (error) {
                 console.error('Fail to get achievements:', error);
                 achievements.value = [];
@@ -56,22 +59,109 @@ export const useZzzAchievementStore = defineStore(
                 return;
             }
 
-            // 如果是本地用户，直接更新，否则更新后端数据库
-            if (!user) {
-                target.complete = complete;
-            } else {
+            // 如果是登录用户，更新后端数据库
+            if (user) {
                 // 尝试更新，如果更新失败，重新获取所有数据
                 try {
-                    const response = await zzzUpdateAchievement({ achievement_id: `${achievementId}`, complete: `${complete}` });
-                    target.complete = complete;
+                    await zzzUpdateAchievement({ achievement_id: `${achievementId}`, complete: `${complete}` });
                 } catch (error) {
                     console.error('Fail to update achievements:', error);
                     await fetchAchievements();
+                    return;
                 }
+            }
+
+            // 更新本地数据
+            target.complete = complete;
+            const branchAchievements = getOtherAchievements (achievementId);
+            const branchStatus = complete === 1 ? 2 : 0;
+            for (const branchAchievement of branchAchievements) {
+                const branchTarget = achievements.value.find(item => item.achievement_id === branchAchievement);
+                branchTarget.complete = branchStatus;
             }
         }
 
-        return { achievements, isMale, isCompleteFirst, currentUser, length, fetchAchievements, updateAchievements, completeAchievement };
+        function getOtherAchievements(targetId) {
+            const branch = branches.value.find(item => item.achievement_id.includes(targetId));
+            if (!branch) return []; // 找不到直接返回空数组
+
+            return branch.achievement_id.filter(id => id !== targetId);
+        }
+
+        function getBranchAchievementsNumber() {
+            let count = 0;
+            for (const branch of branches.value) {
+                count = count + branch.achievement_id.length - 1;
+            }
+            return count;
+        }
+
+        function getBranchAchievementNumberByLevel(level) {
+            if (achievements.value.length === 0) {
+                fetchAchievements();
+            }
+
+            let count = 0;
+            for (const branch of branches.value) {
+                const achievement_id = branch.achievement_id[0];
+                const achievement = achievements.value.find(item => item.achievement_id === achievement_id);
+
+                if (level === achievement.reward_level) {
+                    count = count + branch.achievement_id.length - 1;
+                }
+            }
+            return count;
+        }
+
+        function getBranchAchievementsNumberByClass(zzz_class_id) {
+            if (achievements.value.length === 0) {
+                fetchAchievements();
+            }
+
+            let count = 0;
+            for (const branch of branches.value) {
+                const achievement_id = branch.achievement_id[0];
+                const achievement = achievements.value.find(item => item.achievement_id === achievement_id);
+
+                if (zzz_class_id === achievement.class_id) {
+                    count = count + branch.achievement_id.length - 1;
+                }
+            }
+            return count;
+        }
+
+        function getBranchAchievementNumberByClassAndLevel(zzz_class_id, level) {
+            if (achievements.value.length === 0) {
+                fetchAchievements();
+            }
+
+            let count = 0;
+            for (const branch of branches.value) {
+                const achievement_id = branch.achievement_id[0];
+                const achievement = achievements.value.find(item => item.achievement_id === achievement_id);
+
+                if (zzz_class_id === achievement.class_id && level === achievement.reward_level) {
+                    count = count + branch.achievement_id.length - 1;
+                }
+            }
+            return count;
+        }
+
+        return {
+            achievements,
+            isMale,
+            isCompleteFirst,
+            currentUser,
+            length,
+            branches,
+            fetchAchievements,
+            updateAchievements,
+            completeAchievement,
+            getBranchAchievementsNumber,
+            getBranchAchievementNumberByLevel,
+            getBranchAchievementsNumberByClass,
+            getBranchAchievementNumberByClassAndLevel
+        };
     },
     {
         persist: true,

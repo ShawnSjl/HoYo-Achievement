@@ -12,13 +12,11 @@ const completePercentage = computed(() => {
   return (className) => {
     const classId = zzzGetClassIdByName(className);
 
-    const numberTotal = achievementStore.achievements.filter(
-        achievement => achievement.class_id === classId
-    ).length;
+    const numberTotal = achievementStore.achievements.filter(achievement => achievement.class_id === classId).length
+        - achievementStore.getBranchAchievementsNumberByClass(classId);
 
-    const numberComplete = achievementStore.achievements.filter(
-        achievement => achievement.class_id === classId && achievement.complete === 1
-    ).length;
+    const numberComplete = achievementStore.achievements.filter(achievement => achievement.class_id === classId &&
+        achievement.complete === 1).length;
 
     if (numberTotal === 0) return 0; // 避免除以 0
 
