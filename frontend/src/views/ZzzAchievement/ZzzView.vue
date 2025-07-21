@@ -35,9 +35,13 @@ const filteredAchievements = computed(() => {
 const sortedAchievements = computed(() => {
   if (achievementStore.isCompleteFirst) {
     return [...filteredAchievements.value].sort((a, b) => {
-      // 1️⃣ 优先按 complete 状态：complete === 1 的放后面
-      if (a.complete === 1 && b.complete !== 1) return 1;
-      if (a.complete !== 1 && b.complete === 1) return -1;
+      const completeA = a.complete === 2 ? 1 : a.complete;
+      const completeB = b.complete === 2 ? 1 : b.complete;
+
+      // 1️⃣ 优先按 complete 状态
+      if (completeA !== completeB) {
+        return completeA - completeB;
+      }
 
       // 2️⃣ 如果 complete 相同，按 id 升序排序
       return a.id - b.id;

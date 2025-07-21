@@ -6,6 +6,7 @@ import ZzzAchievementImg2 from '@/assets/image/zzz-achievement-level-2.png';
 import ZzzAchievementImg3 from '@/assets/image/zzz-achievement-level-3.png';
 import ZzzAchievementReward from '@/assets/image/zzz-achievement-reward.png';
 import {useIsMobileStore} from "@/stores/isMobileStore";
+import {showInfo} from "@/utils/notification";
 
 // 使用Pinia作为本地缓存
 const achievementStore = useZzzAchievementStore()
@@ -43,10 +44,19 @@ const achievementReward = computed(() => {
 });
 
 // 获取按钮状态
-const completeButtonMsg = computed(() => {return  props.achievement.complete === 1 ? "已完成" : "未完成"})
+const completeButtonMsg = computed(() => {
+  if (props.achievement.complete === 0) {return "未完成"}
+  else if (props.achievement.complete === 1) {return "已完成"}
+  else {return "完成分支"}
+})
 const isComplete = computed(() => {return props.achievement.complete === 1});
+const disableButton = computed(() => {return props.achievement.complete === 2});
 
 const handleComplete = async () => {
+  if (props.achievement.complete === 2) {
+    showInfo('该分支成就已完成，不可更改')
+    return;
+  }
   const newState = props.achievement.complete === 1 ? 0 : 1;
   await achievementStore.completeAchievement(props.achievement.achievement_id, newState);
 }
@@ -86,7 +96,8 @@ const getAchievementName = computed(() => {
         <img :src="ZzzAchievementReward" alt="achievement reward" class="zzz-achievement-reward-image" />
         <div class="zzz-achievement-reward-count">{{achievementReward}}</div>
       </div>
-      <el-button round :plain="!isComplete" color="#ffd100" dark @click="handleComplete" class="zzz-complete-button">
+      <el-button round :disabled="disableButton" :plain="!isComplete" color="#ffd100" dark @click="handleComplete"
+                 class="zzz-complete-button">
         {{ completeButtonMsg }}
       </el-button>
     </div>
@@ -269,5 +280,9 @@ const getAchievementName = computed(() => {
   .zzz-complete-button {
     margin-right: 0;
   }
+}
+
+.el-button {
+  width: 80px;
 }
 </style>
