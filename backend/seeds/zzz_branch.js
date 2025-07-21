@@ -18,7 +18,7 @@ async function importAchievements() {
 
         for (const entry of entries) {
             // 插入并支持更新（兼容 SQLite / MySQL）
-            await knex('sr_branch')
+            await knex('zzz_branch')
                 .insert(entry)
                 .onConflict('achievement_id') // 关键字段
                 .merge(); // 相当于 MySQL 的 "ON DUPLICATE KEY UPDATE"
