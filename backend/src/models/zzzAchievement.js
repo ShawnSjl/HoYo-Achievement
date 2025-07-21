@@ -51,6 +51,30 @@ async function updateById (user_id, achievement_id, complete) {
 
 }
 
+async function getAllBranches () {
+    return db('zzz_branch')
+        .select('*')
+        .orderBy('branch_id');
+
+}
+
+// Get other achievement in the same branch, return [] for no branch achievement
+async function getAchievementInSameBranch (achievement_id) {
+    const branch = await db('zzz_branch')
+        .select('branch_id')
+        .where({ achievement_id: achievement_id })
+        .first();
+
+    if (!branch) {
+        return [];
+    }
+
+    return db('zzz_branch')
+        .select('achievement_id')
+        .where('branch_id', '=', branch.branch_id)
+        .andWhere('achievement_id', '!=', achievement_id);
+}
+
 async function getAchievementById (achievement_id) {
     return db('zzz_achievement')
         .select('achievement_id', 'name')
@@ -58,4 +82,4 @@ async function getAchievementById (achievement_id) {
         .first();
 }
 
-module.exports = {getAll, getAllByUserId, updateById, getAchievementById}
+module.exports = {getAll, getAllByUserId, updateById, getAllBranches, getAchievementInSameBranch, getAchievementById}

@@ -6,5 +6,6 @@ const router = express.Router();
 
 router.get("/all", authenticateToken, zzzAchievementController.getAllAchievement);
 router.put("/user-update", authenticateToken, zzzAchievementController.updateUserAchievement);
+router.get("/branch", zzzAchievementController.getBranches);
 
 module.exports = router;
