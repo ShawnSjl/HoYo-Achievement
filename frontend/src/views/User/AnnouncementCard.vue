@@ -13,7 +13,7 @@ import {siteVersion} from "@/utils/config";
 
       <div>
         <b>更新内容</b>
-        <p>1. 《绝区零》2.1版本成就</p>
+        <p>1. 《崩坏：星穹铁道》3.5版本成就</p>
       </div>
     </el-card>
   </div>

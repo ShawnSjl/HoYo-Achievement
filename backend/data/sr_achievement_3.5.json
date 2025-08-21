@@ -1,0 +1,398 @@
+[
+  {
+    "achievement_id": 8235111,
+    "class": "通往群星的轨道",
+    "name": "不屈服的祭品",
+    "description": "愿黎明带来捷报，正如俗语所言，黎明是夜的孩子※奔赴第一次逐火之旅的时代",
+    "reward_level": 2,
+    "game_version": "3.5",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8235112,
+    "class": "通往群星的轨道",
+    "name": "被缚的普罗米修斯",
+    "description": "我把盲目的希望放在他们心里。此外，我把火也给了他们※落入来古士的囚笼",
+    "reward_level": 2,
+    "game_version": "3.5",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8235113,
+    "class": "通往群星的轨道",
+    "name": "你无法毁灭的城市",
+    "description": "我们应向报仇神送上刺耳的颂歌，为冥王送上烦心的凯歌※见证半神们的英勇，然后继续前进",
+    "reward_level": 2,
+    "game_version": "3.5",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8235114,
+    "class": "通往群星的轨道",
+    "name": "为往日流尽金血",
+    "description": "听啊，你这大地下的极乐力量——回应召唤，送来助襄。庇佑孩子，赐他们以胜利和希望※浇奠英雄们的牺牲，然后继续前进",
+    "reward_level": 2,
+    "game_version": "3.5",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8235115,
+    "class": "通往群星的轨道",
+    "name": "报仇神",
+    "description": "他这样把一生的幸福撞毁在正义的礁石上，没有人流泪，没有人观看※见证并击败「神礼观众」的正身",
+    "reward_level": 2,
+    "game_version": "3.5",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8235116,
+    "class": "通往群星的轨道",
+    "name": "英雄未死之前",
+    "description": "倾听遥远而忧伤的歌，它唱着存在之母的名字：幻觉、意志、痛苦※传承英雄未死之前的一切",
+    "reward_level": 2,
+    "game_version": "3.5",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8335243,
+    "class": "战意奔涌",
+    "name": "潮音五重奏",
+    "description": "海瑟音施放战技【泛音，暗流后齐鸣】累计击飞5个敌人",
+    "reward_level": 1,
+    "game_version": "3.5",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8335245,
+    "class": "战意奔涌",
+    "name": "西风漂流",
+    "description": "单场战斗中，我方角色海瑟音的结界额外造成40次伤害",
+    "reward_level": 1,
+    "game_version": "3.5",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8335247,
+    "class": "战意奔涌",
+    "name": "永远，忠于凯撒",
+    "description": "单场战斗中，我方角色刻律德菈授予队友【爵位】3次",
+    "reward_level": 1,
+    "game_version": "3.5",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8335249,
+    "class": "战意奔涌",
+    "name": "伟业未竟，亦可再战",
+    "description": "持有【爵位】的角色使用战技消灭5个敌人",
+    "reward_level": 1,
+    "game_version": "3.5",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8335251,
+    "class": "战意奔涌",
+    "name": "泡沫回归深海",
+    "description": "使用同时包含刻律德菈、海瑟音的队伍获得1场战斗的胜利，并且海瑟音陷入无法战斗状态",
+    "reward_level": 1,
+    "game_version": "3.5",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8335252,
+    "class": "战意奔涌",
+    "name": "剑旗，亦有汝焉？",
+    "description": "使用同时包含刻律德菈、海瑟音的队伍获得1场战斗的胜利，并且刻律德菈陷入无法战斗状态",
+    "reward_level": 1,
+    "game_version": "3.5",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8335253,
+    "class": "战意奔涌",
+    "name": "实践理性批判",
+    "description": "单场战斗中，额外加速赞达尔的算法切换4次",
+    "reward_level": 1,
+    "game_version": "3.5",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8335254,
+    "class": "战意奔涌",
+    "name": "纯粹理性批判",
+    "description": "单场战斗中，我方角色累计使用赞达尔【二律背反】激活的终结技3次",
+    "reward_level": 1,
+    "game_version": "3.5",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8335255,
+    "class": "战意奔涌",
+    "name": "狂欢戛然而止",
+    "description": "在【波涛夫人】处于【在毁灭中狂欢】状态期间，触发其行动提前的效果并使其在该次行动前被消灭",
+    "reward_level": 1,
+    "game_version": "3.5",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8335256,
+    "class": "战意奔涌",
+    "name": "上工治未病",
+    "description": "我方被施加【黑潮热】状态时，在【黑潮热】的负面效果触发前将其解除",
+    "reward_level": 1,
+    "game_version": "3.5",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8835557,
+    "class": "与你同行的回忆",
+    "name": "追忆似酒年华",
+    "description": "窥探「酣歌海垠」斯缇科西亚全部的追忆残像",
+    "reward_level": 1,
+    "game_version": "3.5",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8835558,
+    "class": "与你同行的回忆",
+    "name": "来自风平浪静的昨日",
+    "description": "解决「酣歌海垠」斯缇科西亚中酿造区的维修委托",
+    "reward_level": 1,
+    "game_version": "3.5",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8835559,
+    "class": "与你同行的回忆",
+    "name": "心之一滴",
+    "description": "在酿造区重新开张后，再次制得一瓶心酿",
+    "reward_level": 1,
+    "game_version": "3.5",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8835560,
+    "class": "与你同行的回忆",
+    "name": "罗曼蒂克乌托邦",
+    "description": "目睹「吟风爵」维吉妮娅与「曳石爵」阿波罗尼虚妄的爱情故事。",
+    "reward_level": 1,
+    "game_version": "3.5",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8835561,
+    "class": "与你同行的回忆",
+    "name": "四杯狮子尾",
+    "description": "与喝醉的四头真言狮口聊聊",
+    "reward_level": 1,
+    "game_version": "3.5",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8835562,
+    "class": "与你同行的回忆",
+    "name": "篝火与尘埃",
+    "description": "与四位第一次逐火之旅的黄金裔在斯缇科西亚的幻象对话",
+    "reward_level": 1,
+    "game_version": "3.5",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8835563,
+    "class": "与你同行的回忆",
+    "name": "星穹家的饭",
+    "description": "在「黄金迷境大饭店」中，为属于你的餐馆取名",
+    "reward_level": 1,
+    "game_version": "3.5",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8835564,
+    "class": "与你同行的回忆",
+    "name": "食神",
+    "description": "在「黄金迷境大饭店」中，获得最终的迷其林美食证书",
+    "reward_level": 2,
+    "game_version": "3.5",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8835565,
+    "class": "与你同行的回忆",
+    "name": "小森林",
+    "description": "在「黄金迷境大饭店」中，和餐馆所有的妖精员工对话",
+    "reward_level": 1,
+    "game_version": "3.5",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8835566,
+    "class": "与你同行的回忆",
+    "name": "没有免费的午餐",
+    "description": "在「黄金迷境大饭店」中，最高单日经营额达到40000",
+    "reward_level": 1,
+    "game_version": "3.5",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8835567,
+    "class": "与你同行的回忆",
+    "name": "魔法厨房",
+    "description": "在「黄金迷境大饭店」中，解锁餐馆的全部经营设施",
+    "reward_level": 1,
+    "game_version": "3.5",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8835568,
+    "class": "与你同行的回忆",
+    "name": "妖精与魔豆",
+    "description": "在「黄金迷境大饭店」中，成功在农田种出3种巨大作物",
+    "reward_level": 1,
+    "game_version": "3.5",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8835569,
+    "class": "与你同行的回忆",
+    "name": "炉火纯青",
+    "description": "在「黄金迷境大饭店」中，所有菜品均升至最高等级",
+    "reward_level": 1,
+    "game_version": "3.5",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8935200,
+    "class": "众秘探奇",
+    "name": "欢迎使用GOTO语句",
+    "description": "当牧羊人穿梭于时空…※在黄金替罪羊玩法中，操作替罪羊穿过传送门",
+    "reward_level": 1,
+    "game_version": "3.5",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8935201,
+    "class": "众秘探奇",
+    "name": "我是你的迷宫",
+    "description": "给我滚烫的手，给我心灵的炭盆，给我这最孤寂者冰，呵！七倍的冰※找到通往斯缇科西亚水下海宫的密道",
+    "reward_level": 1,
+    "game_version": "3.5",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8935202,
+    "class": "众秘探奇",
+    "name": "未来水世界",
+    "description": "法吉娜的祭司常说，不要在冥河水里游泳…※在翁法罗斯探索过程中，被卷入水体的变动",
+    "reward_level": 1,
+    "game_version": "3.5",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8935203,
+    "class": "众秘探奇",
+    "name": "埃斯库罗斯之死",
+    "description": "法吉娜的祭司常说，要小心高空坠物…※在翁法罗斯探索过程中，被倒塌的吊灯天顶砸中",
+    "reward_level": 1,
+    "game_version": "3.5",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8935204,
+    "class": "众秘探奇",
+    "name": "海底二十米",
+    "description": "在「酣歌海垠」斯缇科西亚内，借助场景中的机关完成挑战，并获取战利品",
+    "reward_level": 1,
+    "game_version": "3.5",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8935205,
+    "class": "众秘探奇",
+    "name": "墨西拿盐度危机",
+    "description": "在「酣歌海垠」斯缇科西亚内，让王宫的水位褪至最下方",
+    "reward_level": 1,
+    "game_version": "3.5",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8935206,
+    "class": "众秘探奇",
+    "name": "忘海潜将",
+    "description": "在「酣歌海垠」斯缇科西亚内，踏入被尘封的水底秘迹",
+    "reward_level": 1,
+    "game_version": "3.5",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8935207,
+    "class": "众秘探奇",
+    "name": "所罗门王的地毯",
+    "description": "在「酣歌海垠」斯缇科西亚内，通过乘坐荷叶的方式移动至下层",
+    "reward_level": 1,
+    "game_version": "3.5",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8935208,
+    "class": "众秘探奇",
+    "name": "最孤独者",
+    "description": "此刻，白昼厌倦了白昼，小溪又开始淙淙吟唱※踏入时光在歌声中凝固的莹骨海床",
+    "reward_level": 1,
+    "game_version": "3.5",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8935209,
+    "class": "众秘探奇",
+    "name": "何必、何必你自己饮酒？",
+    "description": "是一切高度的下坠，是一切深度的泄漏，是一切醉者的沉醉※在斯缇科西亚的幻境中，将满溢之杯里的黑潮释放",
+    "reward_level": 1,
+    "game_version": "3.5",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8935210,
+    "class": "众秘探奇",
+    "name": "向着新的海洋",
+    "description": "万物闪着常新的光华，在空间和时间上面午睡沉沉…※借助「贼灵」巴特鲁斯归还的灵水盆前往创世涡心",
+    "reward_level": 1,
+    "game_version": "3.5",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8935211,
+    "class": "众秘探奇",
+    "name": "海洋球乐园",
+    "description": "在「酣歌海垠」斯缇科西亚中，完成所有「雅努斯迷津」的谜题",
+    "reward_level": 1,
+    "game_version": "3.5",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8935212,
+    "class": "众秘探奇",
+    "name": "虫鸣秘闻：未竟之业",
+    "description": "推石上山的若虫经历了多少次失败？※解开「酣歌海垠」斯缇科西亚的预言谜题",
+    "reward_level": 1,
+    "game_version": "3.5",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8935213,
+    "class": "众秘探奇",
+    "name": "并非所有葡萄都适合酿酒",
+    "description": "到葡萄池边寻找一位寂寞的老友",
+    "reward_level": 1,
+    "game_version": "3.5",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8935214,
+    "class": "众秘探奇",
+    "name": "古董局中局",
+    "description": "在时间的最深处找回一只失窃的水盆",
+    "reward_level": 1,
+    "game_version": "3.5",
+    "hidden": 0
+  }
+]
