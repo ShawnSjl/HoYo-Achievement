@@ -47,7 +47,7 @@
   {
     "achievement_id": 4003536,
     "class_id": 2003,
-    "name": "卫非地特色恋爱体验（",
+    "name": "卫非地特色恋爱体验",
     "description": "在澄辉坪，听到关于「卫非地本地富豪」的讨论。",
     "reward_level": 1,
     "hidden": 1,
@@ -66,7 +66,7 @@
     "achievement_id": 4003538,
     "class_id": 2003,
     "name": "雀牌·破局之法",
-    "description": "在澄辉坪，看穿麻将桌上牌局的「玄机」",
+    "description": "在澄辉坪，看穿麻将桌上牌局的「玄机」。",
     "reward_level": 1,
     "hidden": 1,
     "game_version": 2.2
@@ -120,7 +120,7 @@
     "achievement_id": 1001171,
     "class_id": 2005,
     "name": "明明是我先来的",
-    "description": "：在绮梦度假村，通过「菠萝布」发现女孩默默关注流浪邦布/并了解女孩默默关注流浪邦布、帮它找回主人的事",
+    "description": "在绮梦度假村，通过「菠萝布」发现女孩默默关注流浪邦布/并了解女孩默默关注流浪邦布、帮它找回主人的事。",
     "reward_level": 1,
     "hidden": 1,
     "game_version": 2.2
