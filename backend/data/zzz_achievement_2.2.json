@@ -111,7 +111,7 @@
     "achievement_id": 2003510,
     "class_id": 3004,
     "name": "亵渎之徒不得升天",
-    "description": "与[亵渎者·伊瑟尔德]作战时，在其漂浮在空中时，通过[招架支援]将其击落两次。",
+    "description": "与[亵渎者]作战时，在其漂浮在空中时，通过[招架支援]将其击落两次。",
     "reward_level": 1,
     "hidden": 1,
     "game_version": 2.2
