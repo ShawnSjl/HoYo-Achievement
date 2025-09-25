@@ -1,0 +1,416 @@
+[
+  {
+    "achievement_id": 2022001,
+    "class": "通往群星的轨道",
+    "name": "聆听我，甜蜜的黑暗",
+    "description": "既然这扇门背后就是翁法罗斯……※见证长夜月登上舞台",
+    "reward_level": 2,
+    "game_version": "3.6",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 2022002,
+    "class": "通往群星的轨道",
+    "name": "于是，金色的血流淌而出",
+    "description": "总有些「记忆」是被焚烧的代价※击退金血忆灵，与长夜月直接对话",
+    "reward_level": 2,
+    "game_version": "3.6",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 2022003,
+    "class": "通往群星的轨道",
+    "name": "你永远不会独行",
+    "description": "探索、了解、建立、连结——然后，我们会一起回家※与三月七汇合",
+    "reward_level": 2,
+    "game_version": "3.6",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 2022004,
+    "class": "通往群星的轨道",
+    "name": "命运啼哭之前",
+    "description": "听我说，记住这段话，然后忘掉它※再次唤醒「不存在的记忆」",
+    "reward_level": 2,
+    "game_version": "3.6",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 2022005,
+    "class": "通往群星的轨道",
+    "name": "我站立于此，为万物担责",
+    "description": "向「大地」昭告新神的名字※丹恒得到「大地」的火种",
+    "reward_level": 2,
+    "game_version": "3.6",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 2022006,
+    "class": "通往群星的轨道",
+    "name": "灵魂凭追忆辨认彼此",
+    "description": "以天地为横轴，以时光为纵轴，带你回家※丹恒在忆潮中找到了你",
+    "reward_level": 2,
+    "game_version": "3.6",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 2022007,
+    "class": "通往群星的轨道",
+    "name": "记忆碎片",
+    "description": "相机记忆卡已经存满的元凶……※昔涟找到了真正的三月七",
+    "reward_level": 2,
+    "game_version": "3.6",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 2022008,
+    "class": "通往群星的轨道",
+    "name": "翁法罗斯英雄纪",
+    "description": "与我一同，成为英雄吧※完成最后的「再创世」",
+    "reward_level": 2,
+    "game_version": "3.6",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 3022001,
+    "class": "战意奔涌",
+    "name": "梦渡往昔，露载浮生",
+    "description": "使用我方角色长夜月的长夜，累计施放10次【迷梦，流失，如露】",
+    "reward_level": 1,
+    "game_version": "3.6",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 3022002,
+    "class": "战意奔涌",
+    "name": "特别的祝福",
+    "description": "使用三月七•存护对长夜月施放战技【可爱即是正义】",
+    "reward_level": 1,
+    "game_version": "3.6",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 3022003,
+    "class": "战意奔涌",
+    "name": "你可以完全信任丹恒",
+    "description": "单场战斗中，使用我方角色丹恒•腾荒累计提供100000点护盾",
+    "reward_level": 1,
+    "game_version": "3.6",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 3022004,
+    "class": "战意奔涌",
+    "name": "有龙则灵",
+    "description": "【龙灵】依附在有召唤物的角色身上累计行动5次",
+    "reward_level": 1,
+    "game_version": "3.6",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 3022005,
+    "class": "战意奔涌",
+    "name": "盾之强者成名记",
+    "description": "【金血忆灵•裁定忘却之形】对锁定目标施放的3次单体攻击全部击中护盾",
+    "reward_level": 1,
+    "game_version": "3.6",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 3022006,
+    "class": "战意奔涌",
+    "name": "因信称义",
+    "description": "被【指名祸首】选中的我方角色在承受【金血忆灵•裁定忘却之形】的【罪血枭首】攻击后，当前生命值等于生命上限",
+    "reward_level": 1,
+    "game_version": "3.6",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 3022007,
+    "class": "战意奔涌",
+    "name": "角动量守恒",
+    "description": "在【金血忆灵•翼蛇形】进入蓄力状态后，触发多次【扭矩反打】直至解除其蓄力状态",
+    "reward_level": 1,
+    "game_version": "3.6",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8022001,
+    "class": "与你同行的回忆",
+    "name": "今已亭亭如盖",
+    "description": "大地的旧神与新神啊，是否还会追怀昔日的友人？※窥探「辉痕圣林」神悟树庭全部的追忆残像",
+    "reward_level": 1,
+    "game_version": "3.6",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8022002,
+    "class": "与你同行的回忆",
+    "name": "无我所忆",
+    "description": "完成与神秘少女的最后一次交谈…真的是最后一次吗？",
+    "reward_level": 1,
+    "game_version": "3.6",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8022003,
+    "class": "与你同行的回忆",
+    "name": "如何能静止我的心跳？",
+    "description": "在「辉痕圣林」神悟树庭，哀悼一颗被焚毁的心脏",
+    "reward_level": 1,
+    "game_version": "3.6",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8022004,
+    "class": "与你同行的回忆",
+    "name": "善恶的彼岸",
+    "description": "在「辉痕圣林」神悟树庭，长久凝视那无言的空洞",
+    "reward_level": 1,
+    "game_version": "3.6",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8022005,
+    "class": "与你同行的回忆",
+    "name": "人性的，太人性的",
+    "description": "在「全世矩阵」无名泰坦大墓的深处，与同伴们下定再次出发的决心",
+    "reward_level": 1,
+    "game_version": "3.6",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8022006,
+    "class": "与你同行的回忆",
+    "name": "庞大，渺小，及人类意识",
+    "description": "在「辉痕圣林」神悟树庭，去往封印地室更深处，见证矩阵光点的变化",
+    "reward_level": 1,
+    "game_version": "3.6",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8022007,
+    "class": "与你同行的回忆",
+    "name": "超时空大地兽",
+    "description": "在「天气真好，养它！」中，发现这只小大地兽的特殊性",
+    "reward_level": 1,
+    "game_version": "3.6",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8022008,
+    "class": "与你同行的回忆",
+    "name": "大地兽一家",
+    "description": "在「天气真好，养它！」中，陪伴小大地兽顺利成长",
+    "reward_level": 2,
+    "game_version": "3.6",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8022009,
+    "class": "与你同行的回忆",
+    "name": "雷达图，拜拜",
+    "description": "在「天气真好，养它！」中，让小大地兽的三个属性均成长至最高水平",
+    "reward_level": 1,
+    "game_version": "3.6",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8022010,
+    "class": "与你同行的回忆",
+    "name": "早期教育",
+    "description": "在「天气真好，养它！」中，小大地兽共计获得了25条独特的特质",
+    "reward_level": 1,
+    "game_version": "3.6",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8022011,
+    "class": "与你同行的回忆",
+    "name": "小兽当家",
+    "description": "在「天气真好，养它！」中，由小大地兽自己独立完成一次锻炼活动",
+    "reward_level": 1,
+    "game_version": "3.6",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8022012,
+    "class": "与你同行的回忆",
+    "name": "这不是躲避球",
+    "description": "在「天气真好，养它！」中，和小大地兽嬉戏时不小心用球打到它",
+    "reward_level": 1,
+    "game_version": "3.6",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8022013,
+    "class": "与你同行的回忆",
+    "name": "你不吃我吃",
+    "description": "在「天气真好，养它！」中，被小大地兽抱怨过饭菜的口味问题",
+    "reward_level": 1,
+    "game_version": "3.6",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8022014,
+    "class": "与你同行的回忆",
+    "name": "红土小当家",
+    "description": "在「天气真好，养它！」中，从来没有让小大地兽抱怨过饭菜口味",
+    "reward_level": 1,
+    "game_version": "3.6",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8022015,
+    "class": "与你同行的回忆",
+    "name": "一日为师…",
+    "description": "在「天气真好，养它！」中，收到9封来自小大地兽的感谢",
+    "reward_level": 1,
+    "game_version": "3.6",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 9022001,
+    "class": "众秘探奇",
+    "name": "微光城市",
+    "description": "褪去权杖δ-me13的神话色彩，初入无名泰坦大墓",
+    "reward_level": 1,
+    "game_version": "3.6",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 9022002,
+    "class": "众秘探奇",
+    "name": "行向至深",
+    "description": "登上大墓中央区渡台，前往世界最深处",
+    "reward_level": 1,
+    "game_version": "3.6",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 9022003,
+    "class": "众秘探奇",
+    "name": "尤里卡！",
+    "description": "完成「全世矩阵」无名泰坦大墓的终极谜题",
+    "reward_level": 1,
+    "game_version": "3.6",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 9022004,
+    "class": "众秘探奇",
+    "name": "散热不良",
+    "description": "使用「暂停时间」的方法停住房间内的所有排气扇",
+    "reward_level": 1,
+    "game_version": "3.6",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 9022005,
+    "class": "众秘探奇",
+    "name": "没料到这手吧",
+    "description": "未使用「暂停时间」的方法通过排气扇并且成功",
+    "reward_level": 1,
+    "game_version": "3.6",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 9022006,
+    "class": "众秘探奇",
+    "name": "这不是旋转门",
+    "description": "未使用「暂停时间」的方法通过排气扇并且失败",
+    "reward_level": 1,
+    "game_version": "3.6",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 9022007,
+    "class": "众秘探奇",
+    "name": "食物泡与溶酶体",
+    "description": "使用巴特鲁斯的视角，吞掉一只宝箱",
+    "reward_level": 1,
+    "game_version": "3.6",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 9022008,
+    "class": "众秘探奇",
+    "name": "扎格列斯的神威",
+    "description": "使用巴特鲁斯的视角，通过攻击消灭一只怪物",
+    "reward_level": 1,
+    "game_version": "3.6",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 9022009,
+    "class": "众秘探奇",
+    "name": "被偷走的流体力学",
+    "description": "使用巴特鲁斯的视角，在水中游泳5秒以上",
+    "reward_level": 1,
+    "game_version": "3.6",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 9022010,
+    "class": "众秘探奇",
+    "name": "存钱罐的自我修养",
+    "description": "使用巴特鲁斯的视角，完成隐藏的终极挑战",
+    "reward_level": 1,
+    "game_version": "3.6",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 9022011,
+    "class": "众秘探奇",
+    "name": "我在树庭修文物",
+    "description": "使用「欧洛尼斯祷言」恢复被震碎的小雕像",
+    "reward_level": 1,
+    "game_version": "3.6",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 9022012,
+    "class": "众秘探奇",
+    "name": "下勾拳",
+    "description": "别以为躲在外侧扇区就没事了…※使用扎格列斯之手的冲拳动作，击败「全世矩阵」无名泰坦大墓角落处的敌人",
+    "reward_level": 1,
+    "game_version": "3.6",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 9022013,
+    "class": "众秘探奇",
+    "name": "记忆分类回收",
+    "description": "在「全世矩阵」无名泰坦大墓，发现一只似曾相识的桶",
+    "reward_level": 1,
+    "game_version": "3.6",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 9022014,
+    "class": "众秘探奇",
+    "name": "猪！猪！猪！",
+    "description": "在「全世矩阵」无名泰坦大墓，发现一个似曾相识的画框",
+    "reward_level": 1,
+    "game_version": "3.6",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 9022015,
+    "class": "众秘探奇",
+    "name": "虫鸣秘闻：四者之系",
+    "description": "正确的四者是哪四者？※解开「全世矩阵」无名泰坦大墓的预言谜题",
+    "reward_level": 1,
+    "game_version": "3.6",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 9022016,
+    "class": "众秘探奇",
+    "name": "虫鸣秘闻：囹圄之悟",
+    "description": "如何供奉无限？※解开「辉痕圣林」神悟树庭的预言谜题",
+    "reward_level": 1,
+    "game_version": "3.6",
+    "hidden": 1
+  }
+]

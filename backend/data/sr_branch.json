@@ -349,10 +349,18 @@
     },
     {
         "branch_id": 39,
-        "achievement_id": 8335251
+        "achievement_id": 3021005
     },
     {
         "branch_id": 39,
-        "achievement_id": 8335252
+        "achievement_id": 3021006
+    },
+    {
+        "branch_id": 40,
+        "achievement_id": 8022013
+    },
+    {
+        "branch_id": 40,
+        "achievement_id": 8022014
     }
 ]
