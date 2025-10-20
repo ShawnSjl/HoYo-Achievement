@@ -36,15 +36,6 @@
     "game_version": "2.3"
   },
   {
-    "achievement_id": 3003526,
-    "class_id": 4003,
-    "name": "业余搜救专员",
-    "description": "在科研院旧址、航天城旧建筑群和昔丘，3次解救受困的TOPS调查员。",
-    "reward_level": 1,
-    "hidden": 1,
-    "game_version": "2.3"
-  },
-  {
     "achievement_id": 3003527,
     "class_id": 4003,
     "name": "来自时间的侵蚀",
