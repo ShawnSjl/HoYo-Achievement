@@ -138,25 +138,7 @@
     "achievement_id": 1008540,
     "class_id": 1005,
     "name": "度假村的真相拼图",
-    "description": "在「仲夏游梦绮谭」中，从特蕾莎处获取绮梦度假村隐藏的背景信息。",
-    "reward_level": 1,
-    "hidden": 1,
-    "game_version": 2.1
-  },
-  {
-    "achievement_id": 1008541,
-    "class_id": 1005,
-    "name": "度假村的真相拼图",
-    "description": "在「仲夏游梦绮谭」中，获取度假村背景信息的同时，从他人处获取额外信息。",
-    "reward_level": 1,
-    "hidden": 1,
-    "game_version": 2.1
-  },
-  {
-    "achievement_id": 1008542,
-    "class_id": 1005,
-    "name": "度假村的真相拼图",
-    "description": "在「仲夏游梦绮谭」中，获取度假村背景信息的同时，获取到完整的额外信息。",
+    "description": "在「仲夏游梦绮谭」中，从特蕾莎处获取绮梦度假村隐藏的背景信息。 / 获取度假村背景信息的同时，从他人处获取额外信息。 / 获取度假村背景信息的同时，获取到完整的额外信息。",
     "reward_level": 1,
     "hidden": 1,
     "game_version": 2.1
