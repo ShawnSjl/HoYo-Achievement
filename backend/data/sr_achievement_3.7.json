@@ -1,0 +1,407 @@
+[
+  {
+    "achievement_id": 2023001,
+    "class": "通往群星的轨道",
+    "name": "光线的终点",
+    "description": "看哪，战车所向，是曙光和胜利※目睹化身列车的开拓者穿行天际",
+    "reward_level": 2,
+    "game_version": "3.7",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 2023002,
+    "class": "通往群星的轨道",
+    "name": "爱，桃子，水晶花",
+    "description": "一颗心能否在岁月的浸润下绽放？※揭示PhiLia093与德谬歌的秘密",
+    "reward_level": 2,
+    "game_version": "3.7",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 2023003,
+    "class": "通往群星的轨道",
+    "name": "最后的伟大征程",
+    "description": "囚徒笑问傀儡，谁比谁更荒唐※抵达时光归墟",
+    "reward_level": 2,
+    "game_version": "3.7",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 2023004,
+    "class": "通往群星的轨道",
+    "name": "末日及其四行尾注",
+    "description": "等号右侧，「智识」归于沉寂※亲历「毁灭」降临的瞬间",
+    "reward_level": 2,
+    "game_version": "3.7",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 2023005,
+    "class": "通往群星的轨道",
+    "name": "终焉，亦是原初的混沌",
+    "description": "为神的证明写下一行注释※向博识尊证明，或不证明",
+    "reward_level": 2,
+    "game_version": "3.7",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 2023006,
+    "class": "通往群星的轨道",
+    "name": "彼之灵魂即全宇宙",
+    "description": "群星将看见翁法罗斯的答案※「你好，世界」",
+    "reward_level": 2,
+    "game_version": "3.7",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 2023007,
+    "class": "通往群星的轨道",
+    "name": "缪斯，请为我叙说",
+    "description": "光锥之内，皆是命运※为史诗写下最后的句点",
+    "reward_level": 3,
+    "game_version": "3.7",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 3023001,
+    "class": "战意奔涌",
+    "name": "无，无限，无限光",
+    "description": "单场战斗中，我方3名队友同时拥有昔涟献予的诗",
+    "reward_level": 1,
+    "game_version": "3.7",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 3023002,
+    "class": "战意奔涌",
+    "name": "然后记忆化作涟漪",
+    "description": "单场战斗中，记忆命途开拓者施放强化普攻后，昔涟自动施放【花与箭的舞曲】达到2次",
+    "reward_level": 1,
+    "game_version": "3.7",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 3023003,
+    "class": "战意奔涌",
+    "name": "一如死生，并蒂双花",
+    "description": "使用我方角色遐蝶在【新蕊】达到200%时施放终结技【亡喉怒哮，苏生之颂铃】",
+    "reward_level": 1,
+    "game_version": "3.7",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 3023004,
+    "class": "战意奔涌",
+    "name": "致翁法罗斯",
+    "description": "在与「反造物主，流溢之恨」的战斗中，使用【昔涟的声援♪】累计触发5种不同的声援语音",
+    "reward_level": 1,
+    "game_version": "3.7",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 3023005,
+    "class": "战意奔涌",
+    "name": "莫让仇恨遮蔽星空",
+    "description": "在与「反造物主，流溢之恨」的战斗中，在【翁法罗斯的「恨」】不超过66%的情况下获得战斗胜利",
+    "reward_level": 1,
+    "game_version": "3.7",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 3023006,
+    "class": "战意奔涌",
+    "name": "二元崩塌",
+    "description": "在与「反造物主，流溢之恨」的战斗中，使「被囚禁的秘所思」或「被操弄的逻各斯」陷入【重创】状态1次",
+    "reward_level": 1,
+    "game_version": "3.7",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 3023007,
+    "class": "战意奔涌",
+    "name": "随风而逝，如露如电",
+    "description": "在「飓风大母」进入【孵育狂潮】状态后，使其行动提前时无法孵化【泡影稚子】",
+    "reward_level": 1,
+    "game_version": "3.7",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 7023001,
+    "class": "瞬息欢愉",
+    "name": "灰黯之手，常伴此身",
+    "description": "体验翁法罗斯每一种物件所引发的意外事故",
+    "reward_level": 1,
+    "game_version": "3.7",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8023001,
+    "class": "与你同行的回忆",
+    "name": "月盈，在盛开的樱花下",
+    "description": "故事之外，有谁还在？※告别翁法罗斯，窥见下一站的线索",
+    "reward_level": 1,
+    "game_version": "3.7",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8023002,
+    "class": "与你同行的回忆",
+    "name": "沐浴黄金血",
+    "description": "在使用浴缸泡澡时，尝试「黄金精神入浴剂」",
+    "reward_level": 1,
+    "game_version": "3.7",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8023003,
+    "class": "与你同行的回忆",
+    "name": "永恒或一页",
+    "description": "在一页永恒中，与所有黄金裔英雄对话",
+    "reward_level": 1,
+    "game_version": "3.7",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8023004,
+    "class": "与你同行的回忆",
+    "name": "寒风与烈火",
+    "description": "善意如同火炬，传递下去才烧得更旺※与翁法罗斯告别后，重回雅利洛-Ⅵ行政区",
+    "reward_level": 1,
+    "game_version": "3.7",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8023005,
+    "class": "与你同行的回忆",
+    "name": "长生与创生",
+    "description": "英雄一词，在民众心中本就有分量※与翁法罗斯告别后，重回仙舟「罗浮」星槎海中枢",
+    "reward_level": 1,
+    "game_version": "3.7",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8023006,
+    "class": "与你同行的回忆",
+    "name": "糖浆与蜜酿",
+    "description": "逐火的征程，会是茶余饭后的谈资吗？※与翁法罗斯告别后，重回匹诺康尼黄金的时刻",
+    "reward_level": 1,
+    "game_version": "3.7",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8023007,
+    "class": "与你同行的回忆",
+    "name": "昨日与明天",
+    "description": "「开拓」一向如此：做好准备，也心怀希望※与翁法罗斯告别后，重回空间站「黑塔」主控舱段",
+    "reward_level": 1,
+    "game_version": "3.7",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8023008,
+    "class": "与你同行的回忆",
+    "name": "只如初见的涟漪",
+    "description": "与昔涟留在哀丽秘榭的记忆重逢。",
+    "reward_level": 1,
+    "game_version": "3.7",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8023009,
+    "class": "与你同行的回忆",
+    "name": "群星静默如谜",
+    "description": "观看银河各势力在战后与列车组的联络记录。",
+    "reward_level": 1,
+    "game_version": "3.7",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 8023010,
+    "class": "与你同行的回忆",
+    "name": "连中三元",
+    "description": "在「点心糕饼向前冲」的单场比赛中，3次应援的选手均取得第一名",
+    "reward_level": 1,
+    "game_version": "3.7",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8023011,
+    "class": "与你同行的回忆",
+    "name": "我们是冠军",
+    "description": "在「点心糕饼向前冲」中，应援的选手取得赛段第一名",
+    "reward_level": 1,
+    "game_version": "3.7",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8023012,
+    "class": "与你同行的回忆",
+    "name": "我可以吃奇巧零食",
+    "description": "在「点心糕饼向前冲」中，兑换完全部的奇巧零食",
+    "reward_level": 1,
+    "game_version": "3.7",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 8023013,
+    "class": "与你同行的回忆",
+    "name": "区域-「奖励」",
+    "description": "在「点心糕饼向前冲」中，收到来自阮•梅的信息",
+    "reward_level": 1,
+    "game_version": "3.7",
+    "hidden": 0
+  },
+  {
+    "achievement_id": 9023001,
+    "class": "众秘探奇",
+    "name": "翁法罗斯掌管宝箱的真神",
+    "description": "开启650次翁法罗斯战利品",
+    "reward_level": 2,
+    "game_version": "3.7",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 9023002,
+    "class": "众秘探奇",
+    "name": "虫鸣秘闻：岁月之吻",
+    "description": "那座桥梁是何形状？※解开「灾梦余温」无名泰坦大墓的预言谜题",
+    "reward_level": 1,
+    "game_version": "3.7",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 9023003,
+    "class": "众秘探奇",
+    "name": "虫鸣秘闻：洞穴寓言",
+    "description": "是什么隐藏在神话之外？※解开「葬忆彼岸」时光归墟的预言谜题",
+    "reward_level": 1,
+    "game_version": "3.7",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 9023004,
+    "class": "众秘探奇",
+    "name": "奥赫玛的点金手",
+    "description": "为织者们建立一座永恒乐园※搜集260只创生若虫的赐福",
+    "reward_level": 2,
+    "game_version": "3.7",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 9023005,
+    "class": "众秘探奇",
+    "name": "于是万物之工已毕",
+    "description": "搜集所有创生若虫的赐福，解开所有预言谜题",
+    "reward_level": 1,
+    "game_version": "3.7",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 9023006,
+    "class": "众秘探奇",
+    "name": "火之墓志铭",
+    "description": "完成时光归墟特殊的黄金替罪羊",
+    "reward_level": 1,
+    "game_version": "3.7",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 9023007,
+    "class": "众秘探奇",
+    "name": "门径构形理论",
+    "description": "操纵「灾梦余温」无名泰坦大墓中的密径驱动机构，改变翁法罗斯所有「雅努斯密径」的逻辑",
+    "reward_level": 1,
+    "game_version": "3.7",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 9023008,
+    "class": "众秘探奇",
+    "name": "诡计、时光和种子",
+    "description": "在时光归墟召唤贼灵",
+    "reward_level": 1,
+    "game_version": "3.7",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 9023009,
+    "class": "众秘探奇",
+    "name": "风儿驻足的宫殿",
+    "description": "找到贼灵的藏身处",
+    "reward_level": 1,
+    "game_version": "3.7",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 9023010,
+    "class": "众秘探奇",
+    "name": "晨昏的三次心跳",
+    "description": "发现时光归墟内所有的启目集",
+    "reward_level": 1,
+    "game_version": "3.7",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 9023011,
+    "class": "众秘探奇",
+    "name": "记忆的被褥",
+    "description": "得到三月七的协助，暂时增强欧洛尼斯祷言的能力",
+    "reward_level": 1,
+    "game_version": "3.7",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 9023012,
+    "class": "众秘探奇",
+    "name": "刻法勒永志不忘",
+    "description": "通过「负世」的试炼，见证往日的希望与绝望",
+    "reward_level": 1,
+    "game_version": "3.7",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 9023013,
+    "class": "众秘探奇",
+    "name": "众神的黄昏",
+    "description": "初次启动木马程序「槲寄生」号",
+    "reward_level": 1,
+    "game_version": "3.7",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 9023014,
+    "class": "众秘探奇",
+    "name": "不必复飞",
+    "description": "手动驾驶「槲寄生」号在任意航点降落",
+    "reward_level": 1,
+    "game_version": "3.7",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 9023015,
+    "class": "众秘探奇",
+    "name": "木马纪",
+    "description": "完成「翻飞挑战」",
+    "reward_level": 1,
+    "game_version": "3.7",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 9023016,
+    "class": "众秘探奇",
+    "name": "最古老的寓言",
+    "description": "发现「神话之外」的秘密",
+    "reward_level": 1,
+    "game_version": "3.7",
+    "hidden": 1
+  },
+  {
+    "achievement_id": 9023017,
+    "class": "众秘探奇",
+    "name": "带上他们的心脏",
+    "description": "获取来自翁法罗斯的所有家居装饰",
+    "reward_level": 1,
+    "game_version": "3.7",
+    "hidden": 1
+  }
+]
