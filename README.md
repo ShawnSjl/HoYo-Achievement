@@ -1,3 +1,6 @@
+## ⚠️ 本项目已进行重构，后续更新将在新的repo[HoYo-Achievement-Server](https://github.com/ShawnSjl/HoYo-Achievement-Server)中提供
+
+
 HoYo-Achievement 米哈游游戏成就
 ================
 
